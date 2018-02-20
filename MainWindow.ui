@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <author>Yves Huguenin #134</author>
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>RaceChrono (c) Yves Huguenin 2018</string>
+  </property>
+  <property name="locale">
+   <locale language="French" country="Switzerland"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>560</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>800</width>
+      <height>260</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>800</width>
+      <height>560</height>
+     </size>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="Tab_Racer">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="accessibleName">
+      <string/>
+     </property>
+     <attribute name="title">
+      <string>Concurrents</string>
+     </attribute>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>261</width>
+        <height>531</height>
+       </rect>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>259</width>
+         <height>529</height>
+        </rect>
+       </property>
+       <widget class="QListWidget" name="L_racerlist">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>256</width>
+          <height>491</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Racer 1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Racer 2</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QWidget" name="gridLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>490</y>
+          <width>261</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QToolButton" name="toolButton">
+           <property name="text">
+            <string>Add</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="formLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>0</y>
+        <width>531</width>
+        <height>521</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout">
+       <property name="verticalSpacing">
+        <number>2</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Nom</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="R_lastname">
+         <property name="text">
+          <string>R_LastName</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>Prénom</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="R_firstname">
+         <property name="text">
+          <string>R_FirstName</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>Numéro course</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="R_number">
+         <property name="text">
+          <string>R_Number</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>Transpondeur</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="R_transponder">
+         <property name="text">
+          <string>R_Transponder</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>Catégorie</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Tab_race">
+     <attribute name="title">
+      <string>Courses</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <widget class="QMenu" name="menuFfff">
+    <property name="title">
+     <string>Fichier</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionNouvelle_Course"/>
+    <addaction name="actionOuvrire"/>
+    <addaction name="actionEnregister"/>
+    <addaction name="actionEnregistrer_Sous"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuitter"/>
+   </widget>
+   <widget class="QMenu" name="menuConcurrents">
+    <property name="title">
+     <string>&amp;Concurrents</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuCourses">
+    <property name="title">
+     <string>Co&amp;urses</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuR_sultats">
+    <property name="title">
+     <string>R&amp;ésultats</string>
+    </property>
+   </widget>
+   <addaction name="menuFfff"/>
+   <addaction name="menuConcurrents"/>
+   <addaction name="menuCourses"/>
+   <addaction name="menuR_sultats"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionQuitter">
+   <property name="text">
+    <string>&amp;Quitter</string>
+   </property>
+   <property name="whatsThis">
+    <string>Quit le programme</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+Q</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::QuitRole</enum>
+   </property>
+  </action>
+  <action name="actionNouvelle_Course">
+   <property name="text">
+    <string>&amp;Nouvelle Course</string>
+   </property>
+  </action>
+  <action name="actionOuvrire">
+   <property name="text">
+    <string>&amp;Ouvrire</string>
+   </property>
+  </action>
+  <action name="actionEnregister">
+   <property name="text">
+    <string>&amp;Enregister</string>
+   </property>
+  </action>
+  <action name="actionEnregistrer_Sous">
+   <property name="text">
+    <string>Enregistrer &amp;Sous</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
