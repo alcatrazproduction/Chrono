@@ -279,8 +279,29 @@
        </item>
        <item row="5" column="1">
         <widget class="QLineEdit" name="R_brand">
+         <property name="mouseTracking">
+          <bool>false</bool>
+         </property>
+         <property name="acceptDrops">
+          <bool>false</bool>
+         </property>
+         <property name="statusTip">
+          <string notr="true"/>
+         </property>
+         <property name="accessibleName">
+          <string notr="true"/>
+         </property>
+         <property name="accessibleDescription">
+          <string notr="true"/>
+         </property>
+         <property name="inputMask">
+          <string notr="true"/>
+         </property>
          <property name="text">
-          <string>Marque Moto</string>
+          <string notr="true">Marque Moto</string>
+         </property>
+         <property name="placeholderText">
+          <string notr="true"/>
          </property>
         </widget>
        </item>
