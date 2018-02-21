@@ -1,0 +1,24 @@
+66,SCHAFER,Alain,Fribourg,Honda
+906,CORTIJO,Yohan,Illarsaz,Yamaha
+28,POGET,Elies,Echandens,KTM
+718,YERLY,Cédric,Treyvaux,Kawasaki
+819,WENGER,Marc,Alterswil,Husqvarna
+3,PEISSARD,Patrick,Matran,Kawasaki
+108,FAHRNI,Normand,Broc,Suzuki
+15,SIMOND,Baptiste,Lovatens,Honda
+100,SCHAFER,Samuel,Giffers,Honda
+94,AEBERSOLD,Remo,Bleiken,Yamaha
+11,FRACHEBOUD,Louis,Puidoux,Yamaha
+222,BRODARD,Olivier,Posieux,Honda
+49,COUTAZ,Sébastien,Genolier,KTM
+12,SCHUPBACH,Valentin,Arconciel,Kawasaki
+221,HINNI,Joël,Zollikofen,Yamaha
+932,SALLIN,Junior,Belfaux,Kawasaki
+17,"DA VEIGA",Diego,Vendlincourt,KTM
+892,KILCHOER,Loïc,La Roche,KTM
+907,SALLIN,Louis,Belfaux,KTM
+32,SCHUPBACH,David,Arconciel,Kawasaki
+2,GUISOLAN,Sven,Noreaz,TM
+59,CHAUTEMS,Remy,Chêne-Paquier,Suzuki
+421,WAEBER,Mathieu,Ecuvillens,Yamaha
+129,ZÜGER,Neal,Cressier,KTM

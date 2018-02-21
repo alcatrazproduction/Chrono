@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project Chrono -->
-<!-- Saved: 2018-02-18, 18:06:20 -->
+<!-- Saved: 2018-02-20, 21:51:43 -->
 <!-- Copyright (C) 2018 Yves Huguenin, yves.huguenin@dreampitbikes.ch -->
 <Project version="5.1">
   <Language></Language>
@@ -27,6 +27,7 @@
   <Others>
     <Other>.gitignore</Other>
     <Other>build_ui.sh</Other>
+    <Other>list_coureurs.txt</Other>
   </Others>
   <MainScript>__main__.py</MainScript>
   <Vcs>
