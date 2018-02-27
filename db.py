@@ -2,11 +2,11 @@
 
 import MySQLdb
 
-class db( MySQLdb ):
+class db(  ):
 	link = None
 
 	def __init__(self):
-		self.link = self.connect("localhost","Chrono","Chrono","Chrono" )
+		self.link = MySQLdb.connect("localhost","Chrono","Chrono","Chrono" )
 
 	def getDbVersion(self):
 		cursor = self.link.cursor()

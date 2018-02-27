@@ -1,8 +1,9 @@
 #!/usr/bin/python
 
-from PyQt5 import   QtWidgets
+from PyQt5 				import   QtWidgets
+from T_Marques		import 	T_Marques
 
-import Ui_MainWindow
+from Ui_MainWindow	import Ui_MainWindow
 racer = [
 	[66,'SCHAFER',"Alain","Fribourg","Honda"],
 	[906,"CORTIJO","Yohan","Illarsaz","Yamaha"],
@@ -39,7 +40,7 @@ _categorie = [
 ]
 UserRole	 = 0x0100
 
-class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow.Ui_MainWindow):
+class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 	__RacerEdited = None
 
 	def getRacer(self):
