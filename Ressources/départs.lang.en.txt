@@ -1,0 +1,31 @@
+﻿0=English
+100=Starts
+110=Cancel
+111=OK
+121=Computer time
+125=In:
+127=At start - |1 remaining
+138=Initial time
+139=Invalid input
+140=Timer not initialized
+141=Bib
+142=Team
+143=Start time
+144=Event
+145=File
+146=Play
+147=Options
+148=Competitor
+149=Beep for the countdown
+150=Starts range:
+151=Open
+152=Refresh
+153=Number of competitors at start
+154=Language
+157={ITEMS,plural,=0 {no team at start} one {# team at start} other {# teams at start}}
+158={ITEMS,plural,=0 {no competitor at start} one {# competitor at start} other {# competitors at start}}
+10001=This event has no |a |1
+10002=The file |1 has been modified: do you want to reload it?
+10081=Wiclax event files
+10115=The language change will be applied at the next startup of the application.
+10182=Do you really want to stop the timer?

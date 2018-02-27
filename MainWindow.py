@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from PyQt5 import   QtWidgets
 
 import Ui_MainWindow

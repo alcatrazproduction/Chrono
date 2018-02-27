@@ -1,0 +1,31 @@
+﻿0=Español
+100=Salidas
+110=Cancelar
+111=OK
+121=Tiempo PC
+125=En:
+127=En la línea de salida - |1 en espera
+138=Hora inicial
+139=Entrada inválida
+140=Cronómetro no inicializado
+141=Dorsal
+142=Equipo
+143=Hora de salida
+144=Evento
+145=Archivo
+146=Iniciar
+147=Opciones
+148=Corredor
+149=Emitir pitidos durante la cuenta atrás
+150=Rangos de salidas:
+151=Abrir
+152=Actualizar
+153=Número de corredores en la línea de salida
+154=Lenguaje
+157={ITEMS,plural,=0 {ningún equipo en la línea de salida} one {# equipo en la línea de salida} other {# equipos en la línea de salida}}
+158={ITEMS,plural,=0 {ningún corredor en la línea de salida} one {# corredor en la línea de salida} other {# corredores en la línea de salida}}
+10001=Este evento o tiene |a |1
+10002=El archivo |1 se ha modificado: ¿Desea cargarlo de nuevo?
+10081=Archivos de eventos Wiclax
+10115=El cambio de idioma se aplicará al reiniciar la aplicación.
+10182=¿Está seguro que desea detener el cronómetro?

@@ -1,0 +1,31 @@
+﻿0=Deutsch
+100=Starts
+110=Abbrechen
+111=OK
+121=Computerzeit
+125=In:
+127=Beim Start - |1 übrig
+138=Anfangszeit
+139=Ungültige Eingabe
+140=Timer nicht initialisiert
+141=Startnum.
+142=Mannschaft
+143=Startzeit
+144=Veranstaltung
+145=Datei
+146=Spiel
+147=Einstellungen
+148=Teilnehmer
+149=Signalton für den Countdown
+150=Umfang der Starts:
+151=Öffnen
+152=Aktualisieren
+153=Anzahl der Teilnehmer am Start
+154=Sprache
+157={ITEMS,plural,=0 {Keine Mannschaft beim Start} one {# Mannschaft beim Start} other {# Mannschaften beim Start}}
+158={ITEMS,plural,=0 {Kein Teilnehmer beim Start} one {# Teilnehmer beim Start} other {# Teilnehmern beim Start}}
+10001=Diese Veranstaltung hat keine |a |1
+10002=Die Datei |1 wurde geändert: Möchten Sie sie neu laden?
+10081=Wiclax Veranstaltungdateien
+10115=Die Sprachumschaltung wird beim nächsten Start der Anwendung angewendet.
+10182=Wollen Sie den Timer wirklich stoppen?

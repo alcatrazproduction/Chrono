@@ -1,0 +1,4599 @@
+00010	Casape	
+00011	Bagni Di Tivol	
+00012	Albuccione	
+00013	Castelchiodato	
+00015	Monterotondo	
+00017	Acquaviva	
+00018	Cretone	
+00019	Arci	
+00020	Agosta	
+00021	Affile	
+00022	Anticoli Corrado	
+00023	Arsoli	
+00024	Castel Madama	
+00025	Gerano	
+00026	Civitella	
+00027	Roviano	
+00028	Subiaco	
+00029	Vicovaro	
+00030	Genazzano	
+00031	Artena	
+00032	Carpineto Romano	
+00033	San Bartolomeo	
+00034	Colleferro Scalo	
+00035	Olevano Romano	
+00036	Carchitti	
+00037	Segni	
+00038	Valmontone	
+00039	Valle Martella	
+00040	Molara	
+00041	Cecchina Stazione	
+00042	Lido Dei Pini	
+00043	Ciampino	
+00044	Frascati	
+00045	Landi	
+00046	Grottaferrata	
+00047	Marino	
+00048	Nettuno	
+00049	Velletri	
+00050	Passo Oscuro	
+00051	La Bianca	
+00052	Marina Di Cerveteri	
+00053	Civitavecchia	
+00054	Fregene	
+00055	Ladispoli	
+00057	Pantano Di Grano	
+00058	Santa Marinella	
+00059	Santa Severa Nord	
+00060	Ponte Storto	
+00061	Anguillara Sabazia	
+00062	Rinascente	
+00063	Campagnano Di Roma	
+00065	Feronia	
+00066	Manziana	
+00067	Morlupo	
+00068	Rignano Flaminio	
+00069	Vicarello	
+00100	Roma	LZ
+00119	Ostia Antica	LZ
+00120	Roma	LZ
+00121	Lido Di Ostia Ponente	LZ
+00122	Castel Porziano	LZ
+00123	Roma	LZ
+00124	Roma	LZ
+00125	Roma	LZ
+00126	Roma	LZ
+00127	Vitinia	LZ
+00128	Castel Romano	LZ
+00131	Roma	LZ
+00132	Borgata Finocchio	LZ
+00133	Torre Angela	LZ
+00134	Castel Di Leva	LZ
+00135	Roma	LZ
+00136	Roma	LZ
+00137	Roma	LZ
+00138	Marcigliana	LZ
+00139	Roma	LZ
+00141	Roma	LZ
+00142	Roma	LZ
+00143	Cecchignola	LZ
+00144	Decima	LZ
+00145	Roma	LZ
+00146	Roma	LZ
+00147	Roma	LZ
+00148	Borgata Corviale	LZ
+00149	Roma	LZ
+00151	Roma	LZ
+00152	Roma	LZ
+00153	Roma	LZ
+00154	Roma	LZ
+00155	La Rustica	LZ
+00156	Roma	LZ
+00157	Roma	LZ
+00158	Roma	LZ
+00159	Roma	LZ
+00161	Roma	LZ
+00162	Roma	LZ
+00163	Roma	LZ
+00164	Roma	LZ
+00165	Roma	LZ
+00166	Borgata Casalotti	LZ
+00167	Roma	LZ
+00168	Roma	LZ
+00169	Torre Spaccata	LZ
+00171	Roma	LZ
+00172	Roma	LZ
+00173	Roma	LZ
+00174	Roma	LZ
+00175	Roma	LZ
+00176	Roma	LZ
+00177	Roma	LZ
+00178	Capannelle	LZ
+00179	Roma	LZ
+00181	Roma	LZ
+00182	Roma	LZ
+00183	Roma	LZ
+00184	Roma	LZ
+00185	Roma	LZ
+00186	Roma	LZ
+00187	Roma	LZ
+00188	Labaro	LZ
+00189	Grottarossa	LZ
+00191	Roma	LZ
+00192	Roma	LZ
+00193	Roma	LZ
+00194	Roma	LZ
+00195	Roma	LZ
+00196	Roma	LZ
+00197	Roma	LZ
+00198	Roma	LZ
+00199	Roma	LZ
+01010	Tessennano	
+01011	Musignano	
+01012	Vico Matrino	
+01014	Montalto Di Castro	
+01015	Sutri	
+01016	Tarquinia	
+01017	Tuscania	
+01018	Valentano	
+01019	La Botte	
+01020	Graffignano	
+01021	Trevinano	
+01022	Civita	
+01023	Bolsena	
+01024	Sermugnano	
+01025	Grotte Di Castro	
+01026	Magugnano	
+01027	Zepponami	
+01028	Orte Stazione	
+01030	Faleria	
+01032	Caprarola	
+01033	Borghetto Di Civita Castellana Stazione	
+01034	Regolelli	
+01035	Scalo Teverina	
+01036	Nepi	
+01037	Lago Di Vico	
+01038	Chia	
+01039	Vignanello	
+01100	Viterbo	LZ
+02010	Colli Sul Velino	
+02011	Accumoli	
+02012	Santi Lorenzo E Flaviano	
+02013	Antrodoco	
+02014	San Liberato	
+02015	Grotti	
+02016	Albaneto	
+02018	Poggio Bustone	
+02019	Sigillo Di Posta	
+02020	Ascrea	
+02021	Borgorose	
+02022	Collalto Sabino	
+02023	Santa Lucia Di Fiamignano	
+02024	Pescorocchiano	
+02025	Capradosso	
+02026	Rocca Sinibalda	
+02028	Collemaggiore	
+02030	Villetta Sant'Antonio	
+02031	Castelnuovo Di Farfa	
+02032	Coltodino	
+02033	Monteleone Sabino	
+02034	Bocchignano	
+02035	Orvinio	
+02037	Cerdomare	
+02038	Scandriglia	
+02039	Toffia	
+02040	Montebuono	
+02041	Casperia	
+02042	Collevecchio	
+02043	San Filippo Di Contigliano	
+02044	Gavignano Sabino	
+02045	Limiti Di Greccio	
+02046	Magliano Sabina	
+02047	Castel San Pietro	
+02048	Stimigliano Scalo	
+02049	Torri In Sabina	
+02100	Rieti	LZ
+03010	Madonna Delle Grazie	
+03011	Collelavena	
+03012	Osteria Della Fontana	
+03013	Ferentino	
+03014	Fiuggi	
+03016	Campocatino	
+03017	Cerquotti Madonna Del Piano	
+03018	Paliano	
+03019	Supino	
+03020	Pastena	
+03021	Amaseno	
+03022	Brecciaro	
+03023	Ceccano	
+03024	Ceprano	
+03025	Anitrella	
+03026	Pofi	
+03027	Ripi	
+03028	San Giovanni Incarico	
+03029	Castelmassimo	
+03030	Pescosolido	
+03031	Aquino	
+03032	Isoletta	
+03033	Arpino	
+03034	Casalvieri	
+03035	Fontana Liri	
+03036	Isola Del Liri	
+03037	Sant'Oliva Di Pontecorvo	
+03038	Caprile	
+03039	Carnello	
+03040	Acquafondata	
+03041	Alvito	
+03042	Casino Pica	
+03043	Montecassino	
+03044	Cervaro	
+03045	Esperia	
+03046	San Donato Val Di Comino	
+03047	San Giorgio A Liri	
+03048	Sant'Apollinare	
+03049	Olivella	
+03100	Frosinone Stazione	LZ
+04010	Pisterzo	
+04011	Campo Di Carne	
+04012	Cisterna Di Latina	
+04013	Sermoneta Scalo	
+04014	Borgo Pasubio	
+04015	Fossanova	
+04016	Baia D'Argento	
+04017	Borgo Montenero	
+04018	Colli Di Suso	
+04019	La Fiora	
+04020	Grunuovo Di Santi Cosma E Damiano	
+04021	Castelforte	
+04022	Fondi	
+04023	Acquatraversa Di Formia	
+04024	Gaeta	
+04025	Valle Bernardo	
+04026	Santa Maria Infante	
+04027	Ponza	
+04028	Marina Di Minturno	
+04029	Sperlonga	
+04100	Borgo Isonzo	LZ
+05010	Collelungo	
+05011	Allerona Stazione	
+05012	Attigliano	
+05013	Castel Giorgio	
+05014	Pianlungo	
+05015	Fabro Scalo	
+05016	Sala	
+05017	Santa Maria	
+05018	Ciconia	
+05020	Morre	
+05021	Acquasparta	
+05022	Amelia	
+05023	Acqualoreto	
+05024	Giove	
+05025	Guardea	
+05026	Castel Dell'Aquila	
+05028	Penna In Teverina	
+05029	San Gemini	
+05030	Otricoli	
+05031	Buonacquisto	
+05032	Santa Maria Della Neve	
+05034	Ferentillo	
+05035	Vigne	
+05039	Stroncone	
+05100	Valenza	UM
+06010	Muccignano	
+06012	Piosina	
+06014	Montone	
+06016	Selci	
+06018	Lugnano	
+06019	Niccone	
+06020	Branca	
+06021	Costacciaro	
+06022	Fossato Di Vico Stazione	
+06023	San Pellegrino	
+06024	Casamorcia	
+06025	Nocera Umbra	
+06026	Pietralunga	
+06027	Scheggia	
+06028	Sigillo	
+06029	Casa Castalda	
+06030	Orsano E Cammoro	
+06031	Bevagna	
+06033	Cannara	
+06034	Rasiglia	
+06035	Pozzo	
+06036	Montefalco	
+06038	Capitan Loreto	
+06039	Matigge	
+06040	Piedipaterno Sul Nera	
+06041	Borgo Cerreto	
+06042	Campello Sul Clitunno	
+06043	Maltignano Di Cascia	
+06044	Castel Ritaldi	
+06045	Monteleone Di Spoleto	
+06046	Castelluccio	
+06047	Abeto	
+06049	Sant'Angelo In Mercole	
+06050	Collazzone	
+06051	Casalina	
+06053	Sant'Angelo Di Celle	
+06054	Fratta Todina	
+06055	San Valentino	
+06056	Villa San Faustino	
+06057	Monte Castello Di Vibio	
+06059	Canonica	
+06060	Villastrada Umbra	
+06061	Castiglione Del Lago	
+06062	Ponticelli Citta' Della Pieve	
+06063	Villa	
+06064	Panicale	
+06065	Castel Rigone	
+06066	Castiglion Fosco	
+06068	Tavernelle	
+06069	Isola Maggiore	
+06070	Ellera	
+06072	Castiglione Della Valle	
+06073	Mantignana	
+06081	Assisi Santuario	
+06083	Ospedalicchio Di Bastia Umbra	
+06084	Bettona	
+06089	Torgiano	
+06100	Perugia	UM
+06121	Perugia	UM
+06122	Perugia	UM
+06123	Perugia	UM
+06124	Perugia Stazione	UM
+06125	Perugia	UM
+06126	Montecorneo	UM
+06127	Ferro Di Cavallo	UM
+06128	Ponte Della Pietra	UM
+06129	Prepo	UM
+06131	San Marco	UM
+06132	San Sisto	UM
+06134	Perugia	UM
+07010	Romana	
+07011	Bono	
+07012	Rebeccu	
+07013	Mores	
+07014	Vigne	
+07015	Padria	
+07016	Pattada	
+07017	Ploaghe	
+07018	Pozzomaggiore	
+07019	Villanova Monteleone	
+07020	Bassacutena	
+07021	Arzachena	
+07022	Berchidda	
+07023	Calangianus	
+07024	Isola Di Caprera	
+07025	Luras	
+07026	San Pantaleo	
+07027	Oschiri	
+07028	San Pasquale	
+07029	Nuchis	
+07030	Badesi	
+07031	Lu Bagnu	
+07032	Nulvi	
+07033	Santa Vittoria	
+07034	Perfugas	
+07035	Sedini	
+07036	Sennori	
+07037	Platamona	
+07038	Lu Colbu	
+07039	La Muddizza	
+07040	Palmadula	
+07041	Fertilia	
+07043	Bonnanaro	
+07044	Ittiri	
+07045	Ossi	
+07046	Asinara Lazzaretto	
+07047	Thiesi	
+07048	Torralba	
+07049	Usini	
+07100	Sassari	SD
+08010	Birori	
+08011	Bolotana	
+08012	Mulargia	
+08013	Bosa Marina	
+08015	Macomer	
+08016	Borore	
+08017	Silanus	
+08018	Sindia	
+08019	Modolo	
+08020	Orune	
+08021	Bitti	
+08022	Dorgali	
+08023	Fonni	
+08024	Mamoiada	
+08025	Su Cologone	
+08026	Orani	
+08027	Orgosolo	
+08028	Cala Liberotto	
+08029	Siniscola	
+08030	Serri	
+08031	Gidilau	
+08032	Desulo	
+08033	Isili	
+08034	Traidodini	
+08035	Nurri	
+08036	Ortueri	
+08037	Seui	
+08038	Sorgono	
+08039	Tonara	
+08040	Ilbono	
+08042	Bari Sardo	
+08043	Escalaplano	
+08044	Jerzu	
+08045	Lanusei	
+08046	Perdasdefogu	
+08047	Tertenia	
+08048	Arbatax	
+08049	Villagrande Strisaili	
+08100	Lollove	SD
+09010	Villa San Pietro	
+09011	Cussorgia	
+09012	La Maddalena	
+09013	Serbariu	
+09014	Carloforte	
+09015	Domusnovas	
+09016	Bindua	
+09017	Sant'Antioco	
+09018	Sarroch	
+09019	Teulada	
+09020	Ussana	
+09021	Barumini	
+09022	Lunamatrona	
+09023	Monastir	
+09024	Nuraminis	
+09025	Sanluri Stato	
+09026	San Sperate	
+09027	Serrenti	
+09028	Sestu	
+09029	Tuili	
+09030	Elmas	
+09031	Arbus	
+09032	Assemini	
+09033	Decimomannu	
+09034	Villasor	
+09035	Gonnosfanadiga	
+09036	Guspini	
+09037	San Gavino Monreale	
+09038	Serramanna	
+09039	Villacidro	
+09040	Guasila	
+09041	Dolianova	
+09042	Monserrato	
+09043	Muravera	
+09044	Quartucciu	
+09045	Flumini Di Quartu Sant'Elena	
+09047	Selargius	
+09048	Sinnai	
+09049	Villasimius	
+09070	Putzu Idu	
+09071	Abbasanta	
+09072	Cabras	
+09073	Cuglieri	
+09074	Ghilarza	
+09075	San Leonardo	
+09076	Sedilo	
+09077	Solarussa	
+09078	Scano Di Montiferro	
+09079	Tresnuraghes	
+09080	Nureci	
+09081	Ardauli	
+09082	Busachi	
+09083	Fordongianus	
+09084	Villanova Truschedu	
+09085	Ruinas	
+09086	Samugheo	
+09088	Ollastra	
+09090	Palmas Arborea	
+09091	Ales	
+09092	Arborea	
+09093	Gonnostramatza	
+09094	Sant'Anna	
+09095	Mogoro	
+09096	Santa Giusta	
+09097	San Nicolo' D'Arcidano	
+09098	Tanca Marchese	
+09099	Uras	
+09100	Cagliari	SD
+09121	Cagliari	SD
+09122	Cagliari	SD
+09123	Cagliari	SD
+09124	Cagliari	SD
+09125	Cagliari	SD
+09126	Lazzaretto	SD
+09127	Cagliari	SD
+09128	Cagliari	SD
+09129	Cagliari	SD
+09131	Cagliari	SD
+09134	Pirri	SD
+09170	Oristano	SD
+10010	Albiano D'Ivrea	
+10011	Aglie'	
+10012	Bollengo	
+10013	Borgofranco D'Ivrea	
+10014	Vallo	
+10015	Ivrea	
+10016	Montalto Dora	
+10017	Montanaro	
+10018	Pavone Canavese	
+10019	Cerone	
+10020	San Sebastiano Da Po	
+10022	San Michele E Grato	
+10023	Pessione	
+10024	Revigliasco Torinese	
+10025	Pino Torinese	
+10026	Santena	
+10028	Trofarello	
+10029	Villastellone	
+10030	Rondissone	
+10031	Borgomasino	
+10032	Brandizzo	
+10034	Torassi	
+10035	Mazze'	
+10036	Olimpia	
+10037	Torrazza Piemonte	
+10038	Casabianca	
+10040	Almese	
+10041	Ceretto Di Carignano	
+10042	Nichelino	
+10043	Orbassano	
+10044	Pianezza	
+10045	Garola	
+10046	Avatanei	
+10048	Vinovo	
+10050	Chiomonte	
+10051	Drubiaglio	
+10052	Bardonecchia	
+10053	Foresto	
+10054	Solomiac	
+10055	Condove	
+10056	Oulx	
+10057	Sant'Ambrogio Di Torino	
+10058	Colle Sestriere	
+10059	Mompantero	
+10060	San Pietro Val Lemina	
+10061	Cavour	
+10062	Luserna	
+10063	Pomaretto	
+10064	Baudenasca	
+10065	Pramollo	
+10066	Torre Pellice	
+10067	Vigone	
+10068	Villafranca Piemonte	
+10069	Villar Perosa	
+10070	Levone	
+10071	Borgaro Torinese	
+10072	Mappano	
+10073	Devesi	
+10074	Lanzo Torinese	
+10075	Mathi	
+10076	San Giovanni	
+10077	Ceretta Di San Maurizio Canavese	
+10078	Altessano	
+10080	San Ponso	
+10081	Campo Canavese	
+10082	Priacco	
+10083	Favria	
+10084	Forno Canavese	
+10085	Pont Canavese	
+10086	Argentera	
+10087	Valperga	
+10088	Volpiano	
+10090	San Giorgio Canavese	
+10091	Alpignano	
+10092	Beinasco	
+10093	Leumann	
+10094	Giaveno	
+10095	Grugliasco	
+10098	Bruere	
+10099	San Mauro Torinese	
+10100	Torino	PM
+10121	Torino	PM
+10122	Torino	PM
+10123	Torino	PM
+10124	Torino	PM
+10125	Torino	PM
+10126	Torino	PM
+10127	Torino	PM
+10128	Torino	PM
+10129	Torino	PM
+10131	Torino	PM
+10132	Torino	PM
+10133	Cavoretto	PM
+10134	Torino	PM
+10135	Torino	PM
+10136	Torino	PM
+10137	Torino	PM
+10138	Torino	PM
+10139	Torino	PM
+10141	Torino	PM
+10142	Torino	PM
+10143	Torino	PM
+10144	Torino	PM
+10145	Torino	PM
+10146	Torino	PM
+10147	Torino	PM
+10148	Torino	PM
+10149	Torino	PM
+10151	Torino	PM
+10152	Torino	PM
+10153	Torino	PM
+10154	Torino	PM
+10155	Torino	PM
+10156	Falchera	PM
+11010	Chesallet	
+11011	Leverogne	
+11012	Cogne	
+11013	Dolonne	
+11014	Saint Oyen	
+11015	Derby	
+11016	La Thuile	
+11017	Morgex	
+11018	Villeneuve	
+11020	Arnad	
+11021	Breuil	
+11022	Extrepieraz	
+11023	Chambave	
+11024	Lassolaz	
+11025	Gressoney Saint Jean	
+11026	Pont Saint Martin	
+11027	Moron	
+11028	Valtournenche	
+11029	Glair	
+11100	Arpuilles	VD
+12010	Santa Croce Cervasca	
+12011	Aradolo La Bruna	
+12012	San Giacomo Di Boves	
+12013	Chiusa Di Pesio	
+12014	Demonte	
+12015	Limone Piemonte	
+12016	Peveragno	
+12017	Robilante	
+12018	Brignola	
+12019	Vernante	
+12020	Melle	
+12021	Acceglio	
+12022	Busca	
+12023	Caraglio	
+12024	Costigliole Saluzzo	
+12025	Montemale Di Cuneo	
+12026	Piasco	
+12027	Pradleves	
+12028	San Michele Prazzo	
+12029	Lottulo	
+12030	Oncino	
+12031	Bagnolo Piemonte	
+12032	Galleane	
+12033	Moretta	
+12034	Paesana	
+12035	Racconigi	
+12036	Staffarda	
+12037	Via Dei Romani	
+12038	Levaldigi	
+12039	Falicetto	
+12040	Ceresole Alba	
+12041	Isola	
+12042	Bandito	
+12043	Valpone	
+12044	Centallo	
+12045	Gerbo	
+12046	San Rocco Monta'	
+12047	Crava	
+12048	Sommariva Del Bosco	
+12049	Trinita'	
+12050	Neviglie	
+12051	Mussotto	
+12052	Neive	
+12053	Santuario Tinella	
+12054	Santa Libera	
+12055	San Rocco Cherasca	
+12056	Mango	
+12058	Valdivilla	
+12060	Bossolasco	
+12061	Carru'	
+12062	Cherasco	
+12063	Dogliani	
+12064	Rivalta	
+12065	Perno	
+12066	Borgo	
+12068	Narzole	
+12069	Santa Vittoria D'Alba	
+12070	Montezemolo	
+12071	Bagnasco	
+12072	Camerana	
+12073	Ceva	
+12074	Cortemilia	
+12075	Garessio Borgo Piave	
+12076	Lesegno	
+12077	Prunetto	
+12078	Ponte Di Nava	
+12079	Saliceto	
+12080	Montaldo Di Mondovi'	
+12081	Beinette	
+12082	Fontane	
+12083	Gosi Pianvignale	
+12084	Rifreddo Mondovi'	
+12087	Serra	
+12088	Lurisia	
+12089	Villanova Mondovi'	
+12100	Cuneo	PM
+13010	Motta De' Conti	
+13011	Isolella	
+13012	Prarolo	
+13017	Quarona	
+13018	Valduggia	
+13019	Morca	
+13020	Piode	
+13021	Alagna Valsesia	
+13022	Fervento	
+13023	Campertogno	
+13024	Cellio	
+13025	Fobello	
+13026	Rima San Giuseppe	
+13027	Scopa	
+13028	Scopello	
+13030	Formigliana	
+13031	Arborio	
+13032	Asigliano Vercellese	
+13033	Costanzana	
+13034	Lignana	
+13035	Lenta	
+13036	Ronsecco	
+13037	Vintebbio	
+13038	Tricerro	
+13039	Trino	
+13040	Sant'Antonino	
+13041	Bianze'	
+13043	Cigliano	
+13044	San Silvestro	
+13045	Lozzolo	
+13046	Lamporo	
+13047	Olcenengo	
+13048	Santhia'	
+13049	Tronzano Vercellese	
+13060	Roasio	
+13100	Cappuccini	PM
+13811	Andorno Micca	
+13812	Balma Biellese	
+13814	Pollone	
+13815	Rosazza	
+13816	Miagliano	
+13817	Sordevolo	
+13818	Tollegno	
+13821	Callabiana	
+13822	Mosso	
+13823	Fontanella Ozino	
+13824	Veglio	
+13825	Crocemosso	
+13831	Mezzana Mortigliengo	
+13833	Portula	
+13834	Soprana	
+13835	Giardino	
+13836	Aglietti	
+13841	Bioglio	
+13843	Vaglio	
+13844	Piatto	
+13845	Ronco Biellese	
+13847	Vallanzengo	
+13848	Zumaglia	
+13851	Castelletto Cervo	
+13852	Cerreto Castello	
+13853	Castello	
+13854	Quaregna	
+13855	Valdengo	
+13856	Villaggi	
+13861	Ailoche	
+13862	Brusnengo	
+13863	Coggiola	
+13864	Caprile	
+13865	Curino	
+13866	Casapinta	
+13867	Pianceri Alto	
+13868	Sostegno	
+13871	Benna	
+13872	Borriana	
+13873	Massazza	
+13874	Mottalciata	
+13875	Ponderano	
+13876	Sandigliano	
+13877	Villanova Biellese	
+13878	Candelo	
+13881	Dorzano	
+13882	Vergnasco	
+13883	Roppolo	
+13884	Sala Biellese	
+13885	Vigellio	
+13886	Viverone	
+13887	Magnano	
+13888	Mongrando	
+13891	Camburzano	
+13893	Donato	
+13894	Gaglianico	
+13895	Muzzano	
+13896	Netro	
+13897	Occhieppo Inferiore	
+13898	Occhieppo Superiore	
+13899	Pralungo	
+13900	Cossila	
+14010	Cortazzone	
+14011	Baldichieri D'Asti	
+14012	Ferrere	
+14013	Monale	
+14014	Capriglio	
+14015	San Damiano D'Asti	
+14016	Tigliole	
+14017	Valfenera	
+14018	Villafranca D'Asti	
+14019	Villanova D'Asti	
+14020	Berzano Di San Pietro	
+14021	Buttigliera D'Asti	
+14022	Albugnano	
+14023	Tonengo	
+14024	Moncucco Torinese	
+14025	Montechiaro D'Asti	
+14026	Montiglio Monferrato	
+14030	Accorneri	
+14031	Calliano	
+14032	Casorzo	
+14033	Castell'Alfero Stazione	
+14034	Monfallito	
+14035	Grazzano Badoglio	
+14036	Moncalvo	
+14037	Portacomaro	
+14039	Tonco	
+14040	Mongardino	
+14041	Agliano	
+14042	Calamandrana	
+14043	Castelnuovo Belbo	
+14044	Castel Rocchero	
+14045	Madonna	
+14046	Mombaruzzo	
+14047	Mombercelli	
+14048	Montegrosso D'Asti	
+14049	Vaglio Serra	
+14050	Cassinasco	
+14051	Loazzolo	
+14052	Calosso	
+14053	Sant'Antonio Di Canelli	
+14054	Castagnole Delle Lanze	
+14055	Costigliole D'Asti	
+14057	Isola D'Asti	
+14058	Sessame	
+14059	San Giorgio Scarampi	
+14100	Valgera	PM
+15010	Visone	
+15011	Acqui Terme	
+15012	Bistagno	
+15013	Borgoratto Alessandrino	
+15014	Cantalupo	
+15015	Malvicino	
+15016	Cassine	
+15017	Castelnuovo Bormida	
+15018	Spigno Monferrato	
+15019	Strevi	
+15020	Villamiroglio	
+15021	Alfiano Natta	
+15022	Bergamasco	
+15023	Felizzano	
+15024	Abbazia	
+15025	Morano Sul Po	
+15026	Carentino	
+15027	Pontestura	
+15028	Piepasso	
+15029	Solero	
+15030	Coniolo	
+15031	Balzola	
+15032	Borgo San Martino	
+15033	Terranova Monferrato	
+15034	Cella Monte	
+15035	Frassinello Monferrato	
+15036	Giarole	
+15038	Ottiglio	
+15039	Ozzano Monferrato	
+15040	Valmadonna	
+15041	Franchini	
+15042	Fiondi	
+15043	Fubine	
+15044	Quargnento	
+15045	Sale	
+15046	San Salvatore Monferrato	
+15048	Villabella	
+15049	Vignale Monferrato	
+15050	Brignano Frascata	
+15051	Castellania	
+15052	Casalnoceto	
+15053	Castelnuovo Scrivia	
+15054	Caldirola	
+15055	Pontecurone	
+15056	Dernice	
+15057	Passalacqua	
+15058	Viguzzolo	
+15059	Monleale	
+15060	Cantalupo Ligure	
+15061	Arquata Scrivia	
+15062	Donna	
+15063	Cassano Spinola	
+15064	Fresonara	
+15065	Frugarolo	
+15066	Gavi	
+15067	Merella	
+15068	Pozzolo Formigaro	
+15069	Serravalle Scrivia	
+15070	Villa Botteri	
+15071	Carpeneto	
+15072	Portanova	
+15073	Castellazzo Bormida	
+15074	Molare	
+15075	Mornese	
+15076	Gnocchetto	
+15077	Castelferro	
+15078	Rocca Grimalda	
+15079	Sezzadio	
+15100	Alessandria	PM
+16010	Acquasanta	
+16011	Arenzano	
+16012	Camarza	
+16013	Campo Ligure	
+16014	Isoverde	
+16015	Orero	
+16016	Sciarborasca	
+16017	Isola Del Cantone	
+16018	Giovi	
+16019	Borgo Fornari	
+16020	Fascia	
+16021	Bargagli	
+16022	Davagna	
+16023	Casoni	
+16024	Lumarzo	
+16025	Rondanina	
+16026	Montoggio	
+16027	Propata	
+16028	Casanova	
+16029	Laccio	
+16030	Moneglia	
+16031	Bogliasco	
+16032	Camogli	
+16033	Cavi	
+16034	Portofino	
+16035	San Michele Di Pagana	
+16036	Recco	
+16038	Paraggi	
+16039	Santa Vittoria Di Libiola	
+16040	Pian Dei Ratti	
+16041	Borzonasca	
+16042	Graveglia	
+16043	Chiavari	
+16044	Monleone	
+16045	Lorsica	
+16046	Borgonovo	
+16047	Gattorna	
+16048	Rezzoaglio	
+16049	Santo Stefano D'Aveto	
+16100	Genova	LG
+16121	Genova	LG
+16122	Genova	LG
+16123	Genova	LG
+16124	Genova	LG
+16125	Genova	LG
+16126	Genova	LG
+16127	Genova	LG
+16128	Genova	LG
+16129	Genova	LG
+16131	Genova	LG
+16132	Genova	LG
+16133	San Desiderio	LG
+16134	Genova	LG
+16135	Genova	LG
+16136	Genova	LG
+16137	Staglieno	LG
+16138	Molassana	LG
+16139	Genova	LG
+16141	Sant'Eusebio	LG
+16142	Genova	LG
+16143	Genova	LG
+16144	Genova	LG
+16145	Genova	LG
+16146	Genova	LG
+16147	Sturla	LG
+16148	Quarto Dei Mille	LG
+16149	Sampierdarena	LG
+16151	Campasso	LG
+16152	Cornigliano Ligure	LG
+16153	Borzoli	LG
+16154	San Giovanni Battista	LG
+16155	Genova	LG
+16156	Genova	LG
+16157	Palmaro Di Pra'	LG
+16158	Genova	LG
+16159	Certosa Di Rivarolo Ligure	LG
+16161	Fegino	LG
+16162	Bolzaneto	LG
+16163	San Quirico In Val Polcevera	LG
+16164	Pontedecimo	LG
+16165	Struppa	LG
+16166	Quinto Al Mare	LG
+16167	Nervi	LG
+17010	Osiglia	
+17011	Albisola Capo	
+17012	Albissola Marina	
+17013	Valle Di Murialdo	
+17014	Cairo Montenotte	
+17015	Celle Ligure	
+17017	Roccavignale	
+17019	Varazze	
+17020	Magliolo	
+17021	Moglio	
+17022	Borgio	
+17023	Ceriale	
+17024	Orco Feglino	
+17025	Loano	
+17026	Noli	
+17027	Giustenice	
+17028	Bergeggi	
+17030	Nasino	
+17031	Albenga	
+17032	Vendone	
+17033	Garlenda	
+17034	Castelvecchio Di Rocca Barbena	
+17035	Cisano Sul Neva	
+17037	Ortovero	
+17038	Villanova D'Albenga	
+17039	Zuccarello	
+17040	Mioglia	
+17041	Altare	
+17042	Giovo	
+17043	Carcare	
+17044	San Martino Stella	
+17045	Mallare	
+17046	Palo	
+17047	Quiliano	
+17048	San Pietro D'Olba	
+17051	Marina Di Andora	
+17052	Borghetto Santo Spirito	
+17053	Laigueglia	
+17054	Boissano	
+17055	Toirano	
+17056	Cengio	
+17057	Calizzano	
+17058	Piana Crixia	
+17100	Zinola	LG
+18010	Agaggio Inferiore	
+18011	Castellaro	
+18012	Piani Di Borghetto	
+18013	Diano Marina	
+18014	Ospedaletti	
+18015	Pompeiana	
+18016	San Bartolomeo Al Mare	
+18017	Civezza	
+18018	Arma Di Taggia	
+18019	Vallecrosia	
+18020	Dolcedo	
+18021	Borgomaro	
+18022	Cesio	
+18023	Cosio Di Arroscia	
+18024	Pornassio	
+18025	Briga Alta	
+18026	Calderara	
+18027	Chiusavecchia	
+18030	Airole	
+18031	Bajardo	
+18032	Perinaldo	
+18033	Camporosso	
+18034	Ceriana	
+18035	Apricale	
+18036	San Biagio Della Cima	
+18037	Pigna	
+18038	Coldirodi	
+18039	Latte	
+18100	Imperia	LG
+19010	Maissana	
+19011	Bonassola	
+19012	Carro	
+19013	Deiva Marina	
+19014	Framura	
+19015	Levanto	
+19016	Monterosso Al Mare	
+19017	Manarola	
+19018	Vernazza	
+19020	Carrodano	
+19021	Romito Magra	
+19025	Fezzano	
+19028	Varese Ligure	
+19030	Bocca Di Magra	
+19031	Ameglia	
+19032	Serra	
+19033	Castelnuovo Magra	
+19034	Serravalle	
+19037	Santo Stefano Di Magra	
+19038	Santa Caterina	
+19100	La Spezia	LG
+19121	Laspezia	LG
+19122	Laspezia	LG
+19123	Pegazzano	LG
+19124	Laspezia	LG
+19125	Laspezia	LG
+19126	Isola	LG
+19131	Laspezia	LG
+19132	Laspezia	LG
+19133	Biassa	LG
+19134	Marinasco	LG
+19135	Laspezia	LG
+19136	Laspezia	LG
+19137	Laspezia	LG
+19138	Laspezia	LG
+19139	Laspezia	LG
+20010	Pogliano Milanese	
+20011	Corbetta	
+20012	Cuggiono	
+20013	Ponte Nuovo	
+20014	Sant'Ilario Milanese	
+20015	Villastanza	
+20016	Pero	
+20017	Rho	
+20018	Sedriano	
+20019	Vighignolo	
+20020	Dairago	
+20021	Cassina Nuova	
+20022	Castano Primo	
+20023	Cerro Maggiore	
+20024	Garbagnate Milanese	
+20025	Legnano	
+20026	Novate Milanese	
+20027	Rescalda	
+20028	San Vittore Olona	
+20029	Turbigo	
+20030	Palazzolo Milanese	
+20032	Ospitaletto	
+20037	Paderno Dugnano	
+20040	Velate Milanese	
+20056	Grezzago	
+20060	Bussero	
+20061	Carugate	
+20062	Groppello D'Adda	
+20063	Cernusco Sul Naviglio	
+20064	Gorgonzola	
+20065	Inzago	
+20066	Melzo	
+20067	Tribiano	
+20068	Bettola	
+20069	Vaprio D'Adda	
+20070	Cerro Al Lambro	
+20077	Melegnano	
+20078	San Colombano Al Lambro	
+20080	Moirago	
+20081	Abbiategrasso	
+20082	Santa Corinna	
+20083	Gaggiano	
+20084	Lacchiarella	
+20085	Locate Di Triulzi	
+20086	Motta Visconti	
+20087	Castellazzo De' Barzi	
+20088	Gudo Visconti	
+20089	Quinto De Stampi	
+20090	Pantigliate	
+20091	Bresso	
+20092	Cinisello Balsamo	
+20093	San Maurizio Al Lambro	
+20094	Corsico	
+20095	Milanino	
+20096	Seggiano	
+20097	Sorigherio	
+20098	Borgo Lombardo	
+20099	Sesto San Giovanni	
+20100	Milano	LM
+20121	Milano	LM
+20122	Milano	LM
+20123	Milano	LM
+20124	Milano	LM
+20125	Greco	LM
+20126	Milano	LM
+20127	Crescenzago	LM
+20128	Milano	LM
+20129	Milano	LM
+20131	Milano	LM
+20132	Milano	LM
+20133	Milano	LM
+20134	Lambrate	LM
+20135	Milano	LM
+20136	Milano	LM
+20137	Milano	LM
+20138	Milano	LM
+20139	Chiaravalle Milanese	LM
+20141	Milano	LM
+20142	Gratosoglio	LM
+20143	Barona	LM
+20144	Milano	LM
+20145	Milano	LM
+20146	Milano	LM
+20147	Milano	LM
+20148	Milano	LM
+20149	Milano	LM
+20151	Musocco	LM
+20152	Baggio	LM
+20153	Trenno	LM
+20154	Milano	LM
+20155	Milano	LM
+20156	Milano	LM
+20157	Vialba	LM
+20158	Milano	LM
+20159	Milano	LM
+20161	Affori	LM
+20162	Milano	LM
+20811	Villaggio Snia	
+20812	Villaggio Del Sole	
+20813	Bovisio-Masciago	
+20814	Valera	
+20815	Cogliate	
+20816	Dal Pozzo	
+20821	Meda	
+20822	Seveso	
+20823	Camnago	
+20824	Lazzate	
+20825	Barlassina	
+20826	Misinto	
+20831	Seregno	
+20832	Desio	
+20833	Paina	
+20834	Nova Milanese	
+20835	Muggio'	
+20836	Capriano	
+20837	Veduggio Con Colzano	
+20838	Renate	
+20841	Agliate	
+20842	Villa Raverio	
+20843	Verano Brianza	
+20844	Canonica	
+20845	Sovico	
+20846	Macherio	
+20847	Albiate	
+20851	Santa Margherita	
+20852	Villasanta	
+20853	Biassono	
+20854	Vedano Al Lambro	
+20855	Peregallo	
+20856	Correzzana	
+20857	Camparada	
+20861	San Damiano	
+20862	Arcore	
+20863	Concorezzo	
+20864	Omate	
+20865	Usmate Velate	
+20866	Carnate	
+20867	Caponago	
+20871	Velasca	
+20872	Porto D'Adda	
+20873	Cavenago Di Brianza	
+20874	Busnago	
+20875	Burago Di Molgora	
+20876	Ornago	
+20877	Roncello	
+20881	Bernareggio	
+20882	Bellusco	
+20883	Mezzago	
+20884	Sulbiate	
+20885	Ronco Briantino	
+20886	Aicurzio	
+20900	San Fruttuoso	
+21010	Agra	
+21011	Casorate Sempione	
+21012	Cassano Magnago	
+21013	Gallarate	
+21014	Laveno Mombello	
+21015	Tornavento	
+21016	Creva	
+21017	Samarate	
+21018	Lisanza	
+21019	Coarezza	
+21020	Ranco	
+21021	Angera	
+21022	Azzate	
+21023	Besozzo	
+21024	Biandronno	
+21025	Comerio	
+21026	Gavirate	
+21027	Barza	
+21028	Travedona Monate	
+21029	Cuirone	
+21030	Marchirolo	
+21031	Viconago	
+21032	Caravate	
+21033	Cittiglio	
+21034	Trevisago	
+21035	Cunardo	
+21036	Gemonio	
+21037	Lavena Ponte Tresa	
+21038	Leggiuno	
+21039	Valganna	
+21040	Santo Stefano	
+21041	Albizzate	
+21042	Caronno Pertusella	
+21043	Gornate Superiore	
+21044	Cavaria Con Premezzo	
+21045	Gazzada	
+21046	Malnate	
+21047	Saronno	
+21048	Monte	
+21049	Abbiate Guazzone	
+21050	Marnate	
+21051	Arcisate	
+21052	Sacconago	
+21053	Castellanza	
+21054	Fagnano Olona	
+21055	Gorla Minore	
+21056	Induno Olona	
+21057	Cascina Buon Gesu'	
+21058	Solbiate Olona	
+21059	Baraggia	
+21100	Sant'Ambrogio Olona	LM
+22010	Codogna	
+22011	Griante	
+22012	Cernobbio	
+22013	Vercana	
+22014	Dongo	
+22015	Gravedona	
+22016	Lenno	
+22017	Menaggio	
+22018	Porlezza	
+22019	Tremezzo	
+22020	Faloppio	
+22021	Bellagio	
+22022	Casasco D'Intelvi	
+22023	Castiglione D'Intelvi	
+22024	Scaria	
+22025	Lezzeno	
+22026	Maslianico	
+22027	Ronago	
+22028	Blessagno	
+22029	Uggiate Trevano	
+22030	Corneno	
+22031	Albavilla	
+22032	Albese Con Cassano	
+22033	Asso	
+22034	Brunate	
+22035	Canzo	
+22036	Erba	
+22037	Ponte Lambro	
+22038	Tavernerio	
+22039	Osigo	
+22040	Nobile	
+22044	Romano' Brianza	
+22045	Lambrugo	
+22046	Merone	
+22060	Carimate	
+22063	Mirabello Di Cantu'	
+22066	Mariano Comense	
+22069	Rovellasca	
+22070	Puginate	
+22071	Caslino Al Piano	
+22072	Cermenate	
+22073	Molinetto	
+22074	Manera	
+22075	Lurate Caccivio	
+22076	Mozzate	
+22077	Olgiate Comasco	
+22078	Turate	
+22079	Villa Guardia	
+22100	Lora	LM
+23010	Cino	
+23011	Ardenno	
+23012	Castione Andevenno	
+23013	Cosio Valtellino	
+23014	Andalo Valtellino	
+23015	Nuova Olonio	
+23016	Cercino	
+23017	Campovico	
+23018	Talamona	
+23019	Traona	
+23020	San Giacomo Filippo	
+23021	Campodolcino	
+23022	Bette	
+23023	Primolo	
+23024	Pianazzo	
+23025	Campo	
+23026	Arigna	
+23027	San Pietro Samolaco	
+23029	Dogana Di Villa Chiavenna	
+23030	San Nicolo' Di Valfurva	
+23031	Aprica	
+23032	Passo Stelvio	
+23033	Grosio	
+23034	Grosotto	
+23035	Le Prese	
+23036	Tresenda	
+23037	Tirano	
+23038	Bagni Nuovi	
+23100	Albosaggia	LM
+23801	Calolziocorte	
+23802	Carenno	
+23804	Monte Marenzo	
+23805	Erve	
+23806	Valcava	
+23807	Merate	
+23808	Vercurago	
+23811	Morterone	
+23813	Cortenova	
+23814	Cremeno	
+23815	Introbio	
+23816	Barzio	
+23817	Moggio	
+23818	Pasturo	
+23819	Primaluna	
+23821	Abbadia Lariana	
+23822	Bellano	
+23823	Colico	
+23824	Dorio	
+23825	Esino Lario	
+23826	Mandello Del Lario	
+23827	Lierna	
+23828	Perledo	
+23829	Varenna	
+23831	Casargo	
+23832	Margno	
+23833	Pagnona	
+23834	Premana	
+23835	Introzzo	
+23836	Tremenico	
+23837	Parlasco	
+23838	Vendrogno	
+23841	Annone Di Brianza	
+23842	Bosisio Parini	
+23843	Dolzago	
+23844	Sirone	
+23845	Costa Masnaga	
+23846	Garbagnate Monastero	
+23847	Molteno	
+23848	Ello	
+23849	Casletto	
+23851	Galbiate	
+23852	Garlate	
+23854	Olginate	
+23855	Pescate	
+23857	Valgreghentino	
+23861	Cesana Brianza	
+23862	Civate	
+23864	Malgrate	
+23865	Oliveto Lario	
+23867	Suello	
+23868	Caserta	
+23870	Cernusco Lombardone	
+23871	Lomagna	
+23873	Missaglia	
+23874	Quattro Strade	
+23875	Osnago	
+23876	Monticello Brianza	
+23877	Paderno D'Adda	
+23878	Verderio Superiore	
+23879	Verderio Inferiore	
+23880	Galgiana	
+23881	Airuno	
+23883	Brivio	
+23884	Castello Di Brianza	
+23885	Calco	
+23886	Colle Brianza	
+23887	Olgiate Molgora	
+23888	Perego	
+23889	Santa Maria Hoe'	
+23890	Barzago	
+23891	Barzano'	
+23892	Bulciago	
+23893	Cassago Brianza	
+23894	Cremella	
+23895	Tabiago	
+23896	Bevera Di Sirtori	
+23897	Vigano'	
+23898	Imbersago	
+23899	Robbiate	
+23900	Lecco	
+24010	Colla	
+24011	Alme'	
+24012	Laxolo	
+24013	Oltre Il Colle	
+24014	Piazza Brembana	
+24015	San Giovanni Bianco	
+24016	Santa Croce	
+24017	Cornalba	
+24018	Villa D'Alme'	
+24019	Zogno	
+24020	Villassio	
+24021	Albino	
+24022	Nese	
+24023	Clusone	
+24024	Gandino	
+24025	Orezzo	
+24026	Cazzano Sant'Andrea	
+24027	Nembro	
+24028	Ponte Nossa	
+24029	Vertova	
+24030	Berbenno	
+24031	Almenno San Salvatore	
+24033	Calusco D'Adda	
+24034	Cisano Bergamasco	
+24035	Curno	
+24036	Ponte San Pietro	
+24037	Calchera	
+24038	Mazzoleni	
+24039	Sotto Il Monte Giovanni Xxiii	
+24040	Bonate Sotto	
+24041	Brembate	
+24042	San Gervasio D'Adda	
+24043	Masano	
+24044	Dalmine	
+24045	Badalasco	
+24046	Osio Sotto	
+24047	Castel Cerreto	
+24048	Treviolo	
+24049	Verdello	
+24050	Zanica	
+24051	Antegnate	
+24052	Azzano San Paolo	
+24053	Brignano Gera D'Adda	
+24054	Calcio	
+24055	Cologno Al Serio	
+24056	Fontanella	
+24057	Martinengo	
+24058	Sola	
+24059	Basella	
+24060	Celatica	
+24061	Albano Sant'Alessandro	
+24062	Costa Volpino	
+24063	Fonderia Di Lovere	
+24064	Grumello Del Monte	
+24065	Lovere	
+24066	Pedrengo	
+24067	Sarnico	
+24068	Cassinone	
+24069	Cenate Di Sotto	
+24100	Bergamo	LM
+24121	Bergamo	LM
+24122	Bergamo	LM
+24123	Valtesse	LM
+24124	Redona	LM
+24125	Bergamo	LM
+24126	Colognola Al Piano	LM
+24127	Bergamo	LM
+24128	Loreto	LM
+24129	Longuelo	LM
+25010	Remedello Di Sopra	
+25011	Calcinato	
+25012	Mezzane	
+25013	Carpenedolo	
+25014	Castenedolo	
+25015	Desenzano Del Garda	
+25016	Ghedi	
+25017	Sedena	
+25018	Novagli	
+25019	Colombare Di Sirmione	
+25020	Dello	
+25021	Bagnolo Mella	
+25022	Motella	
+25023	Gottolengo	
+25024	Porzano	
+25025	Manerbio	
+25026	Pontevico	
+25027	Quinzano D'Oglio	
+25028	Cadignano	
+25029	Verolavecchia	
+25030	Adro	
+25031	Capriolo	
+25032	Chiari	
+25033	Cologne	
+25034	Orzinuovi	
+25035	Ospitaletto	
+25036	Palazzolo Sull'Oglio	
+25037	Pontoglio	
+25038	Sant'Anna	
+25039	Travagliato	
+25040	Camignone	
+25041	Erbanno	
+25042	Borno	
+25043	Pescarzo	
+25044	Capo Di Ponte	
+25045	Castegnato	
+25046	Pedrocca	
+25047	Darfo Boario Terme	
+25048	Sonico	
+25049	Pilzone	
+25050	Gresine	
+25051	Cedegolo	
+25052	Annunciata	
+25053	Malegno	
+25054	Marone	
+25055	Pisogne	
+25056	Ponte Di Legno	
+25057	Sale Marasino	
+25058	Sulzano	
+25059	Vezza D'Oglio	
+25060	Marmentino	
+25061	Bovegno	
+25062	San Vigilio	
+25063	Magno	
+25064	Ronco	
+25065	Sant'Apollonio	
+25068	Zanano	
+25069	Cogozzo	
+25070	Sottocastello	
+25071	Agnosine	
+25072	Bagolino	
+25073	Bovezzo	
+25074	Idro	
+25075	Nave	
+25076	Odolo	
+25077	Roe' Volciano	
+25078	Forno D'Ono	
+25079	Degagna	
+25080	Chiesa	
+25081	Bedizzole	
+25082	San Gallo	
+25083	Fasano Del Garda	
+25084	Bogliaco	
+25085	Gavardo	
+25086	Rezzato	
+25087	Barbarano	
+25088	Maderno	
+25089	Bostone	
+25100	Brescia	LM
+25121	Brescia	LM
+25122	Brescia	LM
+25123	Brescia	LM
+25124	Brescia	LM
+25125	Brescia	LM
+25126	Brescia	LM
+25127	Brescia	LM
+25128	Brescia	LM
+25129	Brescia	LM
+25131	Fornaci	LM
+25132	Mandolossa Di Brescia	LM
+25133	Mompiano	LM
+25134	San Polo	LM
+25135	Sant'Eufemia Della Fonte	LM
+25136	Stocchetta	LM
+26010	Olmeneta	
+26011	Casalbuttano Ed Uniti	
+26012	Castelleone	
+26013	Sabbioni	
+26014	Casaletto Di Sopra	
+26015	Soresina	
+26016	Spino D'Adda	
+26017	Trescore Cremasco	
+26018	Trigolo	
+26019	Vailate	
+26020	Agnadello	
+26021	Annicco	
+26022	Castelverde	
+26023	Farfengo	
+26024	Paderno Ponchielli	
+26025	Pandino	
+26026	Roggione	
+26027	Rivolta D'Adda	
+26028	Casanova Del Morbasco	
+26029	Gallignano	
+26030	Casteldidone	
+26031	Isola Dovarese	
+26032	Ostiano	
+26033	Pieve Terzagni	
+26034	Drizzona	
+26035	Pieve San Giacomo	
+26036	Rivarolo Del Re Ed Uniti	
+26037	San Giovanni In Croce	
+26038	San Lorenzo De' Picenardi	
+26039	Ca' De' Stefani	
+26040	Castelponzone	
+26041	Casalbellotto	
+26042	Cingia De' Botti	
+26043	Persico Dosimo	
+26044	Levata	
+26045	Motta Baluffi	
+26046	San Daniele Po	
+26047	Scandolara Ripa D'Oglio	
+26048	San Salvatore	
+26049	Stagno Lombardo	
+26100	Cava Tigozzi	LM
+26811	Boffalora D'Adda	
+26812	Casoni	
+26813	Graffignana	
+26814	Livraga	
+26815	Massalengo	
+26816	Ossago Lodigiano	
+26817	San Martino In Strada	
+26818	Bargano	
+26821	Bertonico	
+26822	Brembio	
+26823	Castiglione D'Adda	
+26824	Cavenago D'Adda	
+26825	Basiasco	
+26826	Secugnago	
+26827	Terranova Dei Passerini	
+26828	Melegnanello	
+26831	Casalmaiocco	
+26832	Cervignano D'Adda	
+26833	Comazzo	
+26834	Cadilana	
+26835	Crespiatica	
+26836	Montanaso Lombardo	
+26837	Cassino D'Alberi	
+26838	Villavesco	
+26839	Zelo Buon Persico	
+26841	Casalpusterlengo	
+26842	Cornovecchio	
+26843	Maccastorna	
+26844	Cavacurta	
+26845	Codogno	
+26846	Corno Giovine	
+26847	Maleo	
+26848	San Fiorano	
+26849	Santo Stefano Lodigiano	
+26851	Borgo San Giovanni	
+26852	Mairano	
+26853	Caselle Lurani	
+26854	Pieve Fissiraga	
+26855	Lodi Vecchio	
+26856	Senna Lodigiana	
+26857	Salerano Sul Lambro	
+26858	Sordio	
+26859	Valera Fratta	
+26861	Fombio	
+26862	Guardamiglio	
+26863	Orio Litta	
+26864	Ospedaletto Lodigiano	
+26865	San Rocco Al Porto	
+26866	Castiraga Vidardo	
+26867	Somaglia	
+26900	Lodi	
+27010	Albuzzano	
+27011	Belgioioso	
+27012	Certosa Di Pavia	
+27013	Chignolo Po	
+27014	Genzone	
+27015	Landriano	
+27016	Sant'Alessio Con Vialone	
+27017	Zerbo	
+27018	Vidigulfo	
+27019	Villanterio	
+27020	Albonese	
+27021	Bereguardo	
+27022	Casorate Primo	
+27023	Cassolnovo	
+27024	Cilavegna	
+27025	Gambolo'	
+27026	San Biagio	
+27027	Gropello Cairoli	
+27028	Bivio Cava Manara	
+27029	Vigevano	
+27030	Sairano	
+27031	Candia Lomellina	
+27032	Ferrera Erbognone	
+27033	Garbana	
+27034	Galliavola	
+27035	Villa Biscossi	
+27036	Mortara	
+27037	Pieve Del Cairo	
+27038	Robbio	
+27039	Balossa Bigli	
+27040	Rovescala	
+27041	Casanova Lonati	
+27042	Robecco Pavese	
+27043	San Cipriano Po	
+27044	Canneto Pavese	
+27045	Casteggio	
+27046	Santa Giuletta	
+27047	Montecalvo Versiggia	
+27048	Sommo	
+27049	Stradella	
+27050	Redavalle	
+27051	Tre Re	
+27052	Salice Terme	
+27053	Verretto	
+27054	Montebello Della Battaglia	
+27055	Rivanazzano	
+27057	Varzi	
+27058	Voghera	
+27059	Zavattarello	
+27100	Pavia	LM
+28010	Agrate Conturbia	
+28011	Sovazza	
+28012	Cressa	
+28013	Gattico	
+28014	Maggiora	
+28015	Momo	
+28016	Isola San Giulio	
+28017	San Maurizio D'Opaglio	
+28019	Baraggia	
+28021	Borgomanero	
+28024	Gozzano	
+28028	Pratolungo	
+28040	Borgo Ticino	
+28041	Arona	
+28043	Bellinzago Novarese	
+28045	Invorio	
+28046	Ghevio	
+28047	Fornaci	
+28050	Pombia	
+28053	Castelletto Sopra Ticino	
+28060	Granozzo Con Monticello	
+28061	Biandrate	
+28062	Cameri Aeronautica	
+28064	Landiona	
+28065	Cerano	
+28066	Galliate	
+28068	Romentino	
+28069	Trecate	
+28070	Nibbiola	
+28071	Borgolavezzaro	
+28072	San Bernardino	
+28073	Fara Novarese	
+28074	Ghemme	
+28075	Grignasco	
+28076	Pogno	
+28077	Prato Sesia	
+28078	Romagnano Sesia	
+28079	Vespolate	
+28100	Agognate	PM
+28801	Cossogno	
+28802	Albo	
+28803	Cuzzago	
+28804	Bieno	
+28805	Vogogna	
+28811	Arizzano	
+28812	Aurano	
+28813	Bee	
+28814	Cambiasca	
+28815	Caprezzo	
+28816	Intragna	
+28817	Miazzina	
+28818	Premeno	
+28819	Vignone	
+28821	Cannero Riviera	
+28822	Cannobio	
+28823	Ghiffa	
+28824	Oggebbio	
+28825	Cavaglio Spoccia	
+28826	Trarego Viggiona	
+28827	Falmenta	
+28828	Gurro	
+28831	Feriolo	
+28832	Belgirate	
+28833	Brovello Carpugnino	
+28836	Gignese	
+28838	Magognino	
+28841	Viganella	
+28842	Fonti	
+28843	Montescheno	
+28844	Villadossola	
+28845	Domodossola	
+28851	Beura Cardezza	
+28852	Vocogno	
+28853	Druogno	
+28854	Zornasco	
+28855	Masera	
+28856	Villette	
+28857	Santa Maria Maggiore	
+28858	Toceno	
+28859	Trontano	
+28861	Baceno	
+28862	Crodo	
+28863	Formazza	
+28864	Roldo	
+28865	Preglia	
+28866	Premia	
+28868	Iselle	
+28871	Bannio Anzino	
+28873	Castiglione D'Ossola	
+28875	Ceppo Morelli	
+28876	Macugnaga	
+28877	Ornavasso	
+28879	San Carlo	
+28881	Ramate	
+28883	Gravellona Toce	
+28884	Pallanzeno	
+28885	Piedimulera	
+28886	Pieve Vergonte	
+28887	Bagnella	
+28891	Cesara	
+28893	Loreglia	
+28894	Madonna Del Sasso	
+28895	Forno Di Omegna	
+28896	Quarna Sotto	
+28897	Valstrona	
+28898	Quarna Sopra	
+28899	Arola	
+28922	Verbania	
+29010	Agazzano	
+29011	Castelnovo Val Tidone	
+29012	Caorso	
+29013	Rezzano	
+29014	Vigolo Marchese	
+29015	Creta	
+29016	Cortemaggiore	
+29017	San Protaso	
+29018	Lugagnano Val D'Arda	
+29019	San Damiano	
+29020	Quadrelli	
+29021	Bramaiano	
+29022	Mezzano Scotti	
+29023	Farini	
+29024	Torrio Casetta	
+29025	Groppovisdomo	
+29026	Orezzoli	
+29027	San Polo	
+29028	Biana	
+29029	Niviano Castello	
+29100	Sant'Antonio	ER
+30010	Campagna Lupia	
+30013	Treporti	
+30014	Rottanova	
+30015	Sant'Anna Di Chioggia	
+30016	Iesolo	
+30020	Ponte Crepaldo	
+30021	Caorle	
+30022	Ceggia	
+30023	Sindacale	
+30024	Musile Di Piave	
+30025	Fossalta Di Portogruaro	
+30026	Portogruaro	
+30027	Calvecchia	
+30028	Cesarolo	
+30029	Santo Stino Di Livenza	
+30030	Maerne	
+30031	Dolo	
+30032	Fiesso D'Artico	
+30033	Cappelletta	
+30034	Borbiago	
+30035	Vetrego	
+30036	Sant'Angelo	
+30037	Scorze'	
+30038	Orgnano	
+30039	Paluello	
+30100	Venezia	VN
+30121	Venezia	VN
+30122	Sant'Elena	VN
+30123	Venezia	VN
+30124	Venezia	VN
+30125	Venezia	VN
+30126	Lido Di Venezia	VN
+30131	Venezia	VN
+30132	Venezia	VN
+30133	Giudecca	VN
+30135	Venezia	VN
+30141	Murano	VN
+30142	Burano	VN
+30170	Venezia Mestre	VN
+30171	Mestre	VN
+30172	Mestre	VN
+30173	Villaggio San Marco	VN
+30174	Zelarino	VN
+30175	Ca' Emiliani	VN
+31010	Santa Maria Del Piave	
+31011	Villa D'Asolo	
+31012	Anzano	
+31013	Roverbasso	
+31014	San Martino Di Colle Umberto	
+31015	Scomigo	
+31016	Villa Di Villa	
+31017	Paderno Del Grappa	
+31018	Campomolino	
+31020	Tarzo	
+31021	Bonisiolo	
+31022	Sambughe	
+31023	Castelminio	
+31024	Roncadelle	
+31025	Santa Lucia Di Piave	
+31026	Sarmede	
+31027	Lovadina	
+31028	Visna'	
+31029	San Giacomo Di Veglia	
+31030	Pero	
+31031	Caerano Di San Marco	
+31032	Lughignano	
+31033	Salvarosa	
+31034	Cavaso Del Tomba	
+31035	Crocetta Del Montello	
+31036	Pezzan	
+31037	Ramon Campagna	
+31038	Porcellengo	
+31039	Spineda	
+31040	Covolo	
+31041	Cornuda	
+31042	Fagare'	
+31043	Lutrano	
+31044	Biadene	
+31045	Motta Di Livenza	
+31046	Piavon	
+31047	Levada	
+31048	Spercenigo	
+31049	San Vito Di Valdobbiadene	
+31050	Cavasagra Di Vedelago	
+31051	Pedeguarda	
+31052	Candelu'	
+31053	Pieve Di Soligo	
+31054	Possagno	
+31055	Quinto Di Treviso	
+31056	Biancade	
+31057	Silea	
+31058	Susegana	
+31059	Sant'Alberto	
+31100	Fiera	VN
+32010	Chies D'Alpago	
+32012	Dozza Di Zoldo	
+32013	Fortogna	
+32014	Cadola	
+32015	Cornei	
+32016	Farra D'Alpago	
+32020	Lentiai	
+32021	Agordo	
+32022	Alleghe	
+32026	Mel	
+32027	Taibon Agordino	
+32028	Sant'Antonio Tortal	
+32030	Cesiomaggiore	
+32031	Fener	
+32032	Villapaiera	
+32033	Lamon	
+32034	Facen	
+32035	Formegan	
+32036	Bribano	
+32037	Mis	
+32040	Lozzo Di Cadore	
+32041	Misurina	
+32042	Calalzo Di Cadore	
+32043	Zuel	
+32044	Pieve Di Cadore	
+32045	Campolongo Di Cadore	
+32046	San Vito Di Cadore	
+32047	Sappada	
+32100	Fiammoi	VN
+33010	Adegliacco	
+33011	Artegna	
+33013	Gemona Del Friuli	
+33015	Moggio Di Sotto	
+33016	Pontebba	
+33017	Bulfons	
+33018	Fusine In Valromana	
+33019	Leonacco	
+33020	Amaro	
+33021	Ampezzo	
+33022	Piano D'Arta	
+33023	Comeglians	
+33024	Forni Di Sopra	
+33025	Ovaro	
+33026	Cleulis	
+33027	Salino	
+33028	Caneva Di Tolmezzo	
+33029	Lauco	
+33030	Forgaria Nel Friuli	
+33031	Variano	
+33032	Pozzecco	
+33033	Rivolto	
+33034	Madrisio	
+33035	Torreano Di Martignacco	
+33036	Tomba	
+33037	Colloredo Di Prato	
+33038	Villanova Di San Daniele	
+33039	San Lorenzo	
+33040	Prepotto	
+33041	Aiello Del Friuli	
+33042	Buttrio	
+33043	Purgessimo	
+33044	Manzano	
+33045	Nimis	
+33046	Pulfero	
+33047	Ziracco	
+33048	Villanova Dello Iudrio	
+33049	San Pietro Al Natisone	
+33050	Casale Della Madonna	
+33051	Belvedere	
+33052	Strassoldo	
+33053	Latisana	
+33054	Lignano Pineta	
+33055	Muzzana Del Turgnano	
+33056	Palazzolo Dello Stella	
+33057	Sottoselva	
+33058	San Giorgio Di Nogaro	
+33059	Villa Vicentina	
+33070	Maron	
+33072	Casarsa Della Delizia	
+33074	Ceolini	
+33075	Mussons	
+33076	Barco	
+33077	Sacile	
+33078	Gleris	
+33079	Ramuscello	
+33080	Roraipiccolo	
+33081	Castello	
+33082	Corva	
+33083	Chions	
+33084	Cordenons	
+33085	Campagna	
+33086	San Leonardo	
+33087	Cecchini	
+33090	Anduins	
+33092	Fanna	
+33094	Valeriano	
+33095	San Giorgio Della Richinvelda	
+33097	Barbeano	
+33098	Arzene	
+33099	Vivaro	
+33100	Baldasseria	FV
+33170	Pordenone	FV
+34010	Sgonico	
+34011	San Pelagio	
+34012	Basovizza	
+34014	Santa Croce	
+34015	Aquilinia	
+34016	Monrupino	
+34017	Prosecco	
+34018	Bagnoli Della Rosandra	
+34070	Giasbana	
+34071	Cormons	
+34072	Farra D'Isonzo	
+34073	Rotta Primero	
+34074	Monfalcone	
+34075	Begliano	
+34076	Fratta	
+34077	Ronchi Dei Legionari	
+34078	Sagrado	
+34079	Bistrigna	
+34100	Trieste	FV
+34121	Trieste	FV
+34122	Trieste	FV
+34123	Trieste	FV
+34124	Trieste	FV
+34125	Trieste	FV
+34126	Trieste	FV
+34127	Trieste	FV
+34128	Trieste	FV
+34129	Trieste	FV
+34131	Trieste	FV
+34132	Trieste	FV
+34133	Trieste	FV
+34134	Trieste	FV
+34135	Trieste	FV
+34136	Cedas	FV
+34137	Trieste	FV
+34138	Trieste	FV
+34139	Trieste	FV
+34141	Trieste	FV
+34142	Trieste	FV
+34143	Trieste	FV
+34144	Trieste	FV
+34145	Trieste	FV
+34146	Trieste	FV
+34147	Aquilinia	FV
+34148	Trieste	FV
+34149	Cattinara	FV
+34151	Trieste	FV
+34170	Gorizia	FV
+35010	Cadoneghe	
+35011	Campodarsego	
+35012	Camposampiero	
+35013	Laghi	
+35014	Fontaniva	
+35015	Galliera Veneta	
+35016	Tremignon	
+35017	Torreselle	
+35018	San Martino Di Lupari	
+35019	Onara	
+35020	Albignasego	
+35021	Agna	
+35022	Anguillara Veneta	
+35023	Le Casette	
+35024	Bovolenta	
+35025	Cartura	
+35026	Conselve	
+35027	Oltre Brenta	
+35028	Arzerello	
+35029	Pontelongo	
+35030	Rubano	
+35031	Abano Terme	
+35032	Arqua' Petrarca	
+35034	Lozzo Atestino	
+35035	Mestrino	
+35036	Montegrotto Terme	
+35037	Treponti	
+35038	Torreglia	
+35040	Masi	
+35041	Battaglia Terme	
+35042	Deserto	
+35043	San Cosma	
+35044	Montagnana	
+35045	Ospedaletto Euganeo	
+35046	Saletto	
+35047	Solesino	
+35048	Pisana	
+35100	Padova	VN
+35121	Padova	VN
+35122	Padova	VN
+35123	Padova	VN
+35124	Salboro	VN
+35125	Guizza	VN
+35126	Padova	VN
+35127	Camin	VN
+35128	Padova	VN
+35129	Padova	VN
+35131	Padova	VN
+35132	Padova	VN
+35133	Padova	VN
+35134	Padova	VN
+35135	Padova	VN
+35136	Padova	VN
+35137	Padova	VN
+35138	Monta'	VN
+35139	Padova	VN
+35141	Padova	VN
+35142	Mandria	VN
+35143	Brusegana	VN
+36010	Seghe	
+36011	Castana	
+36012	Sasso	
+36013	Piovene Rocchette	
+36014	Santorso	
+36015	Sant'Ulderico Di Tretto	
+36016	Thiene	
+36020	Carpane'	
+36021	Ponte Di Barbarano	
+36022	San Giuseppe	
+36023	Bugano	
+36024	Mossano	
+36025	Noventa Vicentina	
+36026	Cagnano	
+36027	Rosa'	
+36028	Rossano Veneto	
+36030	Valli Del Pasubio	
+36031	Dueville	
+36032	Gallio	
+36033	Castelnovo	
+36034	Malo	
+36035	Marano Vicentino	
+36036	Torrebelvicino	
+36040	Brendola	
+36042	Breganze	
+36043	Camisano Vicentino	
+36045	Almisano	
+36046	Lusiana	
+36047	Montegalda	
+36050	Villaggio Montegrappa	
+36051	Creazzo	
+36052	Enego	
+36053	Gambellara	
+36054	Montebello Vicentino	
+36055	Nove	
+36056	Tezze Sul Brenta	
+36057	Pianezze Del Lago	
+36060	Romano D'Ezzelino	
+36061	Valrovina	
+36062	Fontanelle	
+36063	Marostica	
+36064	Mason Vicentino	
+36065	Mussolente	
+36066	Sandrigo	
+36070	San Pietro Vecchio	
+36071	Pugnello	
+36072	Chiampo	
+36073	Cornedo Vicentino	
+36075	Sant'Urbano	
+36076	Rovegliana	
+36077	Valmarana	
+36078	San Quirico	
+36100	Polegge	VN
+37010	Torri Del Benaco	
+37011	Cisano	
+37012	San Vito Al Mantico	
+37013	Pesina	
+37014	Sandra'	
+37015	Gargagnago	
+37016	Garda	
+37017	Cola'	
+37018	Cassone	
+37019	San Benedetto Di Lugana	
+37020	Volargne	
+37021	Lughezzano	
+37022	Fumane	
+37023	Grezzana	
+37024	Arbizzano	
+37026	Pescantina	
+37028	Rovere' Veronese	
+37029	Corrubbio	
+37030	Vestenanova	
+37031	Cellore	
+37032	Costalunga	
+37035	San Giovanni Ilarione	
+37036	Ferrazze	
+37038	Castelletto	
+37039	Cogollo	
+37040	Gazzolo	
+37041	Coriano Veronese	
+37042	Caldiero	
+37043	Mena'	
+37044	Sule'	
+37045	Terranegra	
+37046	Minerbe	
+37047	Villabella	
+37049	Carpi Di Villa Bartolomea	
+37050	San Pietro Di Morubio	
+37051	Villafontana	
+37052	Casaleone	
+37053	Asparetto	
+37054	Nogara	
+37055	Tombazosana	
+37056	Salizzole	
+37057	San Giovanni Lupatoto	
+37058	Sanguinetto	
+37059	Zevio	
+37060	Mozzecane	
+37062	Alpo	
+37063	Tarmassia	
+37064	Povegliano Veronese	
+37066	Custoza	
+37067	Salionze	
+37068	Isolalta	
+37069	Quaderni	
+37100	Verona	VN
+37121	Verona	VN
+37122	Verona	VN
+37123	Verona	VN
+37124	Verona	VN
+37125	Quinzano	VN
+37126	Verona	VN
+37127	Avesa	VN
+37128	Verona	VN
+37129	Verona	VN
+37131	Verona	VN
+37132	San Michele Extra	VN
+37133	Verona	VN
+37134	Verona	VN
+37135	Verona	VN
+37136	Verona	VN
+37137	Verona	VN
+37138	Verona	VN
+37139	Chievo	VN
+37142	Verona	VN
+38010	Romeno	
+38011	Amblar	
+38012	Dermulo	
+38013	Malosco	
+38015	Lavis	
+38016	Mezzocorona	
+38017	Mezzolombardo	
+38018	Molveno	
+38019	Tuenno	
+38020	Mocenigo	
+38021	Brez	
+38022	Bozzana	
+38023	Mechel	
+38024	Peio	
+38025	Dimaro	
+38026	Cusiano	
+38027	Terzolas	
+38028	Cagno'	
+38029	Vermiglio	
+38030	Lisignago	
+38031	Campitello Di Fassa	
+38032	Penia	
+38033	Masi Di Cavalese	
+38034	Cembra	
+38035	Forno	
+38036	Pozza Di Fassa	
+38037	Bellamonte	
+38038	Tesero	
+38039	Costalunga	
+38040	Centa San Nicolo'	
+38041	Albiano	
+38042	Baselga Di Pine'	
+38043	Brusago	
+38045	Seregnano	
+38046	Lavarone	
+38047	Quaras	
+38048	Sover	
+38049	Bosentino	
+38050	Novaledo	
+38051	Borgo	
+38052	Caldonazzo	
+38053	Castello Tesino	
+38054	Fiera Di Primiero	
+38055	Grigno	
+38056	Levico Terme	
+38057	Falesina	
+38059	Agnedo	
+38060	Aldeno	
+38061	Pilcante	
+38062	San Giorgio	
+38063	Sabbionara	
+38064	San Sebastiano	
+38065	Pannone	
+38066	Riva Del Garda	
+38067	Biacesa Di Ledro	
+38068	Marco	
+38069	Nago Torbole	
+38070	Vezzano	
+38071	Bleggio Superiore	
+38072	Calavino	
+38073	Cavedine	
+38074	Pietramurata	
+38075	Ballino	
+38076	Castel Madruzzo	
+38077	Bagni Di Comano	
+38078	Moline Di Banale	
+38079	Bolbeno	
+38080	Iavre'	
+38081	Breguzzo	
+38082	Castel Condino	
+38083	Condino	
+38085	Prezzo	
+38086	Sant'Antonio Di Mavignola	
+38087	Lardaro	
+38088	Spiazzo Rendena	
+38089	Darzo	
+38100	Trento	TT
+39010	Saltau	
+39011	Lana	
+39012	Sinigo	
+39013	Plan In Passiria	
+39014	Postal	
+39015	Walte	
+39016	St.Nikolau	
+39017	Scena	
+39018	Siebeneic	
+39019	Tirolo	
+39020	Unser Fra	
+39021	Tarres	
+39022	Lagundo	
+39023	Tschengel	
+39024	Laudes	
+39025	Stava	
+39026	Prato Allo Stelvio	
+39027	Curon Venosta	
+39028	Goefla	
+39029	Solda	
+39030	Niedervint	
+39031	Brunico	
+39032	Moehlen In Taufer	
+39033	Kolfusch	
+39034	Dobbiaco	
+39035	Taiste	
+39036	Pedrace	
+39037	Rio Di Pusteria	
+39038	San Candido	
+39039	Villabassa	
+39040	Aldino	
+39041	Brennero	
+39042	St.Andr	
+39043	Gudon	
+39044	Laghetti	
+39045	Fortezza	
+39046	Ortisei	
+39047	Santa Cristina Val Gardena	
+39048	Wolkenstei	
+39049	Stazione	
+39050	Valas	
+39051	Bronzolo	
+39052	Caldaro Sulla Strada Del Vino	
+39053	Bluma	
+39054	Collalbo	
+39055	Laives	
+39056	Carezza Al Lago	
+39057	Frangarto	
+39058	Villa	
+39100	Bozen	TT
+40010	Bentivoglio	
+40011	Lavino Di Mezzo	
+40012	Longara	
+40013	Villa Salina	
+40014	Palata Pepoli	
+40015	Bosco	
+40016	San Giorgio Di Piano	
+40017	Decima	
+40018	Maccaretolo	
+40019	Sant'Agata Bolognese	
+40020	Casalfiumanese	
+40021	Borgo Tossignano	
+40022	Moraduccio	
+40023	Castel Guelfo Di Bologna	
+40024	San Martino In Pedriolo	
+40025	Carseggio	
+40026	Sesto Imolese	
+40027	Mordano	
+40030	Castel Di Casio	
+40032	Bargi	
+40033	Casalecchio Di Reno	
+40034	Rocca Di Roffeno	
+40035	Creda	
+40036	Rioveggio	
+40037	Fontana	
+40038	Susano	
+40041	Gaggio Montano	
+40042	Monteacuto Delle Alpi	
+40043	Lama Di Setta	
+40045	Casa Calistri	
+40046	Castelluccio	
+40048	Castel Dell'Alpi	
+40050	Monterenzio	
+40051	Altedo	
+40052	Boschi	
+40053	Bazzano	
+40054	Mezzolara	
+40055	Fiesso	
+40056	Calcara	
+40057	Fabbreria Di Cadriana	
+40059	Buda	
+40060	Gallo	
+40061	Minerbio	
+40062	Molinella	
+40063	Monghidoro	
+40064	Ozzano Dell'Emilia	
+40065	Pianoro	
+40066	Pieve Di Cento	
+40067	Rastignano	
+40068	Farneto	
+40069	Ponte Ronca	
+40100	Bologna	ER
+40121	Bologna	ER
+40122	Bologna	ER
+40123	Bologna	ER
+40124	Bologna	ER
+40125	Bologna	ER
+40126	Bologna	ER
+40127	San Donnino	ER
+40128	Corticella	ER
+40129	Bologna	ER
+40131	Bologna	ER
+40132	Bologna	ER
+40133	Bologna	ER
+40134	Bologna	ER
+40135	Casaglia	ER
+40136	Gaibola	ER
+40137	Bologna	ER
+40138	Roveri	ER
+40139	Bologna	ER
+40141	San Ruffillo	ER
+41010	Limidi	
+41011	Campogalliano	
+41012	Cortile	
+41013	Manzolino	
+41014	Levizzano Rangone	
+41015	Nonantola	
+41016	Novi Di Modena	
+41017	Stuffione	
+41018	San Cesario Sul Panaro	
+41019	Appalto	
+41020	Groppo	
+41021	Fanano	
+41022	Dogana Nuova	
+41023	Cadignano	
+41025	Acquaria	
+41026	Camatta	
+41027	Sant'Anna Pelago	
+41028	Montagnana	
+41029	Castellaro	
+41030	Gorghetto	
+41031	Camposanto	
+41032	Cavezzo	
+41033	San Giovanni	
+41034	Reno Finalese	
+41035	Massa Finalese	
+41036	Camurana	
+41037	Mortizzuolo	
+41038	Dogaro	
+41039	San Possidonio	
+41040	Polinago	
+41042	Ubersetto	
+41043	Formigine	
+41044	Riccovolto	
+41045	Montefiorino	
+41046	Boccassuolo	
+41048	Montebaranzone	
+41049	Sassuolo	
+41051	Montale	
+41052	Pieve Trebbio	
+41053	Pozza	
+41054	Villa Bianca	
+41055	Castelluccio	
+41056	Formica	
+41057	San Vito	
+41058	Vignola	
+41059	Montealbano	
+41100	Baggiovara	ER
+42010	San Cassiano	
+42011	Bagnolo In Piano	
+42012	Campagnola Emilia	
+42013	Salvaterra	
+42014	Roteglia	
+42015	Correggio	
+42016	San Girolamo	
+42017	Vezzola	
+42018	San Martino In Rio	
+42019	Fellegara	
+42020	Albinea	
+42021	Barco	
+42022	Boretto	
+42023	Argine	
+42024	Meletole	
+42025	Cavriago	
+42026	Ciano D'Enza	
+42027	Montecchio Emilia	
+42028	Poviglio	
+42030	Villa Minozzo	
+42031	Casino Levizzano	
+42032	Busana	
+42033	Pantano	
+42034	Paullo Di Casina	
+42035	Croce	
+42037	Collagna	
+42039	Cinquecerri	
+42040	Caprara	
+42041	Lentigione	
+42042	Fabbrico	
+42043	Taneto	
+42044	Santa Vittoria Di Gualtieri	
+42045	Casoni	
+42046	Brugneto	
+42047	Rolo	
+42048	Rubiera	
+42049	Sant'Ilario D'Enza	
+42100	Coviolo	ER
+43010	Bianconese	
+43011	Busseto	
+43012	Parola	
+43013	Pastorello	
+43014	Medesano	
+43015	Cella Di Costamezzana	
+43017	San Secondo Parmense	
+43018	Gramignazzo	
+43019	Soragna	
+43020	Beduzzo	
+43021	Corniglio	
+43022	Monticelli Terme Di Montechiarugolo	
+43024	Sasso Di Neviano	
+43025	Palanzano	
+43028	Musiara Inferiore	
+43029	Mamiano	
+43030	Marzolara	
+43032	Pione	
+43035	Felino	
+43036	Cogolonchio	
+43037	Lesignano De' Bagni	
+43038	San Vitale	
+43039	Congelasio	
+43040	Felegara	
+43041	Bedonia	
+43042	Ghiare Di Berceto	
+43043	Porcigatone	
+43044	Ozzano Taro	
+43045	Sivizzano	
+43047	Mariano	
+43048	Varano Marchesi	
+43049	Pessola	
+43050	Mormorola	
+43051	Albareto	
+43052	Colorno	
+43053	Cereseto	
+43055	Mezzani	
+43056	Torrile	
+43058	Chiozzola	
+43059	Santa Maria Del Taro	
+43100	Cortile San Martino	ER
+43126	Parma	ER
+44010	Filo	
+44011	Argenta	
+44012	Ospitale	
+44014	Madonna Boschi	
+44015	Portomaggiore	
+44016	San Biagio	
+44019	Montesanto	
+44020	Ostellato	
+44021	Pontemaodino	
+44022	Comacchio	
+44023	Lagosanto	
+44025	Massa Fiscaglia	
+44026	Bosco	
+44027	Migliarino	
+44028	Poggio Renatico	
+44029	Porto Garibaldi	
+44030	Alberone Di Ro	
+44033	Berra	
+44034	Ambrogio	
+44035	Brazzolo	
+44037	Jolanda Di Savoia	
+44039	Tresigallo	
+44041	Casumaro	
+44042	Cento	
+44043	Mirabello	
+44045	Renazzo	
+44047	Sant'Agostino	
+44048	Traghetto	
+44049	Vigarano Pieve	
+44100	Ferrara	ER
+45010	Ceregnano	
+45011	Ca' Emo	
+45012	San Basilio	
+45014	Villaregia	
+45015	Corbola	
+45017	Loreo	
+45018	Boccasette	
+45019	Mazzorno Destro	
+45020	Pincara	
+45021	Colombano	
+45022	Bagnolo Di Po	
+45023	Costa Di Rovigo	
+45024	Fiesso Umbertiano	
+45025	Fratta Polesine	
+45026	Ramodipalo Rasa	
+45027	Trecenta	
+45030	Occhiobello	
+45031	Arqua' Polesine	
+45032	Bergantino	
+45033	Bosaro	
+45034	Paviole	
+45035	Castelmassa	
+45036	Ficarolo	
+45037	Santo Stefano	
+45038	Raccano	
+45039	Stienta	
+45100	Cantonazzo	VN
+46010	Levata	
+46011	Mosio	
+46012	Bozzolo	
+46013	Canneto Sull'Oglio	
+46014	Ospitaletto Mantovano	
+46017	Cividale Mantovano	
+46018	Ponteterra	
+46019	Cicognara	
+46020	Polesine	
+46022	Felonica	
+46023	Bondeno Di Gonzaga	
+46024	Bondanello	
+46025	Poggio Rusco	
+46026	Nuvolato	
+46027	Portiolo	
+46028	Moglia Di Sermide	
+46029	Brusatasso	
+46030	Pomponesco	
+46031	Bagnolo San Vito	
+46032	Castelbelforte	
+46033	Castel D'Ario	
+46035	Correggioli	
+46036	Revere	
+46037	Governolo	
+46039	Villimpenta	
+46040	Piubega	
+46041	Castelnuovo	
+46042	Castel Goffredo	
+46043	Castiglione Delle Stiviere	
+46044	Solarolo	
+46045	Pozzolo	
+46046	Medole	
+46047	Soave	
+46048	Pellaloco	
+46049	Volta Mantovana	
+46100	Mantova	LM
+47010	Galeata	
+47011	Castrocaro Terme E Terra Del Sole	
+47012	Nespoli	
+47013	San Ruffillo	
+47014	Teodorano	
+47015	Modigliana	
+47016	Fiumana	
+47017	Calbola	
+47018	Monte Guidi	
+47019	Tredozio	
+47020	Montiano	
+47021	Bagno Di Romagna	
+47023	Lizzano	
+47025	Monte Castello	
+47027	Ranchio	
+47028	Balze	
+47030	Montegelli	
+47032	Panighina	
+47034	Forlimpopoli	
+47035	Gambettola	
+47039	Savignano Sul Rubicone	
+47042	Bagnarola	
+47043	Gatteo	
+47100	Ronco	ER
+47814	Igea Marina	
+47822	Santa Giustina Di Santarcangelo	
+47824	Poggio Berni	
+47825	Torriana	
+47826	Villa Verucchio	
+47832	San Clemente	
+47833	Morciano Di Romagna	
+47834	Serbadone	
+47835	Santa Maria Del Monte	
+47836	Mondaino	
+47837	Montegridolfo	
+47838	Riccione	
+47841	Cattolica	
+47842	San Giovanni In Marignano	
+47843	Scacciano	
+47853	Ospedaletto	
+47854	Monte Colombo	
+47855	Gemmano	
+47861	Casteldelci	
+47862	Maiolo	
+47863	Ponte Molino Baffoni	
+47864	Ponte Messa	
+47865	Montemaggio	
+47866	Sant'Agata Feltria	
+47867	Talamello	
+47900	San Fortunato	
+48010	Fusignano	
+48011	Alfonsine	
+48012	Abbatesse	
+48013	San Cassiano	
+48014	Castel Bolognese	
+48015	Pisignano	
+48017	Conselice	
+48018	Celle	
+48020	Sant'Alberto	
+48022	San Bernardino	
+48024	Massa Lombarda	
+48025	Riolo Terme	
+48026	Russi	
+48027	Gaiano	
+48100	San Bartolo	ER
+50010	Caldine	
+50012	Antella	
+50013	Il Rosi	
+50014	Fiesole	
+50018	Le Bagnese San Giusto	
+50019	Osmannoro	
+50020	Mercatale Val Di Pesa	
+50021	Barberino Val D'Elsa	
+50022	Panzano	
+50023	Bottai	
+50025	Lucardo	
+50026	San Casciano In Val Di Pesa	
+50027	Chiocchio	
+50028	Sambuca Val Di Pesa	
+50031	Montecarelli	
+50032	Panicaglia	
+50033	Coniale	
+50034	Lutirano	
+50035	Palazzuolo Sul Senio	
+50036	Pratolino	
+50037	San Piero A Sieve	
+50038	Sant'Agata Mugello	
+50039	Cistio	
+50041	Le Croci	
+50050	Gavena	
+50051	Castelnuovo D'Elsa	
+50052	Fiano	
+50053	Brusciana	
+50054	Fucecchio	
+50055	Brucianesi	
+50056	Sammontana	
+50058	San Mauro	
+50059	Orbignano	
+50060	Pelago	
+50061	Compiobbi	
+50062	Sandetole	
+50063	Figline Valdarno	
+50064	Incisa In Val D'Arno	
+50065	Santa Brigida	
+50066	Leccio	
+50067	Rignano Sull'Arno	
+50068	Rufina	
+50100	Firenze	TC
+50121	Firenze	TC
+50122	Firenze	TC
+50123	Firenze	TC
+50124	Galluzzo	TC
+50125	San Felice A Ema	TC
+50126	Pieve A Ripoli	TC
+50127	Firenze	TC
+50129	Firenze	TC
+50131	Firenze	TC
+50132	Firenze	TC
+50133	Firenze	TC
+50134	Firenze	TC
+50135	Montalbano	TC
+50136	Rovezzano	TC
+50137	Firenze	TC
+50139	Firenze	TC
+50141	Rifredi	TC
+50142	Mantignano	TC
+50143	Firenze	TC
+50144	Firenze	TC
+50145	Brozzi	TC
+51010	Massa E Cozzile	
+51011	Borgo A Buggiano	
+51012	Collodi	
+51013	Chiesina Uzzanese	
+51015	Pozzarello	
+51016	Montecatini Val Di Nievole	
+51017	Castelvecchio	
+51018	Pieve A Nievole	
+51019	Anchione	
+51020	Castello	
+51021	Abetone	
+51024	Pianosinatico	
+51028	Bardalone	
+51030	Momigno	
+51031	San Michele	
+51034	Casalguidi	
+51035	Mastromarco	
+51036	Castelmartini	
+51037	Fognano Di Montale	
+51039	Catena	
+51100	Pistoia	TC
+52010	Moggiona	
+52011	Banzena	
+52014	Porrena	
+52015	Pratovecchio	
+52016	Castel Focognano	
+52017	Stia	
+52018	Castel San Niccolo'	
+52020	Cavi	
+52021	Torre	
+52022	Neri	
+52024	San Giustino Valdarno	
+52025	Montevarchi	
+52026	Faella	
+52027	San Giovanni Valdarno	
+52028	Malva	
+52029	Castiglion Fibocchi	
+52030	Ca' Raffaello	
+52031	Anghiari	
+52032	Badia Tedalda	
+52033	Caprese Michelangelo	
+52035	Le Ville	
+52036	Madonnuccia	
+52037	Gricignano	
+52038	Colcellalto	
+52041	Badia Al Pino	
+52043	Montecchio	
+52044	Santa Caterina	
+52045	Foiano Della Chiana	
+52046	Lucignano	
+52047	Marciano Della Chiana	
+52048	Montagnano Alberoro	
+52100	Arezzo	TC
+53011	Castellina In Chianti	
+53012	Frosini	
+53013	Gaiole In Chianti	
+53014	Ponte D'Arbia	
+53015	Scalvaia	
+53016	Murlo	
+53017	Lucarelli	
+53018	San Rocco A Pilli	
+53019	Quercegrossa	
+53020	Castelmuzio	
+53021	Abbadia San Salvatore	
+53022	Buonconvento	
+53023	Gallina	
+53024	Montalcino	
+53025	Piancastagnaio	
+53026	Pienza	
+53027	Bagno Vignoni	
+53030	Radicondoli	
+53031	Pievescola	
+53034	Campiglia	
+53035	Uopini	
+53036	Poggibonsi	
+53037	San Gimignano	
+53040	Rapolano Terme	
+53041	Monte Oliveto Maggiore	
+53042	Chianciano Terme	
+53043	Montallese	
+53045	Abbadia	
+53047	Sarteano	
+53048	Guazzino	
+53049	Torrita Di Siena	
+53100	Siena	TC
+54010	Podenzana	
+54011	Caprigliola	
+54012	Tresana	
+54013	Gragnola	
+54014	Codiponte	
+54015	Comano	
+54016	Monti	
+54021	Corlaga	
+54023	Filattiera	
+54026	Groppoli	
+54027	Guinadi	
+54028	Filetto	
+54029	Chiesa Di Rossano	
+54033	Fossone	
+54035	Fosdinovo	
+54038	Cerreto	
+54100	Massa	TC
+55010	Gragnano	
+55011	Marginone	
+55012	Pieve San Paolo	
+55013	Lammari	
+55014	Marlia	
+55015	San Salvatore Di Montecarlo	
+55016	Porcari	
+55018	Segromigno In Piano	
+55019	Botticino	
+55020	Fornovolasco	
+55022	Bagni Di Lucca Ponte	
+55023	Diecimo	
+55025	Calavorno	
+55027	Trassilico	
+55030	Careggine	
+55031	Filicaia	
+55032	Castelnuovo Di Garfagnana	
+55033	Valbona	
+55034	Minucciano	
+55035	Piazza Al Serchio	
+55036	Pieve Fosciana	
+55038	San Romano In Garfagnana	
+55040	Piano Di Mommio	
+55041	Montebello	
+55042	Forte Dei Marmi	
+55045	Strettoia	
+55047	Ponterosso	
+55049	Torre Del Lago Puccini	
+55051	Fornaci Di Barga	
+55054	Massarosa	
+55060	Massa Macinaia	
+55061	Carraia	
+55062	Colle Di Compito	
+55064	Piegaio Basso	
+55100	Lucca	TC
+56010	Vicopisano	
+56011	Gabella	
+56012	Fornacette	
+56017	Agnano	
+56019	Vecchiano	
+56020	San Romano	
+56021	Cascina	
+56022	Castelfranco Di Sotto	
+56023	Ripoli	
+56024	Corazzano	
+56025	Treggiaia	
+56028	San Miniato Basso	
+56029	Staffoli	
+56030	Morrona	
+56031	Quattro Strade	
+56032	La Croce	
+56033	San Pietro Belvedere	
+56034	Rivalto	
+56035	Usigliano	
+56036	Alica	
+56037	Ghizzano	
+56038	Giardino	
+56040	Canneto Di Monteverdi	
+56041	Sasso Pisano	
+56043	Fauglia	
+56044	Lustignano	
+56045	San Dalmazio	
+56046	Riparbella	
+56048	Saline Di Volterra	
+56100	Pisa	TC
+56121	Coltano	TC
+56122	Pisa	TC
+56123	Pisa	TC
+56124	Pisa	TC
+56125	Pisa	TC
+56126	Pisa	TC
+56127	Pisa	TC
+56128	Pisa	TC
+57014	Collesalvetti	
+57016	Castelnuovo Misericordia	
+57017	Guasticce	
+57020	La California	
+57021	Campiglia Marittima	
+57022	Marina Di Castagneto Carducci	
+57023	Cecina Marina	
+57025	Vignale Riotorto	
+57027	San Vincenzo	
+57028	Montioni	
+57030	Marciana	
+57031	Capoliveri	
+57032	Capraia Isola	
+57033	Marciana Marina	
+57034	Cavoli	
+57036	Porto Azzurro	
+57037	Magazzini	
+57038	Cavo	
+57039	Rio Nell'Elba	
+57100	Livorno	TC
+57121	Livorno	TC
+57122	Livorno	TC
+57123	Livorno	TC
+57124	Salviano	TC
+57125	Livorno	TC
+57126	Livorno	TC
+57127	Livorno	TC
+57128	Ardenza	TC
+58010	Albinia	
+58011	Chiarone	
+58012	Giglio Campese	
+58014	Poggio Capanne	
+58015	Orbetello Stazione	
+58017	Pitigliano	
+58018	Porto Ercole	
+58019	Monte Argentario	
+58020	Grilli	
+58022	Follonica	
+58023	Gavorrano	
+58024	Niccioleta	
+58025	Monterotondo Marittimo	
+58026	Boccheggiano	
+58027	Montemassi	
+58031	Bagnoli	
+58033	Montenero	
+58034	Selvena	
+58036	Sticciano Scalo	
+58037	Marroneto	
+58038	Seggiano	
+58040	Tatti	
+58042	Montorsaio	
+58043	Castiglione Della Pescaia	
+58044	Cinigiano	
+58045	Civitella Marittima	
+58051	Pereta	
+58053	Cana	
+58054	Murci	
+58055	Semproniano	
+58100	Grosseto	TC
+59011	Bacchereto	
+59013	Fornacelle	
+59015	Carmignano	
+59016	Poggetto	
+59021	Vaiano	
+59024	Mercatale	
+59025	Luicciana	
+59026	Montepiano	
+59100	Mezzana	TC
+60010	Barbara	
+60011	Castiglioni D'Arcevia	
+60013	Corinaldo	
+60015	Falconara Marittima	
+60018	Lungomare	
+60019	Cesano Di Senigallia	
+60020	Castel D'Emilio	
+60021	Aspio Terme	
+60022	Castelfidardo	
+60024	Montoro	
+60025	Villa Musone	
+60026	Numana Lido	
+60027	Casenuove	
+60030	Moie	
+60031	Castelplanio	
+60033	Grancetta	
+60034	Cupramontana	
+60035	Jesi	
+60036	Montecarotto	
+60037	Le Cozze	
+60038	San Paolo Di Jesi	
+60039	Staffolo	
+60040	Colleponi Di Genga	
+60041	Monterosso	
+60043	Cerreto D'Esi	
+60044	Argignano	
+60048	Serra San Quirico	
+60100	Ancona	MH
+60121	Ancona	MH
+60122	Ancona	MH
+60123	Ancona	MH
+60124	Ancona	MH
+60125	Ancona	MH
+60126	Ancona	MH
+60127	Pinocchio	MH
+60128	Ancona	MH
+60129	Pietralacroce	MH
+60131	Ancona	MH
+61010	Montegrimano	
+61011	Gabicce Mare	
+61012	Fanano	
+61013	Sassofeltrio	
+61014	Villagrande	
+61020	Auditore	
+61021	Frontino	
+61022	Colbordolo	
+61023	Pietrarubbia	
+61024	Mombaroccio	
+61025	Osteria Nuova	
+61026	Monastero	
+61028	Mercatale	
+61029	Gadana	
+61030	Saltara	
+61032	Bellocchi	
+61033	Fermignano	
+61034	Calmazzo	
+61037	Centocroci	
+61038	Orciano Di Pesaro	
+61039	San Costanzo	
+61040	Monte Porzio	
+61041	Acqualagna	
+61042	Apecchio	
+61043	Pianello	
+61044	Pontericcioli	
+61045	Bellisio Solfare	
+61046	Piobbico	
+61047	San Lorenzo In Campo	
+61048	Sant'Angelo In Vado	
+61049	Muraglione	
+61100	San Pietro In Calibano	MH
+62010	Montecosaro Stazione	
+62011	Cingoli	
+62012	Civitanova Marche	
+62014	San Claudio	
+62015	Villa San Filippo	
+62017	Porto Recanati	
+62018	Porto Potenza Picena	
+62019	Recanati	
+62020	Monte San Martino	
+62021	Poggio San Vicino	
+62022	Gagliole	
+62024	Esanatoglia	
+62025	Seppio	
+62026	San Ginesio	
+62027	Cesolo	
+62028	Sarnano	
+62029	Tolentino	
+62032	Polverina	
+62034	Muccia	
+62035	Bolognola	
+62036	Pie' Casavecchia	
+62038	Cesi Di Macerata	
+62039	Fematre	
+62100	Macerata	MH
+63020	Piane Di Falerone	
+63031	Castel Di Lama Stazione	
+63061	Massignano	
+63062	Montefiore Dell'Aso	
+63063	Carassai	
+63064	Cupra Marittima	
+63065	Ripatransone	
+63066	Ischia	
+63067	Cossignano	
+63068	Porchia	
+63069	Montedinove	
+63071	Rotella	
+63072	Ripaberarda	
+63073	Offida	
+63074	Porto D'Ascoli	
+63075	Acquaviva Picena	
+63076	Centobuchi	
+63077	Monsampolo Del Tronto	
+63078	Pagliare	
+63079	Colli Del Tronto	
+63081	San Silvestro	
+63082	Villa Sant'Antonio	
+63083	Appignano Del Tronto	
+63084	Villa Pigna	
+63085	Maltignano	
+63086	Force	
+63087	Croce Di Casale	
+63088	Montemonaco	
+63091	Venarotta	
+63092	Palmiano	
+63093	Agelli	
+63094	Montegallo	
+63095	San Martino Di Acquasanta	
+63096	Arquata Del Tronto	
+63100	Piagge Di Ascoli Piceno	MH
+63811	Castellano	
+63812	Montegranaro	
+63813	Monte Urano	
+63814	Torre San Patrizio	
+63815	Monte San Pietrangeli	
+63816	Francavilla D'Ete	
+63821	Porto Sant'Elpidio	
+63822	Porto San Giorgio	
+63823	Lapedona	
+63824	Marina Di Altidona	
+63825	Rubbianello	
+63826	Moresco	
+63827	Pedaso	
+63828	Campofilone	
+63831	Contrada Tenna	
+63832	Magliano Di Tenna	
+63833	Montegiorgio	
+63834	Massa Fermana	
+63835	Montappone	
+63836	Monte Vidon Corrado	
+63837	Piane	
+63838	Belmonte Piceno	
+63839	Curetta	
+63841	Monteleone Di Fermo	
+63842	Monsampietro Morico	
+63843	Montottone	
+63844	Grottazzolina	
+63845	Capparuccia	
+63846	Monte Giberto	
+63847	Monte Vidon Combatte	
+63848	Moregnano	
+63851	Ortezzano	
+63852	Monte Rinaldo	
+63853	Montelparo	
+63854	Santa Vittoria In Matenano	
+63855	Montefalcone Appennino	
+63856	Smerillo	
+63857	Amandola	
+63858	Montefortino	
+63900	Molini Di Tenna	
+64010	Colonnella	
+64011	Alba Adriatica	
+64012	Piancarani	
+64013	Corropoli	
+64014	Villa Rosa Di Martinsicuro	
+64015	Nereto	
+64016	Sant'Egidio Alla Vibrata	
+64018	Tortoreto	
+64020	Ripattoni	
+64021	Giulianova	
+64023	Notaresco Stazione	
+64024	Pianura Vomano	
+64025	Scerne Di Pineto	
+64026	Roseto Degli Abruzzi	
+64027	Poggio Morello	
+64028	Silvi	
+64030	Montefino	
+64031	Arsita	
+64032	Fontanelle	
+64033	Bisenti	
+64034	Appignano	
+64035	Villa San Romualdo	
+64036	Scorrano	
+64037	Montegualtieri	
+64039	Val Vomano	
+64040	Cortino	
+64041	Colledoro	
+64042	Villa Petto	
+64043	Nerito	
+64044	Fano Adriano	
+64045	Fano A Corno	
+64046	Montorio Al Vomano	
+64047	Pietracamela	
+64049	Chiarino	
+64100	Teramo	AB
+65010	Civitaquana	
+65011	Catignano	
+65012	Cepagatti	
+65013	Citta' Sant'Angelo	
+65014	Loreto Aprutino	
+65015	Villa Carmine	
+65017	Roccafinadamo	
+65019	Castellana	
+65020	San Valentino In Abruzzo Citeriore	
+65022	Bussi Sul Tirino	
+65023	San Tommaso	
+65024	Manoppello Scalo	
+65025	Serramonacesca	
+65026	Popoli	
+65027	Scafa	
+65028	Tocco Da Casauria	
+65029	Torre De' Passeri	
+65100	Pescara	AB
+65121	Pescara	AB
+65122	Pescara	AB
+65123	Pescara	AB
+65124	Pescara	AB
+65125	Pescara Colli	AB
+65126	Pescara	AB
+65127	Pescara	AB
+65128	Pescara	AB
+65129	Pineta Di Pescara	AB
+65131	Fontanelle	AB
+65132	San Silvestro	AB
+66010	San Rocco	
+66011	Colle Sant'Antonio	
+66012	Casalincontrada	
+66014	Villa Tucci	
+66015	Fara San Martino	
+66016	Villa San Vincenzo	
+66017	Palena	
+66018	Taranta Peligna	
+66019	Fallascoso	
+66020	Scerni	
+66021	Miracoli	
+66022	Fossacesia	
+66023	Francavilla Al Mare Rione Foro	
+66026	Ortona Porto	
+66030	Filetto	
+66031	Casalanguida	
+66032	Castel Frentano	
+66033	Castiglione Messer Marino	
+66034	Nasuti	
+66036	Orsogna	
+66037	Sant'Eusanio Del Sangro	
+66038	Marina Di San Vito	
+66040	Fallo	
+66041	Monte Marcone	
+66042	Bomba	
+66043	Selva Piana	
+66044	Piane D'Archi	
+66045	Schiavi Di Abruzzo	
+66046	Tornareccio	
+66047	Villa Santa Maria	
+66050	Olmi	
+66051	Cupello	
+66052	Gissi	
+66054	San Lorenzo Di Vasto	
+66100	Tricalle	AB
+67010	Barete	
+67012	San Giovanni	
+67013	Ortolano	
+67014	Capitignano	
+67015	Marana Di Montereale	
+67017	Marruci	
+67019	Sella Di Corno	
+67020	Caporciano	
+67021	Picenze	
+67022	Capestrano	
+67023	Castel Del Monte	
+67024	Castelvecchio Subequo	
+67025	Ofena	
+67026	Poggio Picenze	
+67027	Raiano	
+67028	San Demetrio Ne' Vestini	
+67029	Secinaro	
+67030	Cocullo	
+67031	Castel Di Sangro	
+67032	Pescasseroli	
+67033	Pescocostanzo	
+67034	Pettorano Sul Gizio	
+67035	Bagnaturo	
+67036	Rivisondoli	
+67037	Pietransieri	
+67038	Frattura	
+67039	Arabona	
+67040	San Martino D'Ocre	
+67041	Aielli	
+67043	Celano	
+67044	Cerchio	
+67045	Casamaina Di Lucoli	
+67046	Santo Iona	
+67047	Rocca Di Cambio	
+67048	Rovere Di Rocca Di Mezzo	
+67049	San Nicola Di Tornimparte	
+67050	San Vincenzo Valle Roveto Superiore	
+67051	Cese	
+67052	Balsorano Nuovo	
+67053	Corcumello	
+67054	Civitella Roveto	
+67055	Gioia Dei Marsi	
+67056	Luco Dei Marsi	
+67057	Venere	
+67058	San Benedetto Dei Marsi	
+67059	Trasacco	
+67060	Verrecchie	
+67061	Colli Di Montebove	
+67062	Rosciolo	
+67063	Oricola	
+67064	Pereto	
+67066	Rocca Di Botte	
+67067	Santo Stefano Di Sante Marie	
+67068	Cappelle	
+67069	Tremonti	
+67100	L'Aquila	AB
+70010	Superga	
+70011	Alberobello	
+70013	Castellana Grotte	
+70014	Triggianello	
+70015	Noci	
+70016	Noicattaro	
+70017	San Pietro Piturno	
+70018	Rutigliano	
+70019	Triggiano	
+70020	Cassano Delle Murge	
+70021	Acquaviva Delle Fonti	
+70022	Parisi	
+70023	Gioia Del Colle	
+70024	La Murgetta	
+70025	Grumo Appula	
+70026	Modugno	
+70027	Palo Del Colle	
+70028	Sannicandro Di Bari	
+70029	Santeramo In Colle	
+70032	Mariotto	
+70033	Corato	
+70037	Ruvo Di Puglia	
+70038	Terlizzi	
+70042	Cozze	
+70043	Cozzana	
+70044	Polignano A Mare	
+70054	Giovinazzo	
+70056	Molfetta	
+70100	Bari	PU
+70121	Bari	PU
+70122	Bari	PU
+70123	Fesca	PU
+70124	Bari	PU
+70125	Carrassi	PU
+70126	Japigia	PU
+70127	Santo Spirito	PU
+70128	Palese	PU
+70129	Loseto	PU
+70131	Carbonara Di Bari	PU
+71010	Difensola	
+71011	Apricena	
+71012	Rodi Garganico	
+71013	Matine	
+71014	Borgo Celano	
+71015	San Nicandro Garganico	
+71016	San Severo	
+71017	Petrulli	
+71018	San Menaio	
+71019	Vieste	
+71020	Panni	
+71021	Accadia	
+71022	Ascoli Satriano	
+71023	Bovino	
+71024	Candela	
+71025	Castelluccio Dei Sauri	
+71026	Deliceto	
+71027	Orsara Di Puglia	
+71028	Sant'Agata Di Puglia	
+71029	Borgo Giardinetto	
+71030	Macchia	
+71031	Alberona	
+71032	Berardinone	
+71033	Casalnuovo Monterotaro	
+71034	Castelnuovo Della Daunia	
+71035	Celenza Valfortore	
+71036	Palmori	
+71037	Monte Sant'Angelo	
+71038	Pietramontecorvino	
+71039	Roseto Valfortore	
+71040	Isole Tremiti	
+71041	Carapelle	
+71042	Moschella	
+71043	Manfredonia	
+71045	Orta Nova	
+71047	Stornara	
+71048	Stornarella	
+71100	Foggia	PU
+72010	Pezze Di Greco	
+72012	Carovigno	
+72013	Ceglie Messapica	
+72014	Caranna	
+72015	Selva	
+72016	Montalbano Di Fasano	
+72017	Ostuni	
+72018	San Michele Salentino	
+72019	San Vito Dei Normanni	
+72020	Cellino San Marco	
+72021	Francavilla Fontana	
+72022	Latiano	
+72023	Mesagne	
+72024	Oria	
+72025	San Donaci	
+72026	San Pancrazio Salentino	
+72027	San Pietro Vernotico	
+72028	Torre Santa Susanna	
+72029	Villa Castelli	
+72100	Brindisi	PU
+73010	Arnesano	
+73011	Alezio	
+73012	Campi Salentina	
+73013	Collemeto	
+73014	Gallipoli	
+73015	Salice Salentino	
+73016	San Cesario Di Lecce	
+73017	Chiesanuova	
+73018	Squinzano	
+73019	Trepuzzi	
+73020	Palmariggi	
+73021	Calimera	
+73022	Corigliano D'Otranto	
+73023	Lizzanello	
+73024	Morigino	
+73025	Martano	
+73026	Rocca Vecchia	
+73027	Cocumola	
+73028	Otranto	
+73029	Vanze	
+73030	Castiglione	
+73031	Alessano	
+73032	Andrano	
+73033	Corsano	
+73034	San Dana	
+73035	Miggiano	
+73036	Muro Leccese	
+73037	Poggiardo	
+73038	Spongano	
+73039	Depressa	
+73040	Acquarica Del Capo	
+73041	Carmiano	
+73042	Casarano	
+73043	Copertino	
+73044	Galatone	
+73045	Leverano	
+73046	Matino	
+73047	Monteroni Di Lecce	
+73048	Nardo'	
+73049	Ruffano	
+73050	Boncore	
+73051	Novoli	
+73052	Parabita	
+73053	Patu'	
+73054	Presicce	
+73055	Racale	
+73056	Taurisano	
+73057	Taviano	
+73058	Tuglie	
+73059	Gemini	
+73100	San Cataldo	PU
+74010	Statte	
+74011	Castellaneta	
+74012	Crispiano	
+74013	Ginosa	
+74014	Laterza	
+74015	Carpari	
+74016	Massafra	
+74017	Mottola	
+74018	Palagianello	
+74019	Conca D'Oro	
+74020	Avetrana	
+74021	Carosino	
+74022	Fragagnano	
+74023	Grottaglie	
+74024	Uggiano Montefusco	
+74025	Marina Di Ginosa	
+74026	Monti D'Arena	
+74027	San Giorgio Ionico	
+74028	Sava	
+74100	Taranto	PU
+75010	Garaguso	
+75011	Accettura	
+75012	Serra Marina	
+75013	Macchia	
+75014	Grassano	
+75015	Pisticci	
+75016	Pomarico	
+75017	Salandra	
+75018	Stigliano	
+75019	Calle	
+75020	Nova Siri	
+75021	Colobraro	
+75022	Taccone	
+75023	Montalbano Jonico	
+75024	Montescaglioso	
+75025	Policoro	
+75026	Rotondella	
+75027	San Giorgio Lucano	
+75028	Caprarico	
+75029	Valsinni	
+75100	La Martella	BC
+76011	Bisceglie	
+76012	Loconia	
+76013	Minervino Murge	
+76014	Spinazzola	
+76015	Trinitapoli	
+76016	Margherita Di Savoia	
+76017	San Ferdinando Di Puglia	
+76121	Barletta	
+76123	Andria	
+76125	Trani	
+80010	Quarto	
+80011	Acerra	
+80012	Calvizzano	
+80013	Licignano Di Napoli	
+80014	Lago Patria	
+80016	Torre Piscitelli	
+80017	Melito Di Napoli	
+80018	Mugnano Di Napoli	
+80019	Qualiano	
+80020	Casavatore	
+80021	Afragola	
+80022	Arzano	
+80023	Pascarola	
+80024	Carditello	
+80025	Casandrino	
+80026	Arpino	
+80027	Frattamaggiore	
+80028	Grumo Nevano	
+80029	Sant'Antimo	
+80030	Gargani	
+80031	Brusciano	
+80032	Casamarciano	
+80033	Cicciano	
+80034	Selva	
+80035	Pollastri	
+80036	Castello	
+80038	Pomigliano D'Arco	
+80039	Saviano	
+80040	Massa Di Somma	
+80041	Boscoreale	
+80042	Boscotrecase	
+80044	Ottaviano	
+80045	Messigno	
+80046	San Giorgio A Cremano	
+80047	Casilli	
+80048	Madonna Dell'Arco	
+80049	Somma Vesuviana	
+80050	Lettere	
+80051	Agerola	
+80053	Castellammare Di Stabia	
+80054	Gragnano	
+80055	Portici	
+80056	Ercolano	
+80057	Sant'Antonio Abate	
+80058	Torre Annunziata	
+80059	Leopardi	
+80060	Moiano	
+80061	Monticchio Di Massa Lubrense	
+80062	Meta	
+80063	Piano Di Sorrento	
+80065	Sant'Agnello	
+80066	Fornacella	
+80067	Capo Di Sorrento	
+80069	Vico Equense	
+80070	Monte Di Procida	
+80071	Anacapri	
+80073	Marina Grande Di Capri	
+80074	Casamicciola Terme	
+80075	Forio	
+80076	Lacco Ameno	
+80077	Sant'Antuono D'Ischia	
+80078	Arco Felice	
+80079	Procida	
+80100	Napoli	CM
+80121	Napoli	CM
+80122	Napoli	CM
+80123	Napoli	CM
+80124	Bagnoli	CM
+80125	Agnano	CM
+80126	Soccavo	CM
+80127	Vomero	CM
+80128	Napoli	CM
+80129	Napoli	CM
+80131	Cappella Cangiani	CM
+80132	Napoli	CM
+80133	Napoli	CM
+80134	Napoli	CM
+80135	Napoli	CM
+80136	Napoli	CM
+80137	Napoli	CM
+80138	Napoli	CM
+80139	Napoli	CM
+80141	Napoli	CM
+80142	Napoli	CM
+80143	Napoli	CM
+80144	San Pietro A Patierno	CM
+80145	Marianella	CM
+80146	San Giovanni A Teduccio	CM
+80147	Barra	CM
+81010	Gallo Matese	
+81011	Alife	
+81012	Marciano Freddo	
+81013	San Giovanni E Paolo	
+81014	Fontegreca	
+81016	Castello Del Matese	
+81017	Sant'Angelo D'Alife	
+81020	Castel Morrone	
+81021	Arienzo	
+81022	Casagiove	
+81023	Cervino	
+81024	Grotticella	
+81025	Cantone	
+81027	Polvica	
+81028	Santa Maria A Vico	
+81030	Lusciano	
+81031	Aversa	
+81032	Carinaro	
+81033	Casal Di Principe	
+81034	Mondragone	
+81035	Roccamonfina	
+81036	San Cipriano D'Aversa	
+81037	Lauro Di Sessa Aurunca	
+81038	Trentola Ducenta	
+81039	Bonifica Villa Literno	
+81040	Liberi	
+81041	Bellona	
+81042	Pozzillo	
+81043	Capua	
+81044	Conca Della Campania	
+81046	Grazzanise	
+81047	Caturano	
+81049	San Pietro Infine	
+81050	Camigliano	
+81051	Statigliano	
+81052	Pignataro Maggiore	
+81053	Riardo	
+81054	San Prisco	
+81055	Santa Maria Capua Vetere	
+81056	Sparanise	
+81057	Casi	
+81058	Patenora	
+81059	Montano	
+81100	Staturano	CM
+82010	Perrillo	
+82011	Arpaia	
+82013	Bonea	
+82015	Durazzano	
+82016	Varoni	
+82017	Pannarano	
+82018	Cubante	
+82019	Faggiano	
+82020	Circello	
+82021	Apice Nuovo	
+82022	Castelfranco In Miscano	
+82023	Castelvetere In Val Fortore	
+82024	Colle Sannita	
+82025	Montefalcone Di Val Fortore	
+82026	Sassinoro	
+82027	Casalduni	
+82028	San Bartolomeo In Galdo	
+82029	San Marco Dei Cavoti	
+82030	Biancano	
+82031	Amorosi	
+82032	Cerreto Sannita	
+82033	Cusano Mutri	
+82034	San Lupo	
+82036	Solopaca	
+82037	Castelvenere	
+82038	Vitulano	
+82100	Perrillo	CM
+83010	San Felice	
+83011	Altavilla Irpina	
+83012	Cervinara	
+83013	Santuario Di Montevergine	
+83014	Ospedaletto D'Alpinolo	
+83015	Ciardelli Inferiore	
+83016	Cassano Caudino	
+83017	Rotondi	
+83018	San Martino Valle Caudina	
+83020	Forino	
+83021	Avella	
+83022	Baiano	
+83023	Migliano	
+83024	Monteforte Irpino	
+83025	Borgo Di Montoro Inferiore	
+83026	San Pietro	
+83027	Mugnano Del Cardinale	
+83028	Ferrari Stazione Serino	
+83029	Sant'Agata Irpina	
+83030	Dentecane	
+83031	Orneta	
+83032	Morroni	
+83034	Casalbore	
+83035	Grottaminarda	
+83036	Pianopantano	
+83037	Montecalvo Irpino	
+83038	Montemiletto	
+83039	Pratola Serra	
+83040	Pila Ai Piani	
+83041	Aquilonia	
+83042	Atripalda	
+83043	Villaggio Laceno	
+83044	Piano Regolatore	
+83045	Calitri	
+83046	Lacedonia	
+83047	Lioni	
+83048	Montella	
+83049	Monteverde	
+83050	Volturara Irpina	
+83051	Ponteromito	
+83052	Paternopoli	
+83053	Sant'Andrea Di Conza	
+83054	Sant'Angelo Dei Lombardi	
+83055	Sturno	
+83056	Teora	
+83057	Torella Dei Lombardi	
+83058	Molini	
+83059	Vallata	
+83100	Avellino	CM
+84010	Cetara	
+84011	Vettica Pastena	
+84012	Angri	
+84013	Marini	
+84014	Nocera Inferiore	
+84015	Materdomini Di Nocera	
+84016	Pagani	
+84017	Positano	
+84018	San Pietro Di Scafati	
+84019	Molina	
+84020	Bivio Palomonte	
+84021	Tufariello	
+84022	Puglietta	
+84023	Persano	
+84024	Bagni Di Contursi	
+84025	Santa Cecilia Di Eboli	
+84026	Postiglione	
+84027	Sant'Angelo A Fasanella	
+84028	Borgo San Lazzaro	
+84029	Sicignano Degli Alburni Stazione	
+84030	Monte San Giacomo	
+84031	Auletta	
+84032	Buonabitacolo	
+84033	Montesano Sulla Marcellana	
+84034	Padula Scalo	
+84035	Polla	
+84036	Trinita'	
+84037	Sant'Arsenio	
+84038	Caiazzano	
+84039	Prato Perillo	
+84040	Acquavella	
+84042	Acerno	
+84043	Agropoli	
+84044	Matinella	
+84045	Carillia	
+84046	Marina Di Ascea	
+84047	Gromola	
+84048	San Marco	
+84049	Castel San Lorenzo	
+84050	Lustra	
+84051	Centola	
+84052	Massascusa	
+84053	Cicerale	
+84055	Felitto	
+84056	Cardile	
+84057	Villa Littorio	
+84059	Marina Di Camerota	
+84060	Fornelli	
+84061	Eredita	
+84062	Monticelli	
+84065	Piaggine	
+84066	Caprioli	
+84067	Policastro Bussentino	
+84068	Galdo	
+84069	Acquaviva	
+84070	Scario	
+84073	Sapri	
+84074	San Mango	
+84075	Stio	
+84076	Copersito	
+84077	Torre Orsaia	
+84078	Pattano	
+84079	Vibonati	
+84080	Coperchia	
+84081	Fusara	
+84082	Manzi	
+84083	Lanzara	
+84084	Fisciano	
+84085	Ciorani	
+84086	Roccapiemonte	
+84087	Lavorate	
+84088	Siano	
+84090	San Mango Piemonte	
+84091	Sant'Anna	
+84092	Bivio	
+84095	Giffoni Valle Piana	
+84096	Montecorvino Rovella	
+84098	Sant'Antonio	
+84099	Campigliano	
+84100	Salerno	CM
+84121	Salerno	CM
+84122	Salerno	CM
+84123	Salerno	CM
+84124	Salerno	CM
+84125	Salerno	CM
+84126	Salerno	CM
+84127	Torrione Di Salerno	CM
+84128	Pastena Di Salerno	CM
+84129	Salerno	CM
+84131	Fuorni	CM
+84132	Salerno	CM
+84133	Salerno	CM
+84134	Giovi	CM
+84135	Matierno	CM
+85010	Calvello	
+85011	Acerenza	
+85012	Corleto Perticara	
+85013	Genzano Di Lucania	
+85014	Laurenzana	
+85015	Oppido Lucano	
+85016	Pietragalla	
+85017	Tolve	
+85018	Trivigno	
+85020	Pescopagano	
+85021	San Cataldo	
+85022	Barile	
+85023	Forenza	
+85024	Lavello	
+85025	Leonessa Di Melfi	
+85026	Palazzo San Gervasio	
+85027	Rapolla	
+85028	Monticchio	
+85029	Venosa	
+85030	San Chirico Raparo	
+85031	Castelsaraceno	
+85032	Chiaromonte	
+85033	Episcopia	
+85034	Fardella	
+85035	Noepoli	
+85036	Roccanova	
+85037	Sant'Arcangelo	
+85038	Senise	
+85039	Spinoso	
+85040	San Costantino	
+85042	Lagonegro	
+85043	Mileo	
+85044	Cogliandrino	
+85046	Acquafredda	
+85047	Moliterno	
+85048	Rotonda	
+85049	Trecchina	
+85050	Baragiano Scalo	
+85051	Bella	
+85052	Galaino	
+85053	Montemurro	
+85054	Capo Di Giano	
+85055	Picerno	
+85056	Ruoti	
+85057	Tramutola	
+85058	Vietri Di Potenza	
+85059	Viggiano	
+85100	Potenza	BC
+86010	Ferrazzano	
+86011	Baranello	
+86012	Cercemaggiore	
+86013	Gambatesa	
+86014	Guardiaregia	
+86015	Jelsi	
+86016	Riccia	
+86017	Sepino	
+86018	Toro	
+86019	Vinchiaturo	
+86020	Colle D'Anchise	
+86021	Monteverde	
+86022	Limosano	
+86023	Montagano	
+86024	Petrella Tifernina	
+86025	Ripalimosani	
+86026	Salcito	
+86027	San Massimo	
+86028	Torella Del Sannio	
+86029	Trivento	
+86030	Acquaviva Collecroce	
+86031	Castelmauro	
+86032	Montecilfone	
+86033	Montefalcone Nel Sannio	
+86034	Guglionesi	
+86035	Larino	
+86036	Montenero Di Bisaccia	
+86037	Palata	
+86038	Collecalcioni	
+86039	Termoli	
+86040	Macchia Valfortore	
+86041	Bonefro	
+86042	Lido Di Campomarino	
+86043	Casacalenda	
+86044	Colletorto	
+86045	Portocannone	
+86046	San Martino In Pensilis	
+86047	Santa Croce Di Magliano	
+86048	Sant'Elia A Pianisi	
+86049	Ururi	
+86070	Fornelli	
+86071	Castel San Vincenzo	
+86072	Cerro Al Volturno	
+86073	Colli A Volturno	
+86074	Cerasuolo	
+86075	Sant'Eusanio	
+86077	Santa Maria Oliveto	
+86078	Pianura	
+86079	Ceppagna	
+86080	Acquaviva D'Isernia	
+86081	Villa Canale	
+86082	Capracotta	
+86083	Castiglione	
+86084	Forli' Del Sannio	
+86085	Pietrabbondante	
+86086	Poggio Sannita	
+86087	Rionero Sannitico	
+86088	San Pietro Avellana	
+86089	Cerreto	
+86090	Pesche	
+86091	Bagnoli Del Trigno	
+86092	Roccamandolfi	
+86093	Carpinone	
+86094	Civitanova Del Sannio	
+86095	San Pietro In Valle	
+86096	Incoronata	
+86097	Pescolanciano	
+86100	Campobasso	ML
+86170	Castelromano	ML
+87010	Santa Maria Le Grotte	
+87011	Doria	
+87012	Castrovillari	
+87013	Fagnano Castello	
+87014	Laino Borgo	
+87015	Laino Castello	
+87016	Morano Calabro	
+87017	Roggiano Gravina	
+87018	San Marco Argentano Stazione	
+87019	Spezzano Albanese Stazione	
+87020	Acquappesa Marina	
+87021	Belvedere Marittimo	
+87022	Cetraro	
+87023	Cirella	
+87024	Cariglio	
+87026	Mormanno	
+87027	Santuario San Francesco	
+87028	Praia A Mare	
+87029	Scalea	
+87030	Scornavacca	
+87031	Aiello Calabro	
+87032	Amantea	
+87033	Vadi	
+87034	Grimaldi	
+87035	Aria Di Lupi	
+87036	Castiglione Cosentino Stazione	
+87037	Bucita	
+87038	Pollella	
+87040	Tivolille	
+87041	Acri	
+87042	Altomonte	
+87043	Bisignano	
+87044	Cerisano	
+87045	Tessano	
+87046	Parantoro	
+87047	San Pietro In Guarano	
+87048	Santa Sofia D'Epiro	
+87050	Colosimi	
+87051	Camarda Di Aprigliano	
+87052	Croce Di Magara	
+87053	Celico	
+87054	Saliano	
+87055	Monte Oliveto	
+87056	Santo Stefano Di Rogliano	
+87057	Calvisi	
+87058	Spezzano Della Sila	
+87060	Mirto	
+87061	Campana	
+87062	Cariati	
+87064	Corigliano Scalo	
+87066	Longobucco	
+87067	Amica	
+87069	Macchia Albanese	
+87070	Borgata Marina	
+87071	Amendolara Marina	
+87072	Francavilla Marittima	
+87073	Oriolo	
+87074	Rocca Imperiale	
+87075	Trebisacce	
+87076	Villapiana	
+87100	Casali	CI
+88020	Jacurso	
+88021	Borgia	
+88022	Acconia	
+88024	Girifalco	
+88025	San Pietro A Maida	
+88040	Castagna	
+88041	San Bernardo	
+88042	Falerna	
+88044	Marcellinara	
+88045	Cavora' Di Gimigliano	
+88046	Bella Di Lamezia Terme	
+88047	Nocera Terinese	
+88049	Soveria Mannelli	
+88050	Amaroni	
+88051	Cropani	
+88054	Sersale	
+88055	Albi	
+88056	Tiriolo	
+88060	Marina Di Guardavalle	
+88062	Cardinale	
+88064	Chiaravalle Centrale	
+88065	Guardavalle	
+88067	San Vito Sullo Ionio	
+88068	Soverato Marina	
+88069	Copanello	
+88070	Botricello	
+88100	Catanzaro	CI
+88811	Ciro' Marina	
+88812	Torretta	
+88813	Ciro'	
+88814	Torre Melissa	
+88815	Marina Di Strongoli	
+88816	Strongoli	
+88817	Carfizzi	
+88818	Pallagorio	
+88819	Verzino	
+88821	Corazzo	
+88822	Casabona	
+88823	Perticaro	
+88824	Belvedere Di Spinello	
+88825	Savelli	
+88831	Scandale	
+88832	Altilia	
+88833	Cerenzia	
+88834	Castelsilano	
+88835	Roccabernarda	
+88836	Cotronei	
+88837	Camellino	
+88838	Mesoraca	
+88841	Sant'Anna	
+88842	San Leonardo Di Cutro	
+88900	Crotone	
+89010	Scido	
+89011	Porelli Di Bagnara	
+89012	Delianuova	
+89013	Marina Di Gioia Tauro	
+89014	Zurgonadio	
+89015	Trodio	
+89016	Rizziconi	
+89017	San Giorgio Morgeto	
+89018	Acciarello	
+89020	Maropati	
+89021	Cinquefrondi	
+89022	Cittanova	
+89023	Bellantone	
+89024	Polistena	
+89025	Bosco	
+89026	San Ferdinando	
+89027	Sant'Eufemia D'Aspromonte	
+89028	Barritteri	
+89029	Amato Di Taurianova	
+89030	Condofuri Marina	
+89031	Bombile	
+89032	Pardesca	
+89033	Bova	
+89034	Bosco Sant'Ippolito	
+89035	Bova Marina	
+89036	Galati	
+89037	Marina D'Ardore	
+89038	Pietrapennata	
+89039	Plati'	
+89040	Stignano	
+89041	Caulonia	
+89042	Gioiosa Ionica	
+89043	Croce Ferrata	
+89044	Moschetta Di Locri	
+89045	Mammola	
+89046	Marina Di Gioiosa Ionica	
+89047	Roccella Ionica	
+89048	Siderno Marina	
+89049	Stilo	
+89050	Acquacalda	
+89052	Campo Calabro	
+89054	Galatro	
+89056	Lubrichi	
+89057	Gambarie	
+89058	Melia	
+89060	San Fantino	
+89062	Lazzaro	
+89063	Anna'	
+89064	Masella	
+89065	Motta San Giovanni	
+89069	San Lorenzo	
+89100	Reggio Calabria	CI
+89121	Regcal	CI
+89122	Regcal	CI
+89123	Regcal	CI
+89124	Eremo	CI
+89125	Regcal	CI
+89126	Regcal	CI
+89127	Regcal	CI
+89128	Spirito Santo	CI
+89129	Regcal	CI
+89131	Regcal	CI
+89132	Regcal	CI
+89133	San Giorgio Extra	CI
+89134	Croce Valanidi	CI
+89135	Diminniti	CI
+89812	Pizzo	
+89813	Trecroci	
+89814	Montesoro	
+89815	Francavilla Angitola	
+89816	Pannaconi	
+89817	Potenzoni	
+89818	Capistrano	
+89819	Monterosso Calabro	
+89821	Vallelonga	
+89822	Brognaturo	
+89823	Fabrizia	
+89824	Nardodipace	
+89831	Ciano	
+89832	Dasa'	
+89833	Dinami	
+89834	Vazzano	
+89841	Filandari	
+89842	Calimera Calabra	
+89843	Filogaso	
+89844	Badia	
+89851	Francica	
+89852	San Giovanni	
+89853	San Gregorio D'Ippona	
+89861	Tropea	
+89862	Gasponi	
+89863	Joppolo	
+89864	Spilinga	
+89866	Barbalaconi	
+89867	Zungri	
+89868	San Giovanni Di Zambrone	
+89900	Piscopio	
+90010	Campofelice Di Roccella	
+90011	Bagheria	
+90012	Sambuchi	
+90013	Castelbuono	
+90014	Casteldaccia	
+90015	Gibilmanna	
+90016	Collesano	
+90017	Santa Flavia	
+90018	Termini Imerese	
+90019	San Nicolo' L'Arena	
+90020	Regalgioffoli	
+90021	Alia	
+90022	Caltavuturo	
+90023	Ciminna	
+90024	Gangi	
+90025	Lercara Friddi	
+90026	Raffo	
+90027	Petralia Sottana	
+90028	Polizzi Generosa	
+90029	Valledolmo	
+90030	Godrano	
+90031	Belmonte Mezzagno	
+90032	Bisacquino	
+90033	Chiusa Sclafani	
+90034	Corleone	
+90035	Marineo	
+90036	Portella Di Mare	
+90037	Piana Degli Albanesi	
+90038	Prizzi	
+90039	Villabate	
+90040	Isola Delle Femmine	
+90041	Balestrate	
+90042	Borgetto	
+90043	Camporeale	
+90044	Villagrazia Di Carini	
+90045	Cinisi	
+90046	Malpasso	
+90047	Partinico	
+90048	San Giuseppe Jato	
+90049	Citta' Del Mare	
+90100	Palermo	SC
+90121	Acqua Dei Corsari	SC
+90122	Palermo	SC
+90123	Palermo	SC
+90124	Palermo	SC
+90125	Palermo	SC
+90126	Palermo	SC
+90127	Palermo	SC
+90128	Palermo	SC
+90129	Palermo	SC
+90131	Rocca Monreale	SC
+90132	Palermo	SC
+90133	Palermo	SC
+90134	Palermo	SC
+90135	Palermo	SC
+90136	Palermo	SC
+90137	Palermo	SC
+90138	Palermo	SC
+90139	Palermo	SC
+90141	Palermo	SC
+90142	Palermo	SC
+90143	Palermo	SC
+90144	Palermo	SC
+90145	Palermo	SC
+90146	San Lorenzo Colli	SC
+90147	Palermo	SC
+90148	Villagrazia	SC
+90149	Palermo	SC
+90151	Mondello	SC
+91010	Ummari	
+91011	Alcamo	
+91012	Battaglia	
+91013	Sasi	
+91014	Scopello	
+91015	Purgatorio	
+91016	Casa Santa	
+91017	Pantelleria	
+91018	San Ciro	
+91019	Bonagia	
+91020	Poggioreale	
+91021	Campobello Di Mazara	
+91022	Marinella Di Selinunte	
+91023	Favignana	
+91024	Villaggio Madonna Delle Grazie	
+91025	Ciavolo	
+91026	Mazara Del Vallo	
+91027	Dattilo	
+91028	Partanna	
+91029	Santa Ninfa	
+91100	Fontanelle Casasanta	SC
+92010	Linosa	
+92011	Cattolica Eraclea	
+92012	Cianciana	
+92013	Menfi	
+92014	Porto Empedocle	
+92015	Raffadali	
+92016	Borgo Bonsignore	
+92017	Sambuca Di Sicilia	
+92018	Santa Margherita Di Belice	
+92019	Sciacca	
+92020	Castrofilippo	
+92021	Caldare	
+92022	Borgo Callea	
+92023	Campobello Di Licata	
+92024	Canicatti'	
+92025	Zolfare	
+92026	Favara	
+92027	Licata	
+92028	Naro	
+92029	Campobello Ravanusa Stazione	
+92100	Borgo La Loggia	SC
+93010	Acquaviva Platani	
+93011	Butera	
+93012	Gela	
+93013	Mazzarino	
+93014	Polizzello	
+93015	Niscemi	
+93016	Riesi	
+93017	San Cataldo	
+93018	Santa Caterina Villarmosa	
+93019	Trabia Miniere	
+93100	Caltanissetta	SC
+94010	Cerami	
+94011	Agira	
+94012	Barrafranca	
+94013	Leonforte	
+94014	San Giacomo	
+94015	Grottacalda	
+94016	Pietraperzia	
+94017	Regalbuto	
+94018	Troina	
+94019	Valguarnera Caropepe	
+94100	Enna	SC
+95010	Fornazzo	
+95011	Calatabiano	
+95012	Verzella	
+95013	Fiumefreddo Di Sicilia	
+95014	Carruba	
+95015	Linguaglossa	
+95016	Carrabba	
+95017	Piedimonte Etneo	
+95018	Torre Archirafi	
+95019	Pisano Etneo	
+95020	Aci Bonaccorsi	
+95021	Cannizzaro	
+95022	San Nicolo'	
+95024	Santa Maria La Scala	
+95025	Santa Maria La Stella	
+95027	San Gregorio Di Catania	
+95028	Valverde	
+95029	Viagrande	
+95030	Gravina Di Catania	
+95031	Adrano	
+95032	Belpasso	
+95033	Biancavilla	
+95034	Bronte	
+95035	Maletto	
+95036	Randazzo	
+95037	Trappeto	
+95038	Santa Maria Di Licodia	
+95039	Trecastagni	
+95040	Licodia Eubea	
+95041	Granieri	
+95042	Grammichele	
+95043	Militello In Val Di Catania	
+95044	Borgo Lupo	
+95045	San Nullo	
+95046	Palagonia	
+95047	Paterno'	
+95048	Scordia	
+95049	Vizzini	
+95100	Catania	SC
+95121	San Teodoro	SC
+95122	Acquicella	SC
+95123	Catania	SC
+95124	Catania	SC
+95125	Canalicchio	SC
+95126	Catania	SC
+95127	Catania	SC
+95128	Catania	SC
+95129	Catania	SC
+95131	Catania	SC
+96010	Canicattini Bagni	
+96011	Augusta	
+96012	Avola	
+96013	Pedagaggi	
+96014	Floridia	
+96015	Francofonte	
+96016	Lentini	
+96017	San Paolo Di Noto	
+96018	Marzamemi	
+96019	Rosolini	
+96100	Siracusa	SC
+97010	Bellocozzo	
+97011	Acate	
+97012	Chiaramonte Gulfi	
+97013	Pedalino	
+97014	Ispica	
+97015	Cava D'Ispica	
+97016	Pozzallo	
+97017	Santa Croce Camerina	
+97018	Cava D'Aliga	
+97019	Scoglitti	
+97100	Ragusa	SC
+98020	Mandanici	
+98021	Ali' Terme	
+98022	Fiumedinisi	
+98023	Furci Siculo	
+98025	Itala Marina	
+98026	Nizza Di Sicilia	
+98027	Sciglio	
+98028	Barracca	
+98029	Guidomandri Superiore	
+98030	Motta Camastra	
+98031	Capizzi	
+98032	Misitano Inferiore	
+98033	Cesaro'	
+98034	Francavilla Di Sicilia	
+98035	Pallio	
+98036	Graniti	
+98037	Letojanni	
+98038	Rina	
+98039	Mazzeo	
+98040	Gualtieri Sicamino'	
+98041	Pellegrino	
+98042	Pace Del Mela	
+98043	Sant'Andrea	
+98044	Olivarella	
+98045	San Pier Niceto	
+98046	Santa Lucia Del Mela	
+98047	Cavaliere	
+98048	San Martino Spadafora	
+98049	Divieto	
+98050	Acquacalda	
+98051	Caldera'	
+98053	Castroreale	
+98054	Furnari	
+98055	Pianoconte	
+98056	Mazzarra' Sant'Andrea	
+98057	San Pietro Di Milazzo	
+98058	Novara Di Sicilia	
+98059	Milici	
+98060	Falcone	
+98061	Brolo	
+98062	Ficarra	
+98063	San Giorgio	
+98064	Librizzi	
+98065	Braidi	
+98066	Marina Di Patti	
+98067	Fondachello Di Raccuja	
+98068	Fiumara	
+98069	Sinagra	
+98070	Alcara Li Fusi	
+98071	Capo D'Orlando	
+98072	Marina Di Caronia	
+98073	Mistretta	
+98074	Cresta	
+98075	San Fratello	
+98076	Sant'Agata Di Militello	
+98077	Santo Stefano Di Camastra	
+98078	Moira	
+98079	Castel Di Tusa	
+98100	Messina	SC
+98121	Messina	SC
+98122	Messina	SC
+98123	Messina	SC
+98124	Messina	SC
+98125	Messina	SC
+98126	Santa Lucia Sopra Contesse	SC
+98127	Zafferia	SC
+98128	Tremestieri	SC
+98129	Messina	SC
+98131	Mili Marina	SC
+98132	Mili San Marco	SC
+98133	Mili Superiore	SC
+98134	Galati Marina	SC
+98135	Santa Margherita	SC
+98136	Santo Stefano Medio	SC
+98137	Santo Stefano Di Briga	SC
+98138	Pezzolo	SC
+98139	San Placido Calonero'	SC
+98141	Messina	SC
+98142	Messina	SC
+98143	Altolia	SC
+98144	San Filippo	SC
+98145	Bordonaro	SC
+98146	Messina	SC
+98147	Villaggio Aldisio	SC
+98148	Santo	SC
+98149	Camaro Inferiore	SC
+98151	Camaro	SC
+98152	Scala Ritiro	SC
+98153	Messina	SC
+98154	Salice	SC
+98155	Messina	SC
+98156	Messina	SC
+98157	Messina	SC
+98158	Faro Superiore	SC
+98159	Messina	SC
+98161	Rodia	SC
+98162	San Saba	SC
+98163	Sparta'	SC
+98164	Torre Faro	SC
+98165	Messina	SC
+98166	Sant'Agata	SC
+98167	Pace	SC
+98168	Villaggio Paradiso	SC

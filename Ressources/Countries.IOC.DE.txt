@@ -1,0 +1,211 @@
+AFG	Afghanistan	AF
+ALB	Albanien	AL
+ALG	Algerien	DZ
+AND	Andorra	AD
+ANG	Angola	AO
+ANT	Antigua und Barbuda	AG
+ARG	Argentinien	AR
+ARM	Armenien	AM
+ARU	Aruba	AW
+ASA	Amerikanisch-Samoa	AS
+AUS	Australien	AU
+AUT	Österreich	AT
+AZE	Aserbaidschan	AZ
+BAH	Bahamas	BS
+BAN	Bangladesch	BD
+BAR	Barbados	BB
+BDI	Burundi	BI
+BEL	Belgien	BE
+BEN	Benin	BJ
+BER	Bermuda	BM
+BHU	Bhutan	BT
+BIH	Bosnien und Herzegowina	BA
+BIZ	Belize	BZ
+BLR	Belarus	BY
+BOL	Bolivien	BO
+BOT	Botswana	BW
+BRA	Brasilien	BR
+BRN	Bahrain	BH
+BRU	Brunei	BN
+BUL	Bulgarien	BG
+BUR	Burkina Faso	BF
+CAF	Zentralafrikanische Republik	CF
+CAM	Kambodscha	KH
+CAN	Kanada	CA
+CAY	Cayman Islands	KY
+CGO	Republik Kongo	CG
+CHA	Tschad	TD
+CHI	Chile	CL
+CHN	Volksrepublik China	CN
+CIV	Elfenbeinküste	CI
+CMR	Kamerun	CM
+COD	Demokratische Republik Kongo	CD
+COK	Cookinseln	CK
+COL	Kolumbien	CO
+COM	Komoren	KM
+CPV	Kap Verde	CV
+CRC	Costa Rica	CR
+CRO	Kroatien	HR
+CUB	Kuba	CU
+CYP	Zypern	CY
+CZE	Tschechien	CZ
+DEN	Dänemark	DK
+DJI	Dschibuti	DJ
+DMA	Dominica	DM
+DOM	Dominikanische Republik	DO
+ECU	Ecuador	EC
+EGY	Ägypten	EG
+ERI	Eritrea	ER
+ESA	El Salvador	SV
+ESP	Spanien	ES
+EST	Estland	EE
+ETH	Äthiopien	ET
+FIJ	Fidschi	FJ
+FIN	Finnland	FI
+FRA	Frankreich	FR
+FSM	Mikronesien	FM
+GAB	Gabun	GA
+GAM	Gambia	GM
+GBR	Großbritannien	GB
+GBS	Guinea-Bissau	GW
+GEO	Georgien	GE
+GEQ	Äquatorialguinea	GQ
+GER	Deutschland	DE
+GHA	Ghana	GH
+GRE	Griechenland	GR
+GRN	Grenada	GD
+GUA	Guatemala	GT
+GUI	Guinea	GN
+GUM	Guam	GU
+GUY	Guyana	GY
+HAI	Haiti	HT
+HKG	Hongkong China	HK
+HON	Honduras	HN
+HUN	Ungarn	HU
+INA	Indonesien	ID
+IND	Indien	IN
+IOA	Individuelle Olympiateilnehmer
+IOP	Unabhängige Olympiateilnehmer
+IRI	Iran Islamische Republik Iran	IR
+IRL	Irland	IE
+IRQ	Irak	IQ
+ISL	Island	IS
+ISR	Israel	IL
+ISV	Amerikanische Jungferninseln	VI
+ITA	Italien	IT
+IVB	Britische Jungferninseln	VG
+JAM	Jamaika		JM
+JOR	Jordanien	JO
+JPN	Japan	JP
+KAZ	Kasachstan	KZ
+KEN	Kenia	KE
+KGZ	Kirgisistan	KG
+KIR	Kiribati	KI
+KOR	Korea, Republik	KR
+KOS	Kosovo	XK
+KSA	Saudi-Arabien	SA
+KUW	Kuwait	KW
+LAO	Laos	LA
+LAT	Lettland	LV
+LBA	Libyen	LY
+LBR	Liberia	LR
+LCA	St. Lucia	LC
+LES	Lesotho	LS
+LIB	Libanon	LB
+LIE	Liechtenstein	LI
+LTU	Litauen	LT
+LUX	Luxemburg	LU
+MAD	Madagaskar	MG
+MAR	Marokko	MA
+MAS	Malaysia	MY
+MAW	Malawi	MW
+MDA	Moldawien	MD
+MDV	Malediven	MV
+MEX	Mexiko	MX
+MGL	Mongolei	MN
+MHL	Marshallinseln	MH
+MIX	Gemischte Mannschaft
+MKD	Mazedonien	MK
+MLI	Mali	ML
+MLT	Malta	MT
+MNE	Montenegro	ME
+MON	Monaco	MC
+MOZ	Mosambik	MZ
+MRI	Mauritius	MU
+MTN	Mauretanien	MR
+MYA	Myanmar	MM
+NAM	Namibia	NA
+NCA	Nicaragua	NI
+NED	Niederlande	NL
+NEP	Nepal	NP
+NGR	Nigeria	NG
+NIG	Niger	NE
+NOR	Norwegen	NO
+NRU	Nauru	NR
+NZL	Neuseeland	NZ
+OMA	Oman	OM
+PAK	Pakistan	PK
+PAN	Panama	PA
+PAR	Paraguay	PY
+PER	Peru	PE
+PHI	Philippinen	PH
+PLE	Palästinensische Autonomiegebiete	PS
+PLW	Palau	PW
+PNG	Papua-Neuguinea	PG
+POL	Polen	PL
+POR	Portugal	PT
+PRK	Nordkorea Korea, Demokratische Volksrepublik	KP
+PUR	Puerto Rico	PR
+QAT	Katar	QA
+ROT	Olympia-Flüchtlingsteam
+ROU	Rumänien	RO
+RSA	Südafrika	ZA
+RUS	Russland	RU
+RWA	Ruanda	RW
+SAM	Samoa	WS
+SEN	Senegal	SN
+SEY	Seychellen	SC
+SIN	Singapur	SG
+SKN	St. Kitts und Nevis	KN
+SLE	Sierra Leone	SL
+SLO	Slowenien	SI
+SMR	San Marino	SM
+SOL	Salomonen	SB
+SOM	Somalia	SO
+SRB	Serbien	RS
+SRI	Sri Lanka	LK
+SSD	Südsudan	SS
+STP	São Tomé und Príncipe	ST
+SUD	Sudan	SD
+SUI	Schweiz	CH
+SUR	Suriname	SR
+SVK	Slowakei	SK
+SWE	Schweden	SE
+SWZ	Swasiland	SZ
+SYR	Syrien	SY
+TAN	Tansania	TZ
+TGA	Tonga	TO
+THA	Thailand	TH
+TJK	Tadschikistan	TJ
+TKM	Turkmenistan	TM
+TLS	Osttimor	TL
+TOG	Togo	TG
+TPE	Chinese Taipei	TW
+TTO	Trinidad und Tobago	TT
+TUN	Tunesien	TN
+TUR	Türkei	TR
+TUV	Tuvalu	TV
+TWN	Republik China (Taiwan)
+UAE	Vereinigte Arabische Emirate	AE
+UGA	Uganda	UG
+UKR	Ukraine	UA
+URU	Uruguay	UY
+USA	Vereinigte Staaten	US
+UZB	Usbekistan	UZ
+VAN	Vanuatu	VU
+VEN	Venezuela	VE
+VNM	Vietnam	VN
+VIN	St. Vincent und die Grenadinen	VC
+YEM	Jemen	YE
+ZAM	Sambia	ZM
+ZIM	Simbabwe	ZW

@@ -1,0 +1,124 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="150" viewBox="0 0 480 150"
+ onload="initAlti()">
+ <title></title>
+ <style>
+	.alti_ptCouru {stroke:#9B7F73; stroke-width:2; fill:#fff; opacity:.9} .alti_ptNonCouru {stroke:#CE4C14; stroke-width:1; fill:#fff; opacity:.8}
+	#alti_liCouru {stroke-width:4;stroke:#F0713A;fill:none; filter:url(#f1)} #alti_liNonCouru {stroke-width:2;stroke:#BBB;fill:none}
+	#infobulle {filter:url(#f1)}
+ </style>
+ <script type="text/javascript"><![CDATA[
+  var resume,points,lcadre=350,hcadre=150;
+  //lcadre=doc.getBBox().width;//hcadre=doc.getBBox().height;
+  function ById(id){return document.getElementById(id)}
+  function initAlti(){
+	if(window.parent==null||window.parent.AG==null) return;
+	var AG=window.parent.AG; AG.window=window;
+	points=AG.points; resume=AG.resume;
+	var idDerPtgeCouru=resume.idDerPtgeCouru;
+
+	for(i=points.length-1;i>=0;i--) {if(resume.course!=points[i].course) points.splice(i,1)}
+	var doc=document.documentElement,n=null,nbpts=points.length;
+
+	var altmin=50000,altmax=0,kmmin=10000,kmmax=0;
+	for(i=0;i<nbpts;i++) {if(Number(points[i].alt)>Number(altmax)) altmax=points[i].alt; if(Number(points[i].alt)<Number(altmin)) altmin=points[i].alt; if(Number(points[i].km)>Number(kmmax)) kmmax=points[i].km; if(Number(points[i].km)<Number(kmmin)) kmmin=points[i].km;}
+	var y0=40,y1=hcadre-20,x0=10,x1=lcadre-10,h=y1-y0,w=x1-x0;
+
+	var iDerCouru=idDerPtgeCouru;
+	for(i=0;i<nbpts;i++) {if(points[i].idPtg==idDerPtgeCouru){iDerCouru=i}}
+	if(resume.arrive) iDerCouru=nbpts-1;
+	if(iDerCouru==undefined) iDerCouru=0;
+	
+	var G=ById('main');
+	while(G.lastChild){G.removeChild(G.lastChild)}
+	var ie=navigator.appName=="Microsoft Internet Explorer";var browserVer=parseInt(navigator.appVersion);
+	var NS="http://www.w3.org/2000/svg";
+	for(section=1;section<3;section++){
+		if(section==2) continue; //....
+		var path = document.createElementNS(NS,"path");
+		path.setAttributeNS(n,"id",section==1?'alti_liCouru':'alti_liNonCouru');
+		s='M'; ideb=0; ifin=nbpts;
+		//if(section==1) {ifin=iDerCouru;} //else {ideb=iDerCouru;}
+		var ip=0;
+		for(p=ideb;p<ifin;p++) {
+			ip++;
+			if(kmmax==0)xx=x0;else xx=x0+Math.round(w * (Number(points[p].km)/Number(kmmax)));
+			if(altmax==0)yy=y1;else yy=y1-Math.round(h * (Number((points[p].alt)-Number(altmin))/Number(altmax)));
+			s+=' ';
+			if(ip==2&&!ie) s+='R';
+			s+=xx+','+yy;
+			points[p].xgr=xx; points[p].ygr=yy;
+		}
+		path.setAttributeNS(n,"d",s);
+		G.appendChild(path);
+	}
+	for(i=0;i<nbpts;i++){
+		var ptg=points[i].idPtg!=-55,leg=points[i].leg!=undefined;
+		if (!ptg&&!leg) continue;
+		var couru=i<=iDerCouru;
+		var C=document.createElementNS(NS,"circle");
+		C.setAttributeNS(n,"cx",points[i].xgr); C.setAttributeNS(n,"cy",points[i].ygr);
+		C.setAttributeNS(n,"r",(ptg&&couru)?4:3);
+		C.setAttributeNS(n,"class",couru?'alti_ptCouru':'alti_ptNonCouru');
+		C.setAttributeNS(n,"onmouseover","infobulle("+i+");"); C.setAttributeNS(n,"onclick","infobulle("+i+");"); C.setAttributeNS(n,"onmouseout",'infobulle();');
+		G.appendChild(C);
+	}
+
+	initCourbes();
+
+	var xP=-50,yP=-50,lgimg=20;
+	if(iDerCouru>0){xP=points[iDerCouru].xgr;yP=points[iDerCouru].ygr-30;}
+	var fl=ById('alti_fl'),vl=ById('alti_vl'),de=ById('alti_de');
+	fl.setAttributeNS(n,"x",xP-(lgimg/2)); fl.setAttributeNS(n,"y",yP);
+	vl.setAttributeNS(n,"x1",xP); vl.setAttributeNS(n,"x2",xP);
+	de.setAttributeNS(n,"x",points[0].xgr-7); de.setAttributeNS(n,"y",points[0].ygr-26);
+  }
+
+  function getIndPtg(id){for(var i=0;i<points.length;i++){if(points[i].idPtg==id)return i;} return -1;}
+  function highlightPtg(id){var i=getIndPtg(id);if(i>=0)infobulle(i);else infobulle();}
+  function infobulle(indptg){
+    var lg=140,h=46,pt=points[indptg],doc=document.documentElement,ib=ById('infobulle'),vl=ById('alti_vl2'),n=null;
+	if(indptg==undefined) {ib.style.display='none';vl.style.display='none'; return;}
+	var x=pt.xgr-(lg/2); if(x<5)x=5; if(x+lg+5>lcadre)x=lcadre-lg-5;
+	var y=pt.ygr-h-15;y=15;
+	var ibr=ById('ibr'),ib1=ById('ib1'),ib2=ById('ib2');
+	ibr.setAttributeNS(n,"x",x); ibr.setAttributeNS(n,"y",y); ibr.setAttributeNS(n,"width",lg); ibr.setAttributeNS(n,"height",h); 
+	ib1.setAttributeNS(n,"x",x+7); ib1.setAttributeNS(n,"y",y+19);
+	ib1.firstChild.nodeValue=pt.legende;
+	ib2.setAttributeNS(n,"x",x+7); ib2.setAttributeNS(n,"y",y+37);
+	var s=pt.skm;
+	if(pt.alt>0) s+=" - "+pt.salt;
+	ib2.firstChild.nodeValue=s;
+	ib.style.display='';
+	x=pt.xgr;vl.setAttributeNS(n,"x1",x);vl.setAttributeNS(n,"x2",x);vl.style.display='';
+	}
+
+  function initCourbes(){
+	var pathEls=document.documentElement.getElementsByTagName("path");
+	for(p=0,pLen=pathEls.length;pLen>p;p++){var eachPath=pathEls[p]; parsePath(eachPath);}
+  }
+ function parsePath(q){var e=[],b="",a="",n=q.getAttribute("d");if(-1!=n.search(/[rR]/)){var h=n.split(/([A-Za-z])/);for(var l=0,g=h.length;g>l;l++){var m=h[l];var k=m.toLowerCase();if(-1!=m.search(/[A-Za-z]/)){var f="";if("z"!=k){l++;f=h[l].replace(/\s+$/,"")}if("r"==k){var p=b+","+a+" "+f;var j=catmullRom2bezier(p);e.push(j)}else{e.push(m+f);if("h"==k){b=f}else{if("v"==k){a=f}else{if("z"!=k){var o=f.split(/[,\s]/);a=o.pop();b=o.pop()}}}}}}q.setAttribute("d",e.join(" "))}}
+ function catmullRom2bezier(e){var c=e.split(/[,\s]/),h="";for(var b=0,a=c.length;a-2>b;b+=2){var g=[];if(0==b){g.push({x:parseFloat(c[b]),y:parseFloat(c[b+1])});g.push({x:parseFloat(c[b]),y:parseFloat(c[b+1])});g.push({x:parseFloat(c[b+2]),y:parseFloat(c[b+3])});g.push({x:parseFloat(c[b+4]),y:parseFloat(c[b+5])})}else{if(a-4==b){g.push({x:parseFloat(c[b-2]),y:parseFloat(c[b-1])});g.push({x:parseFloat(c[b]),y:parseFloat(c[b+1])});g.push({x:parseFloat(c[b+2]),y:parseFloat(c[b+3])});g.push({x:parseFloat(c[b+2]),y:parseFloat(c[b+3])})}else{g.push({x:parseFloat(c[b-2]),y:parseFloat(c[b-1])});g.push({x:parseFloat(c[b]),y:parseFloat(c[b+1])});g.push({x:parseFloat(c[b+2]),y:parseFloat(c[b+3])});g.push({x:parseFloat(c[b+4]),y:parseFloat(c[b+5])})}}var f=[];f.push({x:g[1].x,y:g[1].y});f.push({x:((-g[0].x+6*g[1].x+g[2].x)/6),y:((-g[0].y+6*g[1].y+g[2].y)/6)});f.push({x:((g[1].x+6*g[2].x-g[3].x)/6),y:((g[1].y+6*g[2].y-g[3].y)/6)});f.push({x:g[2].x,y:g[2].y});h+="C"+f[1].x+","+f[1].y+" "+f[2].x+","+f[2].y+" "+f[3].x+","+f[3].y+" "}return h};
+ ]]>
+ </script>
+ <defs>
+  <filter id="f1" width="150%" height="150%">
+	<feOffset result="offOut" in="SourceGraphic" dx="0" dy="2"/>
+	<feColorMatrix result="matrixOut" in="offOut" type="matrix" values="0.2 0.2 0.2 0.2 0 0 0.2 0.2 0.2 0.2 0 0 0.2 0.2 0.2 0.2 0 0 1 0"/>
+	<feGaussianBlur result="blurOut" in="matrixOut" stdDeviation="1"/>
+	<feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
+  </filter>
+ </defs>
+
+ <image x="-50" y="0" id="alti_fl" width="20" height="20" xlink:href="fl.svg">
+  <animate attributeName="y" from="0px" to="5px" dur="1s" repeatCount="indefinite" additive="sum" values="0px;-5px;2px;0px" keyTimes="0;0.4;0.8;1"/>
+ </image>
+ <line id="alti_vl" x1="-50" y1="20" x2="-50" y2="160" stroke="#000000" stroke-width="0.5" stroke-dasharray="1,2"/>
+ <line id="alti_vl2" x1="-50" y1="20" x2="-50" y2="160" stroke="#000000" stroke-width="0.5" stroke-dasharray="1,2"/>
+ <image x="-50" y="0" id="alti_de" width="14" height="14" xlink:href="depart.png"/>
+ <g id="main"></g>
+ <g id="infobulle" style="display:none;font-size:12px;font-family:arial">
+  <rect id="ibr" style="fill:rgba(255,255,255,0.9);stroke-width:2;stroke:rgba(180,180,180,0.9)" rx="3" ry="3"/>
+  <text id="ib1" style="font-weight:bold">-</text>
+  <text id="ib2">-</text>
+ </g>
+</svg>

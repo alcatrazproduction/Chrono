@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Categories>
+ <Groupe id="Séries FFC" lbl="Série" surGroupe="FFC" pays="France" discipline="Cyclisme" series="1">
+  <Cat id="Départemental Loisir" abr="DL" />
+  <Cat id="Régional" abr="R" />
+  <Cat id="National" abr="Nat" />
+  <Cat id="Elite 3" abr="E3" />
+  <Cat id="Elite 2" abr="E2" />
+  <Cat id="Elite 1" abr="E1" />
+ </Groupe>
+ <Groupe id="Catégories FFC" lbl="Catégorie" surGroupe="FFC" pays="France" discipline="Cyclisme">
+  <Cat id="Minime" abr="M" sx="0" agemin="13" agemax="14" />
+  <Cat nv="1" id="Minime 1" abr="M1" sx="0" agemin="13" agemax="13" />
+  <Cat nv="1" id="Minime 2" abr="M2" sx="0" agemin="14" agemax="14" />
+  <Cat id="Cadet" abr="C" sx="0" agemin="15" agemax="16" />
+  <Cat nv="1" id="Cadet 1" abr="C1" sx="0" agemin="15" agemax="15" />
+  <Cat nv="1" id="Cadet 2" abr="C2" sx="0" agemin="16" agemax="16" />
+  <Cat id="Junior" abr="J" sx="0" agemin="17" agemax="18" />
+  <Cat nv="1" id="Junior 1" abr="J1" sx="0" agemin="17" agemax="17" />
+  <Cat nv="1" id="Junior 2" abr="J2" sx="0" agemin="18" agemax="18" />
+  <Cat id="Espoir" abr="Es" sx="0" agemin="19" agemax="22" />
+  <Cat id="Senior" abr="S" sx="0" agemin="23" agemax="29" />
+  <Cat id="Master" abr="Ms" sx="0" agemin="30" agemax="99" />
+  <Cat nv="1" id="Master 1" abr="Ms1" sx="0" agemin="30" agemax="39" />
+  <Cat nv="1" id="Master 2" abr="Ms2" sx="0" agemin="40" agemax="49" />
+  <Cat nv="1" id="Master 3" abr="Ms3" sx="0" agemin="50" agemax="59" />
+  <Cat nv="1" id="Master 4" abr="Ms4" sx="0" agemin="60" agemax="69" />
+  <Cat nv="1" id="Master 5" abr="Ms5" sx="0" agemin="70" agemax="99" />
+ </Groupe>
+ <Groupe id="Catégories FFA" lbl="Catégorie" IDDISC="CAP FFA" pays="France" discipline="Athlétisme">
+  <Cat abr="EAH" id="École d'Athlétisme Garçon" sx="1" agemin="0" agemax="9" nv="0" />
+  <Cat abr="POH" id="Poussins Garçon" sx="1" agemin="10" agemax="11" nv="0" />
+  <Cat abr="BEH" id="Benjamins Garçon" sx="1" agemin="12" agemax="13" nv="0" />
+  <Cat abr="MIH" id="Minimes Homme" sx="1" agemin="14" agemax="15" nv="0" />
+  <Cat abr="CAH" id="Cadets Homme" sx="1" agemin="16" agemax="17" nv="0" />
+  <Cat abr="JUH" id="Juniors Homme" sx="1" agemin="18" agemax="19" nv="0" />
+  <Cat abr="ESH" id="Espoirs Homme" sx="1" agemin="20" agemax="22" nv="0" />
+  <Cat abr="SEH" id="Seniors Homme" sx="1" agemin="23" agemax="39" nv="0" />
+  <Cat abr="MH" id="Masters Homme" sx="1" agemin="40" agemax="99" nv="0" active="0" />
+  <Cat abr="M1H" id="Masters 1 Homme" sx="1" agemin="40" agemax="49" nv="1" />
+  <Cat abr="M2H" id="Masters 2 Homme" sx="1" agemin="50" agemax="59" nv="1" />
+  <Cat abr="M3H" id="Masters 3 Homme" sx="1" agemin="60" agemax="69" nv="1" />
+  <Cat abr="M4H" id="Masters 4 Homme" sx="1" agemin="70" agemax="79" nv="1" />
+  <Cat abr="M5H" id="Masters 5 Homme" sx="1" agemin="80" agemax="99" nv="1" />
+  <Cat abr="EAF" id="Ecole d'Athlétisme Fille" sx="2" agemin="0" agemax="9" nv="0" />
+  <Cat abr="POF" id="Poussins Fille" sx="2" agemin="10" agemax="11" nv="0" />
+  <Cat abr="BEF" id="Benjamins Fille" sx="2" agemin="12" agemax="13" nv="0" />
+  <Cat abr="MIF" id="Minimes Femme" sx="2" agemin="14" agemax="15" nv="0" />
+  <Cat abr="CAF" id="Cadets Femme" sx="2" agemin="16" agemax="17" nv="0" />
+  <Cat abr="JUF" id="Juniors Femme" sx="2" agemin="18" agemax="19" nv="0" />
+  <Cat abr="ESF" id="Espoirs Femme" sx="2" agemin="20" agemax="22" nv="0" />
+  <Cat abr="SEF" id="Seniors Femme" sx="2" agemin="23" agemax="39" nv="0" />
+  <Cat abr="MF" id="Masters Femme" sx="2" agemin="40" agemax="99" nv="0" active="0" />
+  <Cat abr="M1F" id="Masters 1 Femme" sx="2" agemin="40" agemax="49" nv="1" />
+  <Cat abr="M2F" id="Masters 2 Femme" sx="2" agemin="50" agemax="59" nv="1" />
+  <Cat abr="M3F" id="Masters 3 Femme" sx="2" agemin="60" agemax="69" nv="1" />
+  <Cat abr="M4F" id="Masters 4 Femme" sx="2" agemin="70" agemax="79" nv="1" />
+  <Cat abr="M5F" id="Masters 5 Femme" sx="2" agemin="80" agemax="99" nv="1" />
+ </Groupe>
+ <Groupe id="Categorie FIDAL" lbl="Categorie" IDDISC="CAP FIDAL" pays="Italia" discipline="Athlétisme">
+  <Cat abr="EM" id="Esordienti M" sx="1" agemin="6" agemax="11" nv="0" />
+  <Cat abr="EF" id="Esordienti F" sx="2" agemin="6" agemax="11" nv="0" />
+  <Cat abr="RM" id="Ragazzi" sx="1" agemin="12" agemax="13" nv="0" />
+  <Cat abr="RF" id="Ragazze" sx="2" agemin="12" agemax="13" nv="0" />
+  <Cat abr="CM" id="Cadetti" sx="1" agemin="14" agemax="15" nv="0" />
+  <Cat abr="CF" id="Cadette" sx="2" agemin="14" agemax="15" nv="0" />
+  <Cat abr="AM" id="Allievi" sx="1" agemin="16" agemax="17" nv="0" />
+  <Cat abr="AF" id="Allieve" sx="2" agemin="16" agemax="17" nv="0" />
+  <Cat abr="JM" id="Juniores M" sx="1" agemin="18" agemax="19" nv="0" />
+  <Cat abr="JF" id="Juniores F" sx="2" agemin="18" agemax="19" nv="0" />
+  <Cat abr="PM" id="Promesse M" sx="1" agemin="20" agemax="22" nv="0" />
+  <Cat abr="PF" id="Promesse F" sx="2" agemin="20" agemax="22" nv="0" />
+  <Cat abr="SM" id="Seniores M" sx="1" agemin="23" agemax="100" nv="0" />
+  <Cat abr="SF" id="Seniores F" sx="2" agemin="23" agemax="100" nv="0" />
+  <Cat abr="SM35" id="Seniores 35 M" sx="1" agemin="35" agemax="39" nv="1" />
+  <Cat abr="SF35" id="Seniores 35 F" sx="2" agemin="35" agemax="39" nv="1" />
+  <Cat abr="SM40" id="Seniores 40 M" sx="1" agemin="40" agemax="44" nv="1" />
+  <Cat abr="SF40" id="Seniores 40 F" sx="2" agemin="40" agemax="44" nv="1" />
+  <Cat abr="SM45" id="Seniores 45 M" sx="1" agemin="45" agemax="49" nv="1" />
+  <Cat abr="SF45" id="Seniores 45 F" sx="2" agemin="45" agemax="49" nv="1" />
+  <Cat abr="SM50" id="Seniores 50 M" sx="1" agemin="50" agemax="54" nv="1" />
+  <Cat abr="SF50" id="Seniores 50 F" sx="2" agemin="50" agemax="54" nv="1" />
+  <Cat abr="SM55" id="Seniores 55 M" sx="1" agemin="55" agemax="59" nv="1" />
+  <Cat abr="SF55" id="Seniores 55 F" sx="2" agemin="55" agemax="59" nv="1" />
+  <Cat abr="SM60" id="Seniores 60 M" sx="1" agemin="60" agemax="64" nv="1" />
+  <Cat abr="SF60" id="Seniores 60 F" sx="2" agemin="60" agemax="64" nv="1" />
+  <Cat abr="SM65" id="Seniores 65 M" sx="1" agemin="65" agemax="69" nv="1" />
+  <Cat abr="SF65" id="Seniores 65 F" sx="2" agemin="65" agemax="69" nv="1" />
+  <Cat abr="SM70" id="Seniores 70 M" sx="1" agemin="70" agemax="74" nv="1" />
+  <Cat abr="SF70" id="Seniores 70 F" sx="2" agemin="70" agemax="74" nv="1" />
+  <Cat abr="SM75" id="Seniores 75 M" sx="1" agemin="75" agemax="79" nv="1" />
+  <Cat abr="SF75" id="Seniores 75 F" sx="2" agemin="75" agemax="79" nv="1" />
+  <Cat abr="SM80" id="Seniores 80 M" sx="1" agemin="80" agemax="84" nv="1" />
+  <Cat abr="SF80" id="Seniores 80 F" sx="2" agemin="80" agemax="84" nv="1" />
+  <Cat abr="SM85" id="Seniores 85 M" sx="1" agemin="85" agemax="89" nv="1" />
+  <Cat abr="SF85" id="Seniores 85 F" sx="2" agemin="85" agemax="89" nv="1" />
+  <Cat abr="SM90" id="Seniores 90 M" sx="1" agemin="90" agemax="94" nv="1" />
+  <Cat abr="SF90" id="Seniores 90 F" sx="2" agemin="90" agemax="94" nv="1" />
+  <Cat abr="SM95" id="Seniores 95 M" sx="1" agemin="95" agemax="100" nv="1" />
+  <Cat abr="SF95" id="Seniores 95 F" sx="2" agemin="95" agemax="100" nv="1" />
+ </Groupe>
+ <Groupe id="Categorie CSO" lbl="Categorie" IDDISC="CAP CSO" pays="Italia" discipline="Athlétisme">
+  <Cat abr="MCUC M" id="Mini Cuccioli M" sx="1" agemin="3" agemax="7" />
+  <Cat abr="MCUC F" id="Mini Cuccioli F" sx="2" agemin="3" agemax="7" />
+  <Cat abr="CUC M" id="Cuccioli M" sx="1" agemin="8" agemax="9" />
+  <Cat abr="CUC F" id="Cuccioli F" sx="2" agemin="8" agemax="9" />
+  <Cat abr="EM" id="Esordienti M" sx="1" agemin="10" agemax="11" refagemin="Season" />
+  <Cat abr="EF" id="Esordienti F" sx="2" agemin="10" agemax="11" />
+  <Cat abr="RM" id="Ragazzi" sx="1" agemin="12" agemax="13" />
+  <Cat abr="RF" id="Ragazze" sx="2" agemin="12" agemax="13" />
+  <Cat abr="CM" id="Cadetti" sx="1" agemin="14" agemax="15" />
+  <Cat abr="CF" id="Cadette" sx="2" agemin="14" agemax="15" />
+  <Cat abr="AM" id="Allievi" sx="1" agemin="16" agemax="17" />
+  <Cat abr="AF" id="Allieve" sx="2" agemin="16" agemax="17" />
+  <Cat abr="JM" id="Juniores M" sx="1" agemin="18" agemax="19" />
+  <Cat abr="JF" id="Juniores F" sx="2" agemin="18" agemax="19" />
+  <Cat abr="SMC" id="Seniores M CSI" sx="1" agemin="20" agemax="34" />
+  <Cat abr="SFC" id="Seniores F CSI" sx="2" agemin="20" agemax="34" />
+  <Cat abr="AMA M" id="Amatori A M" sx="1" agemin="35" agemax="44" />
+  <Cat abr="AMA F" id="Amatori A F" sx="2" agemin="35" agemax="44" />
+  <Cat abr="AMB M" id="Amatori B M" sx="1" agemin="45" agemax="54" />
+  <Cat abr="AMB F" id="Amatori B F" sx="2" agemin="45" agemax="54" />
+  <Cat abr="VET M" id="Vaterani M" sx="1" agemin="55" agemax="99" />
+  <Cat abr="VET F" id="Veterani F" sx="2" agemin="55" agemax="99" />
+ </Groupe>
+ <Groupe id="DLV Altersklassen" lbl="Klassen" IDDISC="CAP DLV" pays="Deutschland" discipline="Athlétisme">
+  <Cat abr="MU8" id="männliche Kinder U8" sx="1" agemin="0" agemax="7" nv="0" />
+  <Cat abr="WU8" id="weibliche Kinder U8" sx="2" agemin="0" agemax="7" nv="0" />
+  <Cat abr="MU10" id="männliche Kinder U10" sx="1" agemin="8" agemax="9" nv="0" />
+  <Cat abr="WU10" id="weibliche Kinder U10" sx="2" agemin="8" agemax="9" nv="0" />
+  <Cat abr="MU12" id="männliche Kinder U12" sx="1" agemin="10" agemax="11" nv="0" />
+  <Cat abr="WU12" id="weibliche Kinder U12" sx="2" agemin="10" agemax="11" nv="0" />
+  <Cat abr="MU14" id="männliche Kinder U14" sx="1" agemin="12" agemax="13" nv="0" />
+  <Cat abr="WU14" id="weibliche Kinder U14" sx="2" agemin="12" agemax="13" nv="0" />
+  <Cat abr="MU16" id="männliche Kinder U16" sx="1" agemin="14" agemax="15" nv="0" />
+  <Cat abr="WU16" id="weibliche Kinder U16" sx="2" agemin="14" agemax="15" nv="0" />
+  <Cat abr="MU18" id="männliche Kinder U18" sx="1" agemin="16" agemax="17" nv="0" />
+  <Cat abr="WU18" id="weibliche Kinder U18" sx="2" agemin="16" agemax="17" nv="0" />
+  <Cat abr="MU20" id="männliche Kinder U20" sx="1" agemin="18" agemax="19" nv="0" />
+  <Cat abr="WU20" id="weibliche Kinder U20" sx="2" agemin="18" agemax="19" nv="0" />
+  <Cat abr="MHK" id="Männer (Hauptklasse)" sx="1" agemin="20" agemax="29" nv="0" />
+  <Cat abr="WHK" id="Frauen (Hauptklasse)" sx="2" agemin="20" agemax="29" nv="0" />
+  <Cat abr="M30" id="Senioren M30" sx="1" agemin="30" agemax="34" nv="0" />
+  <Cat abr="W30" id="Seniorinnen W30" sx="2" agemin="30" agemax="34" nv="0" />
+  <Cat abr="M35" id="Senioren M35" sx="1" agemin="35" agemax="39" nv="0" />
+  <Cat abr="W35" id="Seniorinnen W35" sx="2" agemin="35" agemax="39" nv="0" />
+  <Cat abr="M40" id="Senioren M40" sx="1" agemin="40" agemax="44" nv="0" />
+  <Cat abr="W40" id="Seniorinnen W40" sx="2" agemin="40" agemax="44" nv="0" />
+  <Cat abr="M45" id="Senioren M45" sx="1" agemin="45" agemax="49" nv="0" />
+  <Cat abr="W45" id="Seniorinnen W45" sx="2" agemin="44" agemax="49" nv="0" />
+  <Cat abr="M50" id="Senioren M50" sx="1" agemin="50" agemax="54" nv="0" />
+  <Cat abr="W50" id="Seniorinnen W50" sx="2" agemin="50" agemax="54" nv="0" />
+  <Cat abr="M55" id="Senioren M55" sx="1" agemin="55" agemax="59" nv="0" />
+  <Cat abr="W55" id="Seniorinnen W55" sx="2" agemin="55" agemax="59" nv="0" />
+  <Cat abr="M60" id="Senioren M60" sx="1" agemin="60" agemax="64" nv="0" />
+  <Cat abr="W60" id="Seniorinnen W60" sx="2" agemin="60" agemax="64" nv="0" />
+  <Cat abr="M65" id="Senioren M65" sx="1" agemin="65" agemax="69" nv="0" />
+  <Cat abr="W65" id="Seniorinnen W65" sx="2" agemin="65" agemax="69" nv="0" />
+  <Cat abr="M70" id="Senioren M70" sx="1" agemin="70" agemax="74" nv="0" />
+  <Cat abr="W70" id="Seniorinnen W70" sx="2" agemin="70" agemax="74" nv="0" />
+  <Cat abr="M75" id="Senioren M75" sx="1" agemin="75" agemax="79" nv="0" />
+  <Cat abr="W75" id="Seniorinnen W75" sx="2" agemin="75" agemax="79" nv="0" />
+  <Cat abr="M80" id="Senioren M80" sx="1" agemin="80" agemax="84" nv="0" />
+  <Cat abr="W80" id="Seniorinnen W80" sx="2" agemin="80" agemax="84" nv="0" />
+  <Cat abr="M85" id="Senioren M85" sx="1" agemin="85" agemax="99" nv="0" />
+  <Cat abr="W85" id="Seniorinnen W85" sx="2" agemin="85" agemax="99" nv="0" />
+ </Groupe>
+ <Groupe id="Categorias CBAt" lbl="Categorias" IDDISC="CBAt" pays="Brazil" discipline="Athlétisme">
+  <Cat abr="S14-M" id="Sub-14 Masculino" sx="1" agemin="12" agemax="13" nv="0" />
+  <Cat abr="S14-F" id="Sub-14 Feminino" sx="2" agemin="12" agemax="13" nv="0" />
+  <Cat abr="S16-M" id="Sub-16 Masculino" sx="1" agemin="14" agemax="15" nv="0" />
+  <Cat abr="S16-F" id="Sub-16 Feminino" sx="2" agemin="14" agemax="15" nv="0" />
+  <Cat abr="S18-M" id="Sub-18 Masculino" sx="1" agemin="16" agemax="17" nv="0" />
+  <Cat abr="S18-F" id="Sub-18 Feminino" sx="2" agemin="16" agemax="17" nv="0" />
+  <Cat abr="S20-M" id="Sub-20 Masculino" sx="1" agemin="16" agemax="19" nv="0" />
+  <Cat abr="S20-F" id="Sub-20 Feminino" sx="2" agemin="16" agemax="19" nv="0" />
+  <Cat abr="S23-M" id="Sub-23 Masculino" sx="1" agemin="16" agemax="22" nv="0" />
+  <Cat abr="S23-F" id="Sub-23 Feminino" sx="2" agemin="16" agemax="22" nv="0" />
+  <Cat abr="MA" id="Adultos Masculino" sx="1" agemin="16" agemax="39" nv="0" />
+  <Cat abr="FA" id="Adultos Feminino" sx="2" agemin="16" agemax="39" nv="0" />
+  <Cat abr="M40" id="Masters 40 Masculino" sx="1" agemin="40" agemax="44" nv="0" />
+  <Cat abr="F40" id="Masters 40 Feminino" sx="2" agemin="40" agemax="44" nv="0" />
+  <Cat abr="M45" id="Masters 45 Masculino" sx="1" agemin="45" agemax="49" nv="0" />
+  <Cat abr="F45" id="Masters 45 Feminino" sx="2" agemin="45" agemax="49" nv="0" />
+  <Cat abr="M50" id="Masters 50 Masculino" sx="1" agemin="50" agemax="54" nv="0" />
+  <Cat abr="F50" id="Masters 50 Feminino" sx="2" agemin="50" agemax="54" nv="0" />
+  <Cat abr="M55" id="Masters 55 Masculino" sx="1" agemin="55" agemax="59" nv="0" />
+  <Cat abr="F55" id="Masters 55 Feminino" sx="2" agemin="55" agemax="59" nv="0" />
+  <Cat abr="M60" id="Masters 60 Masculino" sx="1" agemin="60" agemax="64" nv="0" />
+  <Cat abr="F60" id="Masters 60 Feminino" sx="2" agemin="60" agemax="64" nv="0" />
+  <Cat abr="M65" id="Masters 65 Masculino" sx="1" agemin="65" agemax="69" nv="0" />
+  <Cat abr="F65" id="Masters 65 Feminino" sx="2" agemin="65" agemax="69" nv="0" />
+  <Cat abr="M70" id="Masters 70 Masculino" sx="1" agemin="70" agemax="74" nv="0" />
+  <Cat abr="F70" id="Masters 70 Feminino" sx="2" agemin="70" agemax="74" nv="0" />
+  <Cat abr="M75" id="Masters 75 Masculino" sx="1" agemin="75" agemax="79" nv="0" />
+  <Cat abr="F75" id="Masters 75 Feminino" sx="2" agemin="75" agemax="79" nv="0" />
+  <Cat abr="M80" id="Masters 80 Masculino" sx="1" agemin="80" agemax="84" nv="0" />
+  <Cat abr="F80" id="Masters 80 Feminino" sx="2" agemin="80" agemax="84" nv="0" />
+  <Cat abr="M85" id="Masters 85 Masculino" sx="1" agemin="85" agemax="89" nv="0" />
+  <Cat abr="F85" id="Masters 85 Feminino" sx="2" agemin="85" agemax="89" nv="0" />
+  <Cat abr="M90" id="Masters 90 Masculino" sx="1" agemin="90" agemax="94" nv="0" />
+  <Cat abr="F90" id="Masters 90 Feminino" sx="2" agemin="90" agemax="94" nv="0" />
+  <Cat abr="M95" id="Masters 95 Masculino" sx="1" agemin="95" agemax="99" nv="0" />
+  <Cat abr="F95" id="Masters 95 Feminino" sx="2" agemin="95" agemax="99" nv="0" />
+  <Cat abr="M100" id="Masters 100 Masculino" sx="1" agemin="100" agemax="130" nv="0" />
+  <Cat abr="F100" id="Masters 100 Feminino" sx="2" agemin="100" agemax="130" nv="0" />
+ </Groupe>
+ <Groupe id="Categorias RFEA" lbl="Categorias" IDDISC="RFEA" pays="España" discipline="Athlétisme">
+  <Cat id="BENJAMÍN masculino" abr="BM" sx="1" agemin="8" agemax="9" />
+  <Cat id="BENJAMÍN femenina" abr="BF" sx="2" agemin="8" agemax="9" />
+  <Cat id="ALEVÍN masculino" abr="AM" sx="1" agemin="10" agemax="11" />
+  <Cat id="ALEVÍN femenina" abr="AF" sx="2" agemin="10" agemax="11" />
+  <Cat id="INFANTIL masculino" abr="IM" sx="1" agemin="12" agemax="13" />
+  <Cat id="INFANTIL femenina" abr="IF" sx="2" agemin="12" agemax="13" />
+  <Cat id="CADETE masculino" abr="CM" sx="1" agemin="14" agemax="15" />
+  <Cat id="CADETE femenina" abr="CF" sx="2" agemin="14" agemax="15" />
+  <Cat id="JUVENIL masculino" abr="JVM" sx="1" agemin="16" agemax="17" />
+  <Cat id="JUVENIL femenina" abr="JVF" sx="2" agemin="16" agemax="17" />
+  <Cat id="JÚNIOR masculino" abr="JM" sx="1" agemin="18" agemax="19" />
+  <Cat id="JÚNIOR femenina" abr="JF" sx="2" agemin="18" agemax="19" />
+  <Cat id="PROMESA masculino" abr="PM" sx="1" agemin="20" agemax="22" />
+  <Cat id="PROMESA femenina" abr="PF" sx="2" agemin="20" agemax="22" />
+  <Cat id="SENIOR masculino" abr="PM" sx="1" agemin="23" agemax="34" />
+  <Cat id="SENIOR femenina" abr="PF" sx="2" agemin="23" agemax="34" />
+  <Cat id="VETERANOS 35 masculino" abr="V35M" sx="1" agemin="35" agemax="39" />
+  <Cat id="VETERANOS 35 femenina" abr="V35F" sx="2" agemin="35" agemax="39" />
+  <Cat id="VETERANOS 40 masculino" abr="V40M" sx="1" agemin="40" agemax="44" />
+  <Cat id="VETERANOS 40 femenina" abr="V40F" sx="2" agemin="40" agemax="44" />
+  <Cat id="VETERANOS 45 masculino" abr="V45M" sx="1" agemin="45" agemax="49" />
+  <Cat id="VETERANOS 45 femenina" abr="V45F" sx="2" agemin="45" agemax="49" />
+  <Cat id="VETERANOS 50 masculino" abr="V50M" sx="1" agemin="50" agemax="54" />
+  <Cat id="VETERANOS 50 femenina" abr="V50F" sx="2" agemin="50" agemax="54" />
+  <Cat id="VETERANOS 55 masculino" abr="V55M" sx="1" agemin="55" agemax="59" />
+  <Cat id="VETERANOS 55 femenina" abr="V55F" sx="2" agemin="55" agemax="59" />
+  <Cat id="VETERANOS 60 masculino" abr="V60M" sx="1" agemin="60" agemax="64" />
+  <Cat id="VETERANOS 60 femenina" abr="V60F" sx="2" agemin="60" agemax="64" />
+  <Cat id="VETERANOS 65 masculino" abr="V65M" sx="1" agemin="65" agemax="69" />
+  <Cat id="VETERANOS 65 femenina" abr="V65F" sx="2" agemin="65" agemax="69" />
+  <Cat id="VETERANOS 70 masculino" abr="V70M" sx="1" agemin="70" agemax="74" />
+  <Cat id="VETERANOS 70 femenina" abr="V70F" sx="2" agemin="70" agemax="74" />
+  <Cat id="VETERANOS 75 masculino" abr="V75M" sx="1" agemin="75" agemax="79" />
+  <Cat id="VETERANOS 75 femenina" abr="V75F" sx="2" agemin="75" agemax="79" />
+  <Cat id="VETERANOS 80 masculino" abr="V80M" sx="1" agemin="80" agemax="84" />
+  <Cat id="VETERANOS 80 femenina" abr="V80F" sx="2" agemin="80" agemax="84" />
+  <Cat id="VETERANOS 85 masculino" abr="V85M" sx="1" agemin="85" agemax="89" />
+  <Cat id="VETERANOS 85 femenina" abr="V85F" sx="2" agemin="85" agemax="89" />
+  <Cat id="VETERANOS 90 masculino" abr="V90M" sx="1" agemin="90" agemax="94" />
+  <Cat id="VETERANOS 90 femenina" abr="V90F" sx="2" agemin="90" agemax="94" />
+  <Cat id="VETERANOS 95 masculino" abr="V95M" sx="1" agemin="95" agemax="99" />
+  <Cat id="VETERANOS 95 femenina" abr="V95F" sx="2" agemin="95" agemax="99" />
+  <Cat id="VETERANOS 100 masculino" abr="V100M" sx="1" agemin="100" agemax="130" />
+  <Cat id="VETERANOS 100 femenina" abr="V100F" sx="2" agemin="100" agemax="130" />
+ </Groupe>
+ <Groupe id="FFTri" lbl="Catégorie" pays="France" discipline="Triathlon">
+  <Cat id="Mini-poussin" abr="MP" sx="0" agemin="6" agemax="7" />
+  <Cat id="Poussin" abr="Po" sx="0" agemin="8" agemax="9" />
+  <Cat id="Pupille" abr="Pu" sx="0" agemin="10" agemax="11" />
+  <Cat id="Benjamin" abr="B" sx="0" agemin="12" agemax="13" />
+  <Cat id="Minime" abr="M" sx="0" agemin="14" agemax="15" />
+  <Cat id="Cadet" abr="C" sx="0" agemin="16" agemax="17" />
+  <Cat id="Junior" abr="J" sx="0" agemin="18" agemax="19" />
+  <Cat id="Senior" abr="S" sx="0" agemin="20" agemax="39" />
+  <Cat id="Senior 1" abr="S1" sx="0" agemin="20" agemax="24" nv="1" />
+  <Cat id="Senior 2" abr="S2" sx="0" agemin="25" agemax="29" nv="1" />
+  <Cat id="Senior 3" abr="S3" sx="0" agemin="30" agemax="34" nv="1" />
+  <Cat id="Senior 4" abr="S4" sx="0" agemin="35" agemax="39" nv="1" />
+  <Cat id="Vétéran" abr="V" sx="0" agemin="40" agemax="99" />
+  <Cat id="Vétéran 1" abr="V1" sx="0" agemin="40" agemax="44" nv="1" />
+  <Cat id="Vétéran 2" abr="V2" sx="0" agemin="45" agemax="49" nv="1" />
+  <Cat id="Vétéran 3" abr="V3" sx="0" agemin="50" agemax="54" nv="1" />
+  <Cat id="Vétéran 4" abr="V4" sx="0" agemin="55" agemax="59" nv="1" />
+  <Cat id="Vétéran 5" abr="V5" sx="0" agemin="60" agemax="64" nv="1" />
+  <Cat id="Vétéran 6" abr="V6" sx="0" agemin="65" agemax="69" nv="1" />
+  <Cat id="Vétéran 7" abr="V7" sx="0" agemin="70" agemax="74" nv="1" />
+  <Cat id="Vétéran 8" abr="V8" sx="0" agemin="75" agemax="79" nv="1" />
+  <Cat id="Vétéran 9" abr="V9" sx="0" agemin="80" agemax="84" nv="1" />
+  <Cat id="Vétéran 10" abr="V10" sx="0" agemin="85" agemax="89" nv="1" />
+  <Cat id="Vétéran 11" abr="V11" sx="0" agemin="90" agemax="94" nv="1" />
+  <Cat id="Vétéran 12" abr="V12" sx="0" agemin="95" agemax="99" nv="1" />
+ </Groupe>
+ <Groupe id="BC age categories" lbl="age Cat." surgroupe="BC" pays="GB" discipline="Cycling">
+  <Cat id="Youth E" abr="YE" sx="0" agemin="0" agemax="8" />
+  <Cat id="Youth D" abr="YD" sx="0" agemin="9" agemax="10" />
+  <Cat id="Youth C" abr="YC" sx="0" agemin="11" agemax="12" />
+  <Cat id="Youth B" abr="YB" sx="0" agemin="13" agemax="14" />
+  <Cat id="Youth A" abr="YA" sx="0" agemin="15" agemax="16" />
+  <Cat id="Junior" abr="Jn" sx="0" agemin="17" agemax="18" />
+  <Cat id="Under 23" abr="U23" sx="0" agemin="19" agemax="23" />
+  <Cat id="Over 23" abr="O23" sx="0" agemin="24" agemax="99" />
+  <Cat id="Women" abr="Wm" sx="2" agemin="9" agemax="99" />
+  <Cat id="Master A" abr="MA" sx="0" agemin="30" agemax="34" />
+  <Cat id="Master B" abr="MB" sx="0" agemin="35" agemax="39" />
+  <Cat id="Master C" abr="MC" sx="0" agemin="40" agemax="44" />
+  <Cat id="Master D" abr="MD" sx="0" agemin="45" agemax="49" />
+  <Cat id="Master E" abr="ME" sx="0" agemin="50" agemax="54" />
+  <Cat id="Master F" abr="MF" sx="0" agemin="55" agemax="59" />
+  <Cat id="Master G" abr="MG" sx="0" agemin="60" agemax="64" />
+  <Cat id="Master H" abr="MH" sx="0" agemin="65" agemax="69" />
+  <Cat id="Master I" abr="MI" sx="0" agemin="70" agemax="99" />
+ </Groupe>
+ <Groupe id="BC ability categories" lbl="ab cat." surgroupe="BC" pays="GB" discipline="Cycling" series="1">
+  <Cat id="4th category" abr="4°C" />
+  <Cat id="3th category" abr="3°C" />
+  <Cat id="2th category" abr="2°C" />
+  <Cat id="1th category" abr="1°C" />
+ </Groupe>
+ <Groupe id="Swiss cycling kategorien" lbl="kat" surgroupe="SC" pays="Suisse" discipline="Cyclisme">
+  <Cat id="Schüler C" abr="BC" sx="0" agemin="90" agemax="91" />
+  <Cat id="Schüler B" abr="BB" sx="0" agemin="89" agemax="89" />
+  <Cat id="Schüler A" abr="BA" sx="0" agemin="88" agemax="88" />
+  <Cat id="Anfänger" abr="C" sx="1" agemin="86" agemax="87" />
+  <Cat id="Junioren" abr="J" sx="1" agemin="84" agemax="85" />
+  <Cat id="U23 international" abr="U23" sx="1" agemin="80" agemax="83" />
+  <Cat id="Masters" abr="M" sx="1" agemin="72" agemax="99" />
+  <Cat id="Anfängerinnen" abr="FC" sx="2" agemin="86" agemax="87" />
+  <Cat id="Juniorinnen" abr="JF" sx="2" agemin="84" agemax="85" />
+  <Cat id="Amateurinnen" abr="AF" sx="2" agemin="83" agemax="99" />
+ </Groupe>
+ <Groupe id="Swiss Cycling Abilities" lbl="ab" surgroupe="SC" pays="Suisse" discipline="Cyclisme" series="1">
+  <Cat id="Elite international" abr="Ei" />
+  <Cat id="Elite" abr="E" />
+  <Cat id="Amateure" abr="A" />
+ </Groupe>
+ <Groupe id="UFOLEP Catégorie d'âge" lbl="Cat âge" surgroupe="UF" pays="France">
+  <Cat id="Minime" abr="Mn" sx="0" agemin="13" agemax="14" />
+  <Cat id="Cadet" abr="Cd" sx="0" agemin="15" agemax="16" />
+  <Cat id="Féminine Junior" abr="FJ" sx="2" agemin="17" agemax="18" />
+  <Cat id="Féminine A" abr="FA" sx="2" agemin="19" agemax="34" />
+  <Cat id="Féminine B" abr="FB" sx="2" agemin="35" agemax="99" />
+  <Cat id="Junior" abr="Jn" sx="2" agemin="17" agemax="18" />
+  <Cat id="Senior A" abr="SnA" sx="1" agemin="19" agemax="29" />
+  <Cat id="Senior B" abr="SnB" sx="1" agemin="30" agemax="39" />
+  <Cat id="Vétéran A" abr="VA" sx="1" agemin="40" agemax="49" />
+  <Cat id="Vétéran B" abr="VB" sx="1" agemin="50" agemax="99" />
+ </Groupe>
+ <Groupe id="UFOLEP Catégorie de valeur" lbl="Cat val" surgroupe="UF" pays="France" series="1">
+  <Cat id="Grand Sportif" abr="GS" />
+  <Cat id="3ème Catégorie" abr="3°" />
+  <Cat id="2ème Catégorie" abr="2°" />
+  <Cat id="1ère Catégorie" abr="1°" />
+  <Cat id="Féminine" abr="Fm" />
+ </Groupe>
+ <Groupe id="USAT Categories" lbl="" pays="USA" discipline="Track and field">
+  <Cat abr="MO" id="Male Open" sx="1" />
+  <Cat abr="FO" id="Female Open" sx="2" />
+  <Cat abr="MM" id="Male Master" sx="1" />
+  <Cat abr="FM" id="Female Master" sx="2" />
+  <Cat abr="M19&amp;Und" id="Male 19 and Under" sx="1" agemin="0" agemax="19" />
+  <Cat abr="F19&amp;Und" id="Female 19 and Under" sx="2" agemin="0" agemax="19" />
+  <Cat abr="M20-24" id="Male ages 20 to 24" sx="1" agemin="20" agemax="24" />
+  <Cat abr="F20-24" id="Female ages 20 to 24" sx="2" agemin="20" agemax="24" />
+  <Cat abr="M25-29" id="Male ages 25 to 29" sx="1" agemin="25" agemax="29" />
+  <Cat abr="F25-29" id="Female ages 25 to 29" sx="2" agemin="25" agemax="29" />
+  <Cat abr="M30-34" id="Male ages 30 to 34" sx="1" agemin="30" agemax="34" />
+  <Cat abr="F30-34" id="Female ages 30 to 34" sx="2" agemin="30" agemax="34" />
+  <Cat abr="M35-39" id="Male ages 35 to 39" sx="1" agemin="35" agemax="39" />
+  <Cat abr="F35-39" id="Female ages 35 to 39" sx="2" agemin="35" agemax="39" />
+  <Cat abr="M40-44" id="Male ages 40 to 44" sx="1" agemin="40" agemax="44" />
+  <Cat abr="F40-44" id="Female ages 40 to 44" sx="2" agemin="40" agemax="44" />
+  <Cat abr="M45-49" id="Male ages 45 to 49" sx="1" agemin="45" agemax="49" />
+  <Cat abr="F45-49" id="Female ages 45 to 49" sx="2" agemin="45" agemax="49" />
+  <Cat abr="M50-54" id="Male ages 50 to 54" sx="1" agemin="50" agemax="54" />
+  <Cat abr="F50-54" id="Female ages 50 to 54" sx="2" agemin="50" agemax="54" />
+  <Cat abr="M55-59" id="Male ages 55 to 59" sx="1" agemin="55" agemax="59" />
+  <Cat abr="F55-59" id="Female ages 55 to 59" sx="2" agemin="55" agemax="59" />
+  <Cat abr="M60-64" id="Male ages 60 to 64" sx="1" agemin="60" agemax="64" />
+  <Cat abr="F60-64" id="Female ages 60 to 64" sx="2" agemin="60" agemax="64" />
+  <Cat abr="M65-69" id="Male ages 65 to 69" sx="1" agemin="65" agemax="69" />
+  <Cat abr="F65-69" id="Female ages 65 to 69" sx="2" agemin="65" agemax="69" />
+  <Cat abr="M70&amp;Ov" id="Male 70 and over" sx="1" agemin="70" agemax="99" />
+  <Cat abr="F70&amp;Ov" id="Female 70 and over" sx="2" agemin="70" agemax="99" />
+ </Groupe>
+ <Groupe id="BDR Altersklassen" lbl="Kat" surgroupe="BDR" pays="Deutschland" discipline="Radsport">
+  <Cat id="Senioren 4" abr="S4" sx="0" agemin="61" agemax="99" />
+  <Cat id="Senioren 3" abr="S3" sx="0" agemin="51" agemax="60" />
+  <Cat id="Senioren 2" abr="S2" sx="0" agemin="41" agemax="50" />
+  <Cat id="Senioren 1" abr="S1" sx="0" agemin="30" agemax="40" />
+  <Cat id="Elite" abr="El" sx="0" agemin="23" agemax="29" />
+  <Cat id="Männer U23" abr="M" sx="0" agemin="19" agemax="22" />
+  <Cat id="Junioren U19" abr="J" sx="0" agemin="17" agemax="18" />
+  <Cat id="Jugend U17" abr="Jug" sx="0" agemin="15" agemax="16" />
+  <Cat id="Schüler U15" abr="Schüler" sx="0" agemin="13" agemax="14" />
+  <Cat id="Schüler U13" abr="U13" sx="0" agemin="11" agemax="12" />
+  <Cat id="Schüler U11" abr="U11" sx="0" agemin="0" agemax="10" />
+ </Groupe>
+ <Groupe id="FITRI Categorie" lbl="Cat" surgroupe="FIT" pays="Italia" discipline="Triathlon">
+  <Cat id="Cuccioli" abr="CUC" sx="0" agemin="8" agemax="9" />
+  <Cat id="Esordienti" abr="ESO" sx="0" agemin="10" agemax="11" />
+  <Cat id="Ragazzi" abr="RAG" sx="0" agemin="12" agemax="13" />
+  <Cat id="Youth A" abr="YA" sx="0" agemin="14" agemax="15" />
+  <Cat id="Youth B" abr="YB" sx="0" agemin="16" agemax="17" />
+  <Cat id="Junior" abr="JUN" sx="0" agemin="18" agemax="19" />
+  <Cat id="Under23" abr="U23" sx="0" agemin="20" agemax="23" />
+  <Cat id="Senior 1" abr="S1" sx="0" agemin="20" agemax="24" />
+  <Cat id="Senior 2" abr="S2" sx="0" agemin="25" agemax="29" />
+  <Cat id="Senior 3" abr="S3" sx="0" agemin="30" agemax="34" />
+  <Cat id="Senior 4" abr="S4" sx="0" agemin="35" agemax="39" />
+  <Cat id="Master 1" abr="M1" sx="0" agemin="40" agemax="44" />
+  <Cat id="Master 2" abr="M2" sx="0" agemin="45" agemax="49" />
+  <Cat id="Master 3" abr="M3" sx="0" agemin="50" agemax="54" />
+  <Cat id="Master 4" abr="M4" sx="0" agemin="55" agemax="59" />
+  <Cat id="Master 5" abr="M5" sx="0" agemin="60" agemax="64" />
+  <Cat id="Master 6" abr="M6" sx="0" agemin="65" agemax="69" />
+  <Cat id="Master 7" abr="M7" sx="0" agemin="70" agemax="74" />
+  <Cat id="Master 8" abr="M8" sx="0" agemin="75" agemax="99" />
+ </Groupe>
+ <Groupe id="CBTRI Categorias" lbl="Cat" surgroupe="BCT" pays="Brasil" discipline="Triathlon">
+ </Groupe>
+ <Groupe id="FETRI Categorías" lbl="Cat" surgroupe="FET" pays="España" discipline="Triathlon">
+  <Cat id="Cadete" abr="CAD" sx="0" agemin="15" agemax="17" />
+  <Cat id="Júnior" abr="JUN" sx="0" agemin="18" agemax="19" />
+  <Cat id="Sub 23" abr="S23" sx="0" agemin="20" agemax="23" />
+  <Cat id="Veterano 1" abr="V1" sx="0" agemin="40" agemax="49" />
+  <Cat id="Veterano 2" abr="V2" sx="0" agemin="50" agemax="59" />
+  <Cat id="Veterano 3" abr="V3" sx="0" agemin="60" agemax="99" />
+ </Groupe>
+ <Groupe id="British Triathlon Categories" lbl="Cat" surgroupe="BT" pays="GB" discipline="Triathlon">
+  <Cat id="TriStars Start" abr="TSS" sx="0" agemin="8" agemax="8" />
+  <Cat id="TriStars 1" abr="TS1" sx="0" agemin="9" agemax="10" />
+  <Cat id="TriStars 2" abr="TS2" sx="0" agemin="11" agemax="12" />
+  <Cat id="TriStars 3" abr="TS3" sx="0" agemin="13" agemax="14" />
+  <Cat id="Youths" abr="A" sx="0" agemin="15" agemax="16" />
+  <Cat id="Juniors 17-18" abr="B" sx="0" agemin="17" agemax="18" />
+  <Cat id="Juniors 19" abr="C" sx="0" agemin="19" agemax="19" />
+  <Cat id="Seniors 1" abr="D" sx="0" agemin="20" agemax="24" />
+  <Cat id="Seniors 2" abr="E" sx="0" agemin="25" agemax="29" />
+  <Cat id="Seniors 3" abr="F" sx="0" agemin="30" agemax="34" />
+  <Cat id="Seniors 4" abr="G" sx="0" agemin="35" agemax="39" />
+  <Cat id="Veterans 1" abr="H" sx="0" agemin="40" agemax="44" />
+  <Cat id="Veterans 2" abr="I" sx="0" agemin="45" agemax="49" />
+  <Cat id="Veterans 3" abr="J" sx="0" agemin="50" agemax="54" />
+  <Cat id="Veterans 4" abr="K" sx="0" agemin="55" agemax="59" />
+  <Cat id="Veterans 5" abr="L" sx="0" agemin="60" agemax="64" />
+  <Cat id="Veterans 6" abr="M" sx="0" agemin="65" agemax="69" />
+  <Cat id="Veterans 7" abr="N" sx="0" agemin="70" agemax="74" />
+  <Cat id="Veterans 8" abr="P" sx="0" agemin="75" agemax="79" />
+  <Cat id="Veterans 9" abr="Q" sx="0" agemin="80" agemax="99" />
+ </Groupe>
+ <Groupe id="RFEC Categorías" lbl="Cat" surgroupe="RFEC" pays="España" discipline="Cyclisme">
+  <Cat id="Promesas" abr="Pro" sx="0" agemin="0" agemax="8" />
+  <Cat id="Principiante" abr="Pri" sx="0" agemin="9" agemax="10" />
+  <Cat id="Alevín" abr="Alv" sx="0" agemin="11" agemax="12" />
+  <Cat id="Infantil" abr="Inf" sx="0" agemin="13" agemax="14" />
+  <Cat id="Cadete" abr="Cad" sx="0" agemin="15" agemax="16" />
+  <Cat id="Junior" abr="Jun" sx="0" agemin="17" agemax="18" />
+  <Cat id="Sub-23" abr="S23" sx="1" agemin="19" agemax="22" />
+  <Cat id="Elite Mujer" abr="ELM" sx="2" agemin="19" agemax="75" />
+  <Cat id="Elite Hombre" abr="ELH" sx="1" agemin="23" agemax="75" />
+  <Cat id="Máster 30" abr="M30" sx="0" agemin="30" agemax="39" />
+  <Cat id="Máster 40" abr="M40" sx="0" agemin="40" agemax="49" />
+  <Cat id="Máster 50" abr="M50" sx="0" agemin="50" agemax="59" />
+  <Cat id="Máster 60" abr="M60" sx="0" agemin="60" agemax="75" />
+  <Cat id="Cicloturista" abr="Cic" sx="0" />
+ </Groupe>
+</Categories>

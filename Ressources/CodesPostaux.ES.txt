@@ -1,0 +1,3485 @@
+1000	Vitoria-Gasteiz
+1110	Campezo,Kanpezu
+1117	Harana,Valle de Arana
+1118	Bernedo
+1118	Lagrán
+1120	Arraia-Maeztu
+1130	Zuia
+1138	Zigoitia
+1160	Aramaio
+1170	Legutiano
+1192	Elburgo
+1193	Iruraiz-Gauna
+1200	Salvatierra o Agurain
+1206	Barrundia
+1208	San Millán,Donemiliaga
+1208	Zalduondo
+1211	Peñacerrada-Urizaharra
+1212	Zambrana
+1213	Lantarón
+1213	Ribera Baja,Erribera Beitia
+1218	Berantevilla
+1220	Armiñón
+1230	Iruña Oka,Iruña de Oca
+1240	Alegría-Dulantzi
+1250	Asparrena
+1300	Laguardia
+1306	Lapuebla de Labarca
+1307	Baños de Ebro,Mañueta
+1307	Leza
+1307	Samaniego
+1307	Villabuena de Álava,Eskuernaga
+1308	Kripan
+1308	Lanciego,Lantziego
+1309	Elvillar,Bilar
+1309	Navaridas
+1311	Yécora
+1314	Moreda de Álava
+1320	Oyón,Oion
+1330	Labastida
+1340	Elciego
+1400	Llodio
+1409	Okondo
+1420	Ribera Alta
+1426	Valdegovía
+1427	Añana
+1430	Kuartango
+1440	Urkabustaiz
+1470	Amurrio
+1474	Artziniega
+1476	Ayala,Aiara
+1520	Arrazua-Ubarrundia
+2000	Albacete
+2100	Tarazona de la Mancha
+2110	Gineta (La)
+2120	Peñas de San Pedro
+2124	Alcadozo
+2125	Ayna
+2130	Bogarra
+2136	Paterna del Madera
+2141	Pozohondo
+2150	Valdeganga
+2151	Casas de Juan Núñez
+2152	Alatoz
+2153	Carcelén
+2154	Pozo-Lorente
+2154	Villavaliente
+2160	Lezuza
+2162	Herrera (La)
+2200	Casas-Ibáñez
+2210	Alcalá del Júcar
+2212	Casas de Ves
+2213	Villa de Ves
+2214	Balsa de Ves
+2215	Alborea
+2215	Villatoya
+2220	Motilleja
+2230	Madrigueras
+2240	Mahora
+2246	Navas de Jorquera
+2247	Cenizate
+2248	Jorquera
+2249	Recueja (La)
+2250	Abengibre
+2253	Golosalvo
+2260	Fuentealbilla
+2270	Villamalea
+2300	Alcaraz
+2310	Viveros
+2311	Povedilla
+2313	Peñascosa
+2314	Masegoso
+2315	Vianos
+2316	Salobre
+2320	Balazote
+2326	San Pedro
+2327	Pozuelo
+2329	Casas de Lázaro
+2340	Robledo
+2350	Villapalacios
+2360	Bienservida
+2400	Hellín
+2410	Liétor
+2430	Elche de la Sierra
+2434	Letur
+2435	Socovos
+2436	Férez
+2440	Molinicos
+2450	Riópar
+2460	Villaverde de Guadalimar
+2461	Cotillas
+2480	Yeste
+2500	Tobarra
+2520	Chinchilla de Monte-Aragón
+2530	Nerpio
+2600	Villarrobledo
+2610	Bonillo (El)
+2611	Ossa de Montiel
+2612	Munera
+2614	Ballestero (El)
+2620	Minaya
+2630	Roda (La)
+2636	Villalgordo del Júcar
+2637	Fuensanta
+2638	Montalvos
+2639	Barrax
+2640	Almansa
+2650	Montealegre del Castillo
+2651	Fuente-Álamo
+2652	Ontur
+2653	Albatana
+2660	Caudete
+2690	Alpera
+2691	Bonete
+2692	Pétrola
+2693	Corral-Rubio
+2694	Higueruela
+2696	Hoya-Gonzalo
+3000	Alicante,Alacant
+3100	Jijona,Xixona
+3108	Torremanzanas,Torre de les Maçanes (la)
+3109	Tibi
+3110	Mutxamel
+3111	Busot
+3130	Santa Pola
+3140	Guardamar del Segura
+3150	Dolores
+3158	Catral
+3159	Daya Nueva
+3160	Almoradí
+3169	Algorfa
+3170	Rojales
+3177	Daya Vieja
+3177	San Fulgencio
+3178	Benijófar
+3179	Formentera del Segura
+3180	Torrevieja
+3187	Montesinos (Los)
+3190	Pilar de la Horadada
+3193	San Miguel de Salinas
+3200	Elche,Elx
+3300	Orihuela
+3310	Jacarilla
+3316	Benferri
+3330	Crevillente
+3340	Albatera
+3348	Granja de Rocamora
+3350	Cox
+3350	San Isidro
+3360	Callosa de Segura
+3369	Rafal
+3370	Redován
+3380	Bigastro
+3390	Benejúzar
+3400	Villena
+3409	Cañada
+3410	Biar
+3420	Castalla
+3430	Onil
+3440	Ibi
+3450	Banyeres de Mariola
+3459	Alfafara
+3460	Beneixama
+3469	Campo de Mirra,Camp de Mirra (el)
+3500	Benidorm
+3509	Finestrat
+3510	Callosa d'En Sarrià
+3516	Benimantell
+3517	Beniardá
+3517	Benifato
+3517	Guadalest
+3518	Bolulla
+3518	Tárbena
+3520	Polop
+3530	Nucia (la)
+3550	San Juan de Alicante
+3560	Campello (el)
+3569	Aigües
+3570	Villajoyosa,Vila Joiosa (la)
+3578	Relleu
+3579	Orxeta
+3579	Sella
+3580	Alfàs del Pi (l')
+3590	Altea
+3600	Elda
+3610	Petrer
+3630	Sax
+3638	Salinas
+3640	Monóvar,Monòver
+3650	Pinoso
+3660	Novelda
+3668	Algueña
+3669	Romana (la)
+3670	Monforte del Cid
+3680	Aspe
+3688	Hondón de las Nieves
+3689	Hondón de los Frailes
+3690	San Vicente del Raspeig,Sant Vicent del Raspeig
+3698	Agost
+3700	Dénia
+3710	Calpe,Calp
+3720	Benissa
+3725	Teulada
+3726	Benitachell,Poble Nou de Benitatxell (el)
+3727	Jalón,Xaló
+3728	Alcalalí
+3729	Llíber
+3729	Senija
+3730	Jávea,Xàbia
+3740	Gata de Gorgos
+3750	Pedreguer
+3759	Benidoleig
+3760	Ondara
+3769	Benimeli
+3769	Ráfol de Almunia
+3769	Sanet y Negrals
+3770	Verger (el)
+3778	Beniarbeig
+3779	Poblets (els)
+3780	Pego
+3786	Adsubia
+3787	Vall de Gallinera
+3788	Vall d'Alcalà (la)
+3789	Vall de Ebo
+3790	Orba
+3791	Vall de Laguart
+3792	Murla
+3792	Parcent
+3793	Castell de Castells
+3794	Benichembla
+3795	Sagra
+3795	Tormos
+3800	Alcoy,Alcoi
+3810	Benilloba
+3811	Gorga
+3811	Quatretondeta
+3812	Balones
+3812	Benimassot
+3812	Millena
+3813	Facheca
+3813	Famorca
+3813	Tollos
+3814	Alcoleja
+3814	Benasau
+3815	Penàguila
+3816	Benifallim
+3817	Confrides
+3820	Cocentaina
+3827	Almudaina
+3827	Benillup
+3827	Benimarfull
+3828	Planes
+3829	Alqueria d'Asnar (l')
+3830	Muro de Alcoy
+3840	Gaianes
+3841	Alcocer de Planes
+3850	Beniarrés
+3860	Lorcha,Orxa (l')
+3870	Agres
+4000	Almería
+4100	Níjar
+4140	Carboneras
+4200	Tabernas
+4240	Viator
+4250	Pechina
+4260	Rioja
+4270	Sorbas
+4271	Lubrín
+4280	Gallardos (Los)
+4400	Alhama de Almería
+4410	Benahadux
+4450	Canjáyar
+4470	Láujar de Andarax
+4500	Fiñana
+4510	Abla
+4520	Abrucena
+4550	Gérgal
+4560	Gádor
+4600	Huércal de Almería
+4600	Huércal-Overa
+4610	Cuevas del Almanzora
+4620	Vera
+4628	Antas
+4630	Garrucha
+4638	Mojácar
+4639	Turre
+4640	Pulpí
+4650	Zurgena
+4660	Arboleas
+4692	Taberno
+4700	Ejido (El)
+4738	Vícar
+4740	Mojonera (La)
+4740	Roquetas de Mar
+4750	Dalías
+4760	Berja
+4770	Adra
+4800	Albox
+4810	Oria
+4825	Chirivel
+4830	Vélez-Blanco
+4830	Vélez-Rubio
+4838	María
+4850	Cantoria
+4860	Olula del Río
+4867	Macael
+4869	Fines
+4870	Purchena
+4880	Tíjola
+4890	Serón
+5000	Ávila
+5100	Navaluenga
+5110	Barraco (El)
+5113	Burgohondo
+5130	Solosancho
+5200	Arévalo
+5216	Nava de Arévalo
+5220	Madrigal de las Altas Torres
+5230	Navas del Marqués (Las)
+5250	Hoyo de Pinares (El)
+5260	Cebreros
+5270	Tiemblo (El)
+5310	Fontiveros
+5400	Arenas de San Pedro
+5410	Mombeltrán
+5416	Arenal (El)
+5420	Sotillo de la Adrada
+5430	Adrada (La)
+5440	Piedralaves
+5450	Casavieja
+5461	Mijares
+5470	Pedro Bernardo
+5480	Candeleda
+5500	Piedrahíta
+5600	Barco de Ávila (El)
+6000	Badajoz
+6100	Olivenza
+6120	Oliva de la Frontera
+6140	Talavera la Real
+6200	Almendralejo
+6207	Aceuchal
+6220	Villafranca de los Barros
+6230	Santos de Maimona (Los)
+6240	Fuente de Cantos
+6260	Monesterio
+6300	Zafra
+6340	Fregenal de la Sierra
+6360	Fuente del Maestre
+6380	Jerez de los Caballeros
+6400	Don Benito
+6420	Castuera
+6450	Quintana de la Serena
+6460	Campanario
+6470	Guareña
+6480	Montijo
+6490	Puebla de la Calzada
+6500	San Vicente de Alcántara
+6510	Alburquerque
+6600	Cabeza del Buey
+6700	Villanueva de la Serena
+6760	Navalvillar de Pela
+6800	Mérida
+6810	Calamonte
+6900	Llerena
+6920	Azuaga
+7000	Palma de Mallorca
+7100	Sóller
+7109	Fornalutx
+7110	Bunyola
+7140	Sencelles
+7141	Marratxí
+7142	Santa Eugènia
+7144	Costitx
+7150	Andraitx
+7170	Valldemosa
+7179	Deyá
+7184	Calvià
+7190	Esporles
+7191	Bañalbufar
+7192	Estellenchs
+7194	Puigpunyent
+7200	Felanitx
+7210	Algaida
+7230	Montuïri
+7240	Sant Joan
+7250	Vilafranca de Bonany
+7260	Porreres
+7300	Inca
+7310	Campanet
+7311	Búger
+7313	Selva
+7315	Escorca
+7315	Mancor de la Vall
+7320	Santa María del Camí
+7330	Consell
+7340	Alaró
+7350	Binissalem
+7360	Lloseta
+7400	Alcúdia
+7420	Pobla (Sa)
+7430	Llubí
+7440	Muro
+7450	Santa Margalida
+7460	Pollença
+7500	Manacor
+7510	Sineu
+7518	Lloret de Vista Alegre
+7519	María de la Salud
+7520	Petra
+7529	Ariany
+7530	Sant Llorenç des Cardassar
+7550	Son Servera
+7570	Artà
+7580	Capdepera
+7620	Llucmajor
+7630	Campos
+7640	Salines (Ses)
+7650	Santanyí
+7700	Mahón
+7710	Sant Lluís
+7720	Castell (Es)
+7730	Alaior
+7740	Mercadal (Es)
+7749	Migjorn Gran (Es)
+7750	Ferreries
+7760	Ciutadella de Menorca
+7800	Eivissa
+7810	Sant Joan de Labritja
+7820	Sant Antoni de Portmany
+7830	San José
+7840	Santa Eulalia del Río
+7860	Formentera
+8000	Barcelona
+8100	Mollet del Vallès
+8100	Sant Fost de Campsentelles
+8110	Montcada i Reixac
+8120	Llagosta (La)
+8130	Santa Perpètua de Mogoda
+8140	Caldes de Montbui
+8150	Parets del Vallès
+8160	Montmeló
+8170	Montornès del Vallès
+8181	Sentmenat
+8184	Palau de Plegamans
+8186	Lliçà d'Amunt
+8190	Sant Cugat del Vallès
+8191	Rubí
+8192	Sant Quirze del Vallès
+8200	Sabadell
+8210	Barberà del Vallès
+8211	Castellar del Vallès
+8214	Badia del Vallès
+8220	Terrassa
+8230	Matadepera
+8232	Viladecavalls
+8240	Manresa
+8250	Sant Joan de Vilatorrada
+8251	Santpedor
+8260	Súria
+8261	Cardona
+8270	Navarcles
+8272	Sant Fruitós de Bages
+8290	Cerdanyola del Vallès
+8291	Ripollet
+8292	Esparreguera
+8295	Sant Vicenç de Castellet
+8300	Mataró
+8310	Argentona
+8320	Masnou (El)
+8328	Alella
+8330	Premià de Mar
+8338	Premià de Dalt
+8339	Vilassar de Dalt
+8340	Vilassar de Mar
+8350	Arenys de Mar
+8358	Arenys de Munt
+8360	Canet de Mar
+8370	Calella
+8380	Malgrat de Mar
+8390	Montgat
+8391	Tiana
+8392	Sant Andreu de Llavaneres
+8397	Pineda de Mar
+8399	Tordera
+8400	Granollers
+8420	Canovelles
+8430	Roca del Vallès (La)
+8440	Cardedeu
+8450	Llinars del Vallès
+8460	Santa Maria de Palautordera
+8470	Sant Celoni
+8480	Ametlla del Vallès (L')
+8500	Vic
+8510	Roda de Ter
+8520	Franqueses del Vallès (Les)
+8530	Garriga (La)
+8540	Centelles
+8551	Tona
+8560	Manlleu
+8570	Torelló
+8571	Sant Vicenç dels Horts
+8600	Berga
+8630	Abrera
+8640	Olesa de Montserrat
+8650	Sallent
+8670	Navàs
+8680	Gironella
+8700	Igualada
+8710	Santa Margarida de Montbui
+8720	Vilafranca del Penedès
+8740	Sant Andreu de la Barca
+8750	Molins de Rei
+8755	Castellbisbal
+8757	Corbera de Llobregat
+8758	Cervelló
+8759	Vallirana
+8760	Martorell
+8770	Sant Sadurní d'Anoia
+8780	Pallejà
+8784	Piera
+8788	Vilanova del Camí
+8800	Vilanova i la Geltrú
+8810	Sant Pere de Ribes
+8820	Prat de Llobregat (El)
+8830	Sant Boi de Llobregat
+8840	Viladecans
+8850	Gavà
+8860	Castelldefels
+8870	Sitges
+8880	Cubelles
+8900	Hospitalet de Llobregat (L')
+8910	Badalona
+8920	Santa Coloma de Gramenet
+8930	Sant Adrià de Besòs
+8940	Cornellà de Llobregat
+8950	Esplugues de Llobregat
+8960	Sant Just Desvern
+8970	Sant Joan Despí
+8980	Sant Feliu de Llobregat
+9000	Burgos
+9100	Melgar de Fernamental
+9110	Castrojeriz
+9120	Villadiego
+9123	Sasamón
+9200	Miranda de Ebro
+9210	Valle de Tobalina
+9240	Briviesca
+9250	Belorado
+9260	Pradoluengo
+9300	Roa
+9340	Lerma
+9400	Aranda de Duero
+9430	Huerta de Rey
+9500	Medina de Pomar
+9530	Oña
+9540	Trespaderne
+9550	Villarcayo de Merindad de Castilla la Vieja
+9560	Espinosa de los Monteros
+9580	Valle de Mena
+9600	Salas de los Infantes
+9670	Quintanar de la Sierra
+10000	Cáceres
+10100	Miajadas
+10200	Trujillo
+10300	Navalmoral de la Mata
+10310	Talayuela
+10400	Jaraíz de la Vera
+10500	Valencia de Alcántara
+10600	Plasencia
+10800	Coria
+10810	Montehermoso
+10840	Moraleja
+10900	Arroyo de la Luz
+11000	Cádiz
+11100	San Fernando
+11130	Chiclana de la Frontera
+11140	Conil de la Frontera
+11150	Vejer de la Frontera
+11160	Barbate
+11170	Medina-Sidonia
+11178	Paterna de Rivera
+11180	Alcalá de los Gazules
+11190	Benalup
+11200	Algeciras
+11300	Línea de la Concepción (La)
+11330	Jimena de la Frontera
+11350	Castellar de la Frontera
+11360	San Roque
+11370	Barrios (Los)
+11380	Tarifa
+11400	Jerez de la Frontera
+11500	Puerto de Santa María (El)
+11510	Puerto Real
+11520	Rota
+11540	Sanlúcar de Barrameda
+11550	Chipiona
+11560	Trebujena
+11580	San José del Valle
+11600	Ubrique
+11610	Grazalema
+11611	Villaluenga del Rosario
+11612	Benaocaz
+11630	Arcos de la Frontera
+11639	Algar
+11640	Bornos
+11648	Espera
+11650	Villamartín
+11659	Puerto Serrano
+11660	Prado del Rey
+11670	Bosque (El)
+11680	Algodonales
+11687	Gastor (El)
+11688	Zahara
+11690	Olvera
+11691	Torre Alháquime
+11692	Setenil de las Bodegas
+11693	Alcalá del Valle
+12000	Castellón de la Plana,Castelló de la Plana
+12110	Alcora (l')
+12118	Useras,Useres (les)
+12119	Costur
+12120	Lucena del Cid
+12122	Figueroles
+12123	Castillo de Villamalefa
+12123	Ludiente
+12124	Villahermosa del Río
+12125	Zucaina
+12127	Cortes de Arenoso
+12130	Sant Joan de Moró
+12132	Atzeneta del Maestrat
+12134	Benafigos
+12134	Chodos,Xodos
+12135	Vistabella del Maestrazgo
+12140	Albocàsser
+12150	Villafranca del Cid
+12159	Castellfort
+12160	Benasal
+12161	Torre d'En Besora (la)
+12162	Vilar de Canes
+12163	Culla
+12165	Ares del Maestre
+12170	Sant Mateu
+12179	Tírig
+12180	Cabanes
+12181	Benlloch
+12182	Sierra Engarcerán
+12183	Vilanova d'Alcolea
+12184	Sarratella
+12184	Torre Endoménech
+12185	Coves de Vinromà (les)
+12186	Salzadella (la)
+12190	Borriol
+12191	Pobla Tornesa (la)
+12192	Vilafamés
+12194	Vall d'Alba
+12200	Onda
+12210	Ribesalbes
+12221	Tales
+12222	Aín
+12222	Alcudia de Veo
+12223	Sueras,Suera
+12224	Ayódar
+12224	Villamalur
+12225	Fuentes de Ayódar
+12225	Torralba del Pinar
+12230	Argelita
+12230	Espadilla
+12230	Fanzara
+12230	Toga
+12230	Vallat
+12231	Cirat
+12232	Arañuel
+12232	Torrechiva
+12300	Morella
+12310	Forcall
+12311	Palanques
+12311	Villores
+12311	Zorita del Maestrazgo
+12312	Mata de Morella (la)
+12312	Olocau del Rey
+12312	Todolella
+12315	Vallibona
+12317	Herbés
+12318	Cinctorres
+12318	Portell de Morella
+12319	Castell de Cabres
+12320	San Jorge
+12330	Traiguera
+12340	Jana (la)
+12350	Canet lo Roig
+12360	Chert,Xert
+12400	Segorbe
+12410	Altura
+12412	Geldo
+12413	Almedíjar
+12413	Castellnovo
+12414	Algimia de Almonacid
+12414	Vall de Almonacid
+12415	Gaibiel
+12415	Matet
+12420	Barracas
+12428	Fuente la Reina
+12428	Puebla de Arenoso
+12428	Villanueva de Viver
+12429	Pina de Montalgrao
+12429	Toro (El)
+12430	Bejís
+12431	Torás
+12440	Caudiel
+12447	Montán
+12448	Montanejos
+12449	Benafer
+12449	Higueras
+12449	Pavías
+12450	Jérica
+12460	Viver
+12469	Sacañet
+12469	Teresa
+12470	Navajas
+12480	Soneja
+12489	Sot de Ferrer
+12490	Azuébar
+12499	Chóvar
+12500	Vinaròs
+12510	San Rafael del Río
+12511	Rossell
+12513	Catí
+12520	Nules
+12526	Villavieja
+12527	Artana
+12528	Eslida
+12530	Burriana
+12539	Alquerías del Niño Perdido
+12540	Villarreal,Vila-real
+12549	Betxí
+12550	Almazora,Almassora
+12560	Benicasim,Benicàssim
+12570	Alcalà de Xivert
+12578	Cervera del Maestre
+12580	Benicarló
+12589	Cálig
+12590	Almenara
+12591	Llosa (la)
+12592	Chilches
+12593	Moncofa
+12594	Oropesa del Mar,Orpesa
+12596	Torreblanca
+12597	Santa Magdalena de Pulpis
+12598	Peñíscola
+12599	Pobla de Benifassà (la)
+12600	Vall d'Uixó (la)
+12609	Alfondeguilla
+13000	Ciudad Real
+13100	Piedrabuena
+13107	Alcolea de Calatrava
+13108	Luciana
+13109	Puebla de Don Rodrigo
+13110	Horcajo de los Montes
+13114	Robledo (El)
+13116	Alcoba
+13117	Anchuras
+13120	Porzuna
+13130	Fuencaliente
+13140	Fernancaballero
+13150	Carrión de Calatrava
+13160	Torralba de Calatrava
+13170	Miguelturra
+13179	Pozuelo de Calatrava
+13180	Abenójar
+13190	Corral de Calatrava
+13191	Caracuel de Calatrava
+13191	Pozuelos de Calatrava (Los)
+13192	Cabezarados
+13193	Arroba de los Montes
+13193	Fontanarejo
+13193	Navalpino
+13194	Navas de Estena
+13194	Retuerta del Bullaque
+13195	Poblete
+13196	Picón
+13200	Manzanares
+13210	Villarta de San Juan
+13230	Membrilla
+13240	Solana (La)
+13247	San Carlos del Valle
+13248	Alhambra
+13249	Ruidera
+13250	Daimiel
+13260	Bolaños de Calatrava
+13270	Almagro
+13279	Valenzuela de Calatrava
+13300	Valdepeñas
+13320	Villanueva de los Infantes
+13326	Montiel
+13327	Santa Cruz de los Cáñamos
+13328	Almedina
+13329	Carrizosa
+13330	Villanueva de la Fuente
+13332	Villahermosa
+13333	Fuenllana
+13340	Albaladejo
+13341	Terrinches
+13342	Puebla del Príncipe
+13343	Villamanrique
+13344	Torre de Juan Abad
+13345	Cózar
+13350	Moral de Calatrava
+13360	Granátula de Calatrava
+13370	Calzada de Calatrava
+13379	Villanueva de San Carlos
+13380	Aldea del Rey
+13391	Alcubillas
+13400	Almadén
+13410	Agudo
+13411	Valdemanco del Esteras
+13412	Chillón
+13413	Alamillo
+13414	Saceruela
+13420	Malagón
+13427	Cortijos (Los)
+13430	Cañada de Calatrava
+13431	Villar del Pozo
+13432	Ballesteros de Calatrava
+13440	Argamasilla de Calatrava
+13450	Brazatortas
+13480	Almadenejos
+13490	Guadalmez
+13500	Puertollano
+13580	Almodóvar del Campo
+13590	Hinojosas de Calatrava
+13591	Cabezarrubias del Puerto
+13592	Mestanza
+13593	Solana del Pino
+13595	Villamayor de Calatrava
+13600	Alcázar de San Juan
+13610	Campo de Criptana
+13620	Pedro Muñoz
+13630	Socuéllamos
+13640	Herencia
+13650	Puerto Lápice
+13660	Labores (Las)
+13670	Villarrubia de los Ojos
+13679	Arenas de San Juan
+13680	Fuente el Fresno
+13700	Tomelloso
+13710	Argamasilla de Alba
+13730	Santa Cruz de Mudela
+13740	Torrenueva
+13750	Castellar de Santiago
+13760	Almuradiel
+13770	Viso del Marqués
+13779	San Lorenzo de Calatrava
+14000	Córdoba
+14100	Carlota (La)
+14120	Fuente Palmera
+14130	Guadalcázar
+14140	Victoria (La)
+14150	San Sebastián de los Ballesteros
+14200	Peñarroya-Pueblonuevo
+14206	Valsequillo
+14207	Granjuela (La)
+14208	Blázquez (Los)
+14210	Villaharta
+14220	Espiel
+14230	Villanueva del Rey
+14240	Belmez
+14250	Villanueva del Duque
+14260	Fuente la Lancha
+14270	Hinojosa del Duque
+14280	Belalcázar
+14290	Fuente Obejuna
+14300	Villaviciosa de Córdoba
+14310	Obejo
+14400	Pozoblanco
+14410	Torrecampo
+14412	Pedroche
+14413	Guijo (El)
+14420	Villafranca de Córdoba
+14430	Adamuz
+14440	Villanueva de Córdoba
+14445	Cardeña
+14448	Conquista
+14450	Añora
+14460	Dos Torres
+14470	Viso (El)
+14480	Alcaracejos
+14490	Villaralto
+14491	Santa Eufemia
+14500	Puente Genil
+14510	Moriles
+14520	Fernán-Núñez
+14530	Montemayor
+14540	Rambla (La)
+14546	Santaella
+14548	Montalbán de Córdoba
+14550	Montilla
+14600	Montoro
+14620	Carpio (El)
+14630	Pedro Abad
+14640	Villa del Río
+14650	Bujalance
+14660	Cañete de las Torres
+14670	Valenzuela
+14700	Palma del Río
+14720	Almodóvar del Río
+14730	Posadas
+14740	Hornachuelos
+14800	Priego de Córdoba
+14810	Carcabuey
+14812	Almedinilla
+14815	Fuente-Tójar
+14830	Espejo
+14840	Castro del Río
+14850	Baena
+14857	Nueva Carteya
+14860	Doña Mencía
+14870	Zuheros
+14880	Luque
+14900	Lucena
+14910	Benamejí
+14913	Encinas Reales
+14914	Palenciana
+14920	Aguilar de la Frontera
+14930	Monturque
+14940	Cabra
+14960	Rute
+14970	Iznájar
+15000	Coruña (A)
+15100	Carballo
+15110	Ponteceso
+15113	Malpica de Bergantiños
+15115	Cabana de Bergantiños
+15117	Laxe
+15123	Camariñas
+15124	Muxía
+15129	Vimianzo
+15130	Corcubión
+15142	Arteixo
+15145	Laracha
+15147	Coristanco
+15151	Dumbría
+15155	Fisterra
+15160	Sada
+15165	Bergondo
+15173	Oleiros
+15175	Carral
+15185	Cerceda
+15189	Culleredo
+15200	Noia
+15214	Lousame
+15230	Outes
+15250	Muros
+15256	Mazaricos
+15270	Cee
+15293	Carnota
+15300	Betanzos
+15310	Curtis
+15312	Sobrado
+15313	Irixoa
+15314	Paderne
+15316	Coirós
+15317	Aranga
+15318	Abegondo
+15330	Ortigueira
+15337	Mañón
+15350	Cedeira
+15360	Cariño
+15380	Oza dos Ríos
+15391	Cesuras
+15400	Ferrol
+15500	Fene
+15510	Neda
+15552	Valdoviño
+15560	San Sadurniño
+15563	Moeche
+15569	Cerdido
+15569	Somozas (As)
+15578	Narón
+15600	Pontedeume
+15613	Capela (A)
+15619	Monfero
+15620	Mugardos
+15621	Cabanas
+15624	Ares
+15630	Miño
+15637	Vilarmaior
+15660	Cambre
+15680	Ordes
+15683	Tordoia
+15684	Pontes de García Rodríguez (As)
+15685	Mesía
+15686	Frades
+15687	Trazo
+15700	Santiago de Compostela
+15800	Melide
+15807	Vilasantar
+15808	Santiso
+15810	Arzúa
+15818	Boimorto
+15820	Toques
+15821	Pino (O)
+15822	Touro
+15830	Negreira
+15840	Santa Comba
+15850	Zas
+15863	Baña (A)
+15864	Ames
+15865	Brión
+15873	Val do Dubra
+15881	Boqueixón
+15884	Oroso
+15885	Vedra
+15886	Teo
+15900	Padrón
+15911	Rois
+15920	Rianxo
+15930	Boiro
+15940	Pobra do Caramiñal (A)
+15960	Ribeira
+15970	Porto do Son
+15981	Dodro
+16000	Cuenca
+16220	Quintanar del Rey
+16400	Tarancón
+16600	San Clemente
+16630	Mota del Cuervo
+16660	Pedroñeras (Las)
+17000	Girona
+17100	Bisbal d'Empordà (La)
+17130	Escala (L')
+17190	Salt
+17200	Palafrugell
+17220	Sant Feliu de Guíxols
+17230	Palamós
+17240	Llagostera
+17244	Cassà de la Selva
+17249	Castell-Platja d'Aro
+17251	Calonge
+17257	Torroella de Montgrí
+17300	Blanes
+17310	Lloret de Mar
+17430	Santa Coloma de Farners
+17480	Roses
+17486	Castelló d'Empúries
+17500	Ripoll
+17520	Puigcerdà
+17600	Figueres
+17800	Olot
+17820	Banyoles
+18000	Granada
+18100	Armilla
+18110	Gabias (Las)
+18120	Alhama de Granada
+18126	Arenas del Rey
+18127	Jayena
+18127	Píñar
+18128	Zafarraya
+18129	Cacín
+18129	Santa Cruz del Comercio
+18130	Escúzar
+18131	Ventas de Huelma
+18132	Agrón
+18140	Zubia (La)
+18150	Gójar
+18151	Ogíjares
+18152	Dílar
+18160	Güejar Sierra
+18170	Alfacar
+18170	Jun
+18179	Víznar
+18180	Diezma
+18181	Darro
+18181	Huélago
+18183	Huétor de Santillán
+18184	Beas de Granada
+18190	Cenes de la Vega
+18191	Pinos Genil
+18192	Dúdar
+18192	Quéntar
+18193	Monachil
+18193	Vegas del Genil
+18194	Churriana de la Vega
+18194	Cúllar Vega
+18195	Guajares (Los)
+18197	Cogollos de la Vega
+18197	Güevéjar
+18197	Nívar
+18197	Pulianas
+18198	Cájar
+18198	Huétor Vega
+18200	Maracena
+18210	Peligros
+18220	Albolote
+18230	Atarfe
+18240	Pinos Puente
+18247	Moclín
+18260	Illora
+18270	Montefrío
+18280	Algarinejo
+18290	Calicasas
+18300	Loja
+18310	Salar
+18311	Zagra
+18320	Santa Fe
+18327	Láchar
+18329	Chimeneas
+18330	Chauchina
+18339	Cijuela
+18340	Fuente Vaqueros
+18360	Huétor Tájar
+18369	Villanueva Mesía
+18370	Moraleda de Zafayona
+18400	Órgiva
+18410	Carataunas
+18410	Soportújar
+18411	Pampaneira
+18412	Bubión
+18413	Capileira
+18414	Taha (La)
+18415	Pórtugos
+18416	Busquístar
+18417	Trevélez
+18418	Cáñar
+18420	Lanjarón
+18430	Torvizcón
+18438	Almegíjar
+18439	Cástaras
+18440	Cádiar
+18449	Lobras
+18450	Alpujarra de la Sierra
+18451	Bérchules
+18452	Juviles
+18470	Válor
+18480	Ugíjar
+18490	Murtas
+18491	Turón
+18500	Guadix
+18510	Benalúa de Guadix
+18511	Valle del Zalabí
+18512	Calahorra (La)
+18512	Dólar
+18512	Huéneja
+18513	Ferreira
+18514	Aldeire
+18515	Fonelas
+18516	Beas de Guadix
+18516	Lugros
+18516	Marchal
+18516	Polícar
+18517	Cortes y Graena
+18517	Peza (La)
+18518	Albuñán
+18518	Alquife
+18518	Cogollos de Guadix
+18518	Jerez del Marquesado
+18518	Lanteira
+18519	Purullena
+18520	Alamedilla
+18530	Pedro Martínez
+18538	Alicún de Ortega
+18538	Dehesas de Guadix
+18539	Villanueva de las Torres
+18540	Morelábor
+18550	Iznalloz
+18560	Guadahortuna
+18561	Montejícar
+18563	Gobernador
+18563	Torre-Cardela
+18564	Benalúa de las Villas
+18564	Colomera
+18565	Campotéjar
+18566	Montillana
+18570	Deifontes
+18600	Motril
+18611	Molvízar
+18612	Itrabo
+18614	Gualchos
+18614	Lújar
+18620	Alhendín
+18630	Otura
+18640	Padul
+18650	Dúrcal
+18656	Lecrín
+18657	Nigüelas
+18658	Valle (El)
+18659	Albuñuelas
+18659	Villamena
+18660	Pinar (El)
+18670	Vélez de Benaudalla
+18680	Salobreña
+18690	Almuñécar
+18698	Otívar
+18699	Jete
+18699	Lentegí
+18700	Albuñol
+18708	Albondón
+18711	Rubite
+18712	Polopos
+18713	Sorvilán
+18800	Baza
+18810	Caniles
+18811	Zújar
+18812	Freila
+18813	Cuevas del Campo
+18814	Cortes de Baza
+18816	Castril
+18817	Benamaurel
+18818	Castilléjar
+18820	Puebla de Don Fadrique
+18830	Huéscar
+18840	Galera
+18850	Cúllar
+18858	Orce
+18870	Gor
+18890	Gorafe
+19000	Guadalajara
+19200	Azuqueca de Henares
+20000	Donostia-San Sebastián
+20100	Lezo
+20100	Rentería
+20110	Pasaia
+20115	Astigarraga
+20120	Hernani
+20130	Urnieta
+20140	Andoain
+20150	Aduna
+20150	Villabona
+20159	Asteasu
+20159	Larraul
+20159	Zizurkil
+20160	Lasarte-Oria
+20170	Usurbil
+20180	Oiartzun
+20200	Beasain
+20210	Lazkao
+20211	Ataun
+20212	Olaberria
+20213	Idiazabal
+20214	Mutiloa
+20214	Segura
+20214	Zerain
+20215	Zegama
+20216	Ormaiztegi
+20217	Gabiria
+20230	Legazpi
+20240	Ordizia
+20247	Zaldibia
+20248	Altzaga
+20248	Arama
+20248	Gaintza
+20249	Itsasondo
+20250	Legorreta
+20259	Baliarrain
+20260	Alegia
+20267	Ikaztegieta
+20268	Altzo
+20268	Amezketa
+20269	Abaltzisketa
+20269	Orendain
+20270	Anoeta
+20270	Irura
+20280	Hondarribia
+20300	Irun
+20400	Ibarra
+20400	Tolosa
+20490	Lizartza
+20490	Orexa
+20491	Belauntza
+20491	Gaztelu
+20491	Leaburu
+20492	Berastegi
+20493	Berrobi
+20493	Elduain
+20494	Alkiza
+20494	Hernialde
+20495	Albiztur
+20496	Bidegoyan
+20500	Arrasate o Mondragón
+20530	Leintz-Gatzaga
+20540	Eskoriatza
+20550	Aretxabaleta
+20560	Oñati
+20570	Bergara
+20577	Antzuola
+20590	Soraluze,Placencia de las Armas
+20600	Eibar
+20690	Elgeta
+20700	Urretxu
+20700	Zumarraga
+20709	Ezkio-Itsaso
+20720	Azkoitia
+20730	Azpeitia
+20737	Errezil
+20739	Beizama
+20740	Zestoa
+20749	Aizarnazabal
+20750	Zumaia
+20800	Zarautz
+20808	Getaria
+20809	Aia
+20810	Orio
+20820	Deba
+20830	Mutriku
+20850	Mendaro
+20870	Elgoibar
+21000	Huelva
+21100	Punta Umbría
+21110	Aljaraque
+21200	Aracena
+21208	Cortelazor
+21209	Corteconcepción
+21209	Puerto Moral
+21210	Zufre
+21220	Higuera de la Sierra
+21230	Cortegana
+21240	Aroche
+21250	Rosal de la Frontera
+21260	Santa Olalla del Cala
+21270	Cala
+21280	Arroyomolinos de León
+21290	Jabugo
+21291	Galaroza
+21291	Valdelarco
+21292	Fuenteheridos
+21293	Marines (Los)
+21300	Calañas
+21320	Cerro de Andévalo (El)
+21340	Alájar
+21341	Linares de la Sierra
+21350	Almonaster la Real
+21359	Santa Ana la Real
+21369	Castaño del Robledo
+21370	Nava (La)
+21380	Cumbres Mayores
+21386	Cumbres de San Bartolomé
+21387	Cumbres de Enmedio
+21388	Cañaveral de León
+21389	Hinojales
+21390	Encinasola
+21400	Ayamonte
+21410	Isla Cristina
+21440	Lepe
+21450	Cartaya
+21500	Gibraleón
+21510	San Bartolomé de la Torre
+21520	Alosno
+21540	Villanueva de los Castillejos
+21550	Puebla de Guzmán
+21560	Paymogo
+21570	Santa Bárbara de Casa
+21580	Cabezas Rubias
+21590	Villablanca
+21591	San Silvestre de Guzmán
+21592	Villanueva de las Cruces
+21593	Almendro (El)
+21594	Granado (El)
+21595	Sanlúcar de Guadiana
+21600	Valverde del Camino
+21610	San Juan del Puerto
+21620	Trigueros
+21630	Beas
+21640	Zalamea la Real
+21647	Berrocal
+21650	Campillo (El)
+21660	Minas de Riotinto
+21668	Campofrío
+21668	Granada de Río-Tinto (La)
+21670	Nerva
+21700	Palma del Condado (La)
+21710	Bollullos Par del Condado
+21720	Rociana del Condado
+21730	Almonte
+21740	Hinojos
+21800	Moguer
+21810	Palos de la Frontera
+21820	Lucena del Puerto
+21830	Bonares
+21840	Niebla
+21850	Villarrasa
+21860	Villalba del Alcor
+21870	Escacena del Campo
+21880	Paterna del Campo
+21890	Manzanilla
+21891	Chucena
+22000	Huesca
+22160	Sotonera (La)
+22200	Sariñena
+22214	Lalueza
+22234	Ballobar
+22240	Tardienta
+22250	Lanaja
+22260	Grañén
+22270	Almudévar
+22280	Gurrea de Gállego
+22300	Barbastro
+22330	Aínsa-Sobrarbe
+22400	Monzón
+22410	Alcolea de Cinca
+22422	Fonz
+22430	Graus
+22440	Benasque
+22500	Binéfar
+22510	Binaced
+22520	Fraga
+22530	Zaidín
+22533	Belver de Cinca
+22534	Albalate de Cinca
+22540	Altorricón
+22550	Tamarite de Litera
+22580	Benabarre
+22590	Torrente de Cinca
+22600	Sabiñánigo
+22630	Biescas
+22640	Sallent de Gállego
+22700	Jaca
+22800	Ayerbe
+23000	Jaén
+23100	Mancha Real
+23110	Pegalajar
+23120	Cambil
+23130	Campillo de Arenas
+23140	Noalejo
+23150	Valdepeñas de Jaén
+23160	Villares (Los)
+23170	Guardia de Jaén (La)
+23180	Fuerte del Rey
+23191	Cárcheles
+23197	Escañuela
+23200	Carolina (La)
+23210	Guarromán
+23211	Carboneros
+23213	Santa Elena
+23215	Aldeaquemada
+23220	Vilches
+23230	Arquillos
+23240	Navas de San Juan
+23250	Santisteban del Puerto
+23260	Castellar
+23264	Chiclana de Segura
+23266	Montizón
+23270	Sorihuela del Guadalimar
+23280	Beas de Segura
+23290	Santiago-Pontones
+23292	Hornos
+23300	Villacarrillo
+23311	Santo Tomé
+23320	Torreperogil
+23330	Villanueva del Arzobispo
+23338	Iznatoraf
+23350	Puente de Génave
+23360	Puerta de Segura (La)
+23370	Orcera
+23379	Segura de la Sierra
+23380	Siles
+23390	Benatae
+23391	Torres de Albánchez
+23392	Génave
+23393	Villarrodrigo
+23400	Úbeda
+23410	Sabiote
+23420	Canena
+23430	Rus
+23440	Baeza
+23450	Ibros
+23460	Peal de Becerro
+23470	Cazorla
+23476	Iruela (La)
+23477	Chilluévar
+23480	Quesada
+23485	Pozo Alcón
+23486	Hinojares
+23487	Huesa
+23500	Jódar
+23510	Torreblascopedro
+23520	Begíjar
+23528	Lupión
+23530	Jimena
+23537	Bedmar y Garcíez
+23538	Albánchez de Úbeda
+23540	Torres
+23550	Cabra del Santo Cristo
+23560	Huelma
+23568	Bélmez de la Moraleda
+23591	Larva
+23600	Martos
+23610	Fuensanta de Martos
+23611	Higuera de Calatrava
+23612	Santiago de Calatrava
+23620	Mengíbar
+23628	Cazalilla
+23628	Espelúy
+23630	Villatorres
+23640	Torre del Campo
+23650	Torredonjimeno
+23658	Jamilena
+23659	Villardompardo
+23660	Alcaudete
+23670	Castillo de Locubín
+23680	Alcalá la Real
+23690	Frailes
+23700	Linares
+23710	Bailén
+23711	Baños de la Encina
+23712	Jabalquinto
+23730	Villanueva de la Reina
+23740	Andújar
+23746	Lahiguera
+23750	Arjonilla
+23760	Arjona
+23770	Marmolejo
+23780	Lopera
+23790	Porcuna
+24000	León
+24100	Villablino
+24191	San Andrés del Rabanedo
+24193	Villaquilambre
+24300	Bembibre
+24400	Ponferrada
+24420	Fabero
+24600	Pola de Gordón (La)
+24640	Robla (La)
+24700	Astorga
+24750	Bañeza (La)
+25000	Lleida
+25100	Almacelles
+25200	Cervera
+25230	Mollerussa
+25280	Solsona
+25300	Tàrrega
+25400	Borges Blanques (Les)
+25600	Balaguer
+25620	Tremp
+25700	Seu d'Urgell (La)
+26000	Logroño
+26100	Torrecilla en Cameros
+26110	Nestares
+26111	Almarza de Cameros
+26111	Pinillos
+26120	Albelda de Iregua
+26121	Viguera
+26122	Gallinero de Cameros
+26122	Pradillo
+26123	Villanueva de Cameros
+26124	Nieva de Cameros
+26124	Ortigosa de Cameros
+26124	Rasillo de Cameros (El)
+26125	Villoslada de Cameros
+26126	Lumbreras
+26130	Clavijo
+26130	Ribafrecha
+26131	Lagunilla del Jubera
+26131	Robres del Castillo
+26131	Santa Engracia del Jubera
+26132	Leza de Río Leza
+26132	Soto en Cameros
+26132	Terroba
+26133	Ajamil
+26133	Hornillos de Cameros
+26133	Rabanera
+26133	San Román de Cameros
+26134	Jalón de Cameros
+26134	Muro en Cameros
+26134	Torre en Cameros
+26135	Cabezón de Cameros
+26135	Laguna de Cameros
+26140	Lardero
+26141	Alberite
+26142	Villamediana de Iregua
+26143	Murillo de Río Leza
+26144	Corera
+26144	Galilea
+26146	Redal (El)
+26148	Ocón
+26190	Nalda
+26191	Sorzano
+26200	Haro
+26210	Anguciana
+26210	Cihuri
+26211	Foncea
+26211	Fonzaleche
+26211	Tirgo
+26212	Cellorigo
+26212	Galbárruli
+26212	Sajazarra
+26213	Herramélluri
+26213	Leiva
+26213	Ochánduri
+26213	Tormantos
+26214	Cuzcurrita de Río Tirón
+26215	Treviana
+26216	San Millán de Yécora
+26220	Ollauri
+26221	Gimileo
+26222	Rodezno
+26223	Azofra
+26223	Hormilla
+26223	Hormilleja
+26224	Alesanco
+26224	Torrecilla sobre Alesanco
+26225	Cañas
+26225	Canillas de Río Tuerto
+26225	Villar de Torre
+26225	Villarejo
+26226	Pazuengos
+26226	San Millán de la Cogolla
+26227	Berceo
+26228	Estollo
+26230	Casalarreina
+26240	Castañares de Rioja
+26241	Baños de Rioja
+26250	Santo Domingo de la Calzada
+26256	Villalobar de Rioja
+26257	Bañares
+26257	Hervías
+26258	Cirueña
+26258	Manzanares de Rioja
+26259	Corporales
+26259	Grañón
+26259	Villarta-Quintana
+26260	Santurde de Rioja
+26261	Santurdejo
+26270	Ojacastro
+26280	Ezcaray
+26288	Valgañón
+26288	Zorraquín
+26290	Briñas
+26291	Cidamón
+26291	San Torcuato
+26291	Zarratón
+26292	Villalba de Rioja
+26300	Nájera
+26310	Badarán
+26311	Arenzana de Abajo
+26311	Camprovín
+26311	Cárdenas
+26311	Cordovín
+26312	Arenzana de Arriba
+26312	Bezares
+26312	Tricio
+26313	Uruñuela
+26314	Huércanos
+26315	Alesón
+26315	Castroviejo
+26315	Manjarrés
+26315	Santa Coloma
+26320	Baños de Río Tobía
+26321	Bobadilla
+26321	Ledesma de la Cogolla
+26321	Matute
+26321	Pedroso
+26321	Tobía
+26321	Villaverde de Rioja
+26322	Anguiano
+26324	Brieva de Cameros
+26325	Ventrosa
+26325	Viniegra de Abajo
+26325	Viniegra de Arriba
+26326	Canales de la Sierra
+26329	Mansilla de la Sierra
+26329	Villavelayo
+26330	Briones
+26338	San Vicente de la Sonsierra
+26339	Ábalos
+26340	San Asensio
+26350	Cenicero
+26359	Torremontalbo
+26360	Fuenmayor
+26370	Navarrete
+26371	Sotés
+26371	Ventosa
+26372	Hornos de Moncalvillo
+26373	Daroca de Rioja
+26374	Medrano
+26375	Entrena
+26376	Sojuela
+26500	Calahorra
+26509	Agoncillo
+26509	Alcanadre
+26509	Arrúbal
+26510	Pradejón
+26511	Villar de Arnedo (El)
+26512	Tudelilla
+26513	Ausejo
+26520	Cervera del Río Alhama
+26525	Igea
+26526	Cornago
+26530	Aguilar del Río Alhama
+26532	Valdemadera
+26533	Navajún
+26540	Alfaro
+26550	Rincón de Soto
+26559	Aldeanueva de Ebro
+26560	Autol
+26570	Quel
+26580	Arnedo
+26584	Herce
+26585	Santa Eulalia Bajera
+26586	Enciso
+26586	Munilla
+26586	Zarzosa
+26587	Grávalos
+26587	Muro de Aguas
+26587	Villarroya
+26588	Bergasa
+26588	Bergasillas Bajera
+26589	Arnedillo
+26589	Préjano
+27000	Lugo
+27100	Fonsagrada (A)
+27113	Negueira de Muñiz
+27120	Castroverde
+27130	Baleira
+27150	Outeiro de Rei
+27163	Corgo (O)
+27170	Portomarín
+27200	Palas de Rei
+27211	Guntín
+27220	Friol
+27240	Meira
+27242	Ribeira de Piquín
+27250	Castro de Rei
+27270	Pol
+27279	Barreiros
+27287	Pastoriza (A)
+27300	Guitiriz
+27310	Ribas de Sil
+27320	Quiroga
+27325	Folgoso do Courel
+27332	Pobra de Brollón (A)
+27340	Bóveda
+27346	Incio (O)
+27367	Láncara
+27370	Rábade
+27373	Begonte
+27377	Cospeito
+27400	Monforte de Lemos
+27430	Pantón
+27460	Sober
+27500	Chantada
+27520	Carballedo
+27540	Saviñao (O)
+27550	Taboada
+27560	Monterroso
+27570	Antas de Ulla
+27600	Sarria
+27611	Paradela
+27620	Samos
+27630	Páramo (O)
+27630	Triacastela
+27640	Becerreá
+27650	Navia de Suarna
+27664	Cervantes
+27670	Pedrafita do Cebreiro
+27677	Nogais (As)
+27680	Baralla
+27700	Ribadeo
+27720	Pontenova (A)
+27730	Abadín
+27740	Mondoñedo
+27744	Riotorto
+27760	Lourenzá
+27765	Trabada
+27770	Valadouro (O)
+27773	Alfoz
+27780	Foz
+27800	Vilalba
+27833	Xermade
+27836	Muras
+27850	Viveiro
+27860	Vicedo (O)
+27865	Ourol
+27870	Xove
+27880	Burela
+27891	Cervo
+28000	Madrid
+28023	Pozuelo de Alarcón
+28100	Alcobendas
+28110	Algete
+28130	Valdeolmos-Alalpardo
+28140	Fuente el Saz de Jarama
+28150	Valdetorres de Jarama
+28160	Talamanca de Jarama
+28170	Valdepiélagos
+28189	Atazar (El)
+28189	Patones
+28189	Torremocha de Jarama
+28190	Montejo de la Sierra
+28190	Puebla de la Sierra
+28190	Torrelaguna
+28191	Hiruela (La)
+28191	Horcajuelo de la Sierra
+28191	Prádena del Rincón
+28192	Berrueco (El)
+28193	Cervera de Buitrago
+28194	Berzosa del Lozoya
+28194	Robledillo de la Jara
+28200	San Lorenzo de El Escorial
+28210	Valdemorillo
+28212	Navalagamella
+28213	Colmenar del Arroyo
+28214	Fresnedillas de la Oliva
+28220	Majadahonda
+28229	Villanueva del Pardillo
+28230	Rozas de Madrid (Las)
+28240	Hoyo de Manzanares
+28250	Torrelodones
+28260	Galapagar
+28270	Colmenarejo
+28280	Escorial (El)
+28293	Zarzalejo
+28294	Robledo de Chavela
+28295	Valdemaqueda
+28296	Santa María de la Alameda
+28300	Aranjuez
+28320	Pinto
+28330	San Martín de la Vega
+28340	Valdemoro
+28350	Ciempozuelos
+28359	Titulcia
+28360	Villaconejos
+28370	Chinchón
+28380	Colmenar de Oreja
+28390	Belmonte de Tajo
+28391	Valdelaguna
+28400	Collado Villalba
+28410	Manzanares el Real
+28411	Moralzarzal
+28413	Boalo (El)
+28430	Alpedrete
+28440	Guadarrama
+28450	Collado Mediano
+28460	Molinos (Los)
+28470	Cercedilla
+28490	Becerril de la Sierra
+28491	Navacerrada
+28500	Arganda del Rey
+28510	Campo Real
+28511	Valdilecha
+28512	Villar del Olmo
+28514	Nuevo Baztán
+28515	Olmeda de las Fuentes
+28529	Rivas-Vaciamadrid
+28530	Morata de Tajuña
+28540	Perales de Tajuña
+28550	Tielmes
+28560	Carabaña
+28570	Orusco de Tajuña
+28580	Ambite
+28590	Villarejo de Salvanés
+28594	Valdaracete
+28595	Estremera
+28596	Brea de Tajo
+28597	Fuentidueña de Tajo
+28598	Villamanrique de Tajo
+28600	Navalcarnero
+28607	Álamo (El)
+28609	Sevilla la Nueva
+28609	Villamantilla
+28609	Villanueva de Perales
+28610	Villamanta
+28620	Aldea del Fresno
+28630	Villa del Prado
+28640	Cadalso de los Vidrios
+28649	Rozas de Puerto Real
+28650	Cenicientos
+28660	Boadilla del Monte
+28670	Villaviciosa de Odón
+28680	San Martín de Valdeiglesias
+28690	Brunete
+28691	Villanueva de la Cañada
+28693	Quijorna
+28694	Chapinería
+28696	Pelayos de la Presa
+28700	San Sebastián de los Reyes
+28710	Molar (El)
+28720	Bustarviejo
+28721	Cabanillas de la Sierra
+28721	Redueña
+28722	Vellón (El)
+28723	Pedrezuela
+28729	Navalafuente
+28729	Valdemanco
+28729	Venturada
+28730	Buitrago del Lozoya
+28737	Braojos
+28737	Gascones
+28737	Serna del Monte (La)
+28738	Horcajo de la Sierra
+28738	Madarcos
+28738	Piñuécar
+28739	Gargantilla del Lozoya
+28739	Navarredonda
+28739	Villavieja del Lozoya
+28740	Rascafría
+28742	Lozoya
+28743	Canencia
+28749	Alameda del Valle
+28749	Garganta de los Montes
+28749	Pinilla del Valle
+28750	San Agustín de Guadalix
+28751	Cabrera (La)
+28752	Lozoyuela-Navas-Sieteiglesias
+28754	Navas del Rey
+28754	Puentes Viejas
+28755	Acebeda (La)
+28755	Robregordo
+28756	Somosierra
+28760	Tres Cantos
+28770	Colmenar Viejo
+28791	Soto del Real
+28792	Miraflores de la Sierra
+28794	Guadalix de la Sierra
+28800	Alcalá de Henares
+28810	Villalbilla
+28811	Corpa
+28812	Pezuela de las Torres
+28812	Valverde de Alcalá
+28813	Pozuelo del Rey
+28813	Torres de la Alameda
+28814	Daganzo de Arriba
+28815	Fresno de Torote
+28815	Ribatejada
+28816	Camarma de Esteruelas
+28816	Valdeavero
+28817	Santos de la Humosa (Los)
+28818	Anchuelo
+28818	Santorcaz
+28820	Coslada
+28830	San Fernando de Henares
+28840	Mejorada del Campo
+28850	Torrejón de Ardoz
+28860	Paracuellos de Jarama
+28863	Cobeña
+28864	Ajalvir
+28880	Meco
+28890	Loeches
+28891	Velilla de San Antonio
+28900	Getafe
+28910	Leganés
+28920	Alcorcón
+28930	Móstoles
+28939	Arroyomolinos
+28940	Fuenlabrada
+28950	Moraleja de Enmedio
+28960	Humanes de Madrid
+28970	Griñón
+28978	Casarrubuelos
+28978	Cubas de la Sagra
+28979	Batres
+28979	Serranillos del Valle
+28980	Parla
+28990	Torrejón de Velasco
+28991	Torrejón de la Calzada
+29000	Málaga
+29100	Coín
+29108	Guaro
+29109	Tolox
+29110	Monda
+29120	Alhaurín el Grande
+29130	Alhaurín de la Torre
+29150	Almogía
+29160	Casabermeja
+29170	Colmenar
+29180	Riogordo
+29194	Alfarnate
+29194	Alfarnatejo
+29195	Comares
+29197	Totalán
+29200	Antequera
+29210	Cuevas de San Marcos
+29220	Cuevas Bajas
+29240	Valle de Abdalajís
+29300	Archidona
+29310	Villanueva de Algaidas
+29312	Villanueva del Rosario
+29313	Villanueva del Trabuco
+29315	Villanueva de Tapia
+29320	Campillos
+29327	Teba
+29328	Sierra de Yeguas
+29330	Almargen
+29340	Cañete la Real
+29350	Arriate
+29360	Montejaque
+29370	Benaoján
+29380	Cortes de la Frontera
+29392	Jimera de Líbar
+29400	Ronda
+29410	Yunquera
+29420	Burgo (El)
+29440	Igualeja
+29450	Pujerra
+29451	Parauta
+29452	Cartajima
+29460	Alpandeire
+29461	Faraján
+29462	Júzcar
+29470	Cuevas del Becerro
+29480	Gaucín
+29490	Benarrabá
+29491	Algatocín
+29491	Benalauría
+29492	Genalguacil
+29492	Jubrique
+29493	Benadalid
+29494	Atajate
+29500	Álora
+29520	Fuente de Piedra
+29530	Alameda
+29531	Humilladero
+29532	Mollina
+29550	Ardales
+29551	Carratraca
+29560	Pizarra
+29566	Casarabonela
+29567	Alozaina
+29570	Cártama
+29600	Marbella
+29610	Ojén
+29611	Istán
+29620	Torremolinos
+29639	Benalmádena
+29640	Fuengirola
+29650	Mijas
+29679	Benahavís
+29680	Estepona
+29690	Casares
+29691	Manilva
+29700	Vélez-Málaga
+29710	Periana
+29711	Alcaucín
+29712	Viñuela
+29714	Salares
+29715	Sedella
+29716	Canillas de Aceituno
+29717	Arenas
+29718	Almáchar
+29718	Benamargosa
+29718	Borge (El)
+29718	Cútar
+29719	Benamocarra
+29719	Iznate
+29730	Rincón de la Victoria
+29738	Moclinejo
+29750	Algarrobo
+29752	Sayalonga
+29753	Árchez
+29754	Cómpeta
+29755	Canillas de Albaida
+29770	Torrox
+29780	Nerja
+29788	Frigiliana
+29791	Macharaviaya
+30000	Murcia
+30130	Beniel
+30140	Santomera
+30170	Mula
+30176	Pliego
+30180	Bullas
+30190	Albudeite
+30191	Campos del Río
+30200	Cartagena
+30320	Fuente Álamo de Murcia
+30360	Unión (La)
+30400	Caravaca de la Cruz
+30420	Calasparra
+30430	Cehegín
+30440	Moratalla
+30500	Molina de Segura
+30510	Yecla
+30520	Jumilla
+30530	Cieza
+30540	Blanca
+30550	Abarán
+30560	Alguazas
+30562	Ceutí
+30564	Lorquí
+30565	Torres de Cotillas (Las)
+30600	Archena
+30610	Ricote
+30611	Ojós
+30612	Ulea
+30613	Villanueva del Río Segura
+30620	Fortuna
+30640	Abanilla
+30700	Torre-Pacheco
+30710	Alcázares (Los)
+30730	San Javier
+30740	San Pedro del Pinatar
+30800	Lorca
+30820	Alcantarilla
+30840	Alhama de Murcia
+30850	Totana
+30859	Aledo
+30870	Mazarrón
+30880	Águilas
+30890	Puerto Lumbreras
+30892	Librilla
+31000	Pamplona,Iruña
+31010	Barañain
+31100	Puente la Reina,Gares
+31110	Noáin (Valle de Elorz)
+31140	Artajona
+31160	Orcoyen
+31171	Olza
+31177	Yerri
+31180	Zizur Mayor,Zizur Nagusia
+31190	Cizur
+31191	Beriáin
+31191	Galar
+31192	Aranguren
+31194	Ezcabarte
+31195	Ansoáin
+31195	Berrioplano
+31195	Berriozar
+31200	Estella,Lizarra
+31210	Arcos (Los)
+31230	Viana
+31243	Arróniz
+31251	Larraga
+31260	Lerín
+31261	Andosilla
+31262	Allo
+31293	Sesma
+31300	Tafalla
+31310	Carcastillo
+31314	Santacara
+31320	Milagro
+31330	Villafranca
+31340	Marcilla
+31350	Peralta
+31360	Funes
+31370	Falces
+31380	Caparroso
+31390	Olite
+31400	Sangüesa
+31430	Aoiz,Agoitz
+31440	Lumbier
+31486	Egüés
+31490	Cáseda
+31500	Tudela
+31510	Fustiñana
+31511	Cabanillas
+31513	Arguedas
+31514	Valtierra
+31515	Cadreita
+31520	Cascante
+31520	Monteagudo
+31521	Murchante
+31523	Ablitas
+31530	Cortes
+31540	Buñuel
+31550	Ribaforada
+31560	Azagra
+31570	San Adrián
+31579	Cárcar
+31580	Lodosa
+31587	Mendavia
+31589	Sartaguda
+31590	Castejón
+31591	Corella
+31592	Cintruénigo
+31593	Fitero
+31600	Burlada
+31610	Villava,Atarrabia
+31620	Huarte,Uharte
+31630	Esteribar
+31700	Baztan
+31740	Doneztebe,Santesteban
+31770	Lesaka
+31780	Bera,Vera de Bidasoa
+31797	Ultzama
+31800	Altsasu,Alsasua
+31809	Olazti,Olazagutía
+31820	Etxarri-Aranatz
+31830	Lakuntza
+31860	Irurtzun
+31870	Larraun
+31880	Leitza
+32000	Ourense
+32008	Barbadás
+32102	Vilamarín
+32110	Paderne de Allariz
+32130	San Cristovo de Cea
+32137	Piñor
+32150	Peroxa (A)
+32152	Coles
+32160	Nogueira de Ramuín
+32170	Amoeiro
+32200	Cortegada
+32212	Gomesende
+32226	Padrenda
+32232	Castrelo de Miño
+32234	Arnoia (A)
+32235	Pontedeva
+32300	Barco de Valdeorras (O)
+32310	Rubiá
+32330	Carballeda de Valdeorras
+32340	Vilamartín de Valdeorras
+32350	Rúa (A)
+32356	Petín
+32358	Larouco
+32360	Veiga (A)
+32373	Bolo (O)
+32400	Ribadavia
+32411	Melón
+32412	Carballeda de Avia
+32420	Leiro
+32430	Beariz
+32431	Beade
+32435	Avión
+32454	Cenlle
+32455	San Amaro
+32456	Punxín
+32500	Carballiño (O)
+32514	Boborás
+32530	Irixo (O)
+32540	Gudiña (A)
+32549	Mezquita (A)
+32550	Viana do Bolo
+32557	Vilariño de Conso
+32570	Maside
+32600	Verín
+32611	Riós
+32613	Oímbra
+32616	Vilardevós
+32618	Monterrei
+32620	Laza
+32625	Castrelo do Val
+32630	Xinzo de Limia
+32632	Baltar
+32634	Blancos (Os)
+32638	Sarreaus
+32642	Porqueira
+32644	Calvos de Randín
+32650	Vilar de Santos
+32652	Rairiz de Veiga
+32660	Allariz
+32670	Xunqueira de Ambía
+32689	Cualedro
+32690	Taboadela
+32692	Sandiás
+32695	Trasmiras
+32700	Maceda
+32701	Baños de Molgas
+32702	Vilar de Barrio
+32710	Pereiro de Aguiar (O)
+32720	Esgos
+32730	Xunqueira de Espadanedo
+32740	Parada de Sil
+32750	Montederramo
+32760	Castro Caldelas
+32765	Teixeira (A)
+32770	San Xoán de Río
+32780	Pobra de Trives (A)
+32781	Manzaneda
+32786	Chandrexa de Queixa
+32800	Celanova
+32810	Ramirás
+32812	Bola (A)
+32813	Verea
+32814	Quintela de Leirado
+32824	Cartelle
+32830	Merca (A)
+32840	Bande
+32850	Lobeira
+32860	Entrimo
+32870	Lobios
+32880	Muíños
+32911	San Cibrao das Viñas
+32930	Toén
+33000	Oviedo
+33110	Teverga
+33114	Proaza
+33115	Santo Adriano
+33117	Quirós
+33120	Pravia
+33126	Soto del Barco
+33138	Muros de Nalón
+33150	Cudillero
+33160	Riosa
+33162	Morcín
+33172	Ribera de Arriba
+33180	Noreña
+33190	Regueras (Las)
+33200	Gijón
+33300	Villaviciosa
+33320	Colunga
+33344	Caravia
+33400	Avilés
+33411	Illas
+33416	Corvera de Asturias
+33424	Llanera
+33430	Carreño
+33440	Gozón
+33450	Castrillón
+33500	Llanes
+33510	Siero
+33518	Sariego
+33520	Nava
+33527	Bimenes
+33530	Piloña
+33535	Cabranes
+33540	Parres
+33550	Cangas de Onís
+33554	Cabrales
+33556	Onís
+33557	Ponga
+33558	Amieva
+33560	Ribadesella
+33570	Peñamellera Baja
+33578	Peñamellera Alta
+33590	Ribadedeva
+33600	Mieres
+33630	Lena
+33686	Aller
+33700	Valdés
+33710	Navia
+33717	Villayón
+33720	Boal
+33730	Grandas de Salime
+33734	Illano
+33735	Pesoz
+33740	Tapia de Casariego
+33746	Franco (El)
+33760	Castropol
+33770	Vegadeo
+33774	San Tirso de Abres
+33775	Taramundi
+33776	Santa Eulalia de Oscos
+33777	San Martín de Oscos
+33777	Villanueva de Oscos
+33795	Coaña
+33800	Cangas del Narcea
+33810	Ibias
+33812	Degaña
+33820	Grado
+33826	Yernes y Tameza
+33829	Candamo
+33830	Belmonte de Miranda
+33840	Somiedo
+33860	Salas
+33870	Tineo
+33880	Allande
+33900	Langreo
+33950	San Martín del Rey Aurelio
+33980	Laviana
+33990	Caso
+33993	Sobrescobio
+34000	Palencia
+34100	Saldaña
+34120	Carrión de los Condes
+34140	Villarramiel
+34190	Villamuriel de Cerrato
+34200	Venta de Baños
+34210	Dueñas
+34230	Torquemada
+34240	Baltanás
+34300	Paredes de Nava
+34310	Becerril de Campos
+34340	Villada
+34400	Herrera de Pisuerga
+34440	Frómista
+34450	Astudillo
+34460	Osorno la Mayor
+34480	Alar del Rey
+34800	Aguilar de Campoo
+34820	Barruelo de Santullán
+34840	Cervera de Pisuerga
+34870	Santibáñez de la Peña
+34880	Guardo
+34886	Velilla del Río Carrión
+35000	Palmas de Gran Canaria (Las)
+35140	Mogán
+35210	Telde
+35217	Valsequillo de Gran Canaria
+35260	Agüimes
+35280	Ingenio
+35280	Santa Lucía de Tirajana
+35290	San Bartolomé de Tirajana
+35300	Santa Brígida
+35328	Vega de San Mateo
+35330	Teror
+35340	Valleseco
+35350	Artenara
+35360	Tejeda
+35400	Arucas
+35420	Moya
+35430	Firgas
+35450	Santa María de Guía de Gran Canaria
+35460	Gáldar
+35470	San Nicolás de Tolentino
+35480	Agaete
+35500	Arrecife
+35520	Haría
+35530	Teguise
+35550	San Bartolomé
+35560	Tinajo
+35570	Yaiza
+35572	Tías
+35600	Puerto del Rosario
+35628	Pájara
+35628	Tuineje
+35630	Antigua
+35637	Betancuria
+35640	Oliva (La)
+35820	Ponte-Caldelas
+36000	Pontevedra
+36110	Campo Lameiro
+36130	Cerdedo
+36140	Vilaboa
+36194	Barro
+36200	Vigo
+36300	Baiona
+36350	Nigrán
+36380	Gondomar
+36390	Oia
+36400	Porriño (O)
+36416	Mos
+36420	Crecente
+36430	Arbo
+36440	Neves (As)
+36450	Salvaterra de Miño
+36470	Salceda de Caselas
+36500	Lalín
+36518	Dozón
+36520	Agolada
+36530	Rodeiro
+36540	Silleda
+36550	Forcarei
+36590	Vila de Cruces
+36600	Vilagarcía de Arousa
+36612	Catoira
+36620	Vilanova de Arousa
+36626	Illa de Arousa (A)
+36630	Cambados
+36636	Ribadumia
+36637	Meis
+36640	Pontecesures
+36645	Valga
+36650	Caldas de Reis
+36658	Portas
+36660	Moraña
+36670	Cuntis
+36680	Estrada (A)
+36691	Soutomaior
+36700	Tui
+36740	Tomiño
+36770	Rosal (O)
+36780	Guarda (A)
+36800	Redondela
+36830	Lama (A)
+36841	Pazos de Borbén
+36847	Fornelos de Montes
+36856	Cotobade
+36860	Ponteareas
+36870	Mondariz
+36872	Covelo (O)
+36880	Cañiza (A)
+36890	Mondariz-Balneario
+36900	Marín
+36930	Bueu
+36940	Cangas
+36950	Moaña
+36960	Sanxenxo
+36968	Meaño
+36980	Grove (O)
+36994	Poio
+37000	Salamanca
+37100	Ledesma
+37110	Santiz
+37111	Añover de Tormes
+37111	Palacios del Arzobispo
+37112	Zamayón
+37114	Encina de San Silvestre
+37114	Gejuelo del Barro
+37114	Villaseco de los Gamitos
+37115	Almenara de Tormes
+37115	Juzbado
+37120	Doñinos de Salamanca
+37129	Carrascal de Barregas
+37129	Florida de Liébana
+37129	Parada de Arriba
+37130	Villarmayor
+37139	Doñinos de Ledesma
+37139	Mata de Ledesma (La)
+37147	Villar de Peralonso
+37148	Espadaña
+37148	Tremedal de Tormes
+37150	Villaseco de los Reyes
+37159	Puertas
+37160	Villarino de los Aires
+37170	Golpejas
+37170	Pino de Tormes (El)
+37170	San Pedro del Valle
+37170	Vega de Tirados
+37170	Zarapicos
+37171	Manzano (El)
+37171	Monleras
+37172	Sardón de los Frailes
+37173	Ahigal de Villarino
+37173	Trabanca
+37175	Pereña de la Ribera
+37176	Almendra
+37180	Machacón
+37181	Calvarrasa de Abajo
+37181	Pelabravo
+37182	Encinas de Abajo
+37183	Morille
+37183	Mozárbez
+37183	San Pedro de Rozados
+37184	Monterrubio de Armuña
+37184	Villares de la Reina
+37185	Valverdón
+37185	Villamayor
+37187	Aldeatejada
+37187	Miranda de Azán
+37188	Carbajosa de la Sagrada
+37191	Calvarrasa de Arriba
+37193	Cabrerizos
+37200	Fuente de San Esteban (La)
+37208	San Muñoz
+37209	Buenamadre
+37209	Pelarrodríguez
+37210	Vitigudino
+37213	Valsalabroso
+37213	Vídola (La)
+37214	Cabeza del Caballo
+37214	Peña (La)
+37215	Barceo
+37216	Cipérez
+37216	Peralejos de Abajo
+37216	Peralejos de Arriba
+37217	Brincones
+37217	Iruelos
+37217	Villarmuerto
+37218	Sanchón de la Ribera
+37218	Villar de Samaniego
+37219	Encinasola de los Comendadores
+37219	Guadramiro
+37219	Moronta
+37219	Pozos de Hinojo
+37219	Valderrodrigo
+37219	Yecla de Yeltes
+37220	Fregeneda (La)
+37230	Hinojosa de Duero
+37240	Lumbrales
+37246	Sobradillo
+37247	Redonda (La)
+37248	Ahigal de los Aceiteros
+37249	Bermellar
+37250	Aldeadávila de la Ribera
+37251	Masueco
+37254	Cerezal de Peñahorcada
+37254	Mieza
+37255	Barruecopardo
+37256	Milano (El)
+37256	Villasbuenas
+37257	Saucelle
+37257	Zarza de Pumareda (La)
+37258	Vilvestre
+37259	Saldeana
+37260	Villavieja de Yeltes
+37267	Villares de Yeltes
+37270	San Felices de los Gallegos
+37271	Bañobárez
+37272	Fuenteliante
+37273	Bogajo
+37281	Cubo de Don Sancho (El)
+37290	Boada
+37291	Cerralbo
+37292	Olmedo de Camaces
+37300	Peñaranda de Bracamonte
+37310	Macotera
+37311	Santiago de la Puebla
+37312	Alaraz
+37313	Malpartida
+37314	Salmoral
+37315	Mancera de Abajo
+37316	Bóveda del Río Almar
+37317	Aldeaseca de la Frontera
+37317	Campo de Peñaranda (El)
+37318	Paradinas de San Juan
+37318	Rágama
+37319	Cantaracillo
+37320	Villar de Gallimazo
+37329	Alconada
+37329	Ventosa del Río Almar
+37330	Babilafuente
+37337	Cordovilla
+37337	Moríñigo
+37338	Huerta
+37339	Villoria
+37339	Villoruela
+37340	Aldearrubia
+37340	San Morales
+37350	Aldealengua
+37400	Cantalapiedra
+37405	Cantalpino
+37406	Poveda de las Cintas
+37406	Villaflores
+37407	Palaciosrubios
+37408	Zorita de la Frontera
+37409	Tarazona de Guareña
+37410	Pedroso de la Armuña (El)
+37418	Arabayona de Mógica
+37419	Espino de la Orbada
+37419	Parada de Rubiales
+37420	Gomecello
+37427	Pedrosillo el Ralo
+37427	Vellés (La)
+37428	Orbada (La)
+37428	Pajares de la Laguna
+37428	Villaverde de Guareña
+37429	Aldeanueva de Figueroa
+37429	Arcediano
+37429	Tardáguila
+37430	Moriscos
+37439	Castellanos de Moriscos
+37439	Negrilla de Palencia
+37439	Palencia de Negrilla
+37439	San Cristóbal de la Cuesta
+37440	Barbadillo
+37440	Tejado (El)
+37447	Rollán
+37448	Calzada de Don Diego
+37448	Canillas de Abajo
+37449	Galindo y Perahuy
+37450	Matilla de los Caños del Río
+37451	Carrascal del Obispo
+37451	Villalba de los Llanos
+37452	Vecinos
+37454	Veguillas (Las)
+37455	Barbalos
+37455	Narros de Matalayegua
+37456	Membribe de la Sierra
+37457	Frades de la Sierra
+37460	Aldehuela de la Bóveda
+37465	Sagrada (La)
+37466	Sanchón de la Sagrada
+37468	Sando
+37468	Santa María de Sando
+37468	Villasdardo
+37469	Garcirrey
+37470	Sancti-Spíritus
+37478	Alba de Yeltes
+37478	Dios le Guarde
+37480	Fuentes de Oñoro
+37482	Alameda de Gardón (La)
+37483	Villar de Argañán
+37484	Gallegos de Argañán
+37485	Villar de la Yegua
+37486	Villar de Ciervo
+37487	Bouza (La)
+37487	Puerto Seguro
+37488	Aldea del Obispo
+37490	Cabezabellosa de la Calzada
+37490	Pitiegua
+37491	Robliza de Cojos
+37491	Tabera de Abajo
+37494	Castraz
+37494	Martín de Yeltes
+37495	Retortillo
+37496	Carpio de Azaba
+37497	Espeja
+37500	Ciudad Rodrigo
+37510	Martiago
+37511	Agallas
+37512	Pastores
+37514	Sahugo (El)
+37515	Encina (La)
+37516	Herguijuela de Ciudad Rodrigo
+37520	Bodón (El)
+37521	Robleda
+37522	Villasrubias
+37523	Peñaparda
+37524	Payo (El)
+37530	Serradilla del Llano
+37531	Serradilla del Arroyo
+37532	Monsagro
+37540	Fuenteguinaldo
+37541	Casillas de Flores
+37542	Navasfrías
+37550	Campillo de Azaba
+37551	Ituero de Azaba
+37553	Puebla de Azaba
+37554	Alamedilla (La)
+37555	Alberguería de Argañán (La)
+37590	Morasverdes
+37590	Tenebrón
+37591	Atalaya (La)
+37591	Zamarra
+37592	Castillejo de Martín Viejo
+37592	Saelices el Chico
+37600	Tamames
+37606	Puebla de Yeltes
+37607	Navarredonda de la Rinconada
+37607	Rinconada de la Sierra (La)
+37608	Tejeda y Segoyuela
+37609	Berrocal de Huebra
+37610	Mogarraz
+37618	Monforte de la Sierra
+37619	Herguijuela de la Sierra
+37619	Madroñal
+37620	Cabaco (El)
+37621	Maíllo (El)
+37623	Nava de Francia
+37624	Alberca (La)
+37630	Cabrillas
+37638	Sepulcro-Hilario
+37639	Aldehuela de Yeltes
+37640	Abusejo
+37650	Sequeros
+37656	Cepeda
+37657	Sotoserrano
+37658	Garcibuey
+37658	Villanueva del Conde
+37659	Casas del Conde (Las)
+37659	San Martín del Castañar
+37660	Miranda del Castañar
+37670	Santibáñez de la Sierra
+37671	San Esteban de la Sierra
+37680	Valdefuentes de Sangusín
+37683	Molinillo
+37684	Cristóbal
+37691	Aldeanueva de la Sierra
+37692	Bastida (La)
+37692	Cilleros de la Bastida
+37693	Cereceda de la Sierra
+37694	San Miguel del Robledo
+37700	Béjar
+37710	Candelario
+37711	Colmenar de Montemayor
+37712	Horcajo de Montemayor
+37712	Pinedas
+37713	Valdehijaderos
+37714	Calzada de Béjar (La)
+37716	Hoya (La)
+37716	Navacarros
+37717	Vallejera de Riofrío
+37718	Aldeacipreste
+37720	Puerto de Béjar
+37724	Lagunilla
+37725	Valdelageve
+37726	Cerro (El)
+37727	Montemayor del Río
+37728	Peñacaballera
+37730	Ledrada
+37740	Santibáñez de Béjar
+37748	Puente del Congosto
+37749	Navamorales
+37750	Cespedosa de Tormes
+37751	Gallegos de Solmirón
+37752	Tala (La)
+37755	Armenteros
+37760	Linares de Riofrío
+37762	Escurial de la Sierra
+37762	Herguijuela del Campo
+37762	Sierpe (La)
+37763	San Miguel de Valero
+37764	Valero
+37765	Monleón
+37765	Tornadizo (El)
+37766	Endrinal
+37767	Casafranca
+37768	Fuenterroble de Salvatierra
+37768	Santos (Los)
+37770	Guijuelo
+37774	Guijo de Ávila
+37775	Fresnedoso
+37776	Nava de Béjar
+37777	Cabeza de Béjar (La)
+37777	Sorihuela
+37779	Aldeavieja de Tormes
+37779	Salvatierra de Tormes
+37780	Maya (La)
+37785	Galinduste
+37787	Pelayos
+37788	Monterrubio de la Sierra
+37788	Pedrosillo de los Aires
+37789	Beleña
+37789	Buenavista
+37789	Fresno Alhándiga
+37790	Fuentes de Béjar
+37791	Peromingo
+37791	Puebla de San Medel
+37791	Valdelacasa
+37791	Valverde de Valdelacasa
+37792	Cantagallo
+37793	Navalmoral de Béjar
+37794	Sanchotello
+37795	Berrocal de Salvatierra
+37795	Montejo
+37795	Pizarral
+37796	Arapiles
+37797	Aldearrodrigo
+37797	Arco (El)
+37797	Calzada de Valdunciel
+37797	Forfoleda
+37797	San Pelayo de Guareña
+37797	Torresmenudas
+37798	Castellanos de Villiquera
+37798	Valdunciel
+37799	Topas
+37799	Valdelosa
+37800	Alba de Tormes
+37810	Garcihernández
+37820	Peñarandilla
+37830	Coca de Alba
+37840	Tordillos
+37850	Nava de Sotrobal
+37860	Horcajo Medianero
+37861	Chagarcía Medianero
+37863	Anaya de Alba
+37865	Larrodrigo
+37870	Aldeaseca de Alba
+37871	Pedrosillo de Alba
+37874	Gajates
+37880	Navales
+37881	Valdecarros
+37882	Pedraza de Alba
+37891	Ejeme
+37891	Galisancho
+37892	Encinas de Arriba
+37892	Sieteiglesias de Tormes
+37893	Martinamor
+37893	Terradillos
+37893	Valdemierque
+37893	Villagonzalo de Tormes
+37900	Santa Marta de Tormes
+38000	Santa Cruz de Tenerife
+38200	San Cristóbal de La Laguna
+38260	Arico
+38280	Tegueste
+38290	Rosario (El)
+38300	Orotava (La)
+38350	Tacoronte
+38360	Sauzal (El)
+38370	Matanza de Acentejo (La)
+38380	Victoria de Acentejo (La)
+38390	Santa Úrsula
+38400	Puerto de la Cruz
+38410	Realejos (Los)
+38420	San Juan de la Rambla
+38430	Icod de los Vinos
+38435	Tanque (El)
+38436	Santiago del Teide
+38440	Guancha (La)
+38450	Garachico
+38470	Silos (Los)
+38480	Buenavista del Norte
+38500	Güímar
+38530	Candelaria
+38550	Arafo
+38570	Fasnia
+38600	Granadilla de Abona
+38613	Vilaflor
+38620	San Miguel de Abona
+38640	Arona
+38670	Adeje
+38680	Guía de Isora
+38700	Santa Cruz de la Palma
+38710	Breña Alta
+38712	Breña Baja
+38715	Puntallana
+38720	San Andrés y Sauces
+38726	Barlovento
+38730	Villa de Mazo
+38740	Fuencaliente de la Palma
+38750	Paso (El)
+38760	Llanos de Aridane (Los)
+38770	Tazacorte
+38780	Tijarafe
+38787	Garafía
+38789	Puntagorda
+38800	San Sebastián de la Gomera
+38812	Alajeró
+38820	Hermigua
+38830	Agulo
+38840	Vallehermoso
+38870	Valle Gran Rey
+38900	Valverde
+38911	Frontera
+39000	Santander
+39100	Santa Cruz de Bezana
+39200	Reinosa
+39300	Torrelavega
+39340	Suances
+39400	Corrales de Buelna (Los)
+39470	Piélagos
+39500	Cabezón de la Sal
+39509	Camargo
+39538	Reocín
+39577	Vega de Liébana
+39610	Astillero (El)
+39619	Medio Cudeyo
+39685	Vega de Pas
+39694	Santa María de Cayón
+39700	Castro-Urdiales
+39738	Solórzano
+39740	Santoña
+39750	Colindres
+39770	Laredo
+40000	Segovia
+40100	San Ildefonso
+40150	Villacastín
+40194	Palazuelos de Eresma
+40196	Lastrilla (La)
+40200	Cuéllar
+40250	Mozoncillo
+40270	Carbonero el Mayor
+40280	Navalmanzano
+40300	Sepúlveda
+40320	Cantalejo
+40360	Cantimpalos
+40370	Turégano
+40400	Espinar (El)
+40440	Santa María la Real de Nieva
+40450	Nava de la Asunción
+40470	Navas de Oro
+40480	Coca
+40500	Riaza
+40520	Ayllón
+41000	Sevilla
+41100	Coria del Río
+41110	Bollullos de la Mitación
+41111	Almensilla
+41120	Gelves
+41130	Puebla del Río (La)
+41140	Villafranco del Guadalquivir
+41200	Alcalá del Río
+41210	Guillena
+41220	Burguillos
+41230	Castilblanco de los Arroyos
+41240	Almadén de la Plata
+41250	Real de la Jara (El)
+41309	Rinconada (La)
+41310	Brenes
+41318	Villaverde del Río
+41320	Cantillana
+41340	Tocina
+41350	Villanueva del Río y Minas
+41360	Pedroso (El)
+41370	Cazalla de la Sierra
+41380	Alanís
+41388	San Nicolás del Puerto
+41390	Guadalcanal
+41400	Écija
+41410	Carmona
+41420	Fuentes de Andalucía
+41429	Campana (La)
+41430	Luisiana (La)
+41439	Cañada Rosal
+41440	Lora del Río
+41449	Alcolea del Río
+41450	Constantina
+41460	Navas de la Concepción (Las)
+41470	Peñaflor
+41479	Puebla de los Infantes (La)
+41500	Alcalá de Guadaira
+41510	Mairena del Alcor
+41520	Viso del Alcor (El)
+41530	Morón de la Frontera
+41540	Puebla de Cazalla (La)
+41550	Aguadulce
+41560	Estepa
+41564	Lora de Estepa
+41565	Gilena
+41566	Pedrera
+41567	Herrera
+41568	Rubio (El)
+41569	Marinaleda
+41570	Badolatosa
+41580	Casariche
+41590	Roda de Andalucía (La)
+41600	Arahal
+41610	Paradas
+41620	Marchena
+41630	Lantejuela (La)
+41640	Osuna
+41650	Saucejo (El)
+41657	Corrales (Los)
+41658	Martín de la Jara
+41660	Villanueva de San Juan
+41661	Algámitas
+41670	Pruna
+41700	Dos Hermanas
+41710	Utrera
+41720	Palacios y Villafranca (Los)
+41730	Cabezas de San Juan (Las)
+41740	Lebrija
+41749	Cuervo de Sevilla (El)
+41750	Molares (Los)
+41760	Coronil (El)
+41770	Montellano
+41780	Coripe
+41800	Sanlúcar la Mayor
+41804	Olivares
+41805	Benacazón
+41806	Umbrete
+41807	Espartinas
+41808	Villanueva del Ariscal
+41809	Albaida del Aljarafe
+41810	Castilleja del Campo
+41820	Carrión de los Céspedes
+41830	Huévar
+41840	Pilas
+41849	Aznalcázar
+41850	Villamanrique de la Condesa
+41860	Gerena
+41870	Aznalcóllar
+41880	Ronquillo (El)
+41888	Garrobo (El)
+41890	Castillo de las Guardas (El)
+41897	Madroño (El)
+41900	Camas
+41907	Valencina de la Concepción
+41908	Castilleja de Guzmán
+41909	Salteras
+41920	San Juan de Aznalfarache
+41927	Mairena del Aljarafe
+41928	Palomares del Río
+41930	Bormujos
+41940	Tomares
+41950	Castilleja de la Cuesta
+41960	Gines
+41970	Santiponce
+41980	Algaba (La)
+42000	Soria
+42100	Ágreda
+42110	Ólvega
+42140	San Leonardo de Yagüe
+42150	Vinuesa
+42157	Covaleda
+42158	Duruelo de la Sierra
+42200	Almazán
+42250	Arcos de Jalón
+42300	Burgo de Osma-Ciudad de Osma
+42330	San Esteban de Gormaz
+42360	Berlanga de Duero
+43000	Tarragona
+43120	Constantí
+43140	Pobla de Mafumet (La)
+43141	Vilallonga del Camp
+43144	Vallmoll
+43151	Pallaresos (Els)
+43200	Reus
+43300	Mont-roig del Camp
+43330	Riudoms
+43340	Montbrió del Camp
+43350	Borges del Camp (Les)
+43365	Alforja
+43390	Riudecols
+43391	Vinyols i els Arcs
+43392	Castellvell del Camp
+43400	Montblanc
+43420	Santa Coloma de Queralt
+43424	Sarral
+43430	Vimbodí
+43440	Espluga de Francolí (L')
+43460	Alcover
+43470	Selva del Camp (La)
+43480	Vila-seca
+43500	Tortosa
+43519	Perelló (El)
+43520	Roquetes
+43530	Alcanar
+43540	Sant Carles de la Ràpita
+43550	Ulldecona
+43560	Sénia (La)
+43570	Santa Bàrbara
+43580	Deltebre
+43592	Xerta
+43594	Pinell de Brai (El)
+43596	Horta de Sant Joan
+43700	Vendrell (El)
+43710	Santa Oliva
+43711	Banyeres del Penedès
+43712	Llorenç del Penedès
+43713	Sant Jaume dels Domenys
+43716	Albinyana
+43717	Bisbal del Penedès (La)
+43719	Bellvei
+43720	Arboç (L')
+43730	Falset
+43740	Móra d'Ebre
+43746	Tivissa
+43747	Benissanet
+43750	Flix
+43760	Morell (El)
+43761	Pobla de Montornès (La)
+43764	Catllar (El)
+43765	Secuita (La)
+43770	Móra la Nova
+43780	Gandesa
+43781	Fatarella (La)
+43784	Corbera d'Ebre
+43786	Batea
+43790	Riba-roja d'Ebre
+43791	Ascó
+43800	Valls
+43810	Pla de Santa Maria (El)
+43814	Vila-rodona
+43820	Calafell
+43830	Torredembarra
+43838	Creixell
+43840	Salou
+43850	Cambrils
+43860	Ametlla de Mar (L')
+43870	Amposta
+43877	Sant Jaume d'Enveja
+43881	Cunit
+43883	Roda de Barà
+43890	Vandellòs i l'Hospitalet de l'Infant
+43893	Altafulla
+43894	Camarles
+43895	Ampolla (L')
+43896	Aldea (L')
+44000	Teruel
+44100	Albarracín
+44200	Calamocha
+44300	Monreal del Campo
+44360	Santa Eulalia
+44370	Cella
+44380	Villarquemado
+44400	Mora de Rubielos
+44460	Sarrión
+44500	Andorra
+44510	Puebla de Híjar (La)
+44520	Samper de Calanda
+44530	Híjar
+44540	Albalate del Arzobispo
+44550	Alcorisa
+44564	Mas de las Matas
+44570	Calanda
+44580	Valderrobres
+44600	Alcañiz
+44610	Calaceite
+44700	Montalbán
+44760	Utrillas
+44770	Escucha
+45000	Toledo
+45100	Sonseca
+45200	Illescas
+45300	Ocaña
+45400	Mora
+45470	Yébenes (Los)
+45500	Torrijos
+45510	Fuensalida
+45516	Puebla de Montalbán (La)
+45593	Bargas
+45600	Talavera de la Reina
+45700	Consuegra
+45710	Madridejos
+45730	Villafranca de los Caballeros
+45800	Quintanar de la Orden
+45840	Puebla de Almoradiel (La)
+45860	Villacañas
+45880	Corral de Almaguer
+46000	Valencia
+46016	Tavernes Blanques
+46100	Burjassot
+46110	Godella
+46113	Moncada
+46117	Bétera
+46120	Alboraya
+46130	Massamagrell
+46132	Almàssera
+46133	Meliana
+46134	Foios
+46137	Pobla de Farnals (la)
+46138	Rafelbuñol,Rafelbunyol
+46160	Llíria
+46180	Benaguasil
+46183	Eliana (l')
+46185	Pobla de Vallbona (la)
+46190	Riba-roja de Túria
+46191	Vilamarxant
+46200	Paiporta
+46210	Picanya
+46220	Picassent
+46230	Alginet
+46240	Carlet
+46250	Alcúdia (l')
+46260	Alberic
+46270	Castelló de la Ribera
+46290	Alcácer
+46300	Utiel
+46340	Requena
+46360	Buñol
+46370	Chiva
+46380	Cheste
+46400	Cullera
+46410	Sueca
+46440	Almussafes
+46450	Benifaió
+46460	Silla
+46470	Albal
+46470	Catarroja
+46470	Massanassa
+46500	Sagunto,Sagunt
+46530	Puçol
+46540	Puig
+46600	Alzira
+46610	Guadassuar
+46620	Ayora
+46650	Canals
+46680	Algemesí
+46700	Gandia
+46740	Carcaixent
+46760	Tavernes de la Valldigna
+46780	Oliva
+46800	Xàtiva
+46830	Benigánim
+46841	Castelló de Rugat
+46850	Olleria (l')
+46860	Albaida
+46870	Ontinyent
+46900	Torrent
+46910	Alfafar
+46910	Benetússer
+46910	Sedaví
+46920	Mislata
+46930	Quart de Poblet
+46940	Manises
+46950	Xirivella
+46960	Aldaia
+46970	Alaquàs
+46980	Paterna
+47000	Valladolid
+47100	Tordesillas
+47130	Simancas
+47140	Laguna de Duero
+47150	Viana de Cega
+47151	Boecillo
+47155	Santovenia de Pisuerga
+47160	Portillo
+47162	Aldeamayor de San Martín
+47193	Cistérniga
+47195	Arroyo de la Encomienda
+47196	Pedraja de Portillo (La)
+47230	Matapozuelos
+47239	Serrada
+47240	Valdestillas
+47250	Mojados
+47260	Cabezón de Pisuerga
+47270	Cigales
+47300	Peñafiel
+47310	Campaspero
+47320	Montemayor de Pililla
+47320	Tudela de Duero
+47350	Quintanilla de Onésimo
+47400	Medina del Campo
+47410	Olmedo
+47420	Íscar
+47430	Pedrajas de San Esteban
+47470	Carpio
+47480	Fresno el Viejo
+47490	Rueda
+47491	Seca (La)
+47500	Nava del Rey
+47510	Alaejos
+47520	Castronuño
+47600	Villalón de Campos
+47610	Zaratán
+47680	Mayorga
+47800	Medina de Rioseco
+47820	Villabrágima
+48000	Bilbao
+48100	Mungia
+48110	Gatika
+48111	Laukiz
+48112	Maruri-Jatabe
+48113	Gamiz-Fika
+48114	Arrieta
+48115	Morga
+48116	Fruiz
+48120	Meñaka
+48130	Bakio
+48140	Arantzazu
+48140	Igorre
+48141	Dima
+48142	Artea
+48143	Areatza
+48144	Zeanuri
+48145	Ubide
+48150	Sondika
+48160	Derio
+48170	Zamudio
+48180	Loiu
+48190	Sopuerta
+48191	Galdames
+48191	Garay
+48192	Gordexola
+48195	Larrabetzu
+48196	Lezama
+48200	Durango
+48210	Otxandio
+48212	Mañaria
+48213	Izurtza
+48215	Iurreta
+48220	Abadiño
+48230	Elorrio
+48240	Berriz
+48250	Zaldibar
+48260	Ermua
+48269	Mallabia
+48270	Markina-Xemein
+48277	Etxebarria
+48280	Lekeitio
+48287	Ea
+48288	Ispaster
+48289	Amoroto
+48289	Guizaburuaga
+48289	Mendexa
+48292	Atxondo
+48300	Gernika-Lumo
+48309	Errigoiti
+48310	Elantxobe
+48311	Ibarrangelu
+48312	Nabarniz
+48313	Ereño
+48314	Gautegiz Arteaga
+48315	Kortezubi
+48320	Ajangiz
+48330	Lemoa
+48340	Amorebieta-Etxano
+48350	Busturia
+48360	Mundaka
+48370	Bermeo
+48380	Aulesti
+48381	Munitibar-Arbatzegi Gerrikaitz
+48382	Mendata
+48383	Arratzu
+48390	Bedia
+48392	Muxika
+48393	Forua
+48394	Murueta
+48395	Sukarrieta
+48410	Orozko
+48450	"Etxebarri	 Anteiglesia de San Esteban,Etxebarri Doneztebeko Elizatea"
+48460	Orduña
+48480	Arrigorriaga
+48480	Zaratamo
+48490	Ugao-Miraballes
+48498	Arakaldo
+48498	Arrankudiaga
+48499	Zeberio
+48508	Zierbena
+48509	Abanto y Ciérvana,Abanto Zierbena
+48510	Valle de Trápaga-Trapagaran
+48530	Ortuella
+48550	Muskiz
+48600	Sopelana
+48610	Urduliz
+48620	Barrika
+48620	Lemoiz
+48620	Plentzia
+48630	Gorliz
+48640	Berango
+48700	Ondarroa
+48710	Berriatua
+48800	Balmaseda
+48810	Alonsotegi
+48840	Güeñes
+48860	Zalla
+48879	Arcentales
+48880	Trucios-Turtzioz
+48891	Carranza
+48891	Lanestosa
+48900	Barakaldo
+48910	Sestao
+48920	Portugalete
+48940	Leioa
+48950	Erandio
+48960	Galdakao
+48970	Basauri
+48980	Santurtzi
+48990	Getxo
+49000	Zamora
+49100	Villanueva del Campo
+49150	Moraleja del Vino
+49155	Bóveda de Toro (La)
+49159	Villaralbo
+49190	Morales del Vino
+49200	Bermillo de Sayago
+49220	Fermoselle
+49300	Puebla de Sanabria
+49332	Camarzana de Tera
+49360	Galende
+49400	Fuentesaúco
+49410	Fuentelapeña
+49500	Alcañices
+49510	Fonfría
+49530	Coreses
+49591	Riofrío de Aliste
+49600	Benavente
+49610	Santibáñez de Vidriales
+49620	Santa Cristina de la Polvorosa
+49622	Quiruelas de Vidriales
+49630	Villalpando
+49690	San Cristóbal de Entreviñas
+49700	Corrales
+49800	Toro
+49810	Morales de Toro
+49820	Villabuena del Puente
+50000	Zaragoza
+50100	Almunia de Doña Godina (La)
+50130	Belchite
+50160	Leciñena
+50170	Mequinenza
+50171	Puebla de Alfindén (La)
+50172	Alfajarín
+50177	Bujaraloz
+50180	Utebo
+50196	Muela (La)
+50200	Ateca
+50220	Ariza
+50230	Alhama de Aragón
+50246	Brea de Aragón
+50250	Illueca
+50260	Morata de Jalón
+50270	Ricla
+50280	Calatorao
+50290	Épila
+50298	Pinseque
+50300	Calatayud
+50340	Maluenda
+50360	Daroca
+50400	Cariñena
+50410	Cuarte de Huerva
+50420	Cadrete
+50450	Muel
+50461	Alfamén
+50500	Tarazona
+50520	Magallón
+50540	Borja
+50550	Mallén
+50570	Ainzón
+50600	Ejea de los Caballeros
+50630	Alagón
+50637	Remolinos
+50640	Luceni
+50641	Boquiñeni
+50650	Gallur
+50660	Tauste
+50670	Sádaba
+50690	Pedrola
+50693	Torres de Berrellén
+50695	Biota
+50700	Caspe
+50710	Maella
+50730	Burgo de Ebro (El)
+50740	Fuentes de Ebro
+50750	Pina de Ebro
+50770	Quinto
+50780	Sástago
+50786	Gelsa
+50790	Escatrón
+50793	Fabara
+50794	Nonaspe
+50800	Zuera
+50830	Villanueva de Gállego
+50840	San Mateo de Gállego
+51000	Ceuta
+52000	Melilla

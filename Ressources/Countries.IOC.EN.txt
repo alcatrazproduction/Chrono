@@ -1,0 +1,206 @@
+AFG	Afghanistan	AF
+ALB	Albania	AL
+ALG	Algeria	DZ
+AND	Andorra	AD
+ANG	Angola	AO
+ANT	Antigua and Barbuda	AG
+ARG	Argentina	AR
+ARM	Armenia	AM
+ARU	Aruba	AW
+ASA	American Samoa	AS
+AUS	Australia	AU
+AUT	Austria	AT
+AZE	Azerbaijan	AZ
+BAH	Bahamas	BS
+BAN	Bangladesh	BD
+BAR	Barbados	BB
+BDI	Burundi	BI
+BEL	Belgium	BE
+BEN	Benin	BJ
+BER	Bermuda	BM
+BHU	Bhutan	BT
+BIH	Bosnia and Herzegovina	BA
+BIZ	Belize	BZ
+BLR	Belarus	BY
+BOL	Bolivia	BO
+BOT	Botswana	BW
+BRA	Brazil	BR
+BRN	Bahrain	BH
+BRU	Brunei	BN
+BUL	Bulgaria	BG
+BUR	Burkina Faso	BF
+CAF	Central African Republic	CF
+CAM	Cambodia	KH
+CAN	Canada	CA
+CAY	Cayman Islands	KY
+CGO	Congo	CG
+CHA	Chad	TD
+CHI	Chile	CL
+CHN	China	CN
+CIV	Côte d'Ivoire	CI
+CMR	Cameroon	CM
+COD	DR Congo	CD
+COK	Cook Islands	CK
+COL	Colombia	CO
+COM	Comoros	KM
+CPV	Cape Verde	CV
+CRC	Costa Rica	CR
+CRO	Croatia	HR
+CUB	Cuba	CU
+CYP	Cyprus	CY
+CZE	Czech Republic	CZ
+DEN	Denmark	DK
+DJI	Djibouti	DJ
+DMA	Dominica	DM
+DOM	Dominican Republic	DO
+ECU	Ecuador	EC
+EGY	Egypt	EG
+ERI	Eritrea	ER
+ESA	El Salvador	SV
+ESP	Spain	ES
+EST	Estonia	EE
+ETH	Ethiopia	ET
+FIJ	Fiji	FJ
+FIN	Finland	FI
+FRA	France	FR
+FSM	Micronesia	FM
+GAB	Gabon	GA
+GAM	Gambia	GM
+GBR	Great Britain	GB
+GBS	Guinea-Bissau	GW
+GEO	Georgia	GE
+GEQ	Equatorial Guinea	GQ
+GER	Germany	DE
+GHA	Ghana	GH
+GRE	Greece	GR
+GRN	Grenada	GD
+GUA	Guatemala	GT
+GUI	Guinea	GN
+GUM	Guam	GU
+GUY	Guyana	GY
+HAI	Haiti	HT
+HKG	Hong Kong	HK
+HON	Honduras	HN
+HUN	Hungary	HU
+INA	Indonesia	ID
+IND	India	IN
+IRI	Iran	IR
+IRL	Ireland	IE
+IRQ	Iraq	RQ
+ISL	Iceland	IS
+ISR	Israel	IL
+ISV	Virgin Islands	VI
+ITA	Italy	IT
+IVB	British Virgin Islands	VG
+JAM	Jamaica	JM
+JOR	Jordan	JO
+JPN	Japan	JP
+KAZ	Kazakhstan	KZ
+KEN	Kenya	KE
+KGZ	Kyrgyzstan	KG
+KIR	Kiribati	KI
+KOR	South Korea	KR
+KOS	Kosovo	XK
+KSA	Saudi Arabia	SA
+KUW	Kuwait	KW
+LAO	Laos	LA
+LAT	Latvia	LV
+LBA	Libya	LY
+LBR	Liberia	LR
+LCA	Saint Lucia	LC
+LES	Lesotho	LS
+LIB	Lebanon	LB
+LIE	Liechtenstein	LI
+LTU	Lithuania	LT
+LUX	Luxembourg	LU
+MAD	Madagascar	MG
+MAR	Morocco	MA
+MAS	Malaysia	MY
+MAW	Malawi	MW
+MDA	Moldova	MD
+MDV	Maldives	MV
+MEX	Mexico	MX
+MGL	Mongolia	MN
+MHL	Marshall Islands	MH
+MKD	Macedonia	MK
+MLI	Mali	ML
+MLT	Malta	MT
+MNE	Montenegro	ME
+MON	Monaco	MC
+MOZ	Mozambique	MZ
+MRI	Mauritius	MU
+MTN	Mauritania	MR
+MYA	Myanmar	MM
+NAM	Namibia	NA
+NCA	Nicaragua	NI
+NED	Netherlands	NL
+NEP	Nepal	NP
+NGR	Nigeria	NG
+NIG	Niger	NE
+NOR	Norway	NO
+NRU	Nauru	NR
+NZL	New Zealand	NZ
+OMA	Oman	OM
+PAK	Pakistan	PK
+PAN	Panama	PA
+PAR	Paraguay	PY
+PER	Peru	PE
+PHI	Philippines	PH
+PLE	Palestine	PS
+PLW	Palau	PW
+PNG	Papua New Guinea	PG
+POL	Poland	PL
+POR	Portugal	PT
+PRK	North Korea	KP
+PUR	Puerto Rico	PR
+QAT	Qatar	QA
+ROU	Romania	RO
+RSA	South Africa	ZA
+RUS	Russia	RU
+RWA	Rwanda	RW
+SAM	Samoa	WS
+SEN	Senegal	SN
+SEY	Seychelles	SC
+SIN	Singapore	SG
+SKN	Saint Kitts and Nevis	KN
+SLE	Sierra Leone	SL
+SLO	Slovenia	SI
+SMR	San Marino	SM
+SOL	Solomon Islands	SB
+SOM	Somalia	SO
+SRB	Serbia	RS
+SRI	Sri Lanka	LK
+SSD	South Sudan	SS
+STP	São Tomé and Príncipe	ST
+SUD	Sudan	SD
+SUI	Switzerland	CH
+SUR	Suriname	SR
+SVK	Slovakia	SK
+SWE	Sweden	SE
+SWZ	Swaziland	SZ
+SYR	Syria	SY
+TAN	Tanzania	TZ
+TGA	Tonga	TO
+THA	Thailand	TH
+TJK	Tajikistan	TJ
+TKM	Turkmenistan	TM
+TLS	Timor-Leste	TL
+TOG	Togo	TG
+TPE	Chinese Taipei	TW
+TRI	Trinidad and Tobago	TT
+TUN	Tunisia	TN
+TUR	Turkey	TR
+TUV	Tuvalu	TV
+UAE	United Arab Emirates	AE
+UGA	Uganda	UG
+UKR	Ukraine	UA
+URU	Uruguay	UY
+USA	United States	US
+UZB	Uzbekistan	UZ
+VAN	Vanuatu	VU
+VEN	Venezuela	VE
+VIE	Vietnam	VN
+VIN	Saint Vincent and the Grenadines	VC
+YEM	Yemen	YE
+ZAM	Zambia	ZM
+ZIM	Zimbabwe	ZW

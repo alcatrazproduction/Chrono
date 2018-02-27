@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<chronos>
+
+ <chrono nom="Alge Timy 3">
+  <commentaire langue="fr">Non testé - www.timingguys.com/pstpdf/alge_timy3_manual.pdf</commentaire>
+  <commentaire langue="en">Untested</commentaire>
+  <bitparite>0</bitparite>
+  <bitstop>1</bitstop>
+  <bitsdata>8</bitsdata>
+  <bauds>9600</bauds>
+  <lgtrame>30</lgtrame>
+  <fintrame>CR</fintrame>
+  <lgentete>1</lgentete>
+  <posentete>1</posentete>
+  <entetestramestemps>
+   <entete>m</entete>
+   <entete>i</entete>
+   <entete> </entete>
+  </entetestramestemps>
+  <posnumtemps>
+   <pos>2</pos>
+   <pos>3</pos>
+   <pos>4</pos>
+   <pos>5</pos>
+  </posnumtemps>
+  <postemps>
+   <pos>11</pos>
+   <pos>12</pos>
+   <pos>14</pos>
+   <pos>15</pos>
+   <pos>17</pos>
+   <pos>18</pos>
+   <pos>20</pos>
+   <pos>21</pos>
+   <pos>22</pos>
+  </postemps>
+ </chrono>
+
+ <chrono nom="Alge Comet">
+  <commentaire langue="fr">Non testé</commentaire>
+  <commentaire langue="en">Untested</commentaire>
+  <bitparite>1</bitparite>
+  <bitstop>1</bitstop>
+  <bitsdata>8</bitsdata>
+  <bauds>2400</bauds>
+  <lgtrame>24</lgtrame>
+  <fintrame>CR</fintrame>
+  <lgentete>3</lgentete>
+  <posentete>6</posentete>
+  <entetestramestemps>
+   <entete>End</entete>
+  </entetestramestemps>
+  <posnumtemps>
+   <pos>1</pos>
+   <pos>2</pos>
+   <pos>3</pos>
+   <pos>4</pos>
+  </posnumtemps>
+  <postemps>
+   <pos>12</pos>
+   <pos>13</pos>
+   <pos>15</pos>
+   <pos>16</pos>
+   <pos>18</pos>
+   <pos>19</pos>
+   <pos>21</pos>
+   <pos>22</pos>
+   <pos>23</pos>
+  </postemps>
+  <entrees>
+   <entree libelle="Start" id="C0" /><entree libelle="Stop" id="C1" />
+  </entrees>
+  <posidentree>7</posidentree>
+  <lgidentree>3</lgidentree>
+ </chrono>
+
+ <chrono nom="Alge IDCam">
+  <bitparite>0</bitparite>
+  <bitstop>1</bitstop>
+  <bitsdata>8</bitsdata>
+  <bauds>9600</bauds>
+  <lgtrame>24</lgtrame>
+  <fintrame>CR</fintrame>
+  <lgentete>1</lgentete>
+  <posentete>1</posentete>
+  <entetestramestemps>
+   <entete>*</entete>
+  </entetestramestemps>
+  <posdossard>
+   <pos>2</pos><pos>3</pos><pos>4</pos><pos>5</pos>
+  </posdossard>
+  <posnumtemps>
+  </posnumtemps>
+  <postemps>
+   <pos>11</pos>
+   <pos>12</pos>
+   <pos>14</pos>
+   <pos>15</pos>
+   <pos>17</pos>
+   <pos>18</pos>
+   <pos>20</pos>
+   <pos>21</pos>
+   <pos>22</pos>
+  </postemps>
+  <entrees>
+   <entree libelle="Start" id="C0" /><entree libelle="Stop" id="C1" />
+  </entrees>
+  <posidentree>7</posidentree>
+  <lgidentree>3</lgidentree>
+ </chrono>
+
+ <chrono nom="Digi DT2000">
+  <commentaire langue="fr"></commentaire>
+  <bitparite>0</bitparite>
+  <bitstop>1</bitstop>
+  <bitsdata>8</bitsdata>
+  <bauds>9600</bauds>
+  <lgtrame>5</lgtrame>
+  <lgentete>1</lgentete>
+  <posentete>1</posentete>
+  <entetestramestemps>
+   <entete>2</entete>
+  </entetestramestemps>
+  <posnumtemps>
+   <pos>9</pos>
+   <pos>10</pos>
+  </posnumtemps>
+  <postemps>
+   <pos>-1</pos>
+   <pos>2</pos>
+   <pos>3</pos>
+   <pos>4</pos>
+   <pos>5</pos>
+   <pos>6</pos>
+   <pos>7</pos>
+   <pos>8</pos>
+   <pos>-1</pos>
+  </postemps>
+ </chrono>
+
+ <chrono nom="Digitech Master">
+  <commentaire langue="fr"></commentaire>
+  <bitparite>0</bitparite>
+  <bitstop>1</bitstop>
+  <bitsdata>8</bitsdata>
+  <bauds>19200</bauds>
+  <lgtrame>27</lgtrame>
+  <fintrame>LF</fintrame>
+  <lgentete>3</lgentete>
+  <posentete>1</posentete>
+  <entetestramestemps>
+   <entete>000</entete>
+   <entete>004</entete>
+   <entete>006</entete>
+   <entete>104</entete>
+   <entete>106</entete>
+   <entete>020</entete>
+   <entete>021</entete>
+   <entete>022</entete>
+   <entete>023</entete>
+   <entete>024</entete>
+   <entete>025</entete>
+   <entete>044</entete>
+   <entete>046</entete>
+   <entete>050</entete>
+   <entete>052</entete>
+   <entete>066</entete>
+   <entete>120</entete>
+   <entete>121</entete>
+  </entetestramestemps>
+  <posdossard>
+   <pos>5</pos>
+   <pos>6</pos>
+   <pos>7</pos>
+   <pos>8</pos>
+   <pos>9</pos>
+  </posdossard>
+  <postemps>
+   <pos>11</pos>
+   <pos>12</pos>
+   <pos>13</pos>
+   <pos>14</pos>
+   <pos>15</pos>
+   <pos>16</pos>
+   <pos>17</pos>
+   <pos>18</pos>
+   <pos>19</pos>
+  </postemps>
+ </chrono>
+
+ <chrono nom="Microgate RaceTime 2">
+  <commentaire langue="fr"></commentaire>
+  <bitparite>1</bitparite>
+  <bitstop>1</bitstop>
+  <bitsdata>8</bitsdata>
+  <bauds>1200</bauds>
+  <lgtrame>29</lgtrame>
+  <fintrame>CR</fintrame>
+  <lgentete>1</lgentete>
+  <posentete>18</posentete>
+  <entetestramestemps>
+   <entete>0</entete>
+   <entete>1</entete>
+   <entete>2</entete>
+   <entete>3</entete>
+  </entetestramestemps>
+  <entetetramestart></entetetramestart>
+
+  <posnumtemps>
+   <pos>1</pos>
+   <pos>2</pos>
+   <pos>3</pos>
+   <pos>4</pos>
+  </posnumtemps>
+  <postemps>
+   <pos>21</pos>
+   <pos>22</pos>
+   <pos>23</pos>
+   <pos>24</pos>
+   <pos>25</pos>
+   <pos>26</pos>
+   <pos>27</pos>
+   <pos>28</pos>
+   <pos>29</pos>
+  </postemps>
+
+  <entrees>
+   <entree libelle="Start" id="A" />
+  </entrees>
+  <posidentree>3</posidentree>
+  <lgidentree>1</lgidentree>
+
+ </chrono>
+
+ <chrono nom="Microgate REI2">
+  <commentaire langue="fr"></commentaire>
+  <bitparite>0</bitparite>
+  <bitstop>1</bitstop>
+  <bitsdata>8</bitsdata>
+  <bauds>9600</bauds>
+  <lgtrame>52</lgtrame>
+  <fintrame>CR</fintrame>
+  <lgentete>1</lgentete>
+  <posentete>30</posentete>
+  <entetestramestemps>
+   <entete>0</entete>
+   <entete>1</entete>
+   <entete>2</entete>
+   <entete>3</entete>
+   <entete>K</entete>
+  </entetestramestemps>
+  <entetetramestart></entetetramestart>
+
+  <posnumtemps>
+   <pos>8</pos>
+   <pos>9</pos>
+   <pos>10</pos>
+   <pos>11</pos>
+   <pos>12</pos>
+  </posnumtemps>
+  <posdossard>
+   <pos>13</pos>
+   <pos>14</pos>
+   <pos>15</pos>
+   <pos>16</pos>
+   <pos>17</pos>
+  </posdossard>
+  <postemps>
+   <pos>31</pos>
+   <pos>32</pos>
+   <pos>33</pos>
+   <pos>34</pos>
+   <pos>35</pos>
+   <pos>36</pos>
+   <pos>37</pos>
+   <pos>38</pos>
+   <pos>39</pos>
+  </postemps>
+  <masqueTemps>hhmmssccc</masqueTemps>
+
+  <entrees>
+   <entree libelle="Start line" id="000" /><entree libelle="Lap line" id="001" /><entree libelle="Stop line" id="015" />
+   <entree libelle="Aux line" id="016" /><entree libelle="Start key" id="100" /><entree libelle="Lap key" id="101" />
+   <entree libelle="Stop key" id="115" /><entree libelle="Aux key" id="116" /><entree libelle="Auto start" id="200" />
+   <entree libelle="Manual start" id="300" /><entree libelle="Manual lap" id="301" /><entree libelle="Manual stop" id="315" />
+  </entrees>
+  <posidentree>24</posidentree>
+  <lgidentree>3</lgidentree>
+ </chrono>
+
+ <chrono nom="Tag Heuer CP520">
+  <commentaire langue="fr"></commentaire>
+  <bitparite>1</bitparite>
+  <bitstop>1</bitstop>
+  <bitsdata>8</bitsdata>
+  <bauds>9600</bauds>
+  <lgtrame>31</lgtrame>
+  <fintrame>CR</fintrame>
+  <lgentete>1</lgentete>
+  <posentete>1</posentete>
+  <entetestramestemps>
+   <entete>T</entete>
+  </entetestramestemps>
+  <posnumtemps>
+   <pos>8</pos>
+   <pos>9</pos>
+   <pos>10</pos>
+   <pos>11</pos>
+  </posnumtemps>
+  <postemps>
+   <pos>16</pos>
+   <pos>17</pos>
+   <pos>19</pos>
+   <pos>20</pos>
+   <pos>22</pos>
+   <pos>23</pos>
+   <pos>25</pos>
+   <pos>26</pos>
+   <pos>27</pos>
+  </postemps>
+ </chrono>
+
+ <chrono nom="Tag Heuer CP540">
+  <commentaire langue="fr"></commentaire>
+  <IPdefaut>192.168.001.050</IPdefaut>
+  <Portdefaut>7000</Portdefaut>
+  <bitparite>0</bitparite>
+  <bitstop>1</bitstop>
+  <bitsdata>8</bitsdata>
+  <bauds>9600</bauds>
+  <lgtrame>31</lgtrame>
+  <fintrame>CR</fintrame>
+  <lgentete>2</lgentete>
+  <posentete>1</posentete>
+  <entetestramestemps>
+   <entete>TN</entete>
+  </entetestramestemps>
+  <posnumtemps>
+   <pos>9</pos>
+   <pos>10</pos>
+   <pos>11</pos>
+   <pos>12</pos>
+  </posnumtemps>
+  <postemps>
+   <pos>17</pos>
+   <pos>18</pos>
+   <pos>20</pos>
+   <pos>21</pos>
+   <pos>23</pos>
+   <pos>24</pos>
+   <pos>26</pos>
+   <pos>27</pos>
+   <pos>28</pos>
+  </postemps>
+  <posidentree>14</posidentree>
+  <lgidentree>2</lgidentree>
+ </chrono>
+
+ <chrono nom="Tag Heuer CP705">
+  <commentaire langue="fr"></commentaire>
+  <bitparite>1</bitparite>
+  <bitstop>1</bitstop>
+  <bitsdata>8</bitsdata>
+  <bauds>9600</bauds>
+  <lgtrame>31</lgtrame>
+  <fintrame>CR</fintrame>
+  <lgentete>1</lgentete>
+  <posentete>1</posentete>
+  <entetestramestemps>
+   <entete>T</entete>
+  </entetestramestemps>
+  <posnumtemps>
+   <pos>7</pos>
+   <pos>8</pos>
+   <pos>9</pos>
+   <pos>10</pos>
+   <pos>11</pos>
+  </posnumtemps>
+  <postemps>
+   <pos>16</pos>
+   <pos>17</pos>
+   <pos>19</pos>
+   <pos>20</pos>
+   <pos>22</pos>
+   <pos>23</pos>
+   <pos>25</pos>
+   <pos>26</pos>
+   <pos>27</pos>
+  </postemps>
+ </chrono>
+
+ <chrono nom="Tag Heuer PTB605">
+  <commentaire langue="fr"></commentaire>
+  <bitparite>1</bitparite>
+  <bitstop>1</bitstop>
+  <bitsdata>8</bitsdata>
+  <bauds>9600</bauds>
+  <lgtrame>31</lgtrame>
+  <fintrame>CR</fintrame>
+  <lgentete>1</lgentete>
+  <posentete>1</posentete>
+  <entetestramestemps>
+   <entete>T</entete>
+  </entetestramestemps>
+  <posnumtemps>
+   <pos>7</pos>
+   <pos>8</pos>
+   <pos>9</pos>
+   <pos>10</pos>
+   <pos>11</pos>
+  </posnumtemps>
+  <postemps>
+   <pos>16</pos>
+   <pos>17</pos>
+   <pos>19</pos>
+   <pos>20</pos>
+   <pos>22</pos>
+   <pos>23</pos>
+   <pos>25</pos>
+   <pos>26</pos>
+   <pos>27</pos>
+  </postemps>
+ </chrono>
+
+ <chrono nom="Dag">
+  <commentaire langue="fr">Puces electroniques, systeme DAG</commentaire>
+  <bitparite>1</bitparite>
+  <bitstop>1</bitstop>
+  <bitsdata>8</bitsdata>
+  <bauds>115200</bauds>
+  <lgtrame>0</lgtrame>
+  <fintrame>CR</fintrame>
+  <lgentete>4</lgentete>
+  <posentete>1</posentete>
+  <entetestramestemps>
+  </entetestramestemps>
+  <posnumtemps>
+   <pos>29</pos>
+   <pos>30</pos>
+   <pos>31</pos>
+   <pos>32</pos>
+   <pos>33</pos>
+  </posnumtemps>
+  <postemps>
+   <pos>35</pos>
+   <pos>36</pos>
+   <pos>38</pos>
+   <pos>39</pos>
+   <pos>41</pos>
+   <pos>42</pos>
+   <pos>44</pos>
+   <pos>45</pos>
+   <pos>-1</pos>
+  </postemps>
+ </chrono>
+
+ <chrono nom="Polaris (Farmtek)">
+  <commentaire langue="fr"></commentaire>
+  <bitparite>1</bitparite>
+  <bitstop>1</bitstop>
+  <bitsdata>8</bitsdata>
+  <bauds>9600</bauds>
+  <lgtrame>31</lgtrame>
+  <fintrame>CR</fintrame>
+  <lgentete>1</lgentete>
+  <posentete>1</posentete>
+  <entetestramestemps>
+   <entete>T</entete>
+  </entetestramestemps>
+  <posnumtemps>
+   <pos>8</pos>
+   <pos>9</pos>
+   <pos>10</pos>
+   <pos>11</pos>
+  </posnumtemps>
+  <postemps>
+   <pos>16</pos>
+   <pos>17</pos>
+   <pos>19</pos>
+   <pos>20</pos>
+   <pos>22</pos>
+   <pos>23</pos>
+   <pos>25</pos>
+   <pos>26</pos>
+   <pos>27</pos>
+  </postemps>
+ </chrono>
+
+</chronos>

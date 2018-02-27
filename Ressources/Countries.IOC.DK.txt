@@ -1,0 +1,207 @@
+AFG	Afghanistan	AF
+ALB	Albanien	AL
+ALG	Algeriet	DZ
+AND	Andorra	AD
+ANG	Angola	AO
+ANT	Nederlandske Antiller	AG
+ARG	Argentina	AR
+ARM	Armenien	AM
+ARU	Aruba	AW
+ASA	Amerikansk Samoa	AS
+AUS	Australien	AU
+AUT	Østrig	AT
+AZE	Aserbajdsjan	AZ
+BAH	Bahamas	BS
+BAN	Bangladesh	BD
+BAR	Barbados	BB
+BDI	Burundi	BI
+BEL	Belgien	BE
+BEN	Benin	BJ
+BER	Bermuda	BM
+BHU	Bhutan	BT
+BIH	Bosnien-Hercegovina	BA
+BIZ	Belize	BZ
+BLR	Hviderusland	BY
+BOL	Bolivia	BO
+BOT	Botswana	BW
+BRA	Brasilien	BR
+BRN	Bahrain	BH
+BRU	Brunei	BN
+BUL	Bulgarien	BG
+BUR	Burkina Faso	BF
+CAF	Centralafrikanske Republik	CF
+CAM	Cambodja	KH
+CAN	Canada	CA
+CAY	Caymanøerne	KY
+CGO	Congo	CG
+CHA	Tchad	TD
+CHI	Chile	CL
+CHN	Kina	CN
+CIV	Elfenbenskysten	CI
+CMR	Cameroun	CM
+COD	Demokratiske Republik Congo	CD
+COK	Cookøerne	CK
+COL	Colombia	CO
+COM	Comorerne	KM
+CPV	Kap Verde	CV
+CRC	Costa Rica	CR
+CRO	Kroatien	HR
+CUB	Cuba	CU
+CYP	Cypern	CY
+CZE	Tjekkiet	CZ
+DEN	Danmark	DK
+DJI	Djibouti	DJ
+DMA	Dominica	DM
+DOM	Dominikanske Republik	DO
+ECU	Ecuador	EC
+EGY	Egypten	EG
+ERI	Eritrea	ER
+ESA	El Salvador	SV
+ESP	Spanien	ES
+EST	Estland	EE
+ETH	Etiopien	ET
+FIJ	Fiji	FJ
+FIN	Finland	FI
+FRA	Frankrig	FR
+FSM	Mikronesien	FM
+GAB	Gabon	GA
+GAM	Gambia	GM
+GBR	Storbritannien	GB
+GBS	Guinea-Bissau	GW
+GEO	Georgien	GE
+GEQ	Ækvatorialguinea	GQ
+GER	Tyskland	DE
+GHA	Ghana	GH
+GRE	Grækenland	GR
+GRN	Grenada	GD
+GUA	Guatemala	GT
+GUI	Guinea	GN
+GUM	Guam	GU
+GUY	Guyana	GY
+HAI	Haiti	HT
+HKG	Hongkong	HK
+HON	Honduras	HN
+HUN	Ungarn	HU
+INA	Indonesien	ID
+IND	Indien	IN
+IOA	Individual Olympic Athletes
+IRI	Iran	IR
+IRL	Irland	IE
+IRQ	Irak	IQ
+ISL	Island	IS
+ISR	Israel	IL
+ISV	Amerikanske Jomfruøer	VI
+ITA	Italien	IT
+IVB	Britiske Jomfruøer	VG
+JAM	Jamaica	JM
+JOR	Jordan	JO
+JPN	Japan	JP
+KAZ	Kasakhstan	KZ
+KEN	Kenya	KE
+KGZ	Kirgisistan	KG
+KIR	Kiribati	KI
+KOR	Sydkorea	KR
+KOS	Kosovo	XK
+KSA	Saudi-Arabien	SA
+KUW	Kuwait	KW
+LAO	Laos	LA
+LAT	Letland	LV
+LBA	Lybien	LY
+LBR	Liberia	LR
+LCA	Saint Lucia	LC
+LES	Lesotho	LS
+LIB	Libanon	LB
+LIE	Liechtenstein	LI
+LTU	Litauen	LT
+LUX	Luxembourg	LU
+MAD	Madagaskar	MG
+MAR	Marokko	MA
+MAS	Malaysia	MY
+MAW	Malawi	MW
+MDA	Moldova	MD
+MDV	Maldiverne	MV
+MEX	Mexico	MX
+MGL	Mongoliet	MN
+MHL	Marshalløerne	MH
+MKD	Makedonien	MK
+MLI	Mali	ML
+MLT	Malta	MT
+MNE	Montenegro	ME
+MON	Monaco	MC
+MOZ	Mozambique	MZ
+MRI	Mauritius	MU
+MTN	Mauretanien	MR
+MYA	Burma	MM
+NAM	Namibia	NA
+NCA	Nicaragua	NI
+NED	Holland	NL
+NEP	Nepal	NP
+NGR	Nigeria	NG
+NIG	Niger	NE
+NOR	Norge	NO
+NRU	Nauru	NR
+NZL	New Zealand	NZ
+OMA	Oman	OM
+PAK	Pakistan	PK
+PAN	Panama	PA
+PAR	Paraguay	PY
+PER	Peru	PE
+PHI	Filippinerne	PH
+PLE	Palæstina	PS
+PLW	Palau	PW
+PNG	Papua Ny Guinea	PG
+POL	Polen	PL
+POR	Portugal	PT
+PRK	Nordkorea	KP
+PUR	Puerto Rico	PR
+QAT	Qatar	QA
+ROU	Rumænien	RO
+RSA	Sydafrika	ZA
+RUS	Rusland	RU
+RWA	Rwanda	RW
+SAM	Samoa	WS
+SEN	Senegal	SN
+SEY	Seychellerne	SC
+SIN	Singapore	SG
+SKN	Saint Kitts og Nevis	KN
+SLE	Sierra Leone	SL
+SLO	Slovenien	SI
+SMR	San Marino	SM
+SOL	Salomonøerne	SB
+SOM	Somalia	SO
+SRB	Serbien	RS
+SRI	Sri Lanka	LK
+SSD	South Sudan	SS
+STP	São Tomé og Príncipe	ST
+SUD	Sudan	SD
+SUI	Schweiz	CH
+SUR	Surinam	SR
+SVK	Slovakiet	SK
+SWE	Sverige	SE
+SWZ	Swaziland	SZ
+SYR	Syrien	SY
+TAN	Tanzania	TZ
+TGA	Tonga	TO
+THA	Thailand	TH
+TJK	Tadsjikistan	TJ
+TKM	Turkmenistan	TM
+TLS	Østtimor	TL
+TOG	Togo	TG
+TPE	Kinesiske Taipei	TW
+TTO	Trinidad og Tobago	TT
+TUN	Tunesien	TN
+TUR	Tyrkiet	TR
+TUV	Tuvalu	TV
+UAE	Forenede Arabiske Emirater	AE
+UGA	Uganda	UG
+UKR	Ukraine	UA
+URU	Uruguay	UY
+USA	USA	US
+UZB	Usbekistan	UZ
+VAN	Vanuatu	VU
+VEN	Venezuela	VE
+VIE	Vietnam	VN
+VIN	Saint Vincent og Grenadinerne	VC
+YEM	Yemen	YE
+ZAM	Zambia	ZM
+ZIM	Zimbabwe	ZW

@@ -1,0 +1,1653 @@
+﻿A0A	Southeastern Avalon Peninsula (Ferryland)
+A0B	Western Avalon Peninsula (Argentia)
+A0C	Bonavista Peninsula (Bonavista)
+A0E	Burin Peninsula (Marystown)
+A0G	Northeast Newfoundland (Lewisporte)
+A0H	Central Newfoundland (Bishops Falls)
+A0J	Northern Newfoundland (Springdale)
+A0K	Northwest Newfoundland/Eastern Labrador (Mary's Harbour)
+A0L	Western Newfoundland (Lark Harbour)
+A0M	Southwestern Newfoundland (Channel-Port aux Basques)
+A0N	Port au Port Peninsula region (St. George's)
+A0P	Central Labrador (Happy Valley-Goose Bay)
+A0R	North/Western Labrador (Churchill Falls)
+A1A	St. John's North
+A1B	St. John's Northwest Newfoundland & Labrador Provincial Government
+A1C	St. John's North Central
+A1E	St. John's Central
+A1G	St. John's South
+A1H	St. John's Southwest
+A1K	Torbay
+A1L	Paradise
+A1M	Portugal Cove-St. Philips
+A1N	Mount Pearl
+A1S	Goulds
+A1V	Gander
+A1W	Manuels
+A1X	Conception Bay
+A1Y	Carbonear
+A2A	Grand Falls
+A2B	Windsor
+A2H	Corner Brook
+A2N	Stephenville
+A2V	Labrador City
+A5A	Clarenville
+A8A	Deer Lake
+B0C	North Victoria County (Dingwall)
+B0E	West Cape Breton Island (Baddeck)
+B0H	Canso region (Havre Boucher)
+B0J	Mainland east shore (Lunenburg)
+B0K	Southern Northumberland Strait (Pictou)
+B0L	Isthmus of Chignecto (River Hébert)
+B0M	Cobequid Bay north shore (Springhill)
+B0N	Hants County (Shubenacadie)
+B0P	Kings County (Kingston)
+B0R	West Lunenburg County (New Germany)
+B0S	West Annapolis County (Middleton)
+B0T	Queens County (Shelburne)
+B0V	Digby Neck (Digby)
+B0W	Southwest Mainland (Weymouth)
+B1A	Glace Bay
+B1B	Port Morien
+B1C	Louisbourg
+B1E	Reserve Mines
+B1G	Dominion
+B1H	New Waterford
+B1J	East Bay
+B1K	Marion Bridge
+B1L	Sydney Southwest
+B1M	Sydney East
+B1N	Sydney North
+B1P	Sydney North Central
+B1R	Sydney West
+B1S	Sydney Central
+B1T	Christmas Island
+B1V	North Sydney North
+B1W	Eskasoni
+B1X	Big Bras d'Or
+B1Y	Alder Point
+B2A	North Sydney South Central
+B2C	Iona
+B2E	Loch Lomond
+B2G	Antigonish
+B2H	New Glasgow
+B2J	Fourchu
+B2N	Truro
+B2R	Waverley
+B2S	Lantz
+B2T	Enfield
+B2V	Dartmouth Morris Lake
+B2W	Dartmouth East Central
+B2X	Dartmouth North Central
+B2Y	Dartmouth South Central
+B2Z	Dartmouth East
+B3A	Dartmouth Southwest
+B3B	Dartmouth Northwest
+B3E	Porters Lake
+B3G	Eastern Passage
+B3H	Halifax Lower Harbour
+B3J	Halifax Mid-Harbour Nova Scotia Provincial Government
+B3K	Halifax Upper Harbour
+B3L	Halifax Central
+B3M	Halifax Bedford Basin
+B3N	Halifax South Central
+B3P	Halifax North West Arm
+B3R	Halifax South
+B3S	Halifax West
+B3T	Lakeside
+B3V	Harrietsfield
+B3Z	Tantallon
+B4A	Bedford Southeast
+B4B	Bedford Northwest
+B4C	Lower Sackville South
+B4E	Lower Sackville West
+B4G	Lower Sackville North
+B4H	Amherst
+B4N	Kentville
+B4P	Wolfville
+B4R	Coldbrook
+B4V	Bridgewater
+B5A	Yarmouth
+B6L	Truro
+B9A	Port Hawkesbury
+C0A	Kings and Queens counties (Elmira)
+C0A	Montague
+C0B	Prince County (Portage)
+C1A	Charlottetown Southeast Prince Edward Island Provincial Government
+C1B	Stratford
+C1C	Charlottetown North
+C1E	Charlottetown West
+C1N	Summerside
+E1A	Dieppe Moncton East
+E1B	Riverview
+E1C	Moncton Central
+E1E	Moncton West
+E1G	Moncton Northwest
+E1H	Lakeville, Shediac Bridge
+E1J	Coverdale
+E1N	Miramichi South
+E1V	Miramichi North
+E1W	Caraquet
+E1X	Tracadie-Sheila
+E2A	Bathurst
+E2E	Rothesay, Quispamsis
+E2G	Quispamsis
+E2H	Saint John Northeast, Renforth
+E2J	Saint John East
+E2K	Saint John North
+E2L	Saint John Central
+E2M	Saint John West
+E2N	Saint John Lakewood
+E2P	Saint John Red Head
+E2R	Saint John Grandview
+E2S	Saint John Loch Lomond
+E2V	Oromocto
+E3A	Fredericton North
+E3B	Fredericton South New Brunswick Provincial Government
+E3C	Fredericton Southwest, New Maryland
+E3E	Kingsclear
+E3G	Fredericton
+E3L	St. Stephen
+E3N	Campbellton
+E3V	Edmundston
+E3Y	Grand Falls Northeast
+E3Z	Grand Falls Central
+E4A	Bathurst
+E4B	Minto
+E4C	Youngs Cove
+E4E	Sussex
+E4G	Smiths Creek
+E4H	Hillsborough
+E4J	Salisbury
+E4K	Dorchester
+E4L	Sackville
+E4M	Bayfield
+E4N	Cap-Pelé
+E4P	Shediac
+E4R	Cocagne
+E4S	Bouctouche
+E4T	Bass River
+E4V	Saint-Antoine
+E4W	Richibucto
+E4X	St-Louis-de-Kent
+E4Y	Rogersville
+E4Z	Petitcodiac
+E5A	Moores Mills
+E5B	St. Andrews
+E5C	St. George
+E5E	Campobello Island
+E5G	Grand Manan Island
+E5H	Pennfield
+E5J	Lepreau
+E5K	Grand Bay-Westfield
+E5L	Fredericton Junction
+E5M	Gagetown
+E5N	Hampton
+E5P	Apohaqui
+E5R	St. Martins
+E5S	Kingston
+E5T	Norton
+E5V	Deer Island
+E6A	Boiestown
+E6B	Stanley
+E6C	Durham Bridge
+E6E	Millville
+E6G	Nackawic
+E6H	Canterbury
+E6J	McAdam
+E6K	Harvey
+E6L	Burtts Corner
+E7A	Baker Brook
+E7B	Saint-Jacques
+E7C	Saint-Basile
+E7E	Saint-Leonard
+E7G	Plaster Rock
+E7H	Perth-Andover
+E7J	Bath
+E7K	Centreville
+E7L	Florenceville
+E7M	Woodstock
+E7N	Debec
+E7P	Hartland
+E8A	Saint-Quentin
+E8B	Kedgwick
+E8C	Dalhousie
+E8E	Balmoral
+E8G	Belledune
+E8J	Petit-Rocher
+E8K	Beresford
+E8L	Allardville
+E8M	Saint-Isidore
+E8N	Grande-Anse
+E8P	Inkerman
+E8R	Paquetville
+E8S	Shippagan
+E8T	Lamèque
+E9A	Baie-Sainte-Anne
+E9B	Blackville
+E9C	Doaktown
+E9E	Red Bank
+E9G	Neguac
+E9H	Brantville
+G0A	Capitale-Nationale (Stoneham)
+G0B	Cap-aux-Meules
+G0C	Gaspésie-Sud (New Richmond)
+G0E	Gaspésie-Nord (Grande-Vallée)
+G0G	Côte-Nord/Anticosti (Schefferville)
+G0H	Manicouagan (Baie-Trinité)
+G0J	Gaspésie-Ouest (Causapscal)
+G0K	Bas-St-Laurent-Est (Sainte-Luce)
+G0L	Bas-St-Laurent-Ouest (Trois-Pistoles)
+G0M	Région de Beauce (Saint-Prosper-De-Dorchester)
+G0N	Chaudière-Sud (Disraeli)
+G0P	Centre-du-Québec-Est (Saint-Valère)
+G0R	Appalaches (La Pocatière)
+G0S	Chaudière-Nord (Saint-Joseph-De-Beauce)
+G0T	Le Fjord (Forestville)
+G0V	Saguenay-Lac-St-Jean (Alouette)
+G0W	Région de Mistassini (Chambord)
+G0X	Mauricie (Parent)
+G0Y	L'Erable (Nantes)
+G0Z	Centre-du-Québec-Nord (Daveluyville)
+G1A	Quebec Provincial Government
+G1B	Beauport North
+G1C	Beauport Central
+G1E	Beauport South
+G1G	Jean-Talon Southeast
+G1H	Charlesbourg South
+G1J	Quebec City Lower Riverbank
+G1K	Quebec City Mid-Riverbank
+G1L	Quebec City Northeast
+G1M	Quebec City North Central
+G1N	Quebec City South Central
+G1P	Quebec City West
+G1R	Quebec City East
+G1S	Quebec City South
+G1T	Quebec City Upper Riverbank
+G1V	Sainte-Foy Northeast
+G1W	Sainte-Foy Southeast
+G1X	Sainte-Foy West
+G1Y	Cap-Rouge
+G2A	Loretteville North
+G2B	Loretteville South
+G2C	Quebec City Northwest
+G2E	L'Ancienne-Lorette Northeast
+G2G	L'Ancienne-Lorette Southwest
+G2J	Quebec City Inner North
+G2K	Quebec City Outer North
+G2L	Charlesbourg North
+G2M	Jean-Talon Northeast
+G2N	Jean-Talon West
+G3A	St-Augustin-De-Desmaures
+G3B	Lac-Beauport
+G3C	Stoneham-et-Tewkesbury
+G3E	Saint-Émile
+G3G	Lac-Saint-Charles
+G3H	Pont-Rouge
+G3J	Val-Bélair North
+G3K	Val-Bélair South
+G3L	Saint-Raymond
+G3M	Donnacona
+G3N	Sainte-Catherine-de-la-Jacques-Cartier
+G3Z	Baie-Saint-Paul
+G4A	Clermont
+G4R	Sept-Îles Southeast
+G4S	Sept-Îles Northwest
+G4T	Les Îles-De-La-Madeleine
+G4V	Sainte-Anne-Des-Monts
+G4W	Matane
+G4X	Gaspé
+G4Z	Baie-Comeau Northeast
+G5A	La Malbaie
+G5B	Port-Cartier
+G5C	Baie-Comeau Southwest
+G5H	Mont-Joli
+G5J	Amqui
+G5L	Rimouski Central
+G5M	Rimouski Northeast
+G5N	Rimouski Southwest
+G5R	Rivière-du-Loup
+G5T	Degelis
+G5V	Montmagny
+G5X	Beauceville
+G5Y	Saint-Georges Central
+G5Z	Saint-Georges Southeast
+G6A	Saint-Georges Northwest
+G6B	Lac-Megantic
+G6C	Pintendre
+G6E	Sainte-Marie
+G6G	Thetford Mines
+G6H	Black Lake
+G6J	Saint-Etienne-De-Lauzon
+G6K	Saint-Redempteur
+G6L	Plessisville
+G6P	Victoriaville Central
+G6R	Victoriaville South
+G6S	Victoriaville East
+G6T	Victoriaville Northwest
+G6V	Lévis North
+G6W	Lévis South
+G6X	Charny
+G6Y	Lévis
+G6Z	Saint-Jean-Chrysostome
+G7A	Saint-Nicolas
+G7B	La Baie
+G7G	Chicoutimi North
+G7H	Chicoutimi East
+G7J	Chicoutimi West
+G7K	Chicoutimi Southwest
+G7N	Laterrière
+G7P	Saint-Ambroise
+G7S	Jonquière Northeast
+G7T	Jonquière Southeast
+G7X	Jonquière Central
+G7Y	Jonquière Southwest
+G7Z	Jonquière Northwest
+G8A	Jonquière West
+G8B	Alma Southeast
+G8C	Alma Southwest
+G8E	Alma North
+G8G	Métabetchouan-Lac-a-la-Croix
+G8H	Roberval
+G8J	Saint-Prime
+G8K	Saint-Félicien
+G8L	Dolbeau-Mistassini
+G8M	Albanel
+G8N	Hébertville
+G8P	Chibougamau
+G8T	Cap-de-la-Madeleine Central and southeast
+G8V	Cap-de-la-Madeleine Northeast
+G8W	Cap-de-la-Madeleine West
+G8Y	Trois-Rivières Central
+G8Z	Trois-Rivières Northeast
+G9A	Trois-Rivières East
+G9B	Trois-Rivières South
+G9C	Trois-Rivières West
+G9H	Becancour
+G9N	Shawinigan Central
+G9P	Shawinigan Southeast
+G9R	Shawinigan Northwest
+G9T	Grand-Mère
+G9X	La Tuque
+H0H	Reserved (Santa Claus)
+H0M	Akwesasne Region (Akwesasne)
+H1A	Pointe-Aux-Trembles
+H1B	Montreal East
+H1C	Rivière-des-Prairies Northeast
+H1E	Rivière-Des-Prairies Southwest
+H1G	Montreal North North
+H1H	Montreal North South
+H1J	Anjou West
+H1K	Anjou East
+H1L	Mercier North
+H1M	Mercier West
+H1N	Mercier Southeast
+H1P	Saint-Léonard North
+H1R	Saint-Léonard West
+H1S	Saint-Léonard Southeast
+H1T	Rosemont North
+H1V	Maisonneuve
+H1W	Hochelaga
+H1X	Rosemont Central
+H1Y	Rosemont South
+H1Z	Saint-Michel West
+H2A	Saint-Michel East
+H2B	Ahuntsic North
+H2C	Ahuntsic Central
+H2E	Villeray Northeast
+H2G	Petite-Patrie Northeast
+H2H	Plateau Mont-Royal North
+H2J	Plateau Mont-Royal North Central
+H2K	Centre-Sud North
+H2L	Centre-Sud South
+H2M	Ahuntsic East
+H2N	Ahuntsic Southeast
+H2P	Villeray West
+H2R	Villeray Southeast
+H2S	Petite-Patrie Southwest
+H2T	Plateau Mont-Royal West
+H2V	Outremont
+H2W	Plateau Mont-Royal South Central
+H2X	Plateau Mont-Royal Southeast
+H2Y	Old Montreal
+H2Z	Downtown Montreal Northeast
+H3A	Downtown Montreal North
+H3B	Downtown Montreal East
+H3C	Griffintown (Includes Île Notre-Dame & Île Sainte-Hélène)
+H3E	L'Île-Des-Soeurs
+H3G	Downtown Montreal Southeast
+H3H	Downtown Montreal South & West
+H3J	Petite-Bourgogne
+H3K	Pointe-Saint-Charles
+H3L	Ahuntsic Southwest
+H3M	Cartierville Northeast
+H3N	Parc-Extension
+H3P	Mount Royal North
+H3R	Mount Royal Central
+H3S	Côte-des-Neiges North
+H3T	Côte-des-Neiges Northeast
+H3V	Côte-des-Neiges East
+H3W	Côte-des-Neiges Southwest
+H3X	Hampstead
+H3Y	Westmount West
+H3Z	Westmount East
+H4A	Notre-Dame-de-GrÔce Northeast
+H4B	Notre-Dame-de-GrÔce Southwest
+H4C	Saint-Henri
+H4E	Ville Émard
+H4G	Verdun North
+H4H	Verdun South
+H4J	Cartierville Central
+H4K	Cartierville Southwest
+H4L	Saint-Laurent Inner Northeast
+H4M	Saint-Laurent East
+H4N	Saint-Laurent Outer Northeast
+H4P	Mount Royal South
+H4R	Saint-Laurent Central
+H4S	Saint-Laurent Southwest
+H4T	Saint-Laurent Southeast
+H4V	Côte-Saint-Luc East
+H4W	Côte-Saint-Luc West
+H4X	Montreal West
+H4Y	Dorval Central
+H4Z	Tour de la Bourse
+H5A	Place Bonaventure
+H5B	Place Desjardins
+H7A	Duvernay-Est
+H7B	Saint-Franþois
+H7C	Saint-Vincent-de-Paul
+H7E	Duvernay
+H7G	Pont-Viau
+H7H	Auteuil West
+H7J	Auteuil Northeast
+H7K	Auteuil South
+H7L	Sainte-Rose
+H7M	Vimont
+H7N	Laval-des-Rapides
+H7P	Fabreville
+H7R	Laval-sur-le-Lac
+H7S	Chomedey Northeast
+H7T	Chomedey Northwest
+H7V	Chomedey East
+H7W	Chomedey South
+H7X	Sainte-Dorothée
+H7Y	Îles-Laval
+H8N	LaSalle Northwest
+H8P	LaSalle Southeast
+H8R	Saint-Pierre
+H8S	Lachine East
+H8T	Lachine West
+H8Y	Roxboro
+H8Z	Pierrefonds
+H9A	Dollard-Des-Ormeaux Northwest
+H9B	Dollard-Des-Ormeaux East
+H9C	L'Île Bizard Northeast
+H9E	L'Île-Bizard Southwest
+H9G	Dollard-Des-Ormeaux Southwest
+H9H	Sainte-Geneviève
+H9J	Kirkland
+H9K	Senneville
+H9P	Dorval Outskirts
+H9R	Pointe-Claire
+H9S	L'Île-Dorval
+H9W	Beaconsfield
+H9X	Sainte-Anne-De-Bellevue
+J0A	Centre-du-Québec-Sud (Warwick)
+J0B	Estrie-Est (Stanstead)
+J0C	Centre-du-Québec-Ouest (Saint-Bonaventure)
+J0E	Estrie-Ouest (Fulford)
+J0G	Bois-Francs-Nord (Odanak)
+J0H	Bois-Francs-Sud (Saint-Nazaire-D'Acton)
+J0J	Montérégie-Est (Bedford)
+J0K	Lanaudière-Nord (Saint-Esprit)
+J0L	Montérégie-Nord (Saint-Antoine-Sur-Richelieu)
+J0M	Nunavik (Kuujjuaq)
+J0N	Région d'Oka (Oka)
+J0P	Vaudreuil-Soulanges (Coteau-du-Lac)
+J0R	Lanaudière-Sud (Prévost)
+J0S	Montérégie-Ouest (Saint-Anicet)
+J0T	Laurentides-Nord (Montcalm)
+J0V	Laurentides-Sud (Chénéville)
+J0W	Outaouais-Nord (Ferme-Neuve)
+J0X	Outaouais-Sud (Thurso)
+J0Y	Abitibi-Témiscamingue-Est (Radisson)
+J0Z	Abitibi-Témiscamingue-Ouest (Guigues)
+J1A	Coaticook
+J1C	Bromptonville
+J1E	Sherbrooke Northeast
+J1G	Sherbrooke East
+J1H	Sherbrooke Central
+J1J	Sherbrooke North
+J1K	Sherbrooke West
+J1L	Sherbrooke Northwest
+J1M	Sherbrooke Southeast
+J1N	Rock Forest
+J1R	Saint-Élie-d'Orford
+J1S	Windsor
+J1T	Asbestos
+J1X	Magog
+J1Z	Saint-Cyrille-De-Wendover
+J2A	Drummondville Southeast
+J2B	Drummondville South
+J2C	Drummondville Central
+J2E	Drummondville Northwest
+J2G	Granby Central
+J2H	Granby East
+J2J	Granby West
+J2K	Cowansville
+J2L	Bromont
+J2M	Shefford
+J2N	Farnham
+J2R	Saint-Hyacinthe Northwest
+J2S	Saint-Hyacinthe Southwest
+J2T	Saint-Hyacinthe East
+J2W	Saint-Luc
+J2X	Saint-Jean-sur-Richelieu East
+J2Y	Saint-Jean-sur-Richelieu West
+J3A	Saint-Jean-sur-Richelieu North
+J3B	Saint-Jean-sur-Richelieu Central
+J3E	Sainte-Julie
+J3G	Beloeil West
+J3H	Beloeil East
+J3L	Chambly
+J3M	Marieville
+J3N	Saint-Basile-Le-Grand
+J3P	Sorel Central
+J3R	Sorel Southwest
+J3T	Nicolet
+J3V	Saint-Bruno
+J3X	Varennes
+J3Y	Saint-Hubert Central
+J3Z	Saint-Hubert East
+J4B	Boucherville
+J4G	Longueuil North
+J4H	Longueuil West
+J4J	Longueuil Central
+J4K	Longueuil Southwest
+J4L	Longueuil Southeast
+J4M	Longueuil East
+J4N	Longueuil Northeast
+J4P	Saint-Lambert North
+J4R	Saint-Lambert Central
+J4S	Saint-Lambert South
+J4T	Saint-Hubert West
+J4V	Greenfield Park
+J4W	Brossard Northwest
+J4X	Brossard Southwest
+J4Y	Brossard South
+J4Z	Brossard Northeast
+J5A	Saint-Constant
+J5B	Delson
+J5C	Sainte-Catherine
+J5J	Saint-Sophie
+J5K	Saint-Colomban
+J5L	Saint-Jérôme West
+J5M	Saint-Lin-Laurentides
+J5R	La Prairie
+J5T	Lavaltrie
+J5V	Louiseville
+J5W	L'Assomption
+J5X	L'Épiphanie
+J5Y	Repentigny Northeast
+J5Z	Repentigny West
+J6A	Repentigny South
+J6E	Joliette
+J6J	Châteauguay North
+J6K	Châteauguay South
+J6N	Beauharnois
+J6R	Mercier
+J6S	Salaberry-de-Valleyfield North
+J6T	Salaberry-de-Valleyfield South
+J6V	Terrebonne East
+J6W	Terrebonne Central
+J6X	Terrebonne Northwest
+J6Y	Terrebonne Southwest
+J6Z	Sainte-Thérèse-de-Blainville Northeast
+J7A	Sainte-Thérèse-de-Blainville East
+J7B	Sainte-Thérèse-de-Blainville North
+J7C	Sainte-Thérèse-de-Blainville Northwest
+J7E	Sainte-Thérèse-de-Blainville Central
+J7G	Sainte-Thérèse-de-Blainville South
+J7H	Sainte-Thérèse-de-Blainville Southwest
+J7J	Mirabel Northeast
+J7K	Mascouche Extremities
+J7L	Mascouche Central
+J7M	La Plaine
+J7N	Mirabel Southwest
+J7P	Saint-Eustache Northeast
+J7R	Saint-Eustache Southwest
+J7T	Vaudreuil-Dorion RCM
+J7V	Vaudreuil-Dorion
+J7W	Pincourt
+J7X	Valleyfield
+J7Y	Saint-Jérôme North
+J7Z	Saint-Jérôme Southeast
+J8A	Saint-Hippolyte
+J8B	Sainte-Adèle
+J8C	Sainte-Agathe-Des-Monts
+J8E	Mont-Tremblant
+J8G	Chatham
+J8H	Lachute
+J8L	Buckingham
+J8M	Masson-Angers
+J8N	Val-des-Monts
+J8P	Gatineau Southeast
+J8R	Gatineau Northeast
+J8T	Gatineau Southwest
+J8V	Gatineau Northwest
+J8X	Hull Southeast
+J8Y	Hull Central
+J8Z	Hull North
+J9A	Hull Southwest
+J9B	Chelsea
+J9E	Maniwaki
+J9H	Aylmer South
+J9J	Aylmer North
+J9L	Mont-Laurier
+J9P	Val-d'Or
+J9T	Amos
+J9V	Ville-Marie
+J9X	Rouyn-Noranda South
+J9Y	Rouyn-Noranda North
+J9Z	La Sarre
+K0A	National Capital Region (Almonte)
+K0B	Prescott and Russell United Counties (Alfred)
+K0C	Stormont, Dundas and Glengarry United Counties (Alexandria)
+K0E	South Leeds and Grenville United Counties (Prescott)
+K0G	Rideau Lakes area (Kemptville)
+K0H	Frontenac County, Addington County, Loyalist Shores and Southwest Leeds (Inverary)
+K0J	Renfrew County and Lanark Highlands Township (Deep River)
+K0K	Quinte Shores, East Northumberland County & Prince Edward County (Picton)
+K0L	Peterborough County and North Hastings County (Lakefield)
+K0M	Kawartha lakes and Haliburton County (Bobcaygeon)
+K1A	Government of Canada Ottawa and Gatineau offices
+K1B	Gloucester (Blackburn Hamlet / Pine View)
+K1C	Gloucester (West Orleans)
+K1E	Orleans (Queenswood)
+K1G	Ottawa (Riverview / Hawthorne)
+K1H	Ottawa (Alta Vista)
+K1J	Gloucester (Beacon Hill / Cyrville)
+K1K	Ottawa (Overbrook)
+K1L	Ottawa (Vanier)
+K1M	Ottawa (Rockcliffe Park / New Edinburgh)
+K1N	Ottawa (Lower Town / Sandy Hill / University of Ottawa)
+K1P	Ottawa (Parliament Hill)
+K1R	Ottawa (West Downtown area)
+K1S	Ottawa (The Glebe / Ottawa South / Ottawa East)
+K1T	Gloucester (Blossom Park / Hunt Club East / Leitrim)
+K1V	Ottawa (Riverside Park / Hunt Club West / Riverside South / YOW)
+K1W	Gloucester (South Orleans)
+K1X	Gloucester South
+K1Y	Ottawa West
+K1Z	Ottawa (Westboro)
+K2A	Ottawa (Highland Park / Carlingwood)
+K2B	Ottawa (Britannia / Pinecrest)
+K2C	Ottawa (Queensway / Copeland / Carlington / Carleton Heights)
+K2E	Nepean East
+K2G	Nepean (Davidson Heights)
+K2H	Nepean (Bells Corners)
+K2J	Nepean (Barrhaven)
+K2K	Kanata (Beaverbrook / South March)
+K2L	Kanata (Katimavik-Hazeldean / Glen Cairn)
+K2M	Kanata (Bridlewood)
+K2P	Ottawa (Centre Town)
+K2R	Nepean (Fallowfield Village / Cedarhill Estates / Orchard Estates)
+K2S	Stittsville
+K2T	Kanata (Marchwood)
+K2V	Kanata (Terry Fox / Palladium)
+K2W	Kanata (North March)
+K4A	Orleans (Fallingbrook)
+K4B	Cumberland Township
+K4C	Cumberland
+K4K	Rockland
+K4M	Manotick
+K4P	Greely
+K4R	Russell
+K6A	Hawkesbury
+K6H	Cornwall East
+K6J	Cornwall West
+K6K	Cornwall North
+K6T	Elizabethtown
+K6V	Brockville
+K7A	Smiths Falls
+K7C	Carleton Place
+K7G	Gananoque
+K7H	Perth
+K7K	Kingston (SW Pittsburgh Township)
+K7L	Kingston (Downtown)
+K7M	Kingston (Reddendale / Cataraqui / Collins Bay)
+K7N	Amherstview
+K7P	Kingston (Westbrook / Cataraqui Woods / Cedarwood)
+K7R	Napanee
+K7S	Arnprior
+K7V	Renfrew
+K8A	Pembroke Central and northern subdivisions
+K8B	Pembroke (Pleasant View / Fairview)
+K8H	Petawawa
+K8N	Belleville East
+K8P	Belleville West
+K8R	Belleville (SE Sidney Township / Avondale)
+K8V	Trenton
+K9A	Cobourg
+K9H	Peterborough North
+K9J	Peterborough South
+K9K	Peterborough (Fairbairn Meadows / Jackson Heights)
+K9L	Peterborough (Terra View Heights / Woodland Acres / Donwood)
+K9V	Lindsay
+L0A	West Northumberland County (Millbrook)
+L0B	East Durham Regional Municipality (Orono)
+L0C	West Durham Regional Municipality (Sunderland)
+L0E	Lake Simcoe Southeast Shore (Sutton West)
+L0G	Ontario Centre (Queensville)
+L0H	Whitby Region (Gormley)
+L0J	North Peel Regional Municipality (Kleinburg)
+L0K	Lake Simcoe North Shore (Coldwater)
+L0L	Lake Simcoe West Shore (Oro)
+L0M	Georgian Bay South Shore (Angus)
+L0N	Dufferin County (Shelburne)
+L0P	Halton Regional Municipality (Campbellville)
+L0R	East Haldimand County (Waterdown)
+L0S	Niagara Regional Municipality (Fonthill)
+L0V	Westminster Abbey
+L1A	Port Hope
+L1B	Bowmanville East
+L1C	Bowmanville West
+L1E	Courtice
+L1G	Oshawa Central
+L1H	Oshawa Southeast
+L1J	Oshawa Southwest
+L1K	Oshawa East
+L1L	Oshawa North
+L1M	Whitby North
+L1N	Whitby Southeast
+L1P	Whitby Southwest
+L1R	Whitby Central
+L1S	Ajax Southwest
+L1T	Ajax Northwest
+L1V	Pickering Southwest
+L1W	Pickering South
+L1X	Pickering Central
+L1Y	Pickering North
+L1Z	Ajax East
+L2A	Fort Erie
+L2E	Niagara Falls Central
+L2G	Niagara Falls Southeast
+L2H	Niagara Falls West
+L2J	Niagara Falls North
+L2M	St. Catharines Northeast
+L2N	St. Catharines Northwest
+L2P	St. Catharines East
+L2R	St. Catharines Central
+L2S	St. Catharines Southwest
+L2T	St. Catharines South
+L2V	St. Catharines Southeast
+L2W	St. Catharines West
+L3B	Welland East
+L3C	Welland West
+L3K	Port Colborne
+L3M	Grimsby
+L3P	Markham Central
+L3R	Markham Outer Southwest
+L3S	Markham Southeast
+L3T	Thornhill East
+L3V	Orillia
+L3X	Newmarket Southwest
+L3Y	Newmarket Northeast
+L3Z	Bradford
+L4A	Stouffville
+L4B	Richmond Hill Southeast
+L4C	Richmond Hill Southwest
+L4E	Richmond Hill North
+L4G	Aurora
+L4H	Woodbridge North
+L4J	Thornhill West
+L4K	Concord
+L4L	Woodbridge South
+L4M	Barrie North
+L4N	Barrie South
+L4P	Keswick
+L4R	Midland
+L4S	Richmond Hill Central
+L4T	Mississauga (Malton)
+L4V	Mississauga (Wildwood)
+L4W	Mississauga (Matheson / East Rathwood)
+L4X	Mississauga (East Applewood / East Dixie / NE Lakeview)
+L4Y	Mississauga (West Applewood / West Dixie / NW Lakeview)
+L4Z	Mississauga (West Rathwood / East Hurontario / SE Gateway)
+L5A	Mississauga (Mississauga Valleys / East Cooksville)
+L5B	Mississauga (West Cooksville / Fairview / City Centre / East Creditview)
+L5C	Mississauga (West Creditview / Mavis / Erindale)
+L5E	Mississauga (Central Lakeview)
+L5G	Mississauga (SW Lakeview / Mineola / East Port Credit)
+L5H	Mississauga (West Port Credit / Lorne Park / East Sheridan)
+L5J	Mississauga (Clarkson / Southdown)
+L5K	Mississauga (West Sheridan)
+L5L	Mississauga (Erin Mills / Western Business Park)
+L5M	Mississauga (Churchill Meadows / Central Erin Mills / South Streetsville)
+L5N	Mississauga (Lisgar / Meadowvale)
+L5P	Mississauga (YYZ)
+L5R	Mississauga (West Hurontario / SW Gateway)
+L5S	Mississauga (Cardiff / NE Gateway)
+L5T	Mississauga (Courtney Park / East Gateway)
+L5V	Mississauga (East Credit)
+L5W	Mississauga (Meadowvale Village / West Gateway)
+L6A	Maple
+L6B	Markham East
+L6C	Markham Northwest
+L6E	Markham Northeast
+L6G	Markham Inner Southwest
+L6H	Oakville North
+L6J	Oakville Northeast
+L6K	Oakville East
+L6L	Oakville South
+L6M	Oakville West
+L6P	Brampton North
+L6R	Brampton Northwest
+L6S	Brampton North Central
+L6T	Brampton East
+L6V	Brampton Central
+L6W	Brampton Southeast
+L6X	Brampton Southwest
+L6Y	Brampton South
+L6Z	Brampton West Central
+L7A	Brampton West
+L7B	King City
+L7C	Caledon
+L7E	Bolton
+L7G	Georgetown
+L7J	Acton
+L7K	Caledon Village
+L7L	Burlington Northeast
+L7M	Burlington North
+L7N	Burlington East
+L7P	Burlington West
+L7R	Burlington Southeast
+L7S	Burlington South
+L7T	Burlington Southwest
+L8B	Waterdown
+L8E	Hamilton (Confederation Park / Nashdale / East Kentley / Riverdale / Lakely / Grayside / North Stoney Creek)
+L8G	Hamilton (Greenford / North Gershome / West Stoney Creek)
+L8H	Hamilton (West Kentley / McQuesten / Parkview / Hamilton Beach / East Industrial Sector / Normanhurst / Homeside / East Crown Point)
+L8J	Hamilton (East Albion Falls / South Stoney Creek)
+L8K	Hamilton (East Delta / Bartonville / Glenview / Rosedale / Lower King's Forest / Red Hill / Corman / Vincent / South Gershome)
+L8L	Hamilton (West Industrial Sector / West Crown Point / North Stipley / North Gibson / Landsdale / Keith / North End / Beasley)
+L8M	Hamilton (West Delta / Blakeley / South Stipley / South Gibson / St. Clair)
+L8N	Hamilton (Stinson / Corktown)
+L8P	Hamilton (Durand / Kirkendall / Chedoke Park)
+L8R	Hamilton (Central / Strathcona / South Dundurn)
+L8S	Hamilton (Westdale / Cootes Paradise / Ainslie Wood)
+L8T	Hamilton (Sherwood / Huntington / Upper King's Forest / Lisgar / Berrisfield / Hampton Heights / Sunninghill)
+L8V	Hamilton (Raleigh / Macassa / Lawfield / Thorner / Burkholme / Eastmount)
+L8W	Hamilton (West Albion Falls / Hannon / Rymal / Trenholme / Quinndale / Templemead / Broughton / Eleanor / Randall / Rushdale / Butler / East Chappel)
+L9A	Hamilton (Crerar / Bruleville / Hill Park / Inch Park / Centremount / Balfour / Greeningdon / Jerome)
+L9B	Hamilton (Barnstown / West Chappel / Allison / Ryckmans / Mewburn / Sheldon / Falkirk / Carpenter / Kennedy / Southwest Outskirts)
+L9C	Hamilton (Southam / Bonnington / Yeoville / Kernighan / Gourley / Rolston / Buchanan / Mohawk / Westcliffe / Gilbert / Gilkson / Gurnett / Fessenden / Mountview)
+L9E	Milton
+L9G	Ancaster West
+L9H	Dundas
+L9J	Barrie
+L9K	Ancaster East
+L9L	Port Perry
+L9M	Penetanguishene
+L9N	Holland Landing
+L9P	Uxbridge
+L9R	Alliston
+L9S	Innisfil
+L9T	Milton
+L9V	Orangeville North
+L9W	Orangeville South
+L9X	Minesing
+L9X	Barrie
+L9X	Springwater
+L9X	Midhurst
+L9Y	Collingwood
+L9Z	Wasaga Beach
+M1B	Scarborough (Malvern / Rouge River)
+M1C	Scarborough (Rouge Hill / Port Union / Highland Creek)
+M1E	Scarborough (Guildwood / Morningside / Ellesmere)
+M1G	Scarborough (Woburn)
+M1H	Scarborough (Cedarbrae)
+M1J	Scarborough (Eglinton)
+M1K	Scarborough (Kennedy Park / Ionview / East Birchmount Park)
+M1L	Scarborough (The Golden Mile / Clairlea / Oakridge / Birchmount Park East)
+M1M	Scarborough (Cliffside / Cliffcrest / Scarborough Village West)
+M1N	Scarborough (Birch Cliff / Cliffside West)
+M1P	Scarborough (Dorset Park / Wexford Heights / Scarborough Town Centre)
+M1R	Scarborough (Wexford / Maryvale)
+M1S	Scarborough (Agincourt)
+M1T	Scarborough (Clarks Corners / Tam O'Shanter / Sullivan)
+M1V	Scarborough (Milliken / Agincourt North / Steeles East / L'Amoreaux East)
+M1W	Scarborough (Steeles West / L'Amoreaux West)
+M1X	Scarborough (Upper Rouge)
+M2H	North York (Hillcrest Village)
+M2J	North York (Fairview / Henry Farm / Oriole)
+M2K	North York (Bayview Village)
+M2L	North York (York Mills / Silver Hills)
+M2M	Willowdale East (Newtonbrook)
+M2N	Willowdale South
+M2P	North York (York Mills West)
+M2R	Willowdale West
+M3A	North York (York Heights / Victoria Village / Parkway East)
+M3B	Don Mills North
+M3C	Don Mills South (Flemingdon Park)
+M3H	North York (Armour Heights / Wilson Heights / Downsview North)
+M3J	North York (Northwood Park / York University)
+M3K	Downsview East (CFB Toronto)
+M3L	Downsview West
+M3M	Downsview Central
+M3N	North York (Jane and Finch)
+M4A	North York (Sweeney Park / Wigmore Park)
+M4B	East York (Parkview Hill / Woodbine Gardens)
+M4C	East York (Woodbine Heights)
+M4E	East Toronto (The Beaches)
+M4G	East York (Leaside)
+M4H	East York (Thorncliffe Park)
+M4J	East Toronto (The Danforth East)
+M4K	East Toronto (The Danforth West / Riverdale)
+M4L	East Toronto (India Bazaar / The Beaches West)
+M4M	East Toronto (Studio District)
+M4N	Central Toronto (Lawrence Park East)
+M4P	Central Toronto (Davisville North)
+M4R	Central Toronto (North Toronto West)
+M4S	Central Toronto (Davisville)
+M4T	Central Toronto (Moore Park / Summerhill East)
+M4V	Central Toronto (Summerhill West / Rathnelly / South Hill / Forest Hill SE / Deer Park)
+M4W	Downtown Toronto (Rosedale)
+M4X	Downtown Toronto (St. James Town / Cabbagetown)
+M4Y	Downtown Toronto (Church and Wellesley)
+M5A	Downtown Toronto (Regent Park / Port of Toronto)
+M5B	Downtown Toronto (Ryerson)
+M5C	Downtown Toronto (St. James Park)
+M5E	Downtown Toronto (Berczy Park)
+M5G	Downtown Toronto (Central Bay Street)
+M5H	Downtown Toronto (Richmond / Adelaide / King)
+M5J	Downtown Toronto (Harbourfront East / Union Station / Toronto Island)
+M5K	Downtown Toronto (Toronto Dominion Centre / Design Exchange)
+M5L	Downtown Toronto (Commerce Court / Victoria Hotel)
+M5M	North York (Bedford Park / Lawrence Park West / Lawrence Manor East)
+M5N	Central Toronto (Roselawn)
+M5P	Central Toronto (Forest Hill North & West)
+M5R	Central Toronto (The Annex / North Midtown / Yorkville)
+M5S	Downtown Toronto (University of Toronto / Harbord)
+M5T	Downtown Toronto (Kensington Market / Chinatown / Grange Park)
+M5V	Downtown Toronto (CN Tower / King and Spadina / Railway Lands / Harbourfront West / Bathurst Quay / South Niagara / YTZ)
+M5W	Downtown Toronto Stn A PO Boxes 25 The Esplanade (Enclave of M5E)
+M5X	Downtown Toronto (Underground city)
+M6A	North York (Lawrence Manor / Lawrence Heights)
+M6B	North York (Glencairn)
+M6C	York (Cedarvale)
+M6E	York (Fairbank / Oakwood)
+M6G	Downtown Toronto (Christie)
+M6H	West Toronto (Dufferin / Dovercourt Village)
+M6J	West Toronto (Rua Aþores / Trinity)
+M6K	West Toronto (Brockton / Parkdale Village / Exhibition Place)
+M6L	North York (North Park / Maple Leaf Park / Upwood Park)
+M6M	York (Del Ray / Keelsdale / Mount Dennis / Silverthorne)
+M6N	York (Runnymede / The Junction North)
+M6P	West Toronto (High Park / The Junction South)
+M6R	West Toronto (Parkdale / Roncesvalles Village)
+M6S	West Toronto (Bloor West Village / Swansea)
+M7A	Queen's Park Ontario Provincial Government
+M7Y	East Toronto Business Reply Mail Processing Centre 969 Eastern (Enclave of M4L)
+M8V	Etobicoke (New Toronto / Mimico South / Humber Bay Shores)
+M8W	Etobicoke (Alderwood / Long Branch)
+M8X	Etobicoke (The Kingsway / Montgomery Road / Old Mill North)
+M8Y	Etobicoke (Old Mill South / King's Mill Park / Sunnylea / Humber Bay / Mimico NE / The Queensway East / Royal York South East / Kingsway Park South East)
+M8Z	Etobicoke (Mimico NW / The Queensway West / South of Bloor / Kingsway Park South West / Royal York South West)
+M9A	Etobicoke (Islington Avenue)
+M9B	Etobicoke (West Deane Park / Princess Gardens / Martin Grove / Islington / Cloverdale)
+M9C	Etobicoke (Eringate / Bloordale Gardens / Old Burnhamthorpe / Markland Woods)
+M9L	North York (Humber Summit)
+M9M	North York (Humberlea / Emery)
+M9N	Weston
+M9P	Etobicoke (Westmount)
+M9R	Etobicoke (Kingsview Village / St. Phillips / Martin Grove Gardens / Richview Gardens)
+M9V	Etobicoke (South Steeles / Silverstone / Humbergate / Jamestown / Mount Olive / Beaumond Heights / Thistletown / Albion Gardens)
+M9W	Etobicoke Northwest (Clairville / Humberwood / Woodbine Downs / West Humber / Kipling Heights / Rexdale / Elms / Tandridge / Old Rexdale)
+N0A	West Haldimand (Port Dover)
+N0B	Wellington (Elora)
+N0C	Georgian Bay Southwest Shore (Dundalk)
+N0E	Brant and Norfolk (Waterford)
+N0G	Huron (Wingham)
+N0H	Bruce Peninsula (Wiarton)
+N0J	Oxford (Norwich)
+N0K	Perth (Mitchell)
+N0L	Elgin (Dorchester)
+N0M	Middlesex (Clinton)
+N0N	Lambton (Forest)
+N0P	Kent (Blenheim)
+N0R	Essex (Belle River)
+N1A	Dunnville
+N1C	Guelph South
+N1E	Guelph North
+N1G	Guelph Central
+N1H	Guelph Northwest
+N1K	Guelph West
+N1L	Guelph East
+N1M	Fergus
+N1P	Cambridge South
+N1R	Cambridge Central
+N1S	Cambridge Southwest
+N1T	Cambridge East
+N2A	Kitchener East
+N2B	Kitchener Northeast
+N2C	Kitchener South Central
+N2E	Kitchener Southwest
+N2G	Kitchener Central
+N2H	Kitchener North Central
+N2J	Waterloo Southeast
+N2K	Kitchener North
+N2L	Waterloo South
+N2M	Kitchener Northwest
+N2N	Kitchener West
+N2P	Kitchener Southeast
+N2R	Kitchener South
+N2T	Waterloo Southwest
+N2V	Waterloo Northwest
+N2Z	Kincardine
+N3A	Baden
+N3B	Elmira
+N3C	Cambridge Northeast
+N3E	Cambridge Northwest
+N3H	Cambridge West
+N3L	Paris
+N3P	Brantford Northeast
+N3R	Brantford Central
+N3S	Brantford Southeast
+N3T	Brantford Southwest
+N3V	Brantford Northwest
+N3W	Caledonia
+N3Y	Simcoe
+N4B	Delhi
+N4G	Tillsonburg
+N4K	Owen Sound
+N4L	Meaford
+N4N	Hanover
+N4S	Woodstock Central
+N4T	Woodstock North
+N4V	Woodstock South
+N4W	Listowel
+N4X	St. Mary's
+N4Z	Stratford South
+N5A	Stratford North
+N5C	Ingersoll
+N5H	Aylmer
+N5L	Port Stanley
+N5P	St. Thomas North
+N5R	St. Thomas South
+N5V	London (YXU / North and East Argyle / East Huron Heights)
+N5W	London East (SW Argyle / Hamilton Road)
+N5X	London (Fanshawe / Stoneybrook / Stoney Creek / Uplands / East Masonville)
+N5Y	London (West Huron Heights / Carling)
+N5Z	London (Glen Cairn)
+N6A	London North (UWO)
+N6B	London Central
+N6C	London South (East Highland / North White Oaks / North Westminster)
+N6E	London (South White Oaks / Central Westminster / East Longwoods / West Brockley)
+N6G	London (Sunningdale / West Masonville / Medway / NE Hyde Park / East Fox Hollow)
+N6H	London West (Central Hyde Park / Oakridge)
+N6J	London (Southcrest / East Westmount / West Highland)
+N6K	London (Riverbend / Woodhull / North Sharon Creek / Byron / West Westmount)
+N6L	London (East Tempo)
+N6M	London (Jackson / Old Victoria / Bradley / North Highbury)
+N6N	London (South Highbury / Glanworth / East Brockley / SE Westminster)
+N6P	London (Talbot / Lambeth / West Tempo / South Sharon Creek)
+N7A	Goderich
+N7G	Strathroy
+N7L	Chatham Northwest
+N7M	Chatham Southeast
+N7S	Sarnia Central
+N7T	Sarnia Southwest
+N7V	Sarnia Northwest
+N7W	Sarnia Southeast
+N7X	Sarnia Northeast
+N8A	Wallaceburg
+N8H	Leamington
+N8M	Essex
+N8N	Tecumseh Outskirts
+N8P	Windsor (East Riverside)
+N8R	Windsor (East Forest Glade)
+N8S	Windsor (Riverside)
+N8T	Windsor (West Forest Glade / East Fontainbleu)
+N8V	Tecumseh (YQG)
+N8W	Windsor (South Walkerville / West Fontainbleu / Walker Farm / Devonshire)
+N8X	Windsor South Central (West Walkerville / Remington Park)
+N8Y	Windsor East (East Walkerville)
+N9A	Windsor (City Centre / NW Walkerville)
+N9B	Windsor (University / South Cameron)
+N9C	Windsor (Sandwich / Ojibway / West Malden)
+N9E	Windsor South (East Malden)
+N9G	Windsor (Roseland)
+N9H	La Salle East
+N9J	La Salle West
+N9K	Tecumseh Central
+N9V	Amherstburg
+N9Y	Kingsville
+P0A	Nipissing Central (Burk's Falls)
+P0B	Nipissing South (Utterson)
+P0C	Parry Sound Mid-Shore (Bala)
+P0E	Parry Sound South Shore (Kilworthy)
+P0G	Parry Sound North Shore (Nobel)
+P0H	Nipissing North (Callander)
+P0J	Timiskaming South (Temiskaming Shores)
+P0K	Timiskaming North (Iroquois Falls A)
+P0L	Cochrane Region (Hearst)
+P0M	Algoma, Sudbury District and Greater Sudbury (Chelmsford)
+P0N	Timmins Region (South Porcupine)
+P0P	Manitoulin (Little Current)
+P0R	Algoma Southwest (Blind River)
+P0S	Lake Superior East Shore (Wawa)
+P0T	Lake Superior North Shore (Marathon)
+P0V	Northwestern Ontario (Red Lake)
+P0W	Rainy River Region (Emo)
+P0X	Kenora Region (Keewatin)
+P0Y	Lake of the Woods East Shore (Ingolf)
+P1A	North Bay South
+P1B	North Bay Central
+P1C	North Bay North
+P1H	Huntsville
+P1L	Bracebridge
+P1P	Gravenhurst
+P2A	Parry Sound
+P2B	Sturgeon Falls
+P2N	Kirkland Lake
+P3A	Greater Sudbury (New Sudbury)
+P3B	Greater Sudbury (Downtown / Minnow Lake)
+P3C	Greater Sudbury (Gatchell / West End / Little Britain)
+P3E	Greater Sudbury (Robinson / Lockerby)
+P3G	Greater Sudbury (Lo-Ellen / McFarlane Lake)
+P3L	Greater Sudbury (Garson)
+P3N	Greater Sudbury (Val Caron)
+P3P	Greater Sudbury (Hanmer)
+P3Y	Greater Sudbury (Lively)
+P4N	Timmins Southeast
+P4P	Timmins North
+P4R	Timmins West
+P5A	Elliot Lake
+P5E	Espanola
+P5N	Kapuskasing
+P6A	Sault Ste. Marie East
+P6B	Sault Ste. Marie Central
+P6C	Sault Ste. Marie North
+P7A	Thunder Bay Northeast
+P7B	Thunder Bay North Central
+P7C	Thunder Bay Central
+P7E	Thunder Bay South Central
+P7G	Thunder Bay North
+P7J	Thunder Bay South
+P7K	Thunder Bay West
+P7L	Neebing
+P8N	Dryden
+P8T	Sioux Lookout
+P9A	Fort Frances
+P9N	Kenora
+R0A	Southeastern Manitoba (Lorette)
+R0B	Northern Manitoba (Norway House)
+R0C	North Interlake (Stonewall)
+R0E	Eastern Manitoba (Beausejour)
+R0G	South Central Manitoba (Altona)
+R0H	South Interlake (MacGregor)
+R0J	Riding Mountain (Neepawa)
+R0K	Brandon Region (Killarney)
+R0L	Western Manitoba (Swan River)
+R0M	Southwestern Manitoba (Virden)
+R1A	Selkirk
+R1B	Lockport
+R1C	Narol
+R1N	Portage la Prairie
+R2C	Winnipeg (Transcona)
+R2E	East St. Paul
+R2G	Winnipeg (River East North)
+R2H	Winnipeg (St. Boniface NW)
+R2J	Winnipeg (St. Boniface NE)
+R2K	Winnipeg (River East Central)
+R2L	Winnipeg (River East South)
+R2M	Winnipeg (St. Vital North)
+R2N	Winnipeg (St. Vital SW)
+R2P	Winnipeg (Seven Oaks West)
+R2R	Winnipeg (Inkster West)
+R2V	Winnipeg (Seven Oaks East)
+R2W	Winnipeg (Point Douglas East)
+R2X	Winnipeg (Point Douglas West / Inkster East)
+R2Y	Winnipeg (St. James-Assiniboia NW)
+R3A	Winnipeg (Centennial)
+R3B	Winnipeg (Chinatown / Civic Centre / Exchange District)
+R3C	Winnipeg (Broadway / The Forks / Portage and Main) Manitoba Provincial Government
+R3E	Winnipeg (Sargent Park / Daniel McIntyre / Inkster SE)
+R3G	Winnipeg (Minto / St. Mathews / Wolseley)
+R3H	Winnipeg (St. James-Assiniboia NE / YWG)
+R3J	Winnipeg (St. James-Assiniboia SE)
+R3K	Winnipeg (St. James-Assiniboia SW)
+R3L	Winnipeg (River Heights East)
+R3M	Winnipeg (River Heights Central)
+R3N	Winnipeg (River Heights West)
+R3P	Winnipeg (Fort Garry NW / Tuxedo)
+R3R	Winnipeg (Assiniboine South / Betsworth)
+R3S	Winnipeg (Wilkes South)
+R3T	Winnipeg (Fort Garry NE / University of Manitoba)
+R3V	Winnipeg (Fort Garry South)
+R3W	Winnipeg (Grassie / Pequis)
+R3X	Winnipeg (St. Boniface South / St. Vital SE)
+R3Y	Winnipeg (Fort Garry West)
+R4A	West St. Paul
+R4G	Oak Bluff
+R4H	Headingley East
+R4J	Headingley West
+R4K	Cartier
+R4L	St. Francois Xavier
+R5A	St. Adolphe
+R5G	Steinbach
+R5H	Ste. Anne
+R6M	Morden
+R6W	Winkler
+R7A	Brandon Southeast
+R7B	Brandon Southwest
+R7C	Brandon North
+R7N	Dauphin
+R8A	Flin Flon
+R8N	Thompson
+R9A	The Pas
+S0A	Yorkton Region (Melville)
+S0C	Southeastern Saskatchewan (Carlyle)
+S0E	Eastern Saskatchewan (Melfort)
+S0G	South Central Saskatchewan (Fort Qu'Appelle)
+S0H	Southern Saskatchewan (Assiniboia)
+S0J	Northern Saskatchewan (La Ronge)
+S0K	Central Saskatchewan (Humboldt)
+S0L	Western Saskatchewan (Kindersley)
+S0M	Northwestern Saskatchewan (Battleford)
+S0N	Southwestern Saskatchewan (Maple Creek)
+S0P	Northeastern Saskatchewan (Creighton)
+S2V	Buena Vista
+S3N	Yorkton
+S4A	Estevan
+S4H	Weyburn
+S4K	Rm Of Sherwood
+S4L	Regina East
+S4M	Regina
+S4N	Regina Northeast and East Central
+S4P	Regina Central
+S4R	Regina North Central
+S4S	Regina South Saskatchewan Provincial Government
+S4T	Regina West
+S4V	Regina Southeast
+S4W	Regina Southwest
+S4X	Regina Northwest
+S4Y	Regina Outer Northwest
+S4Z	Regina Northeast
+S6H	Moose Jaw Southeast
+S6J	Moose Jaw Northeast
+S6K	Moose Jaw West
+S6V	Prince Albert Central
+S6W	Prince Albert Southwest
+S6X	Prince Albert East
+S7H	Saskatoon East Central
+S7J	Saskatoon South Central
+S7K	Saskatoon North Central
+S7L	Saskatoon West
+S7M	Saskatoon Southwest
+S7N	Saskatoon Northeast Central
+S7P	Saskatoon North
+S7R	Saskatoon Northwest
+S7S	Saskatoon Northeast
+S7T	Saskatoon South
+S7V	Saskatoon Southeast
+S7W	Saskatoon
+S9A	North Battleford
+S9H	Swift Current
+S9V	Lloydminster
+S9X	Meadow Lake
+T0A	Eastern Alberta (St. Paul)
+T0B	Wainwright Region (Tofield)
+T0C	Central Alberta (Stettler)
+T0E	Western Alberta (Jasper)
+T0G	North Central Alberta (Slave Lake)
+T0H	Northwestern Alberta (High Level)
+T0J	Southeastern Alberta (Drumheller)
+T0K	International Border Region (Cardston)
+T0L	Kananaskis Country (Claresholm)
+T0M	Central Foothills (Sundre)
+T0P	Northeastern Alberta (Fort Chipewyan)
+T0V	Remote Northeast (Fitzgerald)
+T1A	Medicine Hat Central
+T1B	Medicine Hat South
+T1C	Medicine Hat North
+T1G	Taber
+T1H	Lethbridge North
+T1J	Lethbridge West and Central
+T1K	Lethbridge Southeast
+T1L	Banff
+T1M	Coaldale
+T1P	Strathmore
+T1R	Brooks
+T1S	Okotoks
+T1V	High River
+T1W	Canmore
+T1X	Chestermere
+T1Y	Calgary (Rundle / Whitehorn / Monterey Park)
+T1Z	Rocky View
+T2A	Calgary (Penbrooke Meadows / Marlborough)
+T2B	Calgary (Forest Lawn / Dover / Erin Woods)
+T2C	Calgary (Lynnwood Ridge / Ogden / Foothills Industrial / Great Plains)
+T2E	Calgary (Bridgeland / Greenview / Zoo / YYC)
+T2G	Calgary (Inglewood / Burnsland / Chinatown / East Victoria Park / Saddledome)
+T2H	Calgary (Highfield / Burns Industrial)
+T2J	Calgary (Queensland Downs / Lake Bonavista / Willow Park / Acadia)
+T2K	Calgary (Thornecliffe / Tuxedo)
+T2L	Calgary (Brentwood / Collingwood / Nose Hill)
+T2M	Calgary (Mount Pleasant / Capitol Hill / Banff Trail)
+T2N	Calgary (Kensington / Westmont / Parkdale / University)
+T2P	Calgary (City Centre / Calgary Tower)
+T2R	Calgary (Connaught / West Victoria Park)
+T2S	Calgary (Elbow Park / Britannia / Parkhill / Mission)
+T2T	Calgary South (Altadore / Bankview / Richmond)
+T2V	Calgary (Oak Ridge / Haysboro / Kingsland / Windsor Park)
+T2W	Calgary (Braeside / Woodbine)
+T2X	Calgary (Midnapore / Sundance)
+T2Y	Calgary (Millrise / Somerset / Bridlewood / Evergreen)
+T2Z	Calgary (Douglas Glen / McKenzie Lake / Copperfield / East Shepard)
+T3A	Calgary (Dalhousie / Edgemont / Hamptons / Hidden Valley)
+T3B	Calgary (Montgomery / Bowness / Silver Springs / Greenwood)
+T3C	Calgary (Rosscarrock / Wildwood / Shaganappi / Sunalta)
+T3E	Calgary (Lakeview / Glendale / Killarney / Glamorgan)
+T3G	Calgary (Hawkwood / Arbour Lake / Royal Oak / Rocky Ridge)
+T3H	Calgary (Discovery Ridge / Signal Hill / Aspen Woods / Patterson / Cougar Ridge)
+T3J	Calgary (Martindale / Taradale / Falconridge / Saddle Ridge)
+T3K	Calgary (Sandstone / Harvest Hills / Coventry Hills / Panorama Hills / Beddington)
+T3L	Calgary (Tuscany / Scenic Acres)
+T3M	Calgary (Cranston)
+T3N	Calgary Northeast
+T3P	Calgary (Symons Valley)
+T3R	Calgary Northwest
+T3S	Calgary
+T3Z	Redwood Meadows
+T4A	Airdrie East
+T4B	Airdrie West
+T4C	Cochrane
+T4E	Red Deer County
+T4G	Innisfail
+T4H	Olds
+T4J	Ponoka
+T4L	Lacombe
+T4M	Blackfalds
+T4N	Red Deer Central
+T4P	Red Deer North
+T4R	Red Deer South
+T4S	Sylvan Lake
+T4T	Rocky Mountain House
+T4V	Camrose
+T4X	Beaumont
+T5A	Edmonton (West Clareview / East Londonderry)
+T5B	Edmonton (East North Central / West Beverly)
+T5C	Edmonton (Central Londonderry)
+T5E	Edmonton (West Londonderry / East Calder)
+T5G	Edmonton (North Central / Queen Mary Park / YXD)
+T5H	Edmonton (North and East Downtown Fringe)
+T5J	Edmonton (North Downtown)
+T5K	Edmonton (South Downtown / South Downtown Fringe)
+T5L	Edmonton (North Westmount / West Calder / East Mistatim)
+T5M	Edmonton (South Westmount / Groat Estate / East Northwest Industrial)
+T5N	Edmonton (Glenora / SW Downtown Fringe)
+T5P	Edmonton (North Jasper Place)
+T5R	Edmonton (Central Jasper Place / Buena Vista)
+T5S	Edmonton (West Northwest Industrial / Winterburn)
+T5T	Edmonton West (West Jasper Place / West Edmonton Mall)
+T5V	Edmonton (Central Mistatim)
+T5W	Edmonton (Central Beverly)
+T5X	Edmonton (East Castledowns)
+T5Y	Edmonton (Landbank / Oliver / East Lake District)
+T5Z	Edmonton (West Lake District)
+T6A	Edmonton (North Capilano)
+T6B	Edmonton (SE Capilano / West Southeast Industrial / East Bonnie Doon)
+T6C	Edmonton (Central Bonnie Doon)
+T6E	Edmonton (South Bonnie Doon / East University)
+T6G	Edmonton (West University / Strathcona Place)
+T6H	Edmonton (Southgate / North Riverbend)
+T6J	Edmonton (Kaskitayo)
+T6K	Edmonton (West Mill Woods)
+T6L	Edmonton (East Mill Woods)
+T6M	Edmonton Southwest
+T6N	Edmonton (South Industrial)
+T6P	Edmonton (East Southeast Industrial / South Clover Bar)
+T6R	Edmonton (Riverbend)
+T6S	Edmonton (North Clover Bar)
+T6T	Edmonton (Meadows)
+T6V	Edmonton (West Castledowns)
+T6W	Edmonton (Heritage Valley)
+T6X	Edmonton (Ellerslie)
+T7A	Drayton Valley
+T7E	Edson
+T7N	Barrhead
+T7P	Westlock
+T7S	Whitecourt
+T7V	Hinton
+T7X	Spruce Grove North
+T7Y	Spruce Grove South
+T7Z	Stony Plain
+T8A	Sherwood Park West
+T8B	Sherwood Park Outer Southwest
+T8C	Sherwood Park Inner Southwest
+T8E	Sherwood Park Central
+T8G	Sherwood Park East
+T8H	Sherwood Park Northwest
+T8L	Fort Saskatchewan
+T8N	St. Albert
+T8R	Morinville
+T8S	Peace River
+T8T	St. Albert
+T8V	Grande Prairie Central
+T8W	Grande Prairie South
+T8X	Grande Prairie East
+T9A	Wetaskiwin
+T9C	Vegreville
+T9E	Leduc
+T9G	Devon
+T9H	Fort McMurray Outer Central
+T9J	Fort McMurray Inner Central
+T9K	Fort McMurray Northwest
+T9M	Cold Lake
+T9N	Bonnyville
+T9S	Athabasca
+T9V	Lloydminster
+T9W	Wainwright
+T9X	Vermilion
+V0A	Upper Columbia Region (Golden)
+V0B	East Kootenays (Fernie)
+V0C	Northern British Columbia (Fort Nelson)
+V0E	Central Okanagan and High Country (Revelstoke)
+V0G	West Kootenays (Rossland)
+V0H	South Okanagan (Summerland)
+V0J	Omineca and Yellowhead (Smithers)
+V0K	Cariboo and West Okanagan (100 Mile House)
+V0L	Chilcotin (Alexis Creek)
+V0M	Harrison Lake Region (Agassiz)
+V0N	North Island, Sunshine Coast, and Southern Gulf Islands (Whistler)
+V0P	North Central Island and Bute Inlet Region (Gold River)
+V0R	Central Island (Chemainus)
+V0S	Juan de Fuca Shore (Sooke)
+V0T	Inside Passage and the Queen Charlottes (Queen Charlotte City)
+V0V	Lower Skeena (Port Edward)
+V0W	Atlin Region (Atlin)
+V0X	Similkameen (Hope)
+V1A	Kimberley
+V1B	Vernon East
+V1C	Cranbrook
+V1E	Salmon Arm
+V1G	Dawson Creek
+V1H	Vernon West
+V1J	Fort St. John
+V1K	Merritt
+V1L	Nelson
+V1M	Langley Township North
+V1N	Castlegar
+V1P	Kelowna East
+V1R	Trail
+V1S	Kamloops Southwest
+V1T	Vernon Central
+V1V	Kelowna North
+V1W	Kelowna Southwest
+V1X	Kelowna East Central
+V1Y	Kelowna Central
+V1Z	Kelowna West
+V2A	Penticton
+V2B	Kamloops Northwest
+V2C	Kamloops Central and Southeast
+V2E	Kamloops South and West
+V2G	Williams Lake
+V2H	Kamloops North
+V2J	Quesnel
+V2K	Prince George North
+V2L	Prince George East Central
+V2M	Prince George West Central
+V2N	Prince George South
+V2P	Chilliwack Central
+V2R	Chilliwack West
+V2S	Abbotsford Southeast
+V2T	Abbotsford Southwest
+V2V	Mission East
+V2W	Maple Ridge East
+V2X	Maple Ridge West
+V2Y	Langley Township Northwest
+V2Z	Langley Township Southwest
+V3A	Langley City
+V3B	Port Coquitlam Central
+V3C	Port Coquitlam South
+V3E	Port Coquitlam North
+V3G	Abbotsford East
+V3H	Port Moody
+V3J	Coquitlam North
+V3K	Coquitlam South
+V3L	New Westminster Northeast
+V3M	New Westminster Southwest (Includes Annacis Island)
+V3N	Burnaby (East Big Bend / Stride Avenue / Edmonds / Cariboo-Armstrong)
+V3R	Surrey North
+V3S	Surrey East
+V3T	Surrey Inner Northwest
+V3V	Surrey Outer Northwest
+V3W	Surrey Upper West
+V3X	Surrey Lower West
+V3Y	Pitt Meadows
+V3Z	Surrey
+V4A	Surrey Southwest
+V4B	White Rock
+V4C	Delta Northeast
+V4E	Delta East
+V4G	Delta East Central
+V4K	Delta Central
+V4L	Delta Southeast
+V4M	Delta Southwest
+V4N	Surrey Northeast
+V4P	Surrey South
+V4R	Maple Ridge Northwest
+V4S	Mission West
+V4T	Westbank
+V4V	Winfield
+V4W	Langley Township East
+V4X	Abbotsford West
+V4Z	Chilliwack East
+V5A	Burnaby (Government Road / Lake City / SFU / Burnaby Mountain)
+V5B	Burnaby (Parkcrest-Aubrey / Ardingley-Sprott)
+V5C	Burnaby (Burnaby Heights / Willingdon Heights / West Central Valley)
+V5E	Burnaby (Lakeview-Mayfield / Richmond Park / Kingsway-Beresford)
+V5G	Burnaby (Cascade-Schou / Douglas-Gilpin)
+V5H	Burnaby (Maywood / Marlborough / Oakalla / Windsor)
+V5J	Burnaby (Suncrest / Sussex-Nelson / Clinton-Glenwood / West Big Bend)
+V5K	Vancouver (North Hastings-Sunrise)
+V5L	Vancouver (North Grandview-Woodlands)
+V5M	Vancouver (South Hastings-Sunrise / North Renfrew-Collingwood)
+V5N	Vancouver (South Grandview-Woodlands / NE Kensington)
+V5P	Vancouver (SE Kensington / Victoria-Fraserview)
+V5R	Vancouver (South Renfrew-Collingwood)
+V5S	Vancouver (Killarney)
+V5T	Vancouver (East Mount Pleasant)
+V5V	Vancouver (West Kensington / NE Riley Park-Little Mountain)
+V5W	Vancouver (SE Riley Park-Little Mountain / SW Kensington / NE Oakridge / North Sunset)
+V5X	Vancouver (SE Oakridge / East Marpole / South Sunset)
+V5Y	Vancouver (West Mount Pleasant / West Riley Park-Little Mountain)
+V5Z	Vancouver (East Fairview / South Cambie)
+V6A	Vancouver (Strathcona / Chinatown / Downtown Eastside)
+V6B	Vancouver (NE Downtown / Harbour Centre / Gastown / Yaletown)
+V6C	Vancouver (Waterfront / Coal Harbour / Canada Place)
+V6E	Vancouver (South West End)
+V6G	Vancouver (North West End / Stanley Park)
+V6H	Vancouver (West Fairview / Granville Island / NE Shaughnessy)
+V6J	Vancouver (NW Shaughnessy / East Kitsilano / Quilchena)
+V6K	Vancouver (Central Kitsilano)
+V6L	Vancouver (NW Arbutus Ridge)
+V6M	Vancouver (South Shaughnessy / NW Oakridge / NE Kerrisdale / SE Arbutus Ridge)
+V6N	Vancouver (Dunbar-Southlands / Musqueam)
+V6P	Vancouver (SE Kerrisdale / SW Oakridge / West Marpole)
+V6R	Vancouver (West Kitsilano / Jericho)
+V6S	Vancouver (Chaldecutt / South University Endowment Lands)
+V6T	Vancouver (UBC)
+V6V	Richmond Northeast
+V6W	Richmond Southeast
+V6X	Richmond North
+V6Y	Richmond Central
+V6Z	Vancouver (SW Downtown)
+V7A	Richmond South
+V7B	Richmond (Sea Island / YVR)
+V7C	Richmond West
+V7E	Richmond Southwest
+V7G	North Vancouver Outer East
+V7H	North Vancouver Inner East
+V7J	North Vancouver East Central
+V7K	North Vancouver North Central
+V7L	North Vancouver South Central
+V7M	North Vancouver Southwest Central
+V7N	North Vancouver Northwest Central
+V7P	North Vancouver Southwest
+V7R	North Vancouver Northwest
+V7S	West Vancouver North
+V7T	West Vancouver Southeast
+V7V	West Vancouver South
+V7W	West Vancouver West
+V7X	Vancouver (Bentall Centre)
+V7Y	Vancouver (Pacific Centre)
+V8A	Powell River
+V8B	Squamish
+V8C	Kitimat
+V8G	Terrace
+V8J	Prince Rupert
+V8K	Saltspring Island
+V8L	Sidney
+V8M	Central Saanich
+V8N	Saanich East
+V8P	Saanich Southeast
+V8R	Oak Bay North
+V8S	Oak Bay South
+V8T	Victoria North
+V8V	Victoria South
+V8W	Victoria Central British Columbia Provincial Government
+V8X	Saanich South
+V8Y	Saanich North
+V8Z	Saanich Central
+V9A	Esquimalt
+V9B	Highlands
+V9C	Metchosin
+V9E	Saanich West
+V9G	Ladysmith
+V9H	Campbell River Outskirts
+V9J	Courtenay Northern Outskirts
+V9K	Qualicum Beach
+V9L	Duncan
+V9M	Comox
+V9N	Courtenay Central
+V9P	Parksville
+V9R	Nanaimo South
+V9S	Nanaimo Central
+V9T	Nanaimo North
+V9V	Nanaimo Northwest
+V9W	Campbell River Central
+V9X	Cedar
+V9Y	Port Alberni
+V9Z	Sooke
+X0A	Outer Nunavut (Iqaluit)
+X0B	Central Nunavut (Cambridge Bay)
+X0C	Inner Nunavut (Rankin Inlet)
+X0E	Central Northwest Territories (Inuvik)
+X0G	Southwestern Northwest Territories (Fort Liard)
+X1A	Yellowknife
+Y0A	Southeastern Yukon (Watson Lake)
+Y0B	Central Yukon (Dawson City)
+Y1A	Whitehorse

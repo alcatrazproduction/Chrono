@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Available options for rules : 
+    roundToSeconds
+    generalWithoutHundredths
+    teamClassificationByRanks
+    teamClassificationByTimes
+    simpleGeneralComputation
+    podiumsOnRealTimesNotGunTimes
+    ignoreFirstLap
+    startOffLaps
+    distanceUnitMile
+    altitudeUnitFeet
+    averageSpeedPaceMode
+    averageSpeedSpeedMode
+    cumulativePodiums
+    nonCumulativePodiums
+-->
+<Types>
+ <Type name="CBAt" body="CBAt" info="CBAt - Confederação Brasileira de Atletismo" sport="6" country="Brasil" lang="PT" licenseMask="" countriesFile="" categories="Categorias CBAt">
+  <Rules>roundToSeconds</Rules>
+ </Type>
+ <Type name="DLV" body="DLV" info="DLV - Deutsche Leichtathletik Verband" sport="6" country="Deutschland" lang="DE" licenseMask="" countriesFile="Countries.IOC.DE.txt" categories="DLV Altersklassen">
+  <Rules>roundToSeconds</Rules>
+ </Type>
+ <Type name="Course à pied - FFA" body="FFA" info="FFA - Fédération Française d'Athlétisme" sport="6" country="France" lang="FR" licenseMask="Licence FFA" countriesFile="Countries.FFA.txt" categories="Catégories FFA">
+  <Rules>roundToSeconds,nonCumulativePodiums</Rules>
+ </Type>
+ <Type name="FIDAL" body="FIDAL" info="FIDAL - Federazione Italiana di Atletica Leggera" sport="6" country="Italia" lang="IT" licenseMask="" countriesFile="Countries.CIO.IT.txt" categories="Categorie FIDAL">
+  <Rules>roundToSeconds</Rules>
+ </Type>
+ <Type name="RFEA" body="RFEA" info="RFEA - Real Federación Española de Atletismo" sport="6" country="España" lang="SP" licenseMask="" countriesFile="" categories="Categorias RFEA">
+  <Rules>roundToSeconds</Rules>
+ </Type>
+ <Type name="CSI" body="CSI" info="CSI - Centro Sportivo Italiano" sport="6" country="Italia" lang="IT" licenseMask="" countriesFile="Countries.CIO.IT.txt" categories="Categorie CSO">
+  <Rules>roundToSeconds</Rules>
+ </Type>
+
+ <Type name="Triathlon - British Triathlon" body="British Triathlon" info="BTF - British Triathlon Federation" sport="3" country="GB" lang="EN" licenseMask="" categories="British Triathlon Categories">
+  <Rules>teamClassificationByRanks,simpleGeneralComputation</Rules>
+ </Type>
+ <Type name="Triathlon - CBTRI" body="CBTRI" info="CBT - Confederação Brasileira de Triathlon" sport="3" country="Brasil" lang="PT" licenseMask="" categories="CBTRI Categorias">
+  <Rules>teamClassificationByRanks,simpleGeneralComputation</Rules>
+ </Type>
+ <Type name="Triathlon - FETRI" body="FETRI" info="FET - Federación Española de Triatlón" sport="3" country="España" lang="SP" licenseMask="" categories="FETRI Categorías">
+  <Rules>teamClassificationByRanks,simpleGeneralComputation</Rules>
+ </Type>
+ <Type name="Triathlon - FFTri" body="FFTri" info="FFTRI - Fédération Française de Triathlon" sport="3" country="France" lang="FR" licenseMask="Licence FFTri" categories="FFTri">
+  <Rules>teamClassificationByRanks,simpleGeneralComputation</Rules>
+ </Type>
+ <Type name="Triathlon - FITRI" body="FITRI" info="FIT - Federazione Italiana Triathlon" sport="3" country="Italia" lang="EN" countriesFile="Countries.CIO.IT.txt" licenseMask="" categories="FITRI Categorie">
+  <Rules>teamClassificationByRanks,simpleGeneralComputation</Rules>
+ </Type>
+ <Type name="Triathlon - USAT" body="USAT" info="USA Triathlon" sport="3" country="USA" lang="EN" countriesFile="Countries.CIO.EN.txt" licenseMask="" categories="USAT Categories">
+  <Rules>teamClassificationByRanks,simpleGeneralComputation</Rules>
+ </Type>
+
+ <Type name="Cycling - UCI" body="UCI" info="UCI - Union Cycliste internationale" sport="0" lang="EN" countriesFile="Countries.CIO.EN.txt" licenseMask="Code UCI">
+  <Rules>generalWithoutHundredths</Rules>
+ </Type>
+ <Type name="Radsport - BDR" body="BDR" info="BDR - Bund Deutscher Radfahrer" sport="0" country="Deutschland" lang="DE" countriesFile="Countries.IOC.DE.txt" licenseMask="" categories="BDR Altersklassen">
+  <Rules>generalWithoutHundredths</Rules>
+ </Type>
+ <Type name="Cyclisme - FFC" body="FFC" info="FFC - Fédération Française de Cyclisme" sport="0" country="France" lang="FR" countriesFile="Countries.CIO.FR.txt" licenseMask="Licence FFC" categories="Catégories FFC">
+  <Rules>generalWithoutHundredths</Rules>
+ </Type>
+ <Type name="Cyclisme - RFEC" body="RFEC" info="RFEC - Real Federación Española de Ciclismo" sport="0" country="España" lang="EN" categories="RFEC Categorías">
+  <Rules>generalWithoutHundredths</Rules>
+ </Type>
+
+ <Type name="Course à pied" info="" sport="6" lang="FR" />
+ <Type name="Running" info="" sport="6" lang="EN" />
+ <Type name="Triathlon" info="" sport="3" lang="FR" />
+ <Type name="Triathlon" info="" sport="3" lang="EN" />
+ <Type name="Cyclisme" info="" sport="0" lang="FR" />
+ <Type name="Cycling" info="" sport="0" lang="EN" />
+ <Type name="Course automobile - Circuit" info="" sport="8" lang="FR" />
+ <Type name="Automobile race - Circuit" info="" sport="8" lang="EN" />
+ <Type name="Course moto - Circuit" info="" sport="8" lang="FR">
+  <Rules>moto</Rules>
+ </Type>
+ <Type name="Moto race - Circuit" info="" sport="8" lang="EN">
+  <Rules>moto</Rules>
+ </Type>
+
+ <!--
+ <Type name="Cycling - USCF" info="USA Cycling" sport="0" country="USA" lang="EN" licenseMask="" categories="USCF Categories">
+  <Rules>generalWithoutHundredths</Rules>
+ </Type>
+ -->
+
+</Types>
