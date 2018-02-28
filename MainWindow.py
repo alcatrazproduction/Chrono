@@ -1,10 +1,13 @@
 #!/usr/bin/python
 
+from PyQt5.QtGui		import	QFont
 from PyQt5 				import   QtWidgets
 from T_Marques		import 	T_Marques
-from T_Concurents	import 	T_Concurents
-
+from T_Concurrents	import 	T_Concurrents
 from Ui_MainWindow	import Ui_MainWindow
+
+import	Globals
+
 racer = [
 #	[66,'SCHAFER',"Alain","Fribourg","Honda"],
 #	[906,"CORTIJO","Yohan","Illarsaz","Yamaha"],
@@ -83,7 +86,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			oldracer['prenom']	= rf
 			print (len( oldracer ))
 			oldracer['transponder'] = rt
-			oldracerItem.setText("%5.0d, %-15.10s, %-10.10s" %  ( oldracer['numero'],   oldracer['nom'],  oldracer['prenom'] ) )
+			oldracerItem.setText( Globals.C_concurrents_item_fmt %  ( oldracer['numero'],   oldracer['nom'],  oldracer['prenom'] ) )
 			oldracerItem.setData( UserRole,  oldracer )
 
 		if racer is None :
@@ -105,15 +108,28 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 	def main(self):
 		self.connectActions()
 		self.L_racerlist.setSortingEnabled(True)
-		self.concurrents = T_Concurents()
+		self.concurrents = T_Concurrents()
 		while self.concurrents.getNextRecord():
 			c = dict( self.concurrents._data )
 			c['transponder'] = 0
 			racer.append( c )
-		print( racer )
+		font = QFont()
+		font.setFamily("Courier New")
+		font.setPointSize(8)
+		font.setBold(False)
+		font.setItalic(False)
+		font.setWeight(50)
+		font.setKerning(False)
 		for i in racer:
 			item = QtWidgets.QListWidgetItem()
-			item.setText("%5.0d, %-15.10s, %-10.10s" %  ( i['numero'],   i['nom'],  i['prenom'] ) )
+			item.setText( Globals.C_concurrents_item_fmt %  ( i['numero'],   i['nom'],  i['prenom'] ) )
 			item.setData( UserRole, i )
+			item.setFont( font )
 			self.L_racerlist.addItem(item)
+		self.marques = T_Marques()
+		self.R_brandMenu.clear()
+		while self.marques.getNextRecord():
+			c = dict( self.marques._data )
+			print( c )
+			self.R_brandMenu.addItem(c['nom'], c)
 		self.show()

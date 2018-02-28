@@ -94,6 +94,16 @@
           <height>491</height>
          </rect>
         </property>
+        <property name="font">
+         <font>
+          <family>Bitstream Charter</family>
+          <pointsize>10</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <kerning>false</kerning>
+         </font>
+        </property>
         <property name="mouseTracking">
          <bool>true</bool>
         </property>
@@ -108,6 +118,12 @@
         </property>
         <property name="defaultDropAction">
          <enum>Qt::CopyAction</enum>
+        </property>
+        <property name="isWrapping" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="viewMode">
+         <enum>QListView::ListMode</enum>
         </property>
         <property name="modelColumn">
          <number>0</number>
