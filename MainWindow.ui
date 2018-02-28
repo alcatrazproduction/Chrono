@@ -112,16 +112,6 @@
         <property name="modelColumn">
          <number>0</number>
         </property>
-        <item>
-         <property name="text">
-          <string>Racer 1</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Racer 2</string>
-         </property>
-        </item>
        </widget>
        <widget class="QWidget" name="gridLayoutWidget">
         <property name="geometry">

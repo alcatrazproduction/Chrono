@@ -2,33 +2,34 @@
 
 from PyQt5 				import   QtWidgets
 from T_Marques		import 	T_Marques
+from T_Concurents	import 	T_Concurents
 
 from Ui_MainWindow	import Ui_MainWindow
 racer = [
-	[66,'SCHAFER',"Alain","Fribourg","Honda"],
-	[906,"CORTIJO","Yohan","Illarsaz","Yamaha"],
-	[28,"POGET","Elies","Echandens","KTM"],
-	[718,"YERLY","Cedric","Treyvaux","Kawasaki"],
-	[819,"WENGER","Marc","Alterswil","Husqvarna"],
-	[3,"PEISSARD","Patrick","Matran","Kawasaki"],
-	[108,"FAHRNI","Normand","Broc","Suzuki"],
-	[15,"SIMOND","Baptiste","Lovatens","Honda"],
-	[100,"SCHAFER","Samuel","Giffers","Honda"],
-	[94,"AEBERSOLD","Remo","Bleiken","Yamaha"],
-	[11,"FRACHEBOUD","Louis","Puidoux","Yamaha"],
-	[222,"BRODARD","Olivier","Posieux","Honda"],
-	[49,"COUTAZ","Sebastien","Genolier","KTM"],
-	[12,"SCHUPBACH","Valentin","Arconciel","Kawasaki"],
-	[221,"HINNI","Joel","Zollikofen","Yamaha"],
-	[932,"SALLIN","Junior","Belfaux","Kawasaki"],
-	[17,"DA VEIGA","Diego","Vendlincourt","KTM"],
-	[892,"KILCHOER","Loec","La Roche","KTM"],
-	[907,"SALLIN","Louis","Belfaux","KTM"],
-	[32,"SCHUPBACH","David","Arconciel","Kawasaki"],
-	[2,"GUISOLAN","Sven","Noreaz","TM"],
-	[59,"CHAUTEMS","Remy","Chene-Paquier","Suzuki"],
-	[421,"WAEBER","Mathieu","Ecuvillens","Yamaha"],
-	[129,"ZUGER","Neal","Cressier","KTM"]
+#	[66,'SCHAFER',"Alain","Fribourg","Honda"],
+#	[906,"CORTIJO","Yohan","Illarsaz","Yamaha"],
+#	[28,"POGET","Elies","Echandens","KTM"],
+#	[718,"YERLY","Cedric","Treyvaux","Kawasaki"],
+#	[819,"WENGER","Marc","Alterswil","Husqvarna"],
+#	[3,"PEISSARD","Patrick","Matran","Kawasaki"],
+#	[108,"FAHRNI","Normand","Broc","Suzuki"],
+#	[15,"SIMOND","Baptiste","Lovatens","Honda"],
+#	[100,"SCHAFER","Samuel","Giffers","Honda"],
+#	[94,"AEBERSOLD","Remo","Bleiken","Yamaha"],
+#	[11,"FRACHEBOUD","Louis","Puidoux","Yamaha"],
+#	[222,"BRODARD","Olivier","Posieux","Honda"],
+#	[49,"COUTAZ","Sebastien","Genolier","KTM"],
+#	[12,"SCHUPBACH","Valentin","Arconciel","Kawasaki"],
+#	[221,"HINNI","Joel","Zollikofen","Yamaha"],
+#	[932,"SALLIN","Junior","Belfaux","Kawasaki"],
+#	[17,"DA VEIGA","Diego","Vendlincourt","KTM"],
+#	[892,"KILCHOER","Loec","La Roche","KTM"],
+#	[907,"SALLIN","Louis","Belfaux","KTM"],
+#	[32,"SCHUPBACH","David","Arconciel","Kawasaki"],
+#	[2,"GUISOLAN","Sven","Noreaz","TM"],
+#	[59,"CHAUTEMS","Remy","Chene-Paquier","Suzuki"],
+#	[421,"WAEBER","Mathieu","Ecuvillens","Yamaha"],
+#	[129,"ZUGER","Neal","Cressier","KTM"]
 ]
 
 _categorie = [
@@ -77,15 +78,12 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			if oldracer is None:
 				oldracer = [ 0,  "", "",  "", "",  0]
 
-			oldracer[0]	= rn
-			oldracer[1]	= rl
-			oldracer[2]	= rf
+			oldracer['numero']	= rn
+			oldracer['nom']	= rl
+			oldracer['prenom']	= rf
 			print (len( oldracer ))
-			if len( oldracer ) > 5:
-				oldracer[5] = rt
-			else:
-				oldracer.append( rt )
-			oldracerItem.setText("%5.0d, %-15.10s, %-10.10s" %  ( oldracer[0],   oldracer[1],  oldracer[2] ) )
+			oldracer['transponder'] = rt
+			oldracerItem.setText("%5.0d, %-15.10s, %-10.10s" %  ( oldracer['numero'],   oldracer['nom'],  oldracer['prenom'] ) )
 			oldracerItem.setData( UserRole,  oldracer )
 
 		if racer is None :
@@ -94,22 +92,28 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			self.R_number.setText(		"" )
 			self.R_transponder.setText(	"")
 		else:
-			self.R_lastname.setText(		racer[1] )
-			self.R_firstname.setText(		racer[2] )
-			self.R_number.setText(		"%d"%racer[0] )
-			if len( racer ) > 5:
-				self.R_transponder.setText(	"%d"%racer[5])
-			else:
-				self.R_transponder.setText(	"")
+			self.R_lastname.setText(		racer['nom'] )
+			self.R_firstname.setText(		racer['prenom'] )
+			self.R_number.setText(		"%d"%racer['numero'] )
+#			if len( racer ) > 5:
+			self.R_transponder.setText(	"%d"%racer['transponder'])
+#			else:
+#				self.R_transponder.setText(	"")
 			self.__RacerEdited = item
 
 
 	def main(self):
 		self.connectActions()
 		self.L_racerlist.setSortingEnabled(True)
+		self.concurrents = T_Concurents()
+		while self.concurrents.getNextRecord():
+			c = dict( self.concurrents._data )
+			c['transponder'] = 0
+			racer.append( c )
+		print( racer )
 		for i in racer:
 			item = QtWidgets.QListWidgetItem()
-			item.setText("%5.0d, %-15.10s, %-10.10s" %  ( i[0],   i[1],  i[2] ) )
+			item.setText("%5.0d, %-15.10s, %-10.10s" %  ( i['numero'],   i['nom'],  i['prenom'] ) )
 			item.setData( UserRole, i )
 			self.L_racerlist.addItem(item)
 		self.show()
