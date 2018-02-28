@@ -7,7 +7,8 @@ class db(  ):
 #	TB_Name = "" from parent is table name
 
 	def __init__(self):
-		self._link = MySQLdb.connect("localhost","Chrono","Chrono","Chrono" )
+		if self._link == None:
+			self._link = MySQLdb.connect("localhost","Chrono","Chrono","Chrono" )
 		if self._desc == None:	# init table description, one for all instance
 			self._desc = []
 		if self._link != None:
