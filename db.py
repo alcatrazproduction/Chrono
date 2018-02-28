@@ -83,7 +83,7 @@ class db(  ):
 				self.newRecord()
 				return False
 			else:
-				for i in range( 0, len(data) -1 ):
+				for i in range( 0, len(data)  ):
 					self._data[self._desc[i][0]] = data[i]
 		except Exception as e:
 			print(e)

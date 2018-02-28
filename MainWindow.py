@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 from PyQt5.QtGui		import	QFont
-from PyQt5 				import   QtWidgets
+from PyQt5 				import   QtWidgets, QtCore
 from T_Marques		import 	T_Marques
 from T_Concurrents	import 	T_Concurrents
 from Ui_MainWindow	import Ui_MainWindow
@@ -60,6 +60,17 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 	def connectActions(self):
 		self.actionQuitter.triggered.connect(QtWidgets.qApp.quit)
 		self.L_racerlist.itemDoubleClicked.connect(self.editRacer)
+		self.findNumber.returnPressed.connect(self.findNumRacer)
+
+	def findNumRacer(self):
+		try:
+			fn = int( self.findNumber.text() )
+			item = self.L_racerlist.findItems( "%4.0d"%fn,  QtCore.Qt.MatchStartsWith)
+		except:
+			return
+		if len( item )>0:
+			self.L_racerlist.setCurrentItem( item[0])
+			self.editRacer( item[0] )
 
 	def editRacer(self, item):
 		racer = item.data(UserRole)
@@ -76,16 +87,16 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 				rt 	= int( self.R_transponder.text() )
 			except:
 				rt 	= 0
-
+			rm = self.R_brandMenu.itemData( self.R_brandMenu.currentIndex() )
 			oldracer			= oldracerItem.data( UserRole )
 			if oldracer is None:
 				oldracer = [ 0,  "", "",  "", "",  0]
 
-			oldracer['numero']	= rn
-			oldracer['nom']	= rl
-			oldracer['prenom']	= rf
-			print (len( oldracer ))
-			oldracer['transponder'] = rt
+			oldracer['numero']			= rn
+			oldracer['nom']					= rl
+			oldracer['prenom']			= rf
+			oldracer['transponder'] 		= rt
+			oldracer['moto']				= rm
 			oldracerItem.setText( Globals.C_concurrents_item_fmt %  ( oldracer['numero'],   oldracer['nom'],  oldracer['prenom'] ) )
 			oldracerItem.setData( UserRole,  oldracer )
 
@@ -102,6 +113,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			self.R_transponder.setText(	"%d"%racer['transponder'])
 #			else:
 #				self.R_transponder.setText(	"")
+			self.R_brandMenu.setCurrentIndex( self.R_brandMenu.findData(racer['moto']))
 			self.__RacerEdited = item
 
 
@@ -130,6 +142,5 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.R_brandMenu.clear()
 		while self.marques.getNextRecord():
 			c = dict( self.marques._data )
-			print( c )
-			self.R_brandMenu.addItem(c['nom'], c)
+			self.R_brandMenu.addItem(c['nom'], c['id'])
 		self.show()
