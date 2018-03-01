@@ -268,11 +268,17 @@
        <rect>
         <x>260</x>
         <y>0</y>
-        <width>531</width>
+        <width>1131</width>
         <height>521</height>
        </rect>
       </property>
       <layout class="QFormLayout" name="formLayout">
+       <property name="fieldGrowthPolicy">
+        <enum>QFormLayout::FieldsStayAtSizeHint</enum>
+       </property>
+       <property name="rowWrapPolicy">
+        <enum>QFormLayout::DontWrapRows</enum>
+       </property>
        <property name="verticalSpacing">
         <number>2</number>
        </property>
@@ -280,13 +286,6 @@
         <widget class="QLabel" name="label">
          <property name="text">
           <string>Nom</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="1">
-        <widget class="QLineEdit" name="R_lastname">
-         <property name="text">
-          <string>R_LastName</string>
          </property>
         </widget>
        </item>
@@ -299,19 +298,227 @@
        </item>
        <item row="1" column="1">
         <widget class="QLineEdit" name="R_firstname">
+         <property name="minimumSize">
+          <size>
+           <width>420</width>
+           <height>0</height>
+          </size>
+         </property>
          <property name="text">
           <string>R_FirstName</string>
          </property>
         </widget>
        </item>
-       <item row="8" column="0">
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_13">
+         <property name="text">
+          <string>Adresse</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QTextEdit" name="R_address">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>420</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="baseSize">
+          <size>
+           <width>420</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string notr="true"/>
+         </property>
+         <property name="statusTip">
+          <string notr="true"/>
+         </property>
+         <property name="accessibleName">
+          <string notr="true"/>
+         </property>
+         <property name="accessibleDescription">
+          <string notr="true"/>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOn</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="sizeAdjustPolicy">
+          <enum>QAbstractScrollArea::AdjustToContents</enum>
+         </property>
+         <property name="documentTitle">
+          <string notr="true"/>
+         </property>
+         <property name="html">
+          <string notr="true">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu Sans'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="acceptRichText">
+          <bool>false</bool>
+         </property>
+         <property name="placeholderText">
+          <string notr="true"/>
+         </property>
+         <property name="inputMask" stdset="0">
+          <string notr="true"/>
+         </property>
+         <property name="text" stdset="0">
+          <string notr="true">R_Address</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>Npa/Localité</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <property name="spacing">
+          <number>2</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLineEdit" name="R_Npa">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="toolTip">
+            <string notr="true"/>
+           </property>
+           <property name="statusTip">
+            <string notr="true"/>
+           </property>
+           <property name="accessibleName">
+            <string notr="true"/>
+           </property>
+           <property name="accessibleDescription">
+            <string notr="true"/>
+           </property>
+           <property name="inputMask">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string notr="true">R_Npa</string>
+           </property>
+           <property name="maxLength">
+            <number>9</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="R_city">
+           <property name="minimumSize">
+            <size>
+             <width>290</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>R_Localité</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="12" column="0">
+        <widget class="QLabel" name="label_12">
+         <property name="text">
+          <string>Date naissance</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="1">
+        <widget class="QDateEdit" name="R_date">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDate|Qt::ImhPreferNumbers</set>
+         </property>
+         <property name="maximumDateTime">
+          <datetime>
+           <hour>23</hour>
+           <minute>59</minute>
+           <second>59</second>
+           <year>7918</year>
+           <month>1</month>
+           <day>1</day>
+          </datetime>
+         </property>
+         <property name="maximumDate">
+          <date>
+           <year>7918</year>
+           <month>1</month>
+           <day>1</day>
+          </date>
+         </property>
+         <property name="displayFormat">
+          <string>dd MMMM yyyy</string>
+         </property>
+         <property name="calendarPopup">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="0">
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>Marque</string>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="1">
+        <widget class="QComboBox" name="R_brandMenu">
+         <property name="toolTip">
+          <string notr="true"/>
+         </property>
+         <property name="statusTip">
+          <string notr="true"/>
+         </property>
+         <property name="accessibleName">
+          <string notr="true"/>
+         </property>
+         <property name="accessibleDescription">
+          <string notr="true"/>
+         </property>
+         <property name="editable">
+          <bool>false</bool>
+         </property>
+         <property name="currentText">
+          <string notr="true"/>
+         </property>
+        </widget>
+       </item>
+       <item row="19" column="0">
         <widget class="QLabel" name="label_8">
          <property name="text">
           <string>Numéro course</string>
          </property>
         </widget>
        </item>
-       <item row="8" column="1">
+       <item row="19" column="1">
         <widget class="QLineEdit" name="R_number">
          <property name="toolTip">
           <string notr="true"/>
@@ -336,14 +543,14 @@
          </property>
         </widget>
        </item>
-       <item row="10" column="0">
+       <item row="22" column="0">
         <widget class="QLabel" name="label_7">
          <property name="text">
           <string>Transpondeur</string>
          </property>
         </widget>
        </item>
-       <item row="10" column="1">
+       <item row="22" column="1">
         <widget class="QLineEdit" name="R_transponder">
          <property name="toolTip">
           <string notr="true"/>
@@ -368,130 +575,14 @@
          </property>
         </widget>
        </item>
-       <item row="12" column="0">
+       <item row="24" column="0">
         <widget class="QLabel" name="label_9">
          <property name="text">
           <string>Catégorie</string>
          </property>
         </widget>
        </item>
-       <item row="2" column="0">
-        <widget class="QLabel" name="label_10">
-         <property name="text">
-          <string>Localité</string>
-         </property>
-        </widget>
-       </item>
-       <item row="2" column="1">
-        <widget class="QLineEdit" name="R_city">
-         <property name="text">
-          <string>R_Localité</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="0">
-        <widget class="QLabel" name="label_11">
-         <property name="text">
-          <string>Marque</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="1">
-        <widget class="QLineEdit" name="R_brand">
-         <property name="mouseTracking">
-          <bool>false</bool>
-         </property>
-         <property name="acceptDrops">
-          <bool>false</bool>
-         </property>
-         <property name="statusTip">
-          <string notr="true"/>
-         </property>
-         <property name="accessibleName">
-          <string notr="true"/>
-         </property>
-         <property name="accessibleDescription">
-          <string notr="true"/>
-         </property>
-         <property name="inputMask">
-          <string notr="true"/>
-         </property>
-         <property name="text">
-          <string notr="true">Marque Moto</string>
-         </property>
-         <property name="placeholderText">
-          <string notr="true"/>
-         </property>
-        </widget>
-       </item>
-       <item row="3" column="0">
-        <widget class="QLabel" name="label_12">
-         <property name="text">
-          <string>Date naissance</string>
-         </property>
-        </widget>
-       </item>
-       <item row="11" column="0" colspan="2">
-        <spacer name="horizontalSpacer">
-         <property name="orientation">
-          <enum>Qt::Horizontal</enum>
-         </property>
-         <property name="sizeHint" stdset="0">
-          <size>
-           <width>40</width>
-           <height>20</height>
-          </size>
-         </property>
-        </spacer>
-       </item>
-       <item row="7" column="1">
-        <widget class="QComboBox" name="R_brandMenu">
-         <property name="toolTip">
-          <string notr="true"/>
-         </property>
-         <property name="statusTip">
-          <string notr="true"/>
-         </property>
-         <property name="accessibleName">
-          <string notr="true"/>
-         </property>
-         <property name="accessibleDescription">
-          <string notr="true"/>
-         </property>
-         <property name="editable">
-          <bool>false</bool>
-         </property>
-         <property name="currentText">
-          <string notr="true">TM Racing</string>
-         </property>
-         <item>
-          <property name="text">
-           <string notr="true">TM Racing</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string notr="true">Yamaha</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string notr="true">Honda</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string notr="true">Suzuki</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string notr="true">Citrouille Pourrie</string>
-          </property>
-         </item>
-        </widget>
-       </item>
-       <item row="12" column="1">
+       <item row="24" column="1">
         <widget class="QTreeWidget" name="R_Categorie">
          <property name="toolTip">
           <string notr="true"/>
@@ -635,35 +726,125 @@
          </item>
         </widget>
        </item>
-       <item row="3" column="1">
-        <widget class="QDateEdit" name="R_date">
-         <property name="inputMethodHints">
-          <set>Qt::ImhDate|Qt::ImhPreferNumbers</set>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="R_lastname">
+         <property name="minimumSize">
+          <size>
+           <width>420</width>
+           <height>0</height>
+          </size>
          </property>
-         <property name="maximumDateTime">
-          <datetime>
-           <hour>23</hour>
-           <minute>59</minute>
-           <second>59</second>
-           <year>7918</year>
-           <month>1</month>
-           <day>1</day>
-          </datetime>
-         </property>
-         <property name="maximumDate">
-          <date>
-           <year>7918</year>
-           <month>1</month>
-           <day>1</day>
-          </date>
-         </property>
-         <property name="displayFormat">
-          <string>dd MMMM yyyy</string>
-         </property>
-         <property name="calendarPopup">
-          <bool>true</bool>
+         <property name="text">
+          <string>R_LastName</string>
          </property>
         </widget>
+       </item>
+       <item row="21" column="0" colspan="2">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="label_14">
+         <property name="text">
+          <string>Pays</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QComboBox" name="R_Pays"/>
+       </item>
+       <item row="14" column="0">
+        <widget class="QLabel" name="label_15">
+         <property name="text">
+          <string>Téléphones:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="1">
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <property name="spacing">
+          <number>6</number>
+         </property>
+         <property name="leftMargin">
+          <number>6</number>
+         </property>
+         <property name="rightMargin">
+          <number>6</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="label_16">
+           <property name="text">
+            <string>Privé:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="R_telephone">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="mouseTracking">
+            <bool>true</bool>
+           </property>
+           <property name="toolTip">
+            <string notr="true"/>
+           </property>
+           <property name="statusTip">
+            <string notr="true"/>
+           </property>
+           <property name="accessibleName">
+            <string notr="true"/>
+           </property>
+           <property name="accessibleDescription">
+            <string notr="true"/>
+           </property>
+           <property name="inputMethodHints">
+            <set>Qt::ImhDialableCharactersOnly|Qt::ImhFormattedNumbersOnly</set>
+           </property>
+           <property name="inputMask">
+            <string>+##/####/### ####</string>
+           </property>
+           <property name="text">
+            <string notr="true">+41/21/123 4568</string>
+           </property>
+           <property name="placeholderText">
+            <string notr="true"/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_17">
+           <property name="text">
+            <string>Urgence:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="R_Urgence">
+           <property name="inputMethodHints">
+            <set>Qt::ImhDialableCharactersOnly|Qt::ImhFormattedNumbersOnly</set>
+           </property>
+           <property name="inputMask">
+            <string notr="true">+##/####/### ####</string>
+           </property>
+           <property name="text">
+            <string notr="true">+41/33/211 6623</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
        </item>
       </layout>
      </widget>

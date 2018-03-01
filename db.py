@@ -57,10 +57,10 @@ class db(  ):
 		finally:
 			return data
 
-	def getRecord(self,  wclause ):
+	def getRecord(self,  wclause,  index = 0 ):
 		try:
 			cursor = self._link.cursor()
-			cursor.execute("SELECT * FROM "+ self.__class__.__name__+" WHERE "+wclause+" LIMIT ,1")
+			cursor.execute("SELECT * FROM "+ self.__class__.__name__+" WHERE "+wclause+" LIMIT %d,1"%(index ))
 			data = cursor.fetchone()
 			cursor.close()
 			if data == None:
@@ -71,6 +71,7 @@ class db(  ):
 					self._data[self._desc[i][0]] = data[i]
 		except Exception as e:
 			print(e)
+			return False
 		return True
 
 	def getNextRecord(self ):
@@ -87,6 +88,7 @@ class db(  ):
 					self._data[self._desc[i][0]] = data[i]
 		except Exception as e:
 			print(e)
+			return False
 		self._index += 1
 		return True
 

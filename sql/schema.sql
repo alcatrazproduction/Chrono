@@ -35,5 +35,7 @@ CREATE TABLE IF NOT EXISTS   T_Pays
 (
 	id				CHAR(3)						NOT NULL PRIMARY KEY,
 	numero		INT							,
-	nom			VARCHAR(100)
+	nom			VARCHAR(100)			,
+	display		BIT(1) 						NOT NULL DEFAULT FALSE
+
 );

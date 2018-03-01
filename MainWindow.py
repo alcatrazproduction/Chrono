@@ -2,38 +2,15 @@
 
 from PyQt5.QtGui		import	QFont
 from PyQt5 				import   QtWidgets, QtCore
+from Ui_MainWindow	import Ui_MainWindow
+# Tables definition imports
 from T_Marques		import 	T_Marques
 from T_Concurrents	import 	T_Concurrents
-from Ui_MainWindow	import Ui_MainWindow
+from T_Pays			import 	T_Pays
 
 import	Globals
 
-racer = [
-#	[66,'SCHAFER',"Alain","Fribourg","Honda"],
-#	[906,"CORTIJO","Yohan","Illarsaz","Yamaha"],
-#	[28,"POGET","Elies","Echandens","KTM"],
-#	[718,"YERLY","Cedric","Treyvaux","Kawasaki"],
-#	[819,"WENGER","Marc","Alterswil","Husqvarna"],
-#	[3,"PEISSARD","Patrick","Matran","Kawasaki"],
-#	[108,"FAHRNI","Normand","Broc","Suzuki"],
-#	[15,"SIMOND","Baptiste","Lovatens","Honda"],
-#	[100,"SCHAFER","Samuel","Giffers","Honda"],
-#	[94,"AEBERSOLD","Remo","Bleiken","Yamaha"],
-#	[11,"FRACHEBOUD","Louis","Puidoux","Yamaha"],
-#	[222,"BRODARD","Olivier","Posieux","Honda"],
-#	[49,"COUTAZ","Sebastien","Genolier","KTM"],
-#	[12,"SCHUPBACH","Valentin","Arconciel","Kawasaki"],
-#	[221,"HINNI","Joel","Zollikofen","Yamaha"],
-#	[932,"SALLIN","Junior","Belfaux","Kawasaki"],
-#	[17,"DA VEIGA","Diego","Vendlincourt","KTM"],
-#	[892,"KILCHOER","Loec","La Roche","KTM"],
-#	[907,"SALLIN","Louis","Belfaux","KTM"],
-#	[32,"SCHUPBACH","David","Arconciel","Kawasaki"],
-#	[2,"GUISOLAN","Sven","Noreaz","TM"],
-#	[59,"CHAUTEMS","Remy","Chene-Paquier","Suzuki"],
-#	[421,"WAEBER","Mathieu","Ecuvillens","Yamaha"],
-#	[129,"ZUGER","Neal","Cressier","KTM"]
-]
+racer = []
 
 _categorie = [
 	["MX1", ["Top", "Pro", "Carton"]],
@@ -143,4 +120,11 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		while self.marques.getNextRecord():
 			c = dict( self.marques._data )
 			self.R_brandMenu.addItem(c['nom'], c['id'])
+		self.pays = T_Pays()
+		self.R_Pays.clear()
+		i = 0
+		while self.pays.getRecord("display = TRUE", i):
+			c = dict( self.pays._data )
+			self.R_Pays.addItem(c['nom'], c['id'])
+			i += 1
 		self.show()
