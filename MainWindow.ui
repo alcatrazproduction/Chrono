@@ -431,7 +431,7 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="R_city">
+          <widget class="QLineEdit" name="R_City">
            <property name="minimumSize">
             <size>
              <width>290</width>

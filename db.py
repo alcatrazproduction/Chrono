@@ -8,7 +8,7 @@ class db(  ):
 
 	def __init__(self):
 		if self._link == None:
-			self._link = MySQLdb.connect("localhost","Chrono","Chrono","Chrono" )
+			self._link = MySQLdb.connect("localhost","Chrono","Chrono","Chrono", charset='utf8')
 		if self._desc == None:	# init table description, one for all instance
 			self._desc = []
 		if self._link != None:
@@ -65,6 +65,7 @@ class db(  ):
 			cursor.close()
 			if data == None:
 				self.newRecord()
+				print("SELECT * FROM "+ self.__class__.__name__+" WHERE "+wclause+" LIMIT %d,1"%(index ))
 				return False
 			else:
 				for i in range( 0, len(data) -1 ):
