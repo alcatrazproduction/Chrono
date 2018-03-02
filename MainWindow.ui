@@ -151,13 +151,6 @@
          <property name="verticalSpacing">
           <number>0</number>
          </property>
-         <item row="0" column="0">
-          <widget class="QToolButton" name="toolButton">
-           <property name="text">
-            <string>Ajouter</string>
-           </property>
-          </widget>
-         </item>
          <item row="0" column="2">
           <layout class="QHBoxLayout" name="horizontalLayout">
            <item>
@@ -252,8 +245,30 @@
            </item>
           </layout>
          </item>
+         <item row="0" column="0">
+          <widget class="QToolButton" name="RB_Add">
+           <property name="toolTip">
+            <string notr="true"/>
+           </property>
+           <property name="statusTip">
+            <string notr="true"/>
+           </property>
+           <property name="accessibleName">
+            <string notr="true"/>
+           </property>
+           <property name="accessibleDescription">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Ajouter</string>
+           </property>
+           <property name="shortcut">
+            <string notr="true"/>
+           </property>
+          </widget>
+         </item>
          <item row="0" column="1">
-          <widget class="QPushButton" name="pushButton">
+          <widget class="QToolButton" name="RB_Del">
            <property name="text">
             <string>Effacer</string>
            </property>
@@ -482,14 +497,14 @@ p, li { white-space: pre-wrap; }
          </property>
         </widget>
        </item>
-       <item row="16" column="0">
+       <item row="19" column="0">
         <widget class="QLabel" name="label_11">
          <property name="text">
           <string>Marque</string>
          </property>
         </widget>
        </item>
-       <item row="16" column="1">
+       <item row="19" column="1">
         <widget class="QComboBox" name="R_brandMenu">
          <property name="toolTip">
           <string notr="true"/>
@@ -511,14 +526,14 @@ p, li { white-space: pre-wrap; }
          </property>
         </widget>
        </item>
-       <item row="19" column="0">
+       <item row="22" column="0">
         <widget class="QLabel" name="label_8">
          <property name="text">
           <string>Numéro course</string>
          </property>
         </widget>
        </item>
-       <item row="19" column="1">
+       <item row="22" column="1">
         <widget class="QLineEdit" name="R_number">
          <property name="toolTip">
           <string notr="true"/>
@@ -543,14 +558,14 @@ p, li { white-space: pre-wrap; }
          </property>
         </widget>
        </item>
-       <item row="22" column="0">
+       <item row="27" column="0">
         <widget class="QLabel" name="label_7">
          <property name="text">
           <string>Transpondeur</string>
          </property>
         </widget>
        </item>
-       <item row="22" column="1">
+       <item row="27" column="1">
         <widget class="QLineEdit" name="R_transponder">
          <property name="toolTip">
           <string notr="true"/>
@@ -575,14 +590,14 @@ p, li { white-space: pre-wrap; }
          </property>
         </widget>
        </item>
-       <item row="24" column="0">
+       <item row="29" column="0">
         <widget class="QLabel" name="label_9">
          <property name="text">
           <string>Catégorie</string>
          </property>
         </widget>
        </item>
-       <item row="24" column="1">
+       <item row="29" column="1">
         <widget class="QTreeWidget" name="R_Categorie">
          <property name="toolTip">
           <string notr="true"/>
@@ -739,7 +754,7 @@ p, li { white-space: pre-wrap; }
          </property>
         </widget>
        </item>
-       <item row="21" column="0" colspan="2">
+       <item row="25" column="0" colspan="2">
         <spacer name="horizontalSpacer">
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
@@ -846,6 +861,91 @@ p, li { white-space: pre-wrap; }
          </item>
         </layout>
        </item>
+       <item row="16" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>E-Mail</string>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="1">
+        <widget class="QLineEdit" name="R_EMail">
+         <property name="minimumSize">
+          <size>
+           <width>420</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string notr="true"/>
+         </property>
+         <property name="statusTip">
+          <string notr="true"/>
+         </property>
+         <property name="accessibleName">
+          <string notr="true"/>
+         </property>
+         <property name="accessibleDescription">
+          <string notr="true"/>
+         </property>
+         <property name="inputMethodHints">
+          <set>Qt::ImhEmailCharactersOnly</set>
+         </property>
+         <property name="inputMask">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string notr="true">R_EMail</string>
+         </property>
+         <property name="placeholderText">
+          <string notr="true"/>
+         </property>
+        </widget>
+       </item>
+       <item row="23" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Licence(s)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="23" column="1">
+        <widget class="QLineEdit" name="R_licences">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>420</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string notr="true"/>
+         </property>
+         <property name="statusTip">
+          <string notr="true"/>
+         </property>
+         <property name="accessibleName">
+          <string notr="true"/>
+         </property>
+         <property name="accessibleDescription">
+          <string notr="true"/>
+         </property>
+         <property name="inputMethodHints">
+          <set>Qt::ImhMultiLine</set>
+         </property>
+         <property name="inputMask">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string notr="true">Licences</string>
+         </property>
+        </widget>
+       </item>
       </layout>
      </widget>
     </widget>
@@ -940,5 +1040,22 @@ p, li { white-space: pre-wrap; }
   </action>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>RB_Add</sender>
+   <signal>released()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>39</x>
+     <y>556</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

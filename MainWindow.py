@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-from PyQt5.QtGui		import	QFont
 from PyQt5 				import   QtWidgets, QtCore
 from Ui_MainWindow	import Ui_MainWindow
 # Tables definition imports
@@ -41,11 +40,26 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.findNumber.returnPressed.connect(self.findNumRacer)
 		self.R_Npa.returnPressed.connect(self.findNpa)
 		self.R_City.returnPressed.connect(self.findVille)
+		self.RB_Add.clicked.connect( self.addRacer )
+
+	def addRacer(self):
+		item = QtWidgets.QListWidgetItem()
+		item.setText( "Nouveau" )
+		self.concurrents.newRecord()
+		c = dict( self.concurrents._data )
+		c['transponder'] = 0
+		item.setData( UserRole, c )
+		item.setFont( Globals.C_listFont )
+		self.L_racerlist.addItem(item)
+		self.editRacer( item )
+		title = "%s (%d)"%(QtCore.QCoreApplication.translate("MainWindow", "Concurrents"), self.L_racerlist.count())
+		self.tabWidget.setTabText(self.tabWidget.indexOf(self.Tab_Racer), title)
 
 	def findNpa(self):
 		try:
 			fn = self.R_Npa.text()
-			if self.t_ville.getRecord( "npa LIKE '" + fn +"'"):
+			pa	= self.R_Pays.itemData( self.R_Pays.currentIndex() )
+			if self.t_ville.getRecord( "npa LIKE '%s' AND pays LIKE '%s'"%(fn , pa )):
 				c = dict( self.t_ville._data )
 				self.R_City.setText( c['nom'] )
 				self.R_Npa.setText( c['npa']  )
@@ -56,7 +70,12 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 	def findVille(self):
 		try:
 			fn = self.R_City.text()
-			if self.t_ville.getRecord( "nom LIKE '" + fn +"'"):
+			pa	= self.R_Pays.itemData( self.R_Pays.currentIndex() )
+			if self.t_ville.getRecord( "nom LIKE '%s' AND pays LIKE '%s'"%(fn , pa )):
+				c = dict( self.t_ville._data )
+				self.R_Npa.setText( c['npa']  )
+				self.R_City.setText( c['nom'] )
+			elif self.t_ville.getRecord( "nom LIKE '%s%c' AND pays LIKE '%s'"%(fn ,'%', pa )):
 				c = dict( self.t_ville._data )
 				self.R_Npa.setText( c['npa']  )
 				self.R_City.setText( c['nom'] )
@@ -92,9 +111,10 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			rm = self.R_brandMenu.itemData( self.R_brandMenu.currentIndex() )
 			rp	= self.R_Npa.text()
 			rc	= self.R_City.text()
+			pa	= self.R_Pays.itemData( self.R_Pays.currentIndex() )
 			oldracer			= oldracerItem.data( UserRole )
 			if oldracer is None:
-				oldracer = [ 0,  "", "",  "", "",  0]
+				oldracer = [ ]
 
 			oldracer['numero']			= rn
 			oldracer['nom']					= rl
@@ -103,6 +123,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			oldracer['moto']				= rm
 			oldracer['ville']				= rc
 			oldracer['npa']					= rp
+			oldracer['pays']				= pa
 			oldracerItem.setText( Globals.C_concurrents_item_fmt %  ( oldracer['numero'],   oldracer['nom'],  oldracer['prenom'] ) )
 			oldracerItem.setData( UserRole,  oldracer )
 
@@ -115,11 +136,12 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			self.R_lastname.setText(		racer['nom'] )
 			self.R_firstname.setText(		racer['prenom'] )
 			self.R_number.setText(		"%d"%racer['numero'] )
-#			if len( racer ) > 5:
 			self.R_transponder.setText(	"%d"%racer['transponder'])
-#			else:
-#				self.R_transponder.setText(	"")
 			self.R_brandMenu.setCurrentIndex( self.R_brandMenu.findData(racer['moto']))
+			pa 						= racer['pays']
+			if pa == None:
+				pa = 'CHE'
+			self.R_Pays.setCurrentIndex( self.R_Pays.findData( pa ))
 			self.__RacerEdited = item
 			self.R_Npa.setText(			racer['npa'])
 			self.R_City.setText(				racer['ville'])
@@ -153,19 +175,14 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			racer.append( c )
 
 	def initGuiConcurrents(self):
-		font = QFont()
-		font.setFamily("Courier New")
-		font.setPointSize(8)
-		font.setBold(False)
-		font.setItalic(False)
-		font.setWeight(50)
-		font.setKerning(False)
 		for i in racer:
 			item = QtWidgets.QListWidgetItem()
 			item.setText( Globals.C_concurrents_item_fmt %  ( i['numero'],   i['nom'],  i['prenom'] ) )
 			item.setData( UserRole, i )
-			item.setFont( font )
+			item.setFont( Globals.C_listFont )
 			self.L_racerlist.addItem(item)
+		title = "%s (%d)"%(QtCore.QCoreApplication.translate("MainWindow", "Concurrents"), self.L_racerlist.count())
+		self.tabWidget.setTabText(self.tabWidget.indexOf(self.Tab_Racer), title)
 
 	def initGui(self):
 		self.t_ville = T_Ville()

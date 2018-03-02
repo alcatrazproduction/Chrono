@@ -26,7 +26,8 @@ CREATE TABLE T_Concurrents
 	urgence		TINYTEXT						,
 	bithday		DATE							,
 	licences		TINYTEXT						,
-	remarques	TEXT
+	remarques	TEXT							,
+	email			TINYTEXT
 );
 
 # Liste pays iso
@@ -44,7 +45,7 @@ CREATE TABLE IF NOT EXISTS   T_Pays
 #DROP TABLE IF EXISTS Chrono.T_Ville;
 CREATE TABLE IF NOT EXISTS   Chrono.T_Ville
 (
-	id				CHAR(3)						NOT NULL,
+	pays			CHAR(3)						NOT NULL,
 	nom			VARCHAR(50)				NOT NULL,
 	npa			VARCHAR(10)				NOT NULL,
 	canton		VARCHAR(50)				NOT NULL
