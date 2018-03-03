@@ -15,29 +15,31 @@ class decoder_task():
 	soc_port		= 10000
 
 	def __init__(self, sdev, baud=115200):
+		print( sdev )
 		try:
 			d = self.task[ sdev ]
 			return
 		except:
-			d	= dict([])
+
+			d					= dict()
 			d['device']		= sdev
 			d['ip']			= self.soc_ip
-			d['port']		= self.soc_port + self.task.count()
+			d['port']		= self.soc_port + len( self.task )
 			d['baud']		= baud
 
-			p = Process(target=decoder, args=(d))
+			p = Process( target=self.decoder, args=(d['device'], d['baud'], d['ip'], d['port']))
 			d['pid']			= p
 			self.task[sdev]	= d
+			p.start()
 
-	def decoder(tk):
-		theSer = serial.Serial( tk['device'], tk['baud'])
+
+	def decoder(self, device, baud,  ip, port):
+		theSer = serial.Serial( device, baud)
 		if not theSer.is_open:
 			print( "ERROR Opening: ")
-			print( tk['device'])
+			print( device)
 			print("\n")
 			exit( -2)
-		tk['iop']				= theSer
-
 #try :
 # Connect to the database
 #	 cnx = mysql.connector.connect(user='cano',host='127.0.0.1',database='cano')
@@ -48,8 +50,7 @@ class decoder_task():
 #finally:
 #	print("DB Ok")
 #cmd = "INSERT INTO passage (id,timecode,transponder,millis) VALUE (NULL,NOW(),%s,%s)"
-
-		multicast_group = (tk['ip'], tk['port'])
+		multicast_group = (ip,port)
 
 # Create the datagram socket
 		sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project Chrono -->
-<!-- Saved: 2018-03-03, 18:40:47 -->
+<!-- Saved: 2018-03-03, 20:10:57 -->
 <!-- Copyright (C) 2018 Yves Huguenin, yves.huguenin@dreampitbikes.ch -->
 <Project version="5.1">
   <Language></Language>
@@ -24,6 +24,7 @@
     <Source>__main__.py</Source>
     <Source>best_lap.py</Source>
     <Source>db.py</Source>
+    <Source>decoder_task.py</Source>
     <Source>read_tp.py</Source>
     <Source>receive.py</Source>
     <Source>sql/CodepostalSuisse.sql</Source>
