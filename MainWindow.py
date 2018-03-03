@@ -53,7 +53,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.L_racerlist.addItem(item)
 		self.editRacer( item )
 		title = "%s (%d)"%(QtCore.QCoreApplication.translate("MainWindow", "Concurrents"), self.L_racerlist.count())
-		self.tabWidget.setTabText(self.tabWidget.indexOf(self.Tab_Racer), title)
+		self.Tab_Container.setTabText(self.Tab_Container.indexOf(self.T_Racer), title)
 
 	def findNpa(self):
 		try:
@@ -182,7 +182,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			item.setFont( Globals.C_listFont )
 			self.L_racerlist.addItem(item)
 		title = "%s (%d)"%(QtCore.QCoreApplication.translate("MainWindow", "Concurrents"), self.L_racerlist.count())
-		self.tabWidget.setTabText(self.tabWidget.indexOf(self.Tab_Racer), title)
+		self.Tab_Container.setTabText(self.Tab_Container.indexOf(self.T_Racer), title)
 
 	def initGui(self):
 		self.t_ville = T_Ville()

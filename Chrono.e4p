@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project Chrono -->
-<!-- Saved: 2018-02-20, 21:51:43 -->
+<!-- Saved: 2018-03-03, 18:40:47 -->
 <!-- Copyright (C) 2018 Yves Huguenin, yves.huguenin@dreampitbikes.ch -->
 <Project version="5.1">
   <Language></Language>
@@ -13,12 +13,23 @@
   <Email>yves.huguenin@dreampitbikes.ch</Email>
   <Eol index="0"/>
   <Sources>
+    <Source>Globals.py</Source>
     <Source>MainWindow.py</Source>
+    <Source>T_Concurrents.py</Source>
+    <Source>T_Marques.py</Source>
+    <Source>T_Pays.py</Source>
+    <Source>T_Ville.py</Source>
     <Source>Ui_MainWindow.py</Source>
     <Source>__init__.py</Source>
     <Source>__main__.py</Source>
     <Source>best_lap.py</Source>
+    <Source>db.py</Source>
+    <Source>read_tp.py</Source>
     <Source>receive.py</Source>
+    <Source>sql/CodepostalSuisse.sql</Source>
+    <Source>sql/iso_pays.sql</Source>
+    <Source>sql/schema.sql</Source>
+    <Source>sql/test_data.sql</Source>
   </Sources>
   <Forms/>
   <Translations/>
@@ -28,6 +39,8 @@
     <Other>.gitignore</Other>
     <Other>build_ui.sh</Other>
     <Other>list_coureurs.txt</Other>
+    <Other>sql/schema.sql</Other>
+    <Other>sql/test_data.sql</Other>
   </Others>
   <MainScript>__main__.py</MainScript>
   <Vcs>
