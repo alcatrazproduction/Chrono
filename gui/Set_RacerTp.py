@@ -10,10 +10,26 @@ from Ui_Set_RacerTp	import Ui_Set_RacerTp
 #from T_Ville				import 	T_Ville
 import	Globals
 
-class Set_RacerTp(QtWidgets.QMainWindow, Ui_Set_RacerTp):
+class Set_RacerTp(QtWidgets.QDialog, Ui_Set_RacerTp):
 	def __init__(self, parent=None):
+		r_num	= None
+		r_fname	= None
+		r_lname	= None
+		r_dict		= None
+
 		super(Set_RacerTp, self).__init__(parent)
 		self.setupUi(self)
+	def getNum(self):
+		return self.r_num
+
+	def getFname(self):
+		return self.r_fname
+
+	def getLname(self):
+			return self.r_lname
+
+	def getDict(self):
+		return self.r_dict
 
 	def main(self):
 		self.connectActions()
@@ -23,7 +39,22 @@ class Set_RacerTp(QtWidgets.QMainWindow, Ui_Set_RacerTp):
 	def initGui(self):
 		print()
 
-	def connectActions(self):
-#		self.actionQuitter.triggered.connect(QtWidgets.qApp.quit)
-		print()
+	def findNumRacer(self):
+		try:
+			fn = int( self.R_number.text() )
+			item = Globals.MainWindow.L_racerlist.findItems( "%4.0d"%fn,  QtCore.Qt.MatchStartsWith)
+		except:
+			return
+		if len( item )>0:
+			d						=  item[0].data(Globals.UserRole)
+			self.R_firstname.setText( d['prenom'] )
+			self.R_lastname.setText( d['nom'] )
+			self.r_num	= fn
+			self.r_fname	= d['prenom']
+			self.r_lname	= d['nom']
+			self.r_dict		= d
 
+	def connectActions(self):
+		self.R_number.returnPressed.connect(self.findNumRacer)
+
+# Globals.MainWindow

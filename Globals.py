@@ -33,3 +33,6 @@ def createTime( milli):
 	days		= ( milli / 4000 / 3600 / 24 ) %10
 	milli		= milli % 4000
 	return '{:0d}'.format(heure)+':'+'{:02d}'.format(minute)+':'+'{:02d}'.format(second)+'.'+'{:04d}'.format(milli)
+
+MainWindow		= None
+UserRole	 		= 0x0100

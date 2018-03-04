@@ -9,7 +9,7 @@ from T_Concurrents	import 	T_Concurrents
 from T_Pays			import 	T_Pays
 from T_Ville				import 	T_Ville
 import	Globals
-from gui.Set_RacerTp	import 	Set_RacerTp
+from Set_RacerTp		import 	Set_RacerTp
 racerList = {}
 
 _categorie = [
@@ -19,7 +19,7 @@ _categorie = [
 	["MX125", ["Top", "Pro", "Carton"]],
 	["MX3", ["MX3", "Carton"]]
 ]
-UserRole	 = 0x0100
+
 
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 	__RacerEdited = None
@@ -41,6 +41,16 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.R_Npa.returnPressed.connect(self.findNpa)
 		self.R_City.returnPressed.connect(self.findVille)
 		self.RB_Add.clicked.connect( self.addRacer )
+		self.TM_T_passage.itemDoubleClicked.connect(self.setRacerTb)
+
+	def setRacerTb(self, item):
+		row 	= self.TM_T_passage.currentRow()
+		dlg 	= Set_RacerTp()
+		dlg.main()
+		if dlg.exec_():
+			print ( dlg.getFname() )
+			d = dlg.getDict()
+			d['transponder'] = int( self.TM_T_passage.text(row, 2) )
 
 	def addRacer(self):
 		item = QtWidgets.QListWidgetItem()
@@ -48,7 +58,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.concurrents.newRecord()
 		c = dict( self.concurrents._data )
 		c['transponder'] = 0
-		item.setData( UserRole, c )
+		item.setData( Globals.UserRole, c )
 		item.setFont( Globals.C_listFont )
 		self.L_racerlist.addItem(item)
 		self.editRacer( item )
@@ -95,7 +105,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			self.editRacer( item[0] )
 
 	def editRacer(self, item):
-		racer = item.data(UserRole)
+		racer = item.data(Globals.UserRole)
 		print (racer)
 		oldracerItem = self.__RacerEdited
 		if oldracerItem is not None:
@@ -113,7 +123,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			rp	= self.R_Npa.text()
 			rc	= self.R_City.text()
 			pa	= self.R_Pays.itemData( self.R_Pays.currentIndex() )
-			oldracer			= oldracerItem.data( UserRole )
+			oldracer			= oldracerItem.data( Globals.UserRole )
 			if oldracer is None:
 				oldracer = [ ]
 
@@ -126,7 +136,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			oldracer['npa']					= rp
 			oldracer['pays']				= pa
 			oldracerItem.setText( Globals.C_concurrents_item_fmt %  ( oldracer['numero'],   oldracer['nom'],  oldracer['prenom'] ) )
-			oldracerItem.setData( UserRole,  oldracer )
+			oldracerItem.setData( Globals.UserRole,  oldracer )
 
 		if racer is None :
 			self.R_lastname.setText(		"" )
@@ -180,7 +190,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			i = racerList[ii]
 			item = QtWidgets.QListWidgetItem()
 			item.setText( Globals.C_concurrents_item_fmt %  ( i['numero'],   i['nom'],  i['prenom'] ) )
-			item.setData( UserRole, i )
+			item.setData( Globals.UserRole, i )
 			item.setFont( Globals.C_listFont )
 			self.L_racerlist.addItem(item)
 		title = "%s (%d)"%(QtCore.QCoreApplication.translate("MainWindow", "Concurrents"), self.L_racerlist.count())
