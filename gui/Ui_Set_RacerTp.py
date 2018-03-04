@@ -74,6 +74,7 @@ class Ui_Set_RacerTp(object):
         self.verticalLayout.setContentsMargins(0, 0, 0, 0)
         self.verticalLayout.setObjectName("verticalLayout")
         self.OkBtn = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.OkBtn.setEnabled(False)
         self.OkBtn.setFocusPolicy(QtCore.Qt.NoFocus)
         self.OkBtn.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
         self.OkBtn.setToolTip("")

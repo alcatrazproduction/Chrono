@@ -207,6 +207,9 @@
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QPushButton" name="OkBtn">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
       <property name="focusPolicy">
        <enum>Qt::NoFocus</enum>
       </property>

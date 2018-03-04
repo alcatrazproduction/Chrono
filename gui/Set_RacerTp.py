@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 from PyQt5 				import   QtWidgets, QtCore
-from PyQt5.QtCore	import QTimer
 from Ui_Set_RacerTp	import Ui_Set_RacerTp
 # Tables definition imports
 #from T_Marques		import 	T_Marques
@@ -12,10 +11,12 @@ import	Globals
 
 class Set_RacerTp(QtWidgets.QDialog, Ui_Set_RacerTp):
 	def __init__(self, parent=None):
-		r_num	= None
-		r_fname	= None
-		r_lname	= None
-		r_dict		= None
+		self.r_num		= None
+		self.r_fname		= None
+		self.r_lname		= None
+		self.r_dict		= None
+		self.r_item		= None
+		self.r_index		= None
 
 		super(Set_RacerTp, self).__init__(parent)
 		self.setupUi(self)
@@ -46,13 +47,17 @@ class Set_RacerTp(QtWidgets.QDialog, Ui_Set_RacerTp):
 		except:
 			return
 		if len( item )>0:
-			d						=  item[0].data(Globals.UserRole)
+			d						=  Globals.racerList[ item[0].data(Globals.UserRole) ]
+			self.r_item			=  item[0]
 			self.R_firstname.setText( d['prenom'] )
 			self.R_lastname.setText( d['nom'] )
-			self.r_num	= fn
-			self.r_fname	= d['prenom']
-			self.r_lname	= d['nom']
-			self.r_dict		= d
+			self.r_num			= fn
+			self.r_fname			= d['prenom']
+			self.r_lname			= d['nom']
+			self.r_dict			= d
+			self.OkBtn.setEnabled(True)
+		else:
+			self.OkBtn.setEnabled(False)
 
 	def connectActions(self):
 		self.R_number.returnPressed.connect(self.findNumRacer)

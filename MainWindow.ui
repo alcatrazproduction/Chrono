@@ -1730,6 +1730,11 @@ p, li { white-space: pre-wrap; }
          <attribute name="verticalHeaderMinimumSectionSize">
           <number>10</number>
          </attribute>
+         <row>
+          <property name="text">
+           <string>New Row</string>
+          </property>
+         </row>
          <column>
           <property name="text">
            <string>Pos</string>
@@ -1772,6 +1777,29 @@ p, li { white-space: pre-wrap; }
            <string notr="true"/>
           </property>
          </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="background">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>0</red>
+             <green>255</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </property>
+         </item>
         </widget>
        </item>
        <item>

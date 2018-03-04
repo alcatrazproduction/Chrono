@@ -1,8 +1,9 @@
 #!/usr/bin/python
 
 from PyQt5 				import   QtWidgets, QtCore
-from PyQt5.QtCore	import QTimer
-from Ui_MainWindow	import Ui_MainWindow
+from PyQt5.QtCore	import 	QTimer
+from PyQt5.QtGui		import	QBrush
+from Ui_MainWindow	import 	Ui_MainWindow
 # Tables definition imports
 from T_Marques		import 	T_Marques
 from T_Concurrents	import 	T_Concurrents
@@ -10,7 +11,6 @@ from T_Pays			import 	T_Pays
 from T_Ville				import 	T_Ville
 import	Globals
 from Set_RacerTp		import 	Set_RacerTp
-racerList = {}
 
 _categorie = [
 	["MX1", ["Top", "Pro", "Carton"]],
@@ -48,9 +48,12 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		dlg 	= Set_RacerTp()
 		dlg.main()
 		if dlg.exec_():
-			print ( dlg.getFname() )
+			if dlg.getDict() == None:
+				return
 			d = dlg.getDict()
-			d['transponder'] = int( self.TM_T_passage.text(row, 2) )
+			tp = int( self.TM_T_passage.item(row, 2).text() )
+			d['transponder'] = tp
+			Globals.tpRacerList[ Globals.C_concurrents_TP_fmt%tp]=dlg.r_item.data(Globals.UserRole)
 
 	def addRacer(self):
 		item = QtWidgets.QListWidgetItem()
@@ -64,7 +67,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.editRacer( item )
 		title = "%s (%d)"%(QtCore.QCoreApplication.translate("MainWindow", "Concurrents"), self.L_racerlist.count())
 		self.Tab_Container.setTabText(self.Tab_Container.indexOf(self.T_Racer), title)
-		racerList["TP_%d"%( len(racerList)+1 )] = c
+		Globals.racerList[ Globals.C_concurrents_ID_fmt%( len(Globals.racerList)+10001 )] = c
 
 	def findNpa(self):
 		try:
@@ -105,7 +108,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			self.editRacer( item[0] )
 
 	def editRacer(self, item):
-		racer = item.data(Globals.UserRole)
+		id = item.data(Globals.UserRole)
+		print (id)
+		racer = Globals.racerList[ id]
 		print (racer)
 		oldracerItem = self.__RacerEdited
 		if oldracerItem is not None:
@@ -123,20 +128,24 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			rp	= self.R_Npa.text()
 			rc	= self.R_City.text()
 			pa	= self.R_Pays.itemData( self.R_Pays.currentIndex() )
-			oldracer			= oldracerItem.data( Globals.UserRole )
+			oldracer			=  Globals.racerList[ oldracerItem.data( Globals.UserRole )]
 			if oldracer is None:
 				oldracer = [ ]
 
 			oldracer['numero']			= rn
 			oldracer['nom']					= rl
 			oldracer['prenom']			= rf
-			oldracer['transponder'] 		= rt
+			if oldracer['transponder'] != rt:
+				if Globals.C_concurrents_TP_fmt%oldracer['transponder'] in Globals.tpRacerList:
+					Globals.tpRacerList.pop( Globals.C_concurrents_TP_fmt%oldracer['transponder'] )
+				oldracer['transponder'] 		= rt
+				Globals.tpRacerList[ Globals.C_concurrents_TP_fmt%rt ] = oldracerItem.data( Globals.UserRole )
+
 			oldracer['moto']				= rm
 			oldracer['ville']				= rc
 			oldracer['npa']					= rp
 			oldracer['pays']				= pa
 			oldracerItem.setText( Globals.C_concurrents_item_fmt %  ( oldracer['numero'],   oldracer['nom'],  oldracer['prenom'] ) )
-			oldracerItem.setData( Globals.UserRole,  oldracer )
 
 		if racer is None :
 			self.R_lastname.setText(		"" )
@@ -183,14 +192,14 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		while self.concurrents.getNextRecord():
 			c = dict( self.concurrents._data )
 			c['transponder'] = 0
-			racerList["TP_%d"%( len(racerList)+1 )] = c
+			Globals.racerList[ Globals.C_concurrents_ID_fmt%( c['id'] )] = c
 
 	def initGuiConcurrents(self):
-		for ii in racerList:
-			i = racerList[ii]
+		for id in Globals.racerList:
+			i = Globals.racerList[id]
 			item = QtWidgets.QListWidgetItem()
 			item.setText( Globals.C_concurrents_item_fmt %  ( i['numero'],   i['nom'],  i['prenom'] ) )
-			item.setData( Globals.UserRole, i )
+			item.setData( Globals.UserRole, id)
 			item.setFont( Globals.C_listFont )
 			self.L_racerlist.addItem(item)
 		title = "%s (%d)"%(QtCore.QCoreApplication.translate("MainWindow", "Concurrents"), self.L_racerlist.count())
@@ -214,8 +223,14 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
 
 				try:
-					if tp in Globals.dictBestLap:
-						tt = Globals.dictBestLap[tp]
+					if tp in Globals.dictBestLapMonitor:
+						tt = Globals.dictBestLapMonitor[tp]
+						if tt['ridernum']== 0:
+							if "TP_%8.8X"%tp in Globals.tpRacerList :
+								c	= Globals.racerList[ Globals.tpRacerList[ Globals.C_concurrents_TP_fmt%tp ] ]
+								tt['ridername']		= c['nom']							# I_ridername
+								tt['ridernum']		= c['numero']						# I_ridernum
+
 						lap		= millis - tt['lasttick']
 						tt['lasttick' ] = millis
 						tt['lastlap']	= lap
@@ -227,15 +242,16 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 						tt['lapcount']+=1
 						tt['updated']	= True
 					else:
-							Globals.dictBestLap[tp] = dict()
-							tt = Globals.dictBestLap[tp]
+							Globals.dictBestLapMonitor[tp] = dict()
+							tt = Globals.dictBestLapMonitor[tp]
 							tt['bestlap']	=Globals.max_time 									# I_bestlap
 							tt['lastlap'] 	=0 														# I_lastlap
-							if tp in racerList :
-								tt['ridername']		= racerList[tp]['nom']							# I_ridername
-								tt['ridernum']		= racerList[tp]['numero']						# I_ridernum
+							if "TP_%8.8X"%tp in Globals.tpRacerList :
+								c	= Globals.racerList[ Globals.tpRacerList[ Globals.C_concurrents_TP_fmt%tp ] ]
+								tt['ridername']		= c['nom']							# I_ridername
+								tt['ridernum']		= c['numero']						# I_ridernum
 							else:
-								tt['ridername']	="Unknow"
+								tt['ridername']		=""
 								tt['ridernum']		= 0
 							tt['lasttick']		= millis												# I_lasttick
 							tt['lapcount']		= 0 													# I_lapcount
@@ -244,14 +260,27 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 							tt['textcolor']		= Globals.text_inverted + Globals.text_blue	# I_textcolor
 					self.TM_T_passage.setSortingEnabled(False)
 					r		= self.TM_T_passage.rowCount()
+					if r > 40:
+						self.TM_T_passage.removeRow(0)
+						r = 40
 					self.TM_T_passage.insertRow( r )
 					self.TM_T_passage.setRowHeight( r,  12)
 					self.TM_T_passage.setItem(r, 0, QtWidgets.QTableWidgetItem("pos"))
 					self.TM_T_passage.setItem(r ,1, QtWidgets.QTableWidgetItem( Globals.createTime(millis )))
 					self.TM_T_passage.setItem(r, 2, QtWidgets.QTableWidgetItem( "%8d"%tp ))
 					self.TM_T_passage.setItem(r, 3, QtWidgets.QTableWidgetItem(Globals.createTime(tt['lastlap'] )))
-					self.TM_T_passage.setItem(r, 4, QtWidgets.QTableWidgetItem("%5d"%tt['ridernum']))
-					self.TM_T_passage.setItem(r, 5, QtWidgets.QTableWidgetItem(tt['ridername']))
+					if tt['ridernum'] == 0:
+						brush = QBrush(Globals.colorCyan)
+						brush.setStyle(QtCore.Qt.SolidPattern)
+						i = QtWidgets.QTableWidgetItem("")
+						i.setBackground( brush )
+						self.TM_T_passage.setItem(r, 4, i )
+						i = QtWidgets.QTableWidgetItem("")
+						i.setBackground( brush )
+						self.TM_T_passage.setItem(r, 5, i )
+					else:
+						self.TM_T_passage.setItem(r, 4, QtWidgets.QTableWidgetItem("%5d"%tt['ridernum']))
+						self.TM_T_passage.setItem(r, 5, QtWidgets.QTableWidgetItem(tt['ridername']))
 
 				except  ValueError:
 					print("got an error")
