@@ -1,16 +1,16 @@
 #!/usr/bin/python
 
 from PyQt5 				import   QtWidgets, QtCore
+from PyQt5.QtCore	import QTimer
 from Ui_MainWindow	import Ui_MainWindow
 # Tables definition imports
 from T_Marques		import 	T_Marques
 from T_Concurrents	import 	T_Concurrents
 from T_Pays			import 	T_Pays
 from T_Ville				import 	T_Ville
-
 import	Globals
-
-racer = []
+from gui.Set_RacerTp	import 	Set_RacerTp
+racerList = {}
 
 _categorie = [
 	["MX1", ["Top", "Pro", "Carton"]],
@@ -54,6 +54,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.editRacer( item )
 		title = "%s (%d)"%(QtCore.QCoreApplication.translate("MainWindow", "Concurrents"), self.L_racerlist.count())
 		self.Tab_Container.setTabText(self.Tab_Container.indexOf(self.T_Racer), title)
+		racerList["TP_%d"%( len(racerList)+1 )] = c
 
 	def findNpa(self):
 		try:
@@ -172,10 +173,11 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		while self.concurrents.getNextRecord():
 			c = dict( self.concurrents._data )
 			c['transponder'] = 0
-			racer.append( c )
+			racerList["TP_%d"%( len(racerList)+1 )] = c
 
 	def initGuiConcurrents(self):
-		for i in racer:
+		for ii in racerList:
+			i = racerList[ii]
 			item = QtWidgets.QListWidgetItem()
 			item.setText( Globals.C_concurrents_item_fmt %  ( i['numero'],   i['nom'],  i['prenom'] ) )
 			item.setData( UserRole, i )
@@ -191,7 +193,63 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.initListConcurrents()
 		self.initGuiConcurrents()
 
+	def updateMonitor(self):
+		t = Globals.receiver.task
+		for r in t:
+			q = t[r]['queue']
+			while not q.empty():
+				e = q.get_nowait()
+				tp = e.tp
+				millis = e.millis
+
+
+				try:
+					if tp in Globals.dictBestLap:
+						tt = Globals.dictBestLap[tp]
+						lap		= millis - tt['lasttick']
+						tt['lasttick' ] = millis
+						tt['lastlap']	= lap
+						if lap < tt['bestlap']:
+							tt['bestlap'] = lap
+							tt['textcolor'] = Globals.text_inverted + Globals.text_green
+						if lap > tt['bestlap']:
+							tt['textcolor'] = Globals.text_inverted + Globals.text_red
+						tt['lapcount']+=1
+						tt['updated']	= True
+					else:
+							Globals.dictBestLap[tp] = dict()
+							tt = Globals.dictBestLap[tp]
+							tt['bestlap']	=Globals.max_time 									# I_bestlap
+							tt['lastlap'] 	=0 														# I_lastlap
+							if tp in racerList :
+								tt['ridername']		= racerList[tp]['nom']							# I_ridername
+								tt['ridernum']		= racerList[tp]['numero']						# I_ridernum
+							else:
+								tt['ridername']	="Unknow"
+								tt['ridernum']		= 0
+							tt['lasttick']		= millis												# I_lasttick
+							tt['lapcount']		= 0 													# I_lapcount
+							tt['totticks']		= 0.999999999 									# I_totticks
+							tt['updated']		= True												# I_updated
+							tt['textcolor']		= Globals.text_inverted + Globals.text_blue	# I_textcolor
+					self.TM_T_passage.setSortingEnabled(False)
+					r		= self.TM_T_passage.rowCount()
+					self.TM_T_passage.insertRow( r )
+					self.TM_T_passage.setRowHeight( r,  12)
+					self.TM_T_passage.setItem(r, 0, QtWidgets.QTableWidgetItem("pos"))
+					self.TM_T_passage.setItem(r ,1, QtWidgets.QTableWidgetItem( Globals.createTime(millis )))
+					self.TM_T_passage.setItem(r, 2, QtWidgets.QTableWidgetItem( "%8d"%tp ))
+					self.TM_T_passage.setItem(r, 3, QtWidgets.QTableWidgetItem(Globals.createTime(tt['lastlap'] )))
+					self.TM_T_passage.setItem(r, 4, QtWidgets.QTableWidgetItem("%5d"%tt['ridernum']))
+					self.TM_T_passage.setItem(r, 5, QtWidgets.QTableWidgetItem(tt['ridername']))
+
+				except  ValueError:
+					print("got an error")
+
 	def main(self):
 		self.connectActions()
 		self.initGui()
+		self.timer = QTimer()
+		self.timer.timeout.connect(self.updateMonitor)
+		self.timer.start(1000)
 		self.show()

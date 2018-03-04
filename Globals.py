@@ -10,3 +10,26 @@ C_listFont.setBold(False)
 C_listFont.setItalic(False)
 C_listFont.setWeight(50)
 C_listFont.setKerning(False)
+#
+receiver		= None
+decoder		= None
+#
+dictBestLap		= dict()
+dictRace			= dict()
+#
+clear_screen	= chr(27)+"c"
+text_black		= chr(27)+"[30m"
+text_red			= chr(27)+"[31m"
+text_green		= chr(27)+"[32m"
+text_blue			= chr(27)+"[34m"
+text_normal		= chr(27)+"[27m"
+text_inverted	= chr(27)+"[7m"
+max_time		= 0xFFFFFFFF
+
+def createTime( milli):
+	second 	=  ( milli / 4000 ) % 60
+	minute	= ( milli / 4000 / 60 ) % 60
+	heure		= ( milli / 4000 / 3600 ) %24
+	days		= ( milli / 4000 / 3600 / 24 ) %10
+	milli		= milli % 4000
+	return '{:0d}'.format(heure)+':'+'{:02d}'.format(minute)+':'+'{:02d}'.format(second)+'.'+'{:04d}'.format(milli)

@@ -1671,7 +1671,15 @@ p, li { white-space: pre-wrap; }
            <height>200</height>
           </size>
          </property>
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
          <property name="toolTip">
+          <string notr="true"/>
+         </property>
+         <property name="statusTip">
           <string notr="true"/>
          </property>
          <property name="accessibleName">
@@ -1680,8 +1688,20 @@ p, li { white-space: pre-wrap; }
          <property name="accessibleDescription">
           <string notr="true"/>
          </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="sizeAdjustPolicy">
+          <enum>QAbstractScrollArea::AdjustToContents</enum>
+         </property>
          <property name="editTriggers">
-          <set>QAbstractItemView::SelectedClicked</set>
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <property name="tabKeyNavigation">
+          <bool>false</bool>
          </property>
          <property name="showDropIndicator" stdset="0">
           <bool>false</bool>
@@ -1689,12 +1709,39 @@ p, li { white-space: pre-wrap; }
          <property name="dragDropOverwriteMode">
           <bool>false</bool>
          </property>
+         <property name="selectionMode">
+          <enum>QAbstractItemView::SingleSelection</enum>
+         </property>
+         <property name="selectionBehavior">
+          <enum>QAbstractItemView::SelectRows</enum>
+         </property>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>100</number>
+         </attribute>
+         <attribute name="horizontalHeaderMinimumSectionSize">
+          <number>20</number>
+         </attribute>
          <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
           <bool>true</bool>
+         </attribute>
+         <attribute name="verticalHeaderDefaultSectionSize">
+          <number>10</number>
+         </attribute>
+         <attribute name="verticalHeaderMinimumSectionSize">
+          <number>10</number>
          </attribute>
          <column>
           <property name="text">
            <string>Pos</string>
+          </property>
+          <property name="toolTip">
+           <string notr="true"/>
+          </property>
+          <property name="font">
+           <font>
+            <family>DejaVu Sans</family>
+            <pointsize>8</pointsize>
+           </font>
           </property>
          </column>
          <column>
@@ -1710,6 +1757,11 @@ p, li { white-space: pre-wrap; }
          <column>
           <property name="text">
            <string>LapTime</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Numéro</string>
           </property>
          </column>
          <column>

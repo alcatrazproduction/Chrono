@@ -1,7 +1,7 @@
 # 7846F300047B48
 # set @p=0;
 # select id,timecode,transponder,millis-@p as diff,@p:=millis as millis from passage where transponder = 70379;
-from multiprocessing 		import Process
+from threading 		import Thread
 import socket
 import struct
 #import sys
@@ -27,9 +27,10 @@ class decoder_task():
 			d['port']		= self.soc_port + len( self.task )
 			d['baud']		= baud
 
-			p = Process( target=self.decoder, args=(d['device'], d['baud'], d['ip'], d['port']))
+			p = Thread( target=self.decoder, args=(d['device'], d['baud'], d['ip'], d['port']))
 			d['pid']			= p
 			self.task[sdev]	= d
+			p.setDaemon( True )
 			p.start()
 
 
