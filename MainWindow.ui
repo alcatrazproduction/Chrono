@@ -1694,6 +1694,9 @@ p, li { white-space: pre-wrap; }
          <property name="frameShadow">
           <enum>QFrame::Sunken</enum>
          </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
          <property name="sizeAdjustPolicy">
           <enum>QAbstractScrollArea::AdjustToContents</enum>
          </property>
@@ -1715,6 +1718,12 @@ p, li { white-space: pre-wrap; }
          <property name="selectionBehavior">
           <enum>QAbstractItemView::SelectRows</enum>
          </property>
+         <property name="wordWrap">
+          <bool>false</bool>
+         </property>
+         <property name="rowCount">
+          <number>40</number>
+         </property>
          <attribute name="horizontalHeaderDefaultSectionSize">
           <number>100</number>
          </attribute>
@@ -1730,6 +1739,46 @@ p, li { white-space: pre-wrap; }
          <attribute name="verticalHeaderMinimumSectionSize">
           <number>10</number>
          </attribute>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
+         <row/>
          <column>
           <property name="text">
            <string>Pos</string>
@@ -1748,20 +1797,32 @@ p, li { white-space: pre-wrap; }
           <property name="text">
            <string>TimeCode</string>
           </property>
+          <property name="toolTip">
+           <string notr="true"/>
+          </property>
          </column>
          <column>
           <property name="text">
            <string>Transpondeur</string>
+          </property>
+          <property name="toolTip">
+           <string notr="true"/>
           </property>
          </column>
          <column>
           <property name="text">
            <string>LapTime</string>
           </property>
+          <property name="toolTip">
+           <string notr="true"/>
+          </property>
          </column>
          <column>
           <property name="text">
            <string>Numéro</string>
+          </property>
+          <property name="toolTip">
+           <string notr="true"/>
           </property>
          </column>
          <column>
