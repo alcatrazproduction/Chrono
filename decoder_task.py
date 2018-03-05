@@ -58,7 +58,7 @@ class decoder_task():
 
 # Set a timeout so the socket does not block indefinitely when trying
 # to receive data.
-		sock.settimeout(0.2)
+		sock.settimeout(0.1)
 # Set the time-to-live for messages to 1 so they do not go past the
 # local network segment.
 		ttl = struct.pack('b', 10)

@@ -10,12 +10,13 @@ import	Globals
 from MainWindow 				import MainWindow
 from decoder_task			import decoder_task
 from receive					import receive
-def_ser	= "/dev/ttyUSB0"
+from Preferences				import Preferences as pref
+
 
 if __name__=='__main__':
 
-	Globals.decoder		= decoder_task( def_ser )
-	Globals.receiver		= receive( Globals.decoder.task[def_ser]['port'])
+	Globals.decoder		= decoder_task( pref.defaultSerialDevice )
+	Globals.receiver		= receive( Globals.decoder.task[ pref.defaultSerialDevice ]['port'])
 
 	app = QApplication(sys.argv)
 	Globals.MainWindow = MainWindow()

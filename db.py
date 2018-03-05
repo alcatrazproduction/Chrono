@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import MySQLdb
+from Preferences		import Preferences as pref
 
 class db(  ):
 	_link 	= None
@@ -8,7 +9,13 @@ class db(  ):
 
 	def __init__(self):
 		if self._link == None:
-			self._link = MySQLdb.connect("localhost","Chrono","Chrono","Chrono", charset='utf8')
+			self._link = MySQLdb.connect(
+													pref.dataBase['host'],
+													pref.dataBase['user'],
+													pref.dataBase['pass'],
+													pref.dataBase['db'],
+													charset='utf8'
+													)
 		if self._desc == None:	# init table description, one for all instance
 			self._desc = []
 		if self._link != None:
@@ -19,6 +26,9 @@ class db(  ):
 						self._desc.append([r[0], r[1]])
 				except  Exception as e:
 					print(e)
+		else:
+			print("Error openning dataBase")
+			exit( -1 )
 		self._data = {}
 		self.newRecord()
 		self._index	= -1

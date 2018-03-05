@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+
+
 from PyQt5 				import   QtWidgets, QtCore
 from PyQt5.QtCore	import 	QTimer
 from PyQt5.QtGui		import	QBrush
@@ -215,13 +217,11 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 	def updateMonitor(self):
 		t = Globals.receiver.task
 		for r in t:
-			q = t[r]['queue']
+			q = t[r]['queue']['monitor']
 			while not q.empty():
 				e = q.get_nowait()
 				tp = e.tp
 				millis = e.millis
-
-
 				try:
 					if tp in Globals.dictBestLapMonitor:
 						tt = Globals.dictBestLapMonitor[tp]

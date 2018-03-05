@@ -1,10 +1,15 @@
+#
+# Will send the data on the quenes
+#
+
+
 from threading 		import Thread
 from Queue 			import Queue
-from datetime			import datetime
+from time			import time
 
 import socket
 import struct
-import Globals
+#import Globals
 
 class tpEvent(  ) :
 	pos	= None
@@ -34,20 +39,22 @@ class receive:
 		print( port )
 		try:
 			d = self.task[ port ]
+			print( "Allready Open, Sorry")
 			return
 		except:
 
-			d					= dict()
-			d['ip']			= self.soc_ip
-			d['port']		= port
-			d['queue']		= Queue(maxsize=0)
+			d								= dict()
+			d['ip']						= self.soc_ip
+			d['port']					= port
+			d['queue']					= dict()
+			d['queue']['monitor']	= Queue(maxsize=0)
 			p = Thread( target=self.receive_task, args=( d['ip'], d['port'],  d['queue']) )
 			d['pid']			= p
 			self.task[port]	= d
 			p.setDaemon(True)
 			p.start()
 
-	def receive_task(self, ip, port, queue):
+	def receive_task(self, ip, port, queues):
 		server_address = ('', port)
 
 # Create the socket
@@ -69,16 +76,14 @@ class receive:
 
 			data, address = sock.recvfrom(1024)
 			if self.basems	== 0:
-				self.basems	= int(datetime.now().strftime("%s")) * 1000 - int( data[data.find(" "):])
-
-
+				self.basems	= int(time()*1000)  - int( data[data.find(" "):])
 			tp		= int( data[:data.find(" ")])
 			millis	= int( data[data.find(" "):])
 			lap	= 0
-			rt		= "    Record "
-
+#			rt		= "    Record "
 			event		= tpEvent( tp, millis + self.basems )
-			queue.put( event )
+			for q in queues:
+				queues[q].put( event )
 
 			try:
 				if tp in tplist:
@@ -86,12 +91,12 @@ class receive:
 					tplist[tp][0]	= millis
 					if lap < tplist[tp][1]:
 						tplist[tp][1] = lap
-						rt = "New Record!"
+#						rt = "New Record!"
 				else:
 						tplist.setdefault(tp, [])
 						tplist[tp].append( millis )
 						tplist[tp].append( 123456789 )
 			except  ValueError:
 				print("got an error")
-			finally:
-				print ("transponder id: {: 10d}".format( tp ) +", timecode {: 20d}".format( millis ) +", lap time = "+ Globals.createTime( lap )  + " -> "+rt+" " +Globals.createTime( tplist[tp][1]) )
+#			finally:
+#				print ("transponder id: {: 10d}".format( tp ) +", timecode {: 20d}".format( millis ) +", lap time = "+ Globals.createTime( lap )  + " -> "+rt+" " +Globals.createTime( tplist[tp][1]) )
