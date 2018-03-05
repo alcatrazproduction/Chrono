@@ -5,4 +5,3 @@ class Preferences:
 	dataBase['user']				= "Chrono"
 	dataBase['pass']				= "Chrono"
 	dataBase['db']				= "Chrono"
-	dataBase['options']			= "charset='utf8'"

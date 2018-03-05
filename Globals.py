@@ -2,6 +2,7 @@
 from PyQt5.QtGui		import	QFont, QColor
 
 C_concurrents_item_fmt		= "%4.0d %-12.10s %-15.10s"
+C_concurrents_moni_fmt		= "%-12.10s %-15.10s"
 C_concurrents_ID_fmt			= "ID_%16.16X"
 C_concurrents_TP_fmt			= "TP_%8.8X"
 # font used in list

@@ -10,12 +10,12 @@ class db(  ):
 	def __init__(self):
 		if self._link == None:
 			self._link = MySQLdb.connect(
-													pref.dataBase['host'],
-													pref.dataBase['user'],
-													pref.dataBase['pass'],
-													pref.dataBase['db'],
-													charset='utf8'
-													)
+							pref.dataBase['host'],
+							pref.dataBase['user'],
+							pref.dataBase['pass'],
+							pref.dataBase['db'],
+							charset='utf8'
+							)
 		if self._desc == None:	# init table description, one for all instance
 			self._desc = []
 		if self._link != None:

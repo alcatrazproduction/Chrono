@@ -228,8 +228,8 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 						if tt['ridernum']== 0:
 							if "TP_%8.8X"%tp in Globals.tpRacerList :
 								c	= Globals.racerList[ Globals.tpRacerList[ Globals.C_concurrents_TP_fmt%tp ] ]
-								tt['ridername']		= c['nom']							# I_ridername
-								tt['ridernum']		= c['numero']						# I_ridernum
+								tt['ridername']	= Globals.C_concurrents_moni_fmt%(c['nom'], c['prenom'])	# I_ridername
+								tt['ridernum']		= c['numero']										# I_ridernum
 
 						lap		= millis - tt['lasttick']
 						tt['lasttick' ] = millis
