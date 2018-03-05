@@ -215,6 +215,13 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.initGuiConcurrents()
 
 	def updateMonitor(self):
+		def setLine(self, color, row, column, text):
+			brush = QBrush(color)
+			brush.setStyle(QtCore.Qt.SolidPattern)
+			i = QtWidgets.QTableWidgetItem( text )
+			i.setBackground( brush )
+			self.TM_T_passage.setItem(row, column, i )
+
 		t = Globals.receiver.task
 		for r in t:
 			q = t[r]['queue']['monitor']
@@ -222,6 +229,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 				e = q.get_nowait()
 				tp = e.tp
 				millis = e.millis
+				c=Globals.colorWhite
 				try:
 					if tp in Globals.dictBestLapMonitor:
 						tt = Globals.dictBestLapMonitor[tp]
@@ -237,8 +245,10 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 						if lap < tt['bestlap']:
 							tt['bestlap'] = lap
 							tt['textcolor'] = Globals.text_inverted + Globals.text_green
+							c = Globals.colorGreen
 						if lap > tt['bestlap']:
 							tt['textcolor'] = Globals.text_inverted + Globals.text_red
+							c = Globals.colorRed
 						tt['lapcount']+=1
 						tt['updated']	= True
 					else:
@@ -258,6 +268,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 							tt['totticks']		= 0.999999999 									# I_totticks
 							tt['updated']		= True												# I_updated
 							tt['textcolor']		= Globals.text_inverted + Globals.text_blue	# I_textcolor
+							c = Globals.colorBlue
 					self.TM_T_passage.setSortingEnabled(False)
 					r		= self.TM_T_passage.rowCount()
 					if r > 40:
@@ -265,10 +276,12 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 						r = 40
 					self.TM_T_passage.insertRow( r )
 					self.TM_T_passage.setRowHeight( r,  12)
-					self.TM_T_passage.setItem(r, 0, QtWidgets.QTableWidgetItem("pos"))
-					self.TM_T_passage.setItem(r ,1, QtWidgets.QTableWidgetItem( Globals.createTime(millis )))
-					self.TM_T_passage.setItem(r, 2, QtWidgets.QTableWidgetItem( "%8d"%tp ))
-					self.TM_T_passage.setItem(r, 3, QtWidgets.QTableWidgetItem(Globals.createTime(tt['lastlap'] )))
+
+					setLine( self, c, r,  0,"pos")
+					setLine( self, c, r,  1, Globals.createTime(millis ) )
+					setLine( self, c, r,  2, "%8d"%tp )
+					setLine( self, c, r,  3,Globals.createTime(tt['lastlap'] ) )
+
 					if tt['ridernum'] == 0:
 						brush = QBrush(Globals.colorCyan)
 						brush.setStyle(QtCore.Qt.SolidPattern)
