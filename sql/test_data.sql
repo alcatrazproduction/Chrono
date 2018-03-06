@@ -16,7 +16,7 @@ INSERT INTO T_Marques VALUES( NULL,"Aprilia");
 INSERT INTO T_Marques VALUES( NULL,"Montesa");
 INSERT INTO T_Marques VALUES( 65535,"Non definit");
 
-TRUNCATE T_Concurents;
+TRUNCATE T_Concurrents;
 INSERT INTO T_Concurrents (numero,nom,prenom,ville,moto) VALUES(66,'SCHAFER',"Alain","Fribourg",(SELECT id FROM T_Marques WHERE nom LIKE "Honda"));
 INSERT INTO T_Concurrents (numero,nom,prenom,ville,moto) VALUES(906,"CORTIJO","Yohan","Illarsaz",(SELECT id FROM T_Marques WHERE nom LIKE "Yamaha"));
 INSERT INTO T_Concurrents (numero,nom,prenom,ville,moto) VALUES(28,"POGET","Elies","Echandens",(SELECT id FROM T_Marques WHERE nom LIKE "KTM"));
