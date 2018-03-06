@@ -1,5 +1,6 @@
 #!/usr/bin/python
-
+import pymysql
+pymysql.install_as_MySQLdb()
 import MySQLdb
 from Preferences		import Preferences as pref
 

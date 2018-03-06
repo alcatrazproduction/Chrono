@@ -4,8 +4,8 @@
 
 
 from threading 		import Thread
-from Queue 			import Queue
-from time			import time
+from queue 			import Queue
+from time				import time
 
 import socket
 import struct
@@ -75,6 +75,7 @@ class receive:
 		while True:
 
 			data, address = sock.recvfrom(1024)
+			data = data.decode()
 			if self.basems	== 0:
 				self.basems	= int(time()*1000)  - int( data[data.find(" "):])
 			tp		= int( data[:data.find(" ")])
@@ -96,7 +97,8 @@ class receive:
 						tplist.setdefault(tp, [])
 						tplist[tp].append( millis )
 						tplist[tp].append( 123456789 )
-			except  ValueError:
-				print("got an error")
+			except  Exception as e:
+				print("got an exception")
+				print( e )
 #			finally:
 #				print ("transponder id: {: 10d}".format( tp ) +", timecode {: 20d}".format( millis ) +", lap time = "+ Globals.createTime( lap )  + " -> "+rt+" " +Globals.createTime( tplist[tp][1]) )

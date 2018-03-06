@@ -1,8 +1,8 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 
 
-from PyQt5 			import   QtWidgets, QtCore
+from PyQt5 			import   	QtWidgets, QtCore
 from PyQt5.QtCore		import 	QTimer
 from PyQt5.QtGui		import	QBrush
 from Ui_MainWindow		import 	Ui_MainWindow
@@ -295,8 +295,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 						self.TM_T_passage.setItem(r, 4, QtWidgets.QTableWidgetItem("%5d"%tt['ridernum']))
 						self.TM_T_passage.setItem(r, 5, QtWidgets.QTableWidgetItem(tt['ridername']))
 
-				except  ValueError:
-					print("got an error")
+				except  Exception as e:
+					print("in updateNonitor")
+					print( e )
 
 	def main(self):
 		self.connectActions()

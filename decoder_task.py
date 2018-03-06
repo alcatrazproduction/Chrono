@@ -63,8 +63,8 @@ class decoder_task():
 # local network segment.
 		ttl = struct.pack('b', 10)
 		sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL, ttl)
-		theSer.write("VERSION\r\n")
-		theSer.write("CANO MODE\r\n")
+		theSer.write('VERSION\r\n'.encode())
+		theSer.write('CANO MODE\r\n'.encode())
 
 		while(1):
 			line = theSer.readline()
@@ -84,7 +84,7 @@ class decoder_task():
 #					print (line)
 				try:
 					message = str(tp) +" " + str( millis )
-					sock.sendto(message, multicast_group)
+					sock.sendto(message.encode(), multicast_group)
 				except socket.timeout:
 					print("exception on send multicast")
 				finally:

@@ -31,10 +31,10 @@ text_inverted					= chr(27)+"[7m"
 max_time						= 0xFFFFFFFF
 
 def createTime( milli):
-	second 	=  ( milli / 1000 ) % 60
-	minute	= ( milli / 1000 / 60 ) % 60
-	heure		= ( milli / 1000 / 3600 ) %24
-#	days		= ( milli / 1000 / 3600 / 24 ) %10
+	second 	= int( ( milli / 1000 ) ) % 60
+	minute	= int( ( milli / 1000 / 60 ) ) % 60
+	heure	= int( ( milli / 1000 / 3600 ) ) %24
+#	days		= int( ( milli / 1000 / 3600 / 24 ) ) %10
 	milli		= milli % 1000
 	return '{:0d}'.format(heure)+':'+'{:02d}'.format(minute)+':'+'{:02d}'.format(second)+'.'+'{:04d}'.format(milli)
 
