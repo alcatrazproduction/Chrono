@@ -9,7 +9,7 @@ from time				import time
 
 import socket
 import struct
-#import Globals
+import Globals
 
 class tpEvent(  ) :
 	pos	= None
@@ -43,14 +43,14 @@ class receive:
 			return
 		except:
 
-			d								= dict()
-			d['ip']						= self.soc_ip
+			d						= dict()
+			d['ip']					= self.soc_ip
 			d['port']					= port
-			d['queue']					= dict()
-			d['queue']['monitor']	= Queue(maxsize=0)
+			d['queue']				= dict()
+			d['queue']['monitor']		= Queue(maxsize=0)
 			p = Thread( target=self.receive_task, args=( d['ip'], d['port'],  d['queue']) )
-			d['pid']			= p
-			self.task[port]	= d
+			d['pid']					= p
+			self.task[port]			= d
 			p.setDaemon(True)
 			p.start()
 
@@ -81,7 +81,7 @@ class receive:
 			tp		= int( data[:data.find(" ")])
 			millis	= int( data[data.find(" "):])
 			lap	= 0
-#			rt		= "    Record "
+			rt		= "    Record "
 			event		= tpEvent( tp, millis + self.basems )
 			for q in queues:
 				queues[q].put( event )
@@ -92,7 +92,7 @@ class receive:
 					tplist[tp][0]	= millis
 					if lap < tplist[tp][1]:
 						tplist[tp][1] = lap
-#						rt = "New Record!"
+						rt = "New Record!"
 				else:
 						tplist.setdefault(tp, [])
 						tplist[tp].append( millis )
@@ -100,5 +100,5 @@ class receive:
 			except  Exception as e:
 				print("got an exception")
 				print( e )
-#			finally:
-#				print ("transponder id: {: 10d}".format( tp ) +", timecode {: 20d}".format( millis ) +", lap time = "+ Globals.createTime( lap )  + " -> "+rt+" " +Globals.createTime( tplist[tp][1]) )
+			finally:
+				print ("transponder id: {: 10d}".format( tp ) +", timecode {: 20d}".format( millis ) +", lap time = "+ Globals.createTime( lap )  + " -> "+rt+" " +Globals.createTime( tplist[tp][1]) )

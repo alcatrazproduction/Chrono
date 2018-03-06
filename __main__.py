@@ -1,22 +1,27 @@
 #!/usr/bin/python3
 import sys
-sys.path.append("gui/")
+sys.path.append("gui")
 sys.path.append("tables")
+sys.path.append("decoder")
 #from PyQt5 				import  QtWidgets
 from PyQt5.QtWidgets		import QApplication
 import	Globals
 
 
 from MainWindow 				import MainWindow
-from decoder_task			import decoder_task
+from decoder_task				import decoder_task
 from receive					import receive
 from Preferences				import Preferences as pref
 
 
 if __name__=='__main__':
 
-	Globals.decoder		= decoder_task( pref.defaultSerialDevice )
-	Globals.receiver		= receive( Globals.decoder.task[ pref.defaultSerialDevice ]['port'])
+	for dec in pref.decoderList:
+		print ( dec )
+		if pref.decoderList[ dec ]['active']:
+			Globals.decoder[ dec ]		= decoder_task( pref.decoderList[dec],  dec )
+	for task in Globals.decoder:
+		Globals.receiver[ task ]			= receive( Globals.decoder[ task ].task[ task ]['port'])
 
 	app = QApplication(sys.argv)
 	Globals.MainWindow = MainWindow()

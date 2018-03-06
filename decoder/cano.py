@@ -1,34 +1,20 @@
 
-#from threading 		import Thread
+from threading 		import Thread
 import socket
 import struct
-import importlib
+
 import serial
 
 
-class decoder_task():
+class decoder():
 	task			= dict([])
-	soc_ip		= "224.3.29.71"
 
-	def __init__(self, decoder, name):
-		print( decoder )
-		try:
-			d = self.task[ name ]
-			return
-		except:
-
-			d				= dict()
-			m				= importlib.import_module( decoder['class'] )
-			d['class']		= m.decoder()
-			d['multi_ip']		= self.soc_ip
-			d['port']			= decoder['port']
+	def createThread(self,d,  decoder, name):
 
 
-			p = d['class'].createThread( d,  decoder, name )
-			d['pid']			= p
-			self.task[name]	= d
-			p.setDaemon( True )
-			p.start()
+			p = Thread( target=self.decoder, args=(decoder['device'], decoder['baud'],  d['multi_ip'], d['port']))
+			return p
+
 
 
 	def decoder(self, device, baud,  ip, port):

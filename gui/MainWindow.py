@@ -222,82 +222,87 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			i.setBackground( brush )
 			self.TM_T_passage.setItem(row, column, i )
 
-		t = Globals.receiver.task
-		for r in t:
-			q = t[r]['queue']['monitor']
-			while not q.empty():
-				e = q.get_nowait()
-				tp = e.tp
-				millis = e.millis
-				c=Globals.colorWhite
-				try:
-					if tp in Globals.dictBestLapMonitor:
-						tt = Globals.dictBestLapMonitor[tp]
-						if tt['ridernum']== 0:
-							if "TP_%8.8X"%tp in Globals.tpRacerList :
-								c	= Globals.racerList[ Globals.tpRacerList[ Globals.C_concurrents_TP_fmt%tp ] ]
-								tt['ridername']	= Globals.C_concurrents_moni_fmt%(c['nom'], c['prenom'])	# I_ridername
-								tt['ridernum']		= c['numero']										# I_ridernum
-
-						lap		= millis - tt['lasttick']
-						tt['lasttick' ] = millis
-						tt['lastlap']	= lap
-						if lap < tt['bestlap']:
-							tt['bestlap'] = lap
-							tt['textcolor'] = Globals.text_inverted + Globals.text_green
-							c = Globals.colorGreen
-						if lap > tt['bestlap']:
-							tt['textcolor'] = Globals.text_inverted + Globals.text_red
-							c = Globals.colorRed
-						tt['lapcount']+=1
-						tt['updated']	= True
-					else:
-							Globals.dictBestLapMonitor[tp] = dict()
+		for task in Globals.receiver:
+			print( task )
+			t = Globals.receiver[task].task
+			for r in t:
+				print (r)
+				q = t[r]['queue']['monitor']
+				print( q )
+				print("***********************************************************")
+				while not q.empty():
+					e = q.get_nowait()
+					tp = e.tp
+					millis = e.millis
+					c=Globals.colorWhite
+					try:
+						if tp in Globals.dictBestLapMonitor:
 							tt = Globals.dictBestLapMonitor[tp]
-							tt['bestlap']	=Globals.max_time 									# I_bestlap
-							tt['lastlap'] 	=0 														# I_lastlap
-							if "TP_%8.8X"%tp in Globals.tpRacerList :
-								c	= Globals.racerList[ Globals.tpRacerList[ Globals.C_concurrents_TP_fmt%tp ] ]
-								tt['ridername']		= c['nom']							# I_ridername
-								tt['ridernum']		= c['numero']						# I_ridernum
-							else:
-								tt['ridername']		=""
-								tt['ridernum']		= 0
-							tt['lasttick']		= millis												# I_lasttick
-							tt['lapcount']		= 0 													# I_lapcount
-							tt['totticks']		= 0.999999999 									# I_totticks
-							tt['updated']		= True												# I_updated
-							tt['textcolor']		= Globals.text_inverted + Globals.text_blue	# I_textcolor
-							c = Globals.colorBlue
-					self.TM_T_passage.setSortingEnabled(False)
-					r		= self.TM_T_passage.rowCount()
-					if r > 40:
-						self.TM_T_passage.removeRow(0)
-						r = 40
-					self.TM_T_passage.insertRow( r )
-					self.TM_T_passage.setRowHeight( r,  12)
+							if tt['ridernum']== 0:
+								if "TP_%8.8X"%tp in Globals.tpRacerList :
+									c	= Globals.racerList[ Globals.tpRacerList[ Globals.C_concurrents_TP_fmt%tp ] ]
+									tt['ridername']	= Globals.C_concurrents_moni_fmt%(c['nom'], c['prenom'])	# I_ridername
+									tt['ridernum']		= c['numero']										# I_ridernum
 
-					setLine( self, c, r,  0,"pos")
-					setLine( self, c, r,  1, Globals.createTime(millis ) )
-					setLine( self, c, r,  2, "%8d"%tp )
-					setLine( self, c, r,  3,Globals.createTime(tt['lastlap'] ) )
+							lap		= millis - tt['lasttick']
+							tt['lasttick' ] = millis
+							tt['lastlap']	= lap
+							if lap < tt['bestlap']:
+								tt['bestlap'] = lap
+								tt['textcolor'] = Globals.text_inverted + Globals.text_green
+								c = Globals.colorGreen
+							if lap > tt['bestlap']:
+								tt['textcolor'] = Globals.text_inverted + Globals.text_red
+								c = Globals.colorRed
+							tt['lapcount']+=1
+							tt['updated']	= True
+						else:
+								Globals.dictBestLapMonitor[tp] = dict()
+								tt = Globals.dictBestLapMonitor[tp]
+								tt['bestlap']	=Globals.max_time 									# I_bestlap
+								tt['lastlap'] 	=0 														# I_lastlap
+								if "TP_%8.8X"%tp in Globals.tpRacerList :
+									c	= Globals.racerList[ Globals.tpRacerList[ Globals.C_concurrents_TP_fmt%tp ] ]
+									tt['ridername']		= c['nom']							# I_ridername
+									tt['ridernum']		= c['numero']						# I_ridernum
+								else:
+									tt['ridername']		=""
+									tt['ridernum']		= 0
+								tt['lasttick']		= millis												# I_lasttick
+								tt['lapcount']		= 0 													# I_lapcount
+								tt['totticks']		= 0.999999999 									# I_totticks
+								tt['updated']		= True												# I_updated
+								tt['textcolor']		= Globals.text_inverted + Globals.text_blue	# I_textcolor
+								c = Globals.colorBlue
+						self.TM_T_passage.setSortingEnabled(False)
+						r		= self.TM_T_passage.rowCount()
+						if r > 40:
+							self.TM_T_passage.removeRow(0)
+							r = 40
+						self.TM_T_passage.insertRow( r )
+						self.TM_T_passage.setRowHeight( r,  12)
 
-					if tt['ridernum'] == 0:
-						brush = QBrush(Globals.colorCyan)
-						brush.setStyle(QtCore.Qt.SolidPattern)
-						i = QtWidgets.QTableWidgetItem("")
-						i.setBackground( brush )
-						self.TM_T_passage.setItem(r, 4, i )
-						i = QtWidgets.QTableWidgetItem("")
-						i.setBackground( brush )
-						self.TM_T_passage.setItem(r, 5, i )
-					else:
-						self.TM_T_passage.setItem(r, 4, QtWidgets.QTableWidgetItem("%5d"%tt['ridernum']))
-						self.TM_T_passage.setItem(r, 5, QtWidgets.QTableWidgetItem(tt['ridername']))
+						setLine( self, c, r,  0,task)
+						setLine( self, c, r,  1, Globals.createTime(millis ) )
+						setLine( self, c, r,  2, "%8d"%tp )
+						setLine( self, c, r,  3,Globals.createTime(tt['lastlap'] ) )
 
-				except  Exception as e:
-					print("in updateNonitor")
-					print( e )
+						if tt['ridernum'] == 0:
+							brush = QBrush(Globals.colorCyan)
+							brush.setStyle(QtCore.Qt.SolidPattern)
+							i = QtWidgets.QTableWidgetItem("")
+							i.setBackground( brush )
+							self.TM_T_passage.setItem(r, 4, i )
+							i = QtWidgets.QTableWidgetItem("")
+							i.setBackground( brush )
+							self.TM_T_passage.setItem(r, 5, i )
+						else:
+							self.TM_T_passage.setItem(r, 4, QtWidgets.QTableWidgetItem("%5d"%tt['ridernum']))
+							self.TM_T_passage.setItem(r, 5, QtWidgets.QTableWidgetItem(tt['ridername']))
+
+					except  Exception as e:
+						print("in updateNonitor")
+						print( e )
 
 	def main(self):
 		self.connectActions()

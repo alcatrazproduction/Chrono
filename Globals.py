@@ -14,21 +14,21 @@ C_listFont.setItalic(False)
 C_listFont.setWeight(50)
 C_listFont.setKerning(False)
 #
-receiver							= None
-decoder							= None
+receiver							= {}
+decoder							= {}
 #
-dictBestLapMonitor			= dict()
-#dictBestLap					= dict()
+dictBestLapMonitor					= dict()
+#dictBestLap						= dict()
 dictRace							= dict()
 #
-clear_screen					= chr(27)+"c"
+clear_screen						= chr(27)+"c"
 text_black						= chr(27)+"[30m"
 text_red							= chr(27)+"[31m"
 text_green						= chr(27)+"[32m"
 text_blue							= chr(27)+"[34m"
 text_normal						= chr(27)+"[27m"
-text_inverted					= chr(27)+"[7m"
-max_time						= 0xFFFFFFFF
+text_inverted						= chr(27)+"[7m"
+max_time							= 0xFFFFFFFF
 
 def createTime( milli):
 	second 	= int( ( milli / 1000 ) ) % 60
