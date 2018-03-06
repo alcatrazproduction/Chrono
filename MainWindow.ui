@@ -64,7 +64,7 @@
      <string notr="true"/>
     </property>
     <property name="currentIndex">
-     <number>6</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="T_Racer">
      <property name="toolTip">
@@ -325,7 +325,7 @@
           </size>
          </property>
          <property name="text">
-          <string>R_LastName</string>
+          <string/>
          </property>
         </widget>
        </item>
@@ -345,7 +345,7 @@
           </size>
          </property>
          <property name="text">
-          <string>R_FirstName</string>
+          <string/>
          </property>
         </widget>
        </item>
@@ -463,7 +463,7 @@ p, li { white-space: pre-wrap; }
             <string notr="true"/>
            </property>
            <property name="text">
-            <string notr="true">R_Npa</string>
+            <string notr="true"/>
            </property>
            <property name="maxLength">
             <number>9</number>
@@ -479,7 +479,7 @@ p, li { white-space: pre-wrap; }
             </size>
            </property>
            <property name="text">
-            <string>R_Localité</string>
+            <string/>
            </property>
           </widget>
          </item>
@@ -587,7 +587,7 @@ p, li { white-space: pre-wrap; }
             <string>+##/####/### ####</string>
            </property>
            <property name="text">
-            <string notr="true">+41/21/123 4568</string>
+            <string notr="true">+// </string>
            </property>
            <property name="placeholderText">
             <string notr="true"/>
@@ -610,7 +610,7 @@ p, li { white-space: pre-wrap; }
             <string notr="true">+##/####/### ####</string>
            </property>
            <property name="text">
-            <string notr="true">+41/33/211 6623</string>
+            <string notr="true">+// </string>
            </property>
           </widget>
          </item>
@@ -650,7 +650,7 @@ p, li { white-space: pre-wrap; }
           <string notr="true"/>
          </property>
          <property name="text">
-          <string notr="true">R_EMail</string>
+          <string notr="true"/>
          </property>
          <property name="placeholderText">
           <string notr="true"/>
@@ -711,7 +711,7 @@ p, li { white-space: pre-wrap; }
           <set>Qt::ImhDialableCharactersOnly|Qt::ImhDigitsOnly</set>
          </property>
          <property name="text">
-          <string notr="true">00000</string>
+          <string notr="true"/>
          </property>
          <property name="maxLength">
           <number>5</number>
@@ -758,7 +758,7 @@ p, li { white-space: pre-wrap; }
           <string notr="true"/>
          </property>
          <property name="text">
-          <string notr="true">Licences</string>
+          <string notr="true"/>
          </property>
         </widget>
        </item>
@@ -800,7 +800,7 @@ p, li { white-space: pre-wrap; }
           <set>Qt::ImhDialableCharactersOnly|Qt::ImhDigitsOnly|Qt::ImhFormattedNumbersOnly</set>
          </property>
          <property name="text">
-          <string notr="true">0000000000</string>
+          <string notr="true"/>
          </property>
          <property name="maxLength">
           <number>12</number>

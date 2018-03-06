@@ -2,15 +2,15 @@
 
 
 
-from PyQt5 				import   QtWidgets, QtCore
-from PyQt5.QtCore	import 	QTimer
+from PyQt5 			import   QtWidgets, QtCore
+from PyQt5.QtCore		import 	QTimer
 from PyQt5.QtGui		import	QBrush
-from Ui_MainWindow	import 	Ui_MainWindow
+from Ui_MainWindow		import 	Ui_MainWindow
 # Tables definition imports
-from T_Marques		import 	T_Marques
-from T_Concurrents	import 	T_Concurrents
+from T_Marques			import 	T_Marques
+from T_Concurrents		import 	T_Concurrents
 from T_Pays			import 	T_Pays
-from T_Ville				import 	T_Ville
+from T_Ville			import 	T_Ville
 import	Globals
 from Set_RacerTp		import 	Set_RacerTp
 
@@ -37,13 +37,13 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.setupUi(self)
 
 	def connectActions(self):
-		self.actionQuitter.triggered.connect(QtWidgets.qApp.quit)
-		self.L_racerlist.itemDoubleClicked.connect(self.editRacer)
-		self.findNumber.returnPressed.connect(self.findNumRacer)
-		self.R_Npa.returnPressed.connect(self.findNpa)
-		self.R_City.returnPressed.connect(self.findVille)
-		self.RB_Add.clicked.connect( self.addRacer )
-		self.TM_T_passage.itemDoubleClicked.connect(self.setRacerTb)
+		self.actionQuitter.triggered.connect(				QtWidgets.qApp.quit )
+		self.L_racerlist.itemDoubleClicked.connect(			self.editRacer)
+		self.findNumber.returnPressed.connect(				self.findNumRacer)
+		self.R_Npa.returnPressed.connect(					self.findNpa)
+		self.R_City.returnPressed.connect(					self.findVille)
+		self.RB_Add.clicked.connect( 						self.addRacer )
+		self.TM_T_passage.itemDoubleClicked.connect(			self.setRacerTb)
 
 	def setRacerTb(self, item):
 		row 	= self.TM_T_passage.currentRow()
@@ -134,9 +134,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			if oldracer is None:
 				oldracer = [ ]
 
-			oldracer['numero']			= rn
-			oldracer['nom']					= rl
-			oldracer['prenom']			= rf
+			oldracer['numero']				= rn
+			oldracer['nom']				= rl
+			oldracer['prenom']				= rf
 			if oldracer['transponder'] != rt:
 				if Globals.C_concurrents_TP_fmt%oldracer['transponder'] in Globals.tpRacerList:
 					Globals.tpRacerList.pop( Globals.C_concurrents_TP_fmt%oldracer['transponder'] )
@@ -145,28 +145,28 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
 			oldracer['moto']				= rm
 			oldracer['ville']				= rc
-			oldracer['npa']					= rp
+			oldracer['npa']				= rp
 			oldracer['pays']				= pa
 			oldracerItem.setText( Globals.C_concurrents_item_fmt %  ( oldracer['numero'],   oldracer['nom'],  oldracer['prenom'] ) )
 
 		if racer is None :
-			self.R_lastname.setText(		"" )
+			self.R_lastname.setText(			"" )
 			self.R_firstname.setText(		"" )
-			self.R_number.setText(		"" )
-			self.R_transponder.setText(	"")
+			self.R_number.setText(			"" )
+			self.R_transponder.setText(		"")
 		else:
-			self.R_lastname.setText(		racer['nom'] )
+			self.R_lastname.setText(			racer['nom'] )
 			self.R_firstname.setText(		racer['prenom'] )
 			self.R_number.setText(		"%d"%racer['numero'] )
 			self.R_transponder.setText(	"%d"%racer['transponder'])
 			self.R_brandMenu.setCurrentIndex( self.R_brandMenu.findData(racer['moto']))
-			pa 						= racer['pays']
+			pa 							= racer['pays']
 			if pa == None:
 				pa = 'CHE'
 			self.R_Pays.setCurrentIndex( self.R_Pays.findData( pa ))
 			self.__RacerEdited = item
-			self.R_Npa.setText(			racer['npa'])
-			self.R_City.setText(				racer['ville'])
+			self.R_Npa.setText(				racer['npa'])
+			self.R_City.setText(			racer['ville'])
 			if racer['npa'] == None:
 				self.findVille()
 			if racer['ville'] == None:
