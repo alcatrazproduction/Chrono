@@ -31,7 +31,7 @@ class decoder_task():
 			p.start()
 
 
-	def decoder(self, device, baud,  ip, port):
+	def x_decoder(self, device, baud,  ip, port):
 		theSer = serial.Serial( device, baud)
 		if not theSer.is_open:
 			print( "ERROR Opening: ")

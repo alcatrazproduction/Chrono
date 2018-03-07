@@ -216,26 +216,28 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
 	def updateMonitor(self):
 		def setLine(self, color, row, column, text):
-			brush = QBrush(color)
-			brush.setStyle(QtCore.Qt.SolidPattern)
-			i = QtWidgets.QTableWidgetItem( text )
-			i.setBackground( brush )
-			self.TM_T_passage.setItem(row, column, i )
+			try:
+				brush = QBrush(color)
+				brush.setStyle(QtCore.Qt.SolidPattern)
+				i = QtWidgets.QTableWidgetItem( text )
+				i.setBackground( brush )
+				self.TM_T_passage.setItem(row, column, i )
+			except  Exception as e:
+				print("in updateNonitor, setLine( self,color,%d,%d,%s)"%(row, column, text))
+				print( color )
+				print( e )
 
 		self.TM_T_passage.setSortingEnabled(False)
 		for task in Globals.receiver:
-				print( "Task %s"%task )
 				r = Globals.receiver[task]
-				print ("Name %s in task"%r)
 				pos = task
 				q = r['queue']['monitor']
-				print("***********************************************************")
 				while not q.empty():
 					e = q.get_nowait()
 					tp 		= e.tp
 					millis 	= e.millis
 					type		= e.type
-					c		= Globals.colorWhite
+					color	= Globals.colorWhite
 					try:
 						if tp in Globals.dictBestLapMonitor:
 							tt 		= Globals.dictBestLapMonitor[tp]
@@ -251,10 +253,10 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 								if lap < tt['bestlap']:
 									tt['bestlap'] 		= lap
 									tt['textcolor'] 	= Globals.text_inverted + Globals.text_green
-									c 				= Globals.colorGreen
+									color			= Globals.colorGreen
 								if lap > tt['bestlap']:
 									tt['textcolor'] 	= Globals.text_inverted + Globals.text_red
-									c 				= Globals.colorRed
+									color			= Globals.colorRed
 								tt['lapcount']			+=1
 						else:
 							Globals.dictBestLapMonitor[tp] 	= dict()
@@ -272,7 +274,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 							tt['lapcount']					= 0									# I_lapcount
 							tt['totticks']					= 0.999999999							# I_totticks
 							tt['textcolor']				= Globals.text_inverted + Globals.text_blue	# I_textcolor
-							c 							= Globals.colorBlue
+							color						= Globals.colorBlue
 						r								= self.TM_T_passage.rowCount()
 						if r > 40:
 							self.TM_T_passage.removeRow(0)
@@ -280,14 +282,14 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 						self.TM_T_passage.insertRow( r )
 						self.TM_T_passage.setRowHeight( r,  12)
 						if type == 0:
-							setLine( self, c, r,  0, pos )
-							setLine( self, c, r,  3, Globals.createTime(tt['lastlap'] ) )
+							setLine( self, color, r,  0, pos )
+							setLine( self, color, r,  3, Globals.createTime(tt['lastlap'] ) )
 						else:
-							setLine( self, c, r,  0, "P(%d):%s"%(type, pos ))
-							setLine( self, c, r,  3, Globals.createTime(millis - tt['lasttick'] ) )
-						setLine( self, c, r,  1, Globals.createTime(millis ) )
-						setLine( self, c, r,  2, "%8d"%tp )
-						setLine( self, c, r,  3, Globals.createTime(tt['lastlap'] ) )
+							setLine( self, color, r,  0, "P(%d):%s"%(type, pos ))
+							setLine( self, color, r,  3, Globals.createTime(millis - tt['lasttick'] ) )
+						setLine( self, color, r,  1, Globals.createTime(millis ) )
+						setLine( self, color, r,  2, "%8d"%tp )
+						setLine( self, color, r,  3, Globals.createTime(tt['lastlap'] ) )
 
 						if tt['ridernum'] == 0:
 							setLine(self, Globals.colorCyan, r, 4, "" )

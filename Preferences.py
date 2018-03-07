@@ -10,22 +10,32 @@ class Preferences:
 								'port': 		10000,
 								'class': 		'simulator',
 								'type':		0,
-								'howmany':	20,
-								'laptime':	30,
-								'delay':		0
+								'howmany':	10,
+								'laptime':	40,
+								'delay':		0,
+								'auto_assign':	True
 							}
 	decoderList['simulator_LP1']	= {
 								'active': 	True,
 								'port': 		10001,
 								'class': 		'simulator',
 								'type':		1,
-								'howmany':	20,
-								'laptime':	30,
+								'howmany':	10,
+								'laptime':	40,
 								'delay':		10
+							}
+	decoderList['simulator_LP2']	= {
+								'active': 	True,
+								'port': 		10002,
+								'class': 		'simulator',
+								'type':		2,
+								'howmany':	10,
+								'laptime':	40,
+								'delay':		25
 							}
 	decoderList['finish']		= {
 								'active': 	False,
-								'port': 		10002,
+								'port': 		10010,
 								'class': 		'cano',
 								'type':		0,
 								'device': 	"/dev/ttyUSB0",
@@ -33,7 +43,7 @@ class Preferences:
 							}
 	decoderList['partial']		= {
 								'active': 	False,
-								'port': 		10003,
+								'port': 		10030,
 								'class': 		'remote',
 								'type':		1
 							}

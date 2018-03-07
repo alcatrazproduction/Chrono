@@ -38,8 +38,7 @@ class receive:
 
 
 	def __init__(self, name):
-		port = Globals.receiver[ name ]['port']
-		print( port )
+		port = Globals.decoder[ name ]['port']
 		try:
 			d = Globals.receiver[ name ]
 			print( "Allready Open, Sorry(%s:%d)"%(name, port))
@@ -51,7 +50,7 @@ class receive:
 			d['port']					= port
 			d['queue']				= dict()
 			d['queue']['monitor']		= Queue(maxsize=0)
-			p = Thread( target=self.receive_task, args=( d['ip'], d['port'],  d['queue'], d['preferences']['type'] ) )
+			p = Thread( target=self.receive_task, args=( d['ip'], d['port'],  d['queue'], Globals.decoder[ name ]['preferences']['type'] ) )
 			d['pid']					= p
 			Globals.receiver[name]		= d
 			p.setDaemon(True)
