@@ -6,7 +6,7 @@ import struct
 from random 			import randrange
 
 class decoder():
-	task			= dict([])
+	task			= dict()
 	tp_base		= 1000000
 	transponder	= {}
 	howmany		= 0
@@ -42,7 +42,6 @@ class decoder():
 		while(1):
 			tc = int(time()*1000)
 			if delay > 0:
-				p_transponder	= {}
 				i = len( p_transponder )
 				while len( p_transponder ) < self.howmany:
 					p_transponder[1000000+i]	= tc
@@ -55,7 +54,7 @@ class decoder():
 			tp		= randrange( self.tp_base, self.tp_base + len( self.transponder ))
 			millis	= tc
 			if  self.transponder[tp] < ( tc + delay ):
-				if (t[tp] ) < (( tc ) - laptime ):
+				if t[tp]  < ( tc  - laptime + delay):
 					t[tp] = tc
 					try:
 						message = str(tp) +" " + str( millis )

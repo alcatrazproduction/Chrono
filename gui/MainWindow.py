@@ -223,12 +223,11 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			self.TM_T_passage.setItem(row, column, i )
 
 		for task in Globals.receiver:
-			print( task )
-			t = Globals.receiver[task].task
-			for r in t:
-				print (r)
-				q = t[r]['queue']['monitor']
-				print( q )
+				print( "Task %s"%task )
+				r = Globals.receiver[task]
+				print ("Name %s in task"%r)
+				pos = task
+				q = r['queue']['monitor']
 				print("***********************************************************")
 				while not q.empty():
 					e = q.get_nowait()
@@ -282,7 +281,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 						self.TM_T_passage.insertRow( r )
 						self.TM_T_passage.setRowHeight( r,  12)
 
-						setLine( self, c, r,  0,task)
+						setLine( self, c, r,  0, pos )
 						setLine( self, c, r,  1, Globals.createTime(millis ) )
 						setLine( self, c, r,  2, "%8d"%tp )
 						setLine( self, c, r,  3,Globals.createTime(tt['lastlap'] ) )

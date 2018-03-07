@@ -12,7 +12,7 @@ import struct
 import Globals
 
 class tpEvent(  ) :
-	pos	= None
+	pos		= None
 	tp		= None
 	millis	= None
 	tc		= None
@@ -22,9 +22,7 @@ class tpEvent(  ) :
 		self.millis		= _time
 
 class receive:
-	task			= dict([])
 	soc_ip		= "224.3.29.71"
-	soc_port		= 10000
 	basems		= 0
 
 	def createTime( self, milli):
@@ -35,10 +33,10 @@ class receive:
 		return '{:0d}'.format(heure)+':'+'{:02d}'.format(minute)+':'+'{:02d}'.format(second)+'.'+'{:04d}'.format(milli)
 
 
-	def __init__(self, port):
+	def __init__(self, port, name):
 		print( port )
 		try:
-			d = self.task[ port ]
+			d = Globals.receiver[ name ]
 			print( "Allready Open, Sorry")
 			return
 		except:
@@ -50,7 +48,7 @@ class receive:
 			d['queue']['monitor']		= Queue(maxsize=0)
 			p = Thread( target=self.receive_task, args=( d['ip'], d['port'],  d['queue']) )
 			d['pid']					= p
-			self.task[port]			= d
+			Globals.receiver[name]		= d
 			p.setDaemon(True)
 			p.start()
 
