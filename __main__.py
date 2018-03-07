@@ -21,7 +21,7 @@ if __name__=='__main__':
 		if pref.decoderList[ dec ]['active']:
 			Globals.decoder[ dec ]		= decoder_task( pref.decoderList[dec],  dec )
 	for task in Globals.decoder:
-		receive( Globals.decoder[ task ].task[ task ]['port'], task)
+		receive( task )
 
 	app = QApplication(sys.argv)
 	Globals.MainWindow = MainWindow()

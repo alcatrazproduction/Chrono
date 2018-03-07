@@ -16,10 +16,14 @@ class tpEvent(  ) :
 	tp		= None
 	millis	= None
 	tc		= None
+	type		= None
 
-	def __init__(self, _tp, _time):
+	def __init__(self, _tp, _time,  _type, _tc, _pos):
+		self.pos		= _pos
 		self.tp		= _tp
-		self.millis		= _time
+		self.millis	= _time
+		self.tc		= _tc
+		self.type		= _type
 
 class receive:
 	soc_ip		= "224.3.29.71"
@@ -33,11 +37,12 @@ class receive:
 		return '{:0d}'.format(heure)+':'+'{:02d}'.format(minute)+':'+'{:02d}'.format(second)+'.'+'{:04d}'.format(milli)
 
 
-	def __init__(self, port, name):
+	def __init__(self, name):
+		port = Globals.receiver[ name ]['port']
 		print( port )
 		try:
 			d = Globals.receiver[ name ]
-			print( "Allready Open, Sorry")
+			print( "Allready Open, Sorry(%s:%d)"%(name, port))
 			return
 		except:
 
@@ -46,13 +51,13 @@ class receive:
 			d['port']					= port
 			d['queue']				= dict()
 			d['queue']['monitor']		= Queue(maxsize=0)
-			p = Thread( target=self.receive_task, args=( d['ip'], d['port'],  d['queue']) )
+			p = Thread( target=self.receive_task, args=( d['ip'], d['port'],  d['queue'], d['preferences']['type'] ) )
 			d['pid']					= p
 			Globals.receiver[name]		= d
 			p.setDaemon(True)
 			p.start()
 
-	def receive_task(self, ip, port, queues):
+	def receive_task(self, ip, port, queues, type):
 		server_address = ('', port)
 
 # Create the socket
@@ -80,7 +85,7 @@ class receive:
 			millis	= int( data[data.find(" "):])
 			lap	= 0
 			rt		= "    Record "
-			event		= tpEvent( tp, millis + self.basems )
+			event		= tpEvent( tp, millis + self.basems,  type, millis, port )
 			for q in queues:
 				queues[q].put( event )
 

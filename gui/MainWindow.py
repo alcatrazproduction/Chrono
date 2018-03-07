@@ -222,6 +222,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			i.setBackground( brush )
 			self.TM_T_passage.setItem(row, column, i )
 
+		self.TM_T_passage.setSortingEnabled(False)
 		for task in Globals.receiver:
 				print( "Task %s"%task )
 				r = Globals.receiver[task]
@@ -231,73 +232,69 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 				print("***********************************************************")
 				while not q.empty():
 					e = q.get_nowait()
-					tp = e.tp
-					millis = e.millis
-					c=Globals.colorWhite
+					tp 		= e.tp
+					millis 	= e.millis
+					type		= e.type
+					c		= Globals.colorWhite
 					try:
 						if tp in Globals.dictBestLapMonitor:
-							tt = Globals.dictBestLapMonitor[tp]
+							tt 		= Globals.dictBestLapMonitor[tp]
 							if tt['ridernum']== 0:
 								if "TP_%8.8X"%tp in Globals.tpRacerList :
 									c	= Globals.racerList[ Globals.tpRacerList[ Globals.C_concurrents_TP_fmt%tp ] ]
 									tt['ridername']	= Globals.C_concurrents_moni_fmt%(c['nom'], c['prenom'])	# I_ridername
 									tt['ridernum']		= c['numero']										# I_ridernum
-
-							lap		= millis - tt['lasttick']
-							tt['lasttick' ] = millis
-							tt['lastlap']	= lap
-							if lap < tt['bestlap']:
-								tt['bestlap'] = lap
-								tt['textcolor'] = Globals.text_inverted + Globals.text_green
-								c = Globals.colorGreen
-							if lap > tt['bestlap']:
-								tt['textcolor'] = Globals.text_inverted + Globals.text_red
-								c = Globals.colorRed
-							tt['lapcount']+=1
-							tt['updated']	= True
+							if type == 0:
+								lap					= millis - tt['lasttick']
+								tt['lasttick' ] 		= millis
+								tt['lastlap']			= lap
+								if lap < tt['bestlap']:
+									tt['bestlap'] 		= lap
+									tt['textcolor'] 	= Globals.text_inverted + Globals.text_green
+									c 				= Globals.colorGreen
+								if lap > tt['bestlap']:
+									tt['textcolor'] 	= Globals.text_inverted + Globals.text_red
+									c 				= Globals.colorRed
+								tt['lapcount']			+=1
 						else:
-								Globals.dictBestLapMonitor[tp] = dict()
-								tt = Globals.dictBestLapMonitor[tp]
-								tt['bestlap']	=Globals.max_time 									# I_bestlap
-								tt['lastlap'] 	=0 														# I_lastlap
-								if "TP_%8.8X"%tp in Globals.tpRacerList :
-									c	= Globals.racerList[ Globals.tpRacerList[ Globals.C_concurrents_TP_fmt%tp ] ]
-									tt['ridername']		= c['nom']							# I_ridername
-									tt['ridernum']		= c['numero']						# I_ridernum
-								else:
-									tt['ridername']		=""
-									tt['ridernum']		= 0
-								tt['lasttick']		= millis												# I_lasttick
-								tt['lapcount']		= 0 													# I_lapcount
-								tt['totticks']		= 0.999999999 									# I_totticks
-								tt['updated']		= True												# I_updated
-								tt['textcolor']		= Globals.text_inverted + Globals.text_blue	# I_textcolor
-								c = Globals.colorBlue
-						self.TM_T_passage.setSortingEnabled(False)
-						r		= self.TM_T_passage.rowCount()
+							Globals.dictBestLapMonitor[tp] 	= dict()
+							tt 							= Globals.dictBestLapMonitor[tp]
+							tt['bestlap']					= Globals.max_time 						# I_bestlap
+							tt['lastlap'] 					= 0 									# I_lastlap
+							if "TP_%8.8X"%tp in Globals.tpRacerList :
+								c	= Globals.racerList[ Globals.tpRacerList[ Globals.C_concurrents_TP_fmt%tp ] ]
+								tt['ridername']			= c['nom']							# I_ridername
+								tt['ridernum']				= c['numero']							# I_ridernum
+							else:
+								tt['ridername']			=""
+								tt['ridernum']				= 0
+							tt['lasttick']					= millis								# I_lasttick
+							tt['lapcount']					= 0									# I_lapcount
+							tt['totticks']					= 0.999999999							# I_totticks
+							tt['textcolor']				= Globals.text_inverted + Globals.text_blue	# I_textcolor
+							c 							= Globals.colorBlue
+						r								= self.TM_T_passage.rowCount()
 						if r > 40:
 							self.TM_T_passage.removeRow(0)
 							r = 40
 						self.TM_T_passage.insertRow( r )
 						self.TM_T_passage.setRowHeight( r,  12)
-
-						setLine( self, c, r,  0, pos )
+						if type == 0:
+							setLine( self, c, r,  0, pos )
+							setLine( self, c, r,  3, Globals.createTime(tt['lastlap'] ) )
+						else:
+							setLine( self, c, r,  0, "P(%d):%s"%(type, pos ))
+							setLine( self, c, r,  3, Globals.createTime(millis - tt['lasttick'] ) )
 						setLine( self, c, r,  1, Globals.createTime(millis ) )
 						setLine( self, c, r,  2, "%8d"%tp )
-						setLine( self, c, r,  3,Globals.createTime(tt['lastlap'] ) )
+						setLine( self, c, r,  3, Globals.createTime(tt['lastlap'] ) )
 
 						if tt['ridernum'] == 0:
-							brush = QBrush(Globals.colorCyan)
-							brush.setStyle(QtCore.Qt.SolidPattern)
-							i = QtWidgets.QTableWidgetItem("")
-							i.setBackground( brush )
-							self.TM_T_passage.setItem(r, 4, i )
-							i = QtWidgets.QTableWidgetItem("")
-							i.setBackground( brush )
-							self.TM_T_passage.setItem(r, 5, i )
+							setLine(self, Globals.colorCyan, r, 4, "" )
+							setLine(self, Globals.colorCyan, r, 5, "" )
 						else:
-							self.TM_T_passage.setItem(r, 4, QtWidgets.QTableWidgetItem("%5d"%tt['ridernum']))
-							self.TM_T_passage.setItem(r, 5, QtWidgets.QTableWidgetItem(tt['ridername']))
+							setLine(self, Globals.colorWhite, r, 4, "%5d"%tt['ridernum'] )
+							setLine(self, Globals.colorWhite, r, 5, tt['ridername'] )
 
 					except  Exception as e:
 						print("in updateNonitor")

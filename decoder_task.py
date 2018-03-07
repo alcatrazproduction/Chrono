@@ -4,29 +4,29 @@ import socket
 import struct
 import importlib
 import serial
+import Globals
 
 
 class decoder_task():
-	task			= dict([])
 	soc_ip		= "224.3.29.71"
 
 	def __init__(self, decoder, name):
 		print( decoder )
 		try:
-			d = self.task[ name ]
+			d = Globals.decoder[ name ]
 			return
 		except:
 
-			d				= dict()
-			m				= importlib.import_module( decoder['class'] )
-			d['class']		= m.decoder()
-			d['multi_ip']		= self.soc_ip
-			d['port']			= decoder['port']
-
+			d					= dict()
+			m					= importlib.import_module( decoder['class'] )
+			d['class']			= m.decoder()
+			d['multi_ip']			= self.soc_ip
+			d['port']				= decoder['port']
+			d['preferences']		= decoder
 
 			p = d['class'].createThread( d,  decoder, name )
-			d['pid']			= p
-			self.task[name]	= d
+			d['pid']				= p
+			Globals.decoder[name]	= d
 			p.setDaemon( True )
 			p.start()
 
