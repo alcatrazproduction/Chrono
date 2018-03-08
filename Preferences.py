@@ -41,6 +41,14 @@ class Preferences:
 								'device': 	"/dev/ttyUSB0",
 								'baud': 		115200
 							}
+	decoderList['mw4wd']		= {
+								'active': 	False,
+								'port': 		10010,
+								'class': 		'cano',
+								'type':		0,
+								'device': 	"/dev/ttyACM0",
+								'baud': 		115200
+							}
 	decoderList['partial']		= {
 								'active': 	False,
 								'port': 		10030,
