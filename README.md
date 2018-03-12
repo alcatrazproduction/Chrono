@@ -19,12 +19,19 @@ MysqlServer Download
 <BR>
 then install all the Python stuff with the install.bat script
 <CODE>
+<BR>
 pip3 install PyQt5
+<BR>
 pip3 install pySerial
+<BR>
 pip3 install mysqlclient pymysql
+<BR>
 echo "import pymysql" > manage.py
+<BR>
 echo "pymysql.install_as_MySQLdb()" >> manage.py
+<BR>
 pip3 install queuelib
+<BR>
 </CODE>
 For Linux, you have to install Python3, Qt5 and mysql database
 <BR>
