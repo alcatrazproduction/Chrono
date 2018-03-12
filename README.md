@@ -6,14 +6,17 @@ Software to race timing wrtiten in Python/Qt5
 
 For Windows install:
 You must install Python3
-
-<a href="https://www.python.org/downloads/windows/"> Python 3 Download </a>
-
+<BR>
+<a href="https://www.python.org/downloads/windows/">
+Python 3 Download
+</a>
+<BR>
 MysqlServer
+<BR>
 <a href="https://dev.mysql.com/downloads/installer/">
 MysqlServer Download
 </a>
-
+<BR>
 then install all the Python stuff with the install.bat script
 
 pip3 install PyQt5
@@ -38,8 +41,11 @@ the test_data.sql are some data to test.....
 Thor
 
 For the decoder and transponder watch this link:
-<a href:"https://www.rctech.net/forum/radio-electronics/1002584-rchourglass-diy-lap-timing-aka-cano-revised-11.html">
+<BR>
+<a href="https://www.rctech.net/forum/radio-electronics/1002584-rchourglass-diy-lap-timing-aka-cano-revised-11.html">
 RCHourglass Transponder
 </a>
+<BR>
 and the repository for the software and schematic:
+<BR>
 <a href="https://github.com/mv4wd/RCHourglass">mv4wd Decoder / Transponder</a>
