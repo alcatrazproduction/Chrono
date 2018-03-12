@@ -18,28 +18,33 @@ MysqlServer Download
 </a>
 <BR>
 then install all the Python stuff with the install.bat script
-
+<CODE>
 pip3 install PyQt5
 pip3 install pySerial
 pip3 install mysqlclient pymysql
 echo "import pymysql" > manage.py
 echo "pymysql.install_as_MySQLdb()" >> manage.py
 pip3 install queuelib
-
+</CODE>
 For Linux, you have to install Python3, Qt5 and mysql database
-
+<BR>
 On the MySql server, you have to add a user "Chrono", password "Chrono"
 with dba right.
+<BR>
 Then execute the sql script to create the table and fill it with some datas:
+<BR>
 schema.sql			this create the tables
+<BR>
 iso_pays.sql			fill the T_Pays tables with iso Country code
+<BR>
 CodepostaleSuisse.sql 	fill the zip/city table ( actually only CH )
+<BR>
 all this file are mandarory !
-
+<BR>
 the test_data.sql are some data to test.....
-
+<BR>
 Thor
-
+<BR>
 For the decoder and transponder watch this link:
 <BR>
 <a href="https://www.rctech.net/forum/radio-electronics/1002584-rchourglass-diy-lap-timing-aka-cano-revised-11.html">
