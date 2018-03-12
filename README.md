@@ -18,7 +18,7 @@ MysqlServer Download
 </a>
 <BR>
 then install all the Python stuff with the install.bat script
-<CODE>
+<P2>
 <BR>
 pip3 install PyQt5
 <BR>
@@ -32,7 +32,7 @@ echo "pymysql.install_as_MySQLdb()" >> manage.py
 <BR>
 pip3 install queuelib
 <BR>
-</CODE>
+</P2>
 For Linux, you have to install Python3, Qt5 and mysql database
 <BR>
 On the MySql server, you have to add a user "Chrono", password "Chrono"
