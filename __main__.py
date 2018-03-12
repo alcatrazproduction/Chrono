@@ -1,4 +1,8 @@
-#!/usr/bin/python3
+#!/usr/bin/python
+######################################################################################
+# (c) Yves Huguenin, yves.huguenin@free.fr, mars 2018							#
+######################################################################################
+
 import sys
 sys.path.append("gui")
 sys.path.append("tables")

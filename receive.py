@@ -1,5 +1,9 @@
+#!/usr/bin/python
+######################################################################################
+# (c) Yves Huguenin, yves.huguenin@free.fr, mars 2018							#
+######################################################################################
 #
-# Will send the data on the quenes
+# Will send the data on the queues
 #
 
 

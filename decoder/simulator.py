@@ -1,3 +1,32 @@
+#!/usr/bin/python
+######################################################################################
+# (c) Yves Huguenin, yves.huguenin@free.fr, mars 2018							#
+######################################################################################
+# Decoder interface class to be dinamicaly loaded								#
+# main entry point is member function createThread( self, storage, pref,name )		#
+# Input:																#
+#	storage:		Dictionary with all the needed infos						#
+#				multi_ip		multicast ip								#
+#				port			the assigned port							#
+#	pref:		The preferences Dict ( all the settings )					#
+#	name:		the class name											#
+#																	#
+# Return the task pointer												#
+# the class must be decoder, and not the filename !							#
+#																	#
+######################################################################################
+# Simulator for develloping 												#
+#	on the preference must provide:										#
+#		howmany		= Number of transponder to simulate					#
+#		laptime		= the minimum laptime to simulate						#
+#		delay		= the minimum delay for partial to simulate, an entry with	#
+#					  a value of zero (0) is mandatory, to simulate the finish	#
+#					  line											#
+#		auto_assign	= if True, the transponder will be assigned automatically	#
+#					  only mandatory to the Type 0 ( finish line ), other are	#
+#					  not probed										#
+#																	#
+######################################################################################
 
 from threading 		import Thread
 from time 			import time, sleep
@@ -7,9 +36,9 @@ from random 			import randrange
 import Globals
 
 class decoder():
-	tp_base		= 1000000
-	transponder	= {}
-	howmany		= 0
+	tp_base		= 1000000						# Base number from the transponder, will be incremented
+	transponder	= {}							# Dict to save the transponder params
+	howmany		= 0							# number of transponder to create
 
 	def createThread(self,d,  decoder, name):
 

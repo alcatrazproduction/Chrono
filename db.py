@@ -1,4 +1,7 @@
 #!/usr/bin/python
+######################################################################################
+# (c) Yves Huguenin, yves.huguenin@free.fr, mars 2018							#
+######################################################################################
 import pymysql
 pymysql.install_as_MySQLdb()
 import MySQLdb

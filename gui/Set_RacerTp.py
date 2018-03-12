@@ -1,4 +1,7 @@
 #!/usr/bin/python
+######################################################################################
+# (c) Yves Huguenin, yves.huguenin@free.fr, mars 2018							#
+######################################################################################
 
 from PyQt5 				import   QtWidgets, QtCore
 from Ui_Set_RacerTp	import Ui_Set_RacerTp

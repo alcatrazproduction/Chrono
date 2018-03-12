@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project Chrono -->
-<!-- Saved: 2018-03-03, 20:10:57 -->
+<!-- Saved: 2018-03-12, 21:14:32 -->
 <!-- Copyright (C) 2018 Yves Huguenin, yves.huguenin@dreampitbikes.ch -->
 <Project version="5.1">
   <Language></Language>
@@ -14,23 +14,31 @@
   <Eol index="0"/>
   <Sources>
     <Source>Globals.py</Source>
-    <Source>MainWindow.py</Source>
-    <Source>T_Concurrents.py</Source>
-    <Source>T_Marques.py</Source>
-    <Source>T_Pays.py</Source>
-    <Source>T_Ville.py</Source>
-    <Source>Ui_MainWindow.py</Source>
+    <Source>Preferences.py</Source>
+    <Source>README.md</Source>
     <Source>__init__.py</Source>
     <Source>__main__.py</Source>
-    <Source>best_lap.py</Source>
     <Source>db.py</Source>
+    <Source>decoder/cano.py</Source>
+    <Source>decoder/simulator.py</Source>
     <Source>decoder_task.py</Source>
-    <Source>read_tp.py</Source>
+    <Source>gui/MainWindow.py</Source>
+    <Source>gui/Set_RacerTp.py</Source>
+    <Source>gui/Ui_MainWindow.py</Source>
+    <Source>gui/Ui_Set_RacerTp.py</Source>
+    <Source>raceTask.py</Source>
     <Source>receive.py</Source>
     <Source>sql/CodepostalSuisse.sql</Source>
     <Source>sql/iso_pays.sql</Source>
     <Source>sql/schema.sql</Source>
+    <Source>sql/schema.sql</Source>
     <Source>sql/test_data.sql</Source>
+    <Source>sql/test_data.sql</Source>
+    <Source>tables/T_Concurrents.py</Source>
+    <Source>tables/T_Marques.py</Source>
+    <Source>tables/T_ModelCourses.py</Source>
+    <Source>tables/T_Pays.py</Source>
+    <Source>tables/T_Ville.py</Source>
   </Sources>
   <Forms/>
   <Translations/>
@@ -38,10 +46,9 @@
   <Interfaces/>
   <Others>
     <Other>.gitignore</Other>
+    <Other>README.md</Other>
     <Other>build_ui.sh</Other>
     <Other>list_coureurs.txt</Other>
-    <Other>sql/schema.sql</Other>
-    <Other>sql/test_data.sql</Other>
   </Others>
   <MainScript>__main__.py</MainScript>
   <Vcs>
@@ -155,6 +162,7 @@
     <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
     <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
     <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.sql" type="SOURCES"/>
     <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
     <FiletypeAssociation pattern="*.ui" type="INTERFACES"/>
   </FiletypeAssociations>
