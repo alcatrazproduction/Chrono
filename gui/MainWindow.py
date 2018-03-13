@@ -18,6 +18,7 @@ import	Globals
 from Globals			import	colors
 from Globals			import	tpRacerList
 from Set_RacerTp		import 	Set_RacerTp
+from manageRace		import	manageRace
 
 _categorie = [
 	["MX1", ["Top", "Pro", "Carton"]],
@@ -29,7 +30,8 @@ _categorie = [
 
 
 class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
-	__RacerEdited = None
+	__RacerEdited 	= None
+	__ActualRace	= None
 
 	def getRacer(self):
 		return self.__RacerEdited
@@ -49,6 +51,16 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.R_City.returnPressed.connect(					self.findVille)
 		self.RB_Add.clicked.connect( 						self.addRacer )
 		self.TM_T_passage.itemDoubleClicked.connect(			self.setRacerTb)
+# Race action:
+		self.B_Start.clicked.connect( 					self.startRace )
+
+	def startRace(self):
+		if self.__ActualRace == None:
+			print("Starting Race")
+			self.__ActualRace = manageRace(10*60, 2 )
+			self.__ActualRace.start()
+		else:
+			print("Race allready running")
 
 	def setRacerTb(self, item):
 		row 	= self.TM_T_passage.currentRow()

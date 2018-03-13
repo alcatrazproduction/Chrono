@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3 .
 ######################################################################################
 # (c) Yves Huguenin, yves.huguenin@free.fr, mars 2018							#
 ######################################################################################
@@ -29,6 +29,5 @@ if __name__=='__main__':
 		if pref.decoderList[ dec ]['active']:
 			decoder_task( pref.decoderList[dec],  dec )
 	for task in Globals.decoder:
-#		print( task )
 		receive( task )
 	app.exec_()

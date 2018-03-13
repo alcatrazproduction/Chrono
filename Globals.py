@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3 .
 ######################################################################################
 # (c) Yves Huguenin, yves.huguenin@free.fr, mars 2018							#
 ######################################################################################
@@ -50,9 +50,15 @@ def createTime( milli):
 	minute	= int( ( milli / 1000 / 60 ) ) % 60
 	heure	= int( ( milli / 1000 / 3600 ) ) %24
 #	days		= int( ( milli / 1000 / 3600 / 24 ) ) %10
-	milli		= milli % 1000
+	milli	= int( milli % 1000 )
 	return '{:0d}'.format(heure)+':'+'{:02d}'.format(minute)+':'+'{:02d}'.format(second)+'.'+'{:04d}'.format(milli)
 
+def createTimeSeconds( seconds):
+	second 	= int( ( seconds  ) ) % 60
+	minute	= int( ( seconds  / 60 ) ) % 60
+	heure	= int( ( seconds  / 3600 ) ) %24
+#	days		= int( ( seconds  / 3600 / 24 ) ) %10
+	return '{:0d}'.format(heure)+':'+'{:02d}'.format(minute)+':'+'{:02d}'.format(second)
 MainWindow						= None
 UserRole	 						= 0x0100
 racerList 						= {}
