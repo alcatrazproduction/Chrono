@@ -99,4 +99,5 @@ class receive:
 				print("got an exception")
 				print( e )
 			finally:
-				print ("transponder id: {: 10d}".format( tp ) +", timecode {: 20d}".format( millis ) +", lap time = "+ Globals.createTime( lap )  + " -> "+rt+" " +Globals.createTime( tplist[tp][1]) )
+				if False:
+					print ("transponder id: {: 10d}".format( tp ) +", timecode {: 20d}".format( millis ) +", lap time = "+ Globals.createTime( lap )  + " -> "+rt+" " +Globals.createTime( tplist[tp][1]) )

@@ -1716,16 +1716,16 @@ p, li { white-space: pre-wrap; }
             <enum>QLayout::SetMinimumSize</enum>
            </property>
            <property name="leftMargin">
-            <number>0</number>
+            <number>1</number>
            </property>
            <property name="topMargin">
-            <number>0</number>
+            <number>1</number>
            </property>
            <property name="rightMargin">
-            <number>0</number>
+            <number>1</number>
            </property>
            <property name="bottomMargin">
-            <number>0</number>
+            <number>1</number>
            </property>
            <item>
             <widget class="QProgressBar" name="PB_TimeRace">
@@ -1748,13 +1748,13 @@ p, li { white-space: pre-wrap; }
               <number>1</number>
              </property>
              <property name="value">
-              <number>-1</number>
+              <number>1</number>
              </property>
              <property name="textVisible">
               <bool>true</bool>
              </property>
              <property name="format">
-              <string notr="true">Race Finished</string>
+              <string notr="true">Waiting for start</string>
              </property>
             </widget>
            </item>

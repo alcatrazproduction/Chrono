@@ -15,7 +15,7 @@ class Preferences:
 								'port': 		10000,
 								'class': 		'simulator',
 								'type':		0,
-								'howmany':	45,
+								'howmany':	15,
 								'laptime':	30,
 								'delay':		0,
 								'auto_assign':	True
@@ -25,7 +25,7 @@ class Preferences:
 								'port': 		10001,
 								'class': 		'simulator',
 								'type':		1,
-								'howmany':	45,
+								'howmany':	15,
 								'laptime':	30,
 								'delay':		10
 							}
@@ -34,7 +34,7 @@ class Preferences:
 								'port': 		10002,
 								'class': 		'simulator',
 								'type':		2,
-								'howmany':	45,
+								'howmany':	15,
 								'laptime':	30,
 								'delay':		18
 							}

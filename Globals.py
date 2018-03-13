@@ -3,7 +3,7 @@
 # (c) Yves Huguenin, yves.huguenin@free.fr, mars 2018							#
 ######################################################################################
 #All Globals....
-from PyQt5.QtGui		import	QFont, QColor
+from PyQt5.QtGui		import	QFont, QColor, QIcon
 
 # string formting to concurrents lists
 C_concurrents_item_fmt		= "%4.0d %-12.10s %-15.10s"
@@ -71,3 +71,6 @@ colors["Green"]					= QColor( 0x00ff00 )
 colors["Blue"]						= QColor( 0x0000ff )
 colors["Cyan"]						= QColor( 0x00ffff )
 colors["White"]					= QColor( 0xffffff )
+
+icons							= {}
+icons["finish flag"]				= QIcon()

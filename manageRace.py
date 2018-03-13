@@ -7,7 +7,7 @@ from PyQt5.QtCore		import QTimer, Qt
 from PyQt5.QtGui		import QBrush
 from PyQt5.QtWidgets 	import QTableWidgetItem
 from Globals			import receiver, colors, decoder, createTimeSeconds
-from Globals			import dictRace, createTime
+from Globals			import dictRace, createTime, icons
 from queue			import Queue
 import Globals
 
@@ -65,13 +65,15 @@ class manageRace():
 		self.partials		= col -  self._basecol
 		Globals.MainWindow.PB_TimeRace.setMaximum( self._duration )
 		Globals.MainWindow.PB_TimeRace.setProperty("value", 0)
+
+		self.private		= {}
 		self.timer 		= QTimer()
 		self.timer.timeout.connect(self.update)
 		self.timer.start(1000)
 
 
 	def update(self):
-		def setLine( color, row, column, text):
+		def setLine( color, row, column, text, icon = None):
 			try:
 				brush = QBrush(color)
 				brush.setStyle(Qt.SolidPattern)
@@ -82,6 +84,8 @@ class manageRace():
 				else:
 					i.setText( text )
 				i.setBackground( brush )
+				if icon is not None:
+					i.setIcon( icon )
 			except  Exception as e:
 				print("in update, setLine( color,%d,%d,%s)"%(row, column, text))
 				print( color )
@@ -124,16 +128,23 @@ class manageRace():
 				row 	= tt["row"]
 				setLine( colors["White"], row, 0, "%3.3d%-10.10x"%(tt["lapcount"],int(l - tt["remticks"])))
 				setLine( colors["White"], row, 1, tt["ridername"])
-				setLine( colors["White"], row, 2, "%3.3d"%tt["lapcount"])
+				if tt["ended"]:
+					setLine( colors["White"], row, 2, "%3.3d"%tt["lapcount"], icons["finish flag"])
+				else:
+					setLine( colors["White"], row, 2, "%3.3d"%tt["lapcount"])
 				setLine( colors["White"], row, 3, createTime(tt["remticks"]))
 				setLine( tt["textcolor"], row, 4, createTime(tt["lastlap"]))
 				setLine( tt["textcolor"], row, 5, createTime(tt["bestlap"]))
 				tick 	= tt["lasttick"]
+				dur		= self._duration * 1000
 				for i in range( 0,  self.partials  ):
 					val = tt["partial"][i] - tick
-					if val < 0 :
+					if val <= 0 or val>dur or tt["partial"][i] < tt["lasttick"] :
+						txt = ""
 						val = 0
-					setLine( colors["White"], row,  self._basecol  + i, createTime( val ) )
+					else:
+						txt =  createTime( val )
+					setLine( colors["White"], row,  self._basecol  + i, txt )
 					tick = tt["partial"][i]
 		Globals.MainWindow.R_RaceLive.sortItems(0, Qt.DescendingOrder)
 
@@ -143,7 +154,8 @@ class manageRace():
 
 		try:
 			if tp in dictRace:
-				tt = dictRace[tp]
+				tt 	= dictRace[tp]
+				ptt	= self.private[tp]
 				if not tt["ended"]:
 					if type == 0:
 						lap				= millis - tt["lasttick"]
@@ -158,8 +170,10 @@ class manageRace():
 							tt["textcolor"]	= colors["White"]
 						tt["lapcount"]		+=1
 						tt["updated"]		= True
+						ptt[0]	= tt["lapcount"]
+						ptt[1]	= -tt["remticks"]
 						if self.max_time < raceTime:		# we have finished the time .....
-							cl = sorted(dictRace.items(), reverse=True,  key=lambda t:t[1])
+							cl = sorted(self.private.items(), reverse=True,  key=lambda t:t[1])
 							if cl[0][0] == tp:							# ok leader passed the line
 								if self.remain_lap == -2:				# start for the last laps...
 									self._status		= self.cmdEndTime
@@ -199,6 +213,11 @@ class manageRace():
 					tt["row"]			= self.maxrows
 					dictRace[tp] = tt
 					self.maxrows		+= 1
+					ptt = []
+					ptt.append( tt["lapcount"] )
+					ptt.append( -tt["remticks"] )
+					self.private[tp] = ptt
+
 
 		except  ValueError:
 			print("got an error")

@@ -7,8 +7,8 @@ import sys
 sys.path.append("gui")
 sys.path.append("tables")
 sys.path.append("decoder")
-#from PyQt5 				import  QtWidgets
-from PyQt5.QtWidgets		import QApplication
+from PyQt5.QtGui 				import QIcon, QPixmap
+from PyQt5.QtWidgets			import QApplication
 import	Globals
 
 
@@ -21,6 +21,7 @@ from Preferences				import Preferences as pref
 if __name__=='__main__':
 
 	app = QApplication(sys.argv)
+	Globals.icons["finish flag"].addPixmap( QPixmap("Ressources/icons/finish_flag.png"), QIcon.Disabled, QIcon.On)
 	Globals.MainWindow = MainWindow()
 	Globals.MainWindow.main()
 # Init Decoder interface
