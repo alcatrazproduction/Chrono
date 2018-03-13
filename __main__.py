@@ -29,5 +29,6 @@ if __name__=='__main__':
 		if pref.decoderList[ dec ]['active']:
 			decoder_task( pref.decoderList[dec],  dec )
 	for task in Globals.decoder:
+#		print( task )
 		receive( task )
 	app.exec_()

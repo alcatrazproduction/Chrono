@@ -15,6 +15,8 @@ from T_Concurrents		import 	T_Concurrents
 from T_Pays			import 	T_Pays
 from T_Ville			import 	T_Ville
 import	Globals
+from Globals			import	colors
+from Globals			import	tpRacerList
 from Set_RacerTp		import 	Set_RacerTp
 
 _categorie = [
@@ -58,7 +60,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			d = dlg.getDict()
 			tp = int( self.TM_T_passage.item(row, 2).text() )
 			d['transponder'] = tp
-			Globals.tpRacerList[ Globals.C_concurrents_TP_fmt%tp]=dlg.r_item.data(Globals.UserRole)
+			tpRacerList[ Globals.C_concurrents_TP_fmt%tp]=dlg.r_item.data(Globals.UserRole)
 
 	def addRacer(self):
 		item = QtWidgets.QListWidgetItem()
@@ -141,10 +143,10 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 			oldracer['nom']				= rl
 			oldracer['prenom']				= rf
 			if oldracer['transponder'] != rt:
-				if Globals.C_concurrents_TP_fmt%oldracer['transponder'] in Globals.tpRacerList:
-					Globals.tpRacerList.pop( Globals.C_concurrents_TP_fmt%oldracer['transponder'] )
+				if Globals.C_concurrents_TP_fmt%oldracer['transponder'] in tpRacerList:
+					tpRacerList.pop( Globals.C_concurrents_TP_fmt%oldracer['transponder'] )
 				oldracer['transponder'] 		= rt
-				Globals.tpRacerList[ Globals.C_concurrents_TP_fmt%rt ] = oldracerItem.data( Globals.UserRole )
+				tpRacerList[ Globals.C_concurrents_TP_fmt%rt ] = oldracerItem.data( Globals.UserRole )
 
 			oldracer['moto']				= rm
 			oldracer['ville']				= rc
@@ -240,13 +242,13 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 					tp 		= e.tp
 					millis 	= e.millis
 					type		= e.type
-					color	= Globals.colorWhite
+					color	= colors["White"]
 					try:
 						if tp in Globals.dictBestLapMonitor:
 							tt 		= Globals.dictBestLapMonitor[tp]
 							if tt['ridernum']== 0:
-								if "TP_%8.8X"%tp in Globals.tpRacerList :
-									c	= Globals.racerList[ Globals.tpRacerList[ Globals.C_concurrents_TP_fmt%tp ] ]
+								if "TP_%8.8X"%tp in tpRacerList :
+									c	= Globals.racerList[ tpRacerList[ Globals.C_concurrents_TP_fmt%tp ] ]
 									tt['ridername']	= Globals.C_concurrents_moni_fmt%(c['nom'], c['prenom'])	# I_ridername
 									tt['ridernum']		= c['numero']										# I_ridernum
 							if type == 0:
@@ -256,18 +258,18 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 								if lap < tt['bestlap']:
 									tt['bestlap'] 		= lap
 									tt['textcolor'] 	= Globals.text_inverted + Globals.text_green
-									color			= Globals.colorGreen
+									color			= colors["Green"]
 								if lap > tt['bestlap']:
 									tt['textcolor'] 	= Globals.text_inverted + Globals.text_red
-									color			= Globals.colorRed
+									color			= colors["Red"]
 								tt['lapcount']			+=1
 						else:
 							Globals.dictBestLapMonitor[tp] 	= dict()
 							tt 							= Globals.dictBestLapMonitor[tp]
 							tt['bestlap']					= Globals.max_time 						# I_bestlap
 							tt['lastlap'] 					= 0 									# I_lastlap
-							if "TP_%8.8X"%tp in Globals.tpRacerList :
-								c	= Globals.racerList[ Globals.tpRacerList[ Globals.C_concurrents_TP_fmt%tp ] ]
+							if "TP_%8.8X"%tp in tpRacerList :
+								c	= Globals.racerList[ tpRacerList[ Globals.C_concurrents_TP_fmt%tp ] ]
 								tt['ridername']			= c['nom']							# I_ridername
 								tt['ridernum']				= c['numero']							# I_ridernum
 							else:
@@ -277,7 +279,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 							tt['lapcount']					= 0									# I_lapcount
 							tt['totticks']					= 0.999999999							# I_totticks
 							tt['textcolor']				= Globals.text_inverted + Globals.text_blue	# I_textcolor
-							color						= Globals.colorBlue
+							color						= colors["Blue"]
 						r								= self.TM_T_passage.rowCount()
 						if r > 40:
 							self.TM_T_passage.removeRow(0)
@@ -295,11 +297,11 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 						setLine( self, color, r,  3, Globals.createTime(tt['lastlap'] ) )
 
 						if tt['ridernum'] == 0:
-							setLine(self, Globals.colorCyan, r, 4, "" )
-							setLine(self, Globals.colorCyan, r, 5, "" )
+							setLine(self, colors["Cyan"], r, 4, "" )
+							setLine(self, colors["Cyan"], r, 5, "" )
 						else:
-							setLine(self, Globals.colorWhite, r, 4, "%5d"%tt['ridernum'] )
-							setLine(self, Globals.colorWhite, r, 5, tt['ridername'] )
+							setLine(self, colors["White"], r, 4, "%5d"%tt['ridernum'] )
+							setLine(self, colors["White"], r, 5, tt['ridername'] )
 
 					except  Exception as e:
 						print("in updateNonitor")

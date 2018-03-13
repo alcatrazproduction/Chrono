@@ -33,14 +33,6 @@ class receive:
 	soc_ip		= "224.3.29.71"
 	basems		= 0
 
-	def createTime( self, milli):
-		second 	=  ( milli / 4000 ) % 60
-		minute	= ( milli / 4000 / 60 ) % 60
-		heure		= ( milli / 4000 / 3600 )
-		milli		= milli % 4000
-		return '{:0d}'.format(heure)+':'+'{:02d}'.format(minute)+':'+'{:02d}'.format(second)+'.'+'{:04d}'.format(milli)
-
-
 	def __init__(self, name):
 		port = Globals.decoder[ name ]['port']
 		try:

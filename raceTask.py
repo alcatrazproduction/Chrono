@@ -2,6 +2,10 @@
 ######################################################################################
 # (c) Yves Huguenin, yves.huguenin@free.fr, mars 2018							#
 ######################################################################################
+from Globals	import dictBestLap
+from Globals 	import dictRace
+
+import Globals
 import socket
 import struct
 import thread
@@ -28,19 +32,19 @@ def displayClassementBestLap():
 	print ('|=====================|==========|================|================|=================|=====|')
 	for rider in classement:
 		try:
-			color 						= rider[1][I_textcolor]
-			rider[1][I_textcolor]	= text_normal + text_black
-			print ( color +'|{:20s}'.format( rider[1][I_ridername]) +
-				' | {:8d}'.format( rider[1][I_ridernum]) +
-				" | "+createTime( rider[1][I_bestlap]) +
-				" | "+ createTime( rider[1][I_lastlap] ) +
+			color 						= rider[1]["textcolor"]
+			rider[1]["textcolor"]	= Globals.text_normal + Globals.text_black
+			print ( color +'|{:20s}'.format( rider[1]["ridername"]) +
+				' | {:8d}'.format( rider[1]["ridernum"]) +
+				" | "+createTime( rider[1]["bestlap"]) +
+				" | "+ createTime( rider[1]["lastlap"] ) +
 				' | {:15d}'.format(rider[0]) +
-				' | {:3d}'.format(rider[1][I_lapcount])+
+				' | {:3d}'.format(rider[1]["lapcount"])+
 				' |')
 		except ( ValueError,  IndexError ) as e:
 			print ( e )
 			print (rider)
-	print (text_normal +text_black+
+	print (Globals.text_normal +Globals.text_black+
 		'|=====================|==========|================|================|=================|=====|')
 
 # ***********************************************************************************************************************
@@ -69,35 +73,35 @@ def displayClassementRace():
 		try:
 			pos += 1
 			rr = rider[1]
-			if rr[R_updated]:
-				if pos > rr[R_lastpos]:
-					color 					= text_inverted + text_red
+			if rr["updated"]:
+				if pos > rr["lastpos"]:
+					color 					= Globals.text_inverted + Globals.text_red
 				else:
-					if pos < rr[R_lastpos]:
-						color 				= text_inverted + text_green
+					if pos < rr["lastpos"]:
+						color 				= Globals.text_inverted + Globals.text_green
 					else:
-						color 				= text_inverted + text_blue
+						color 				= Globals.text_inverted + Globals.text_blue
 			else:
-				color 						= text_normal + text_black
-			rr[R_updated] 	= False
-			rr[R_lastpos]	= pos
-			if rr[R_ended]:
+				color 						= Globals.text_normal + Globals.text_black
+			rr["updated"] 	= False
+			rr["lastpos"]	= pos
+			if rr["ended"]:
 				flag="*"
 			else:
 				flag=" "
-			print ( color +'|{:20s}'.format( rr[R_ridername]) +
-				' | {:8d}'.format( rr[R_ridernum]) +
-				" | "+createTime( rr[R_bestlap]) +
-				" | "+ createTime( rr[R_lastlap] ) +
+			print ( color +'|{:20s}'.format( rr["ridername"]) +
+				' | {:8d}'.format( rr["ridernum"]) +
+				" | "+createTime( rr["bestlap"]) +
+				" | "+ createTime( rr["lastlap"] ) +
 				' | {:15d}'.format(rider[0]) +
-				' | {:3d}'.format(rr[R_lapcount])+
+				' | {:3d}'.format(rr["lapcount"])+
 				' |{:1s}'.format( flag )+
-				'| '+ createTime(int( ( rr[R_time] - race_info['start_time'] )*4000 ) )+
+				'| '+ createTime(int( ( rr["time"] - race_info['start_time'] )*4000 ) )+
 				' |')
 		except ( ValueError,  IndexError ) as e:
 			print ( e )
 			print (rider)
-	print (text_normal +text_black+
+	print (Globals.text_normal +Globals.text_black+
 		'|=====================|==========|================|================|=================|=====|=|================|')
 	theTime = int( race_info['end_time']  * 4000 ) - int( time.time()  * 4000 )
 	if theTime < 0:
@@ -120,7 +124,7 @@ def displayClassementRace():
 # ***********************************************************************************************************************
 def displayResultTask():
 	while True:
-		print( clear_screen )
+		print( Globals.clear_screen )
 		print("in display task")
 		if race_flag:
 			print("Display Race classement")
@@ -141,24 +145,24 @@ def doBestLap( tp,  millis ):
 	try:
 		if tp in dictBestLap:
 			tt = dictBestLap[tp]
-			lap		= millis - tt[I_lasttick]
-			tt[I_lasttick ] = millis
-			tt[I_lastlap]	= lap
-			if lap < tt[I_bestlap]:
-				tt[I_bestlap] = lap
-				tt[I_textcolor] = text_inverted + text_green
-			if lap > tt[I_bestlap]:
-				tt[I_textcolor] = text_inverted + text_red
-			tt[I_lapcount]+=1
-			tt[I_updated]	= True
+			lap		= millis - tt["lasttick"]
+			tt["lasttick"] = millis
+			tt["lastlap"]	= lap
+			if lap < tt["bestlap"]:
+				tt["bestlap"] = lap
+				tt["textcolor"] = Globals.text_inverted + Globals.text_green
+			if lap > tt["bestlap"]:
+				tt["textcolor"] = Globals.text_inverted + Globals.text_red
+			tt["lapcount"]+=1
+			tt["updated"]	= True
 		else:
 				dictBestLap.setdefault(tp, [])
 				tt = dictBestLap[tp]
-				tt.append( max_time )					# I_bestlap
-				tt.append( 0 )								# I_lastlap
+				tt["bestlap"]= max_time 					# I_bestlap
+				tt["lastlap"] = 0 								# I_lastlap
 				if tp in rider_name :
-					tt.append(rider_name[tp][0])		# I_ridername
-					tt.append(rider_name[tp][1])		# I_ridernum
+					tt["ridername"]=rider_name[tp][0]		# I_ridername
+					tt["ridernum"]=rider_name[tp][1]		# I_ridernum
 				else:
 					tt.append("Unknow")
 					tt.append(0)
@@ -166,7 +170,7 @@ def doBestLap( tp,  millis ):
 				tt.append( 0 )								# I_lapcount
 				tt.append( 0.999999999 )				# I_totticks
 				tt.append( True )							# I_updated
-				tt.append( text_inverted + text_blue )	# I_textcolor
+				tt.append( Globals.text_inverted + Globals.text_blue )	# I_textcolor
 
 	except  ValueError:
 		print("got an error")
@@ -180,9 +184,9 @@ def doBestLap( tp,  millis ):
 #R_lapcount			= 0
 #R_remticks			= 1
 #R_bestlap			= 2
-#R_lastlap				= 3
-#R_time			= 4
-#R_ridername		= 5
+#R_lastlap			= 3
+#R_time				= 4
+#R_ridername			= 5
 #R_ridernum			= 6
 #R_lasttick			= 7
 #R_updated			= 8
@@ -199,16 +203,16 @@ def doRace( tp,  millis ):
 			return
 		if tp in dictRace:
 			tt = dictRace[tp]
-			if not tt[R_ended]:
-				lap				= millis - tt[R_lasttick]
-				tt[R_lasttick ] 	= millis
-				tt[R_lastlap]		= lap
-				tt[R_remticks] 	= max_time - millis
-				tt[R_time]	= raceTime
-				if lap < tt[R_bestlap]:
-					tt[R_bestlap] = lap
-				tt[R_lapcount]+=1
-				tt[R_updated]	= True
+			if not tt["ended"]:
+				lap				= millis - tt["lasttick"]
+				tt["lasttick"] 	= millis
+				tt["lastlap"]		= lap
+				tt["remticks"] 	= max_time - millis
+				tt["time"]	= raceTime
+				if lap < tt["bestlap"]:
+					tt["bestlap"] = lap
+				tt["lapcount"]+=1
+				tt["updated"]	= True
 				if race_info['end_time'] < raceTime:		# we have finished the time .....
 					cl = sorted(dictRace.items(), reverse=True,  key=lambda t:t[1])
 					if cl[0][0] == tp:							# ok leader passed the line
@@ -220,26 +224,26 @@ def doRace( tp,  millis ):
 								race_info['ended'] = True
 								tt[R_ended] = True
 			if race_info['ended']:
-				tt[R_ended] = True
+				tt["ended"] = True
 
 		else:
 				dictRace.setdefault(tp, [])
 				tt = dictRace[tp]
-				tt.append( 0 )								# R_lapcount
-				tt.append( max_time - millis )					# R_remticks
-				tt.append( max_time )					# R_bestlap
-				tt.append( 0 )								# R_lastlap
-				tt.append( raceTime )					# R_totticks
+				tt["lapcount"] = 0 								# R_lapcount
+				tt["remticks"] = max_time - millis 					# R_remticks
+				tt["bestlap"] =max_time 					# R_bestlap
+				tt["lastlap"] = 0 								# R_lastlap
+				tt["totticks"] = raceTime 					# R_totticks
 				if tp in rider_name :
-					tt.append(rider_name[tp][0])		# R_ridername
-					tt.append(rider_name[tp][1])		# R_ridernum
+					tt["ridername"] =rider_name[tp][0]		# R_ridername
+					tt["ridernum"] =rider_name[tp][1]		# R_ridernum
 				else:
-					tt.append("Unknow")
-					tt.append(0)
-				tt.append(millis)							# R_lasttick
-				tt.append( True )							# R_updated
-				tt.append( text_inverted + text_blue )	# R_textcolor
-				tt.append( False )							# R_ended
+					tt["lasttick"]="Unknow"
+					tt["ridernum"] = 0
+				tt["lasttick"] = millis							# R_lasttick
+				tt["updated"] = True 							# R_updated
+				tt["textcolor"]= Globals.text_inverted + Globals.text_blue 	# R_textcolor
+				tt["ended"]= False 							# R_ended
 
 	except  ValueError:
 		print("got an error")
