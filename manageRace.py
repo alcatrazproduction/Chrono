@@ -40,7 +40,8 @@ class manageRace():
 	def start(self):
 		if self._status != self.cmdWaiting:
 			return
-		self._status		= self.cmdWaiting
+		self._status		= self.cmdStart
+		print( self._status )
 		self.start_time	= int( time() )
 		self.max_time		= self.start_time + self._duration
 		self.remain_lap	= -2
@@ -87,9 +88,19 @@ class manageRace():
 				print( e )
 
 		curtime = int( time())-self.start_time
-		Globals.MainWindow.PB_TimeRace.setFormat(
-			"%s / %s - %%p%%"%( createTimeSeconds( curtime ), createTimeSeconds(self._duration) )
-			)
+		if self._status == self.cmdStart:
+			Globals.MainWindow.PB_TimeRace.setFormat(
+				"%s / %s - %%p%%"%( createTimeSeconds( curtime ), createTimeSeconds(self._duration) )
+				)
+		elif self._status == self.cmdEndTime:
+			Globals.MainWindow.PB_TimeRace.setFormat(
+				"Time finished: %s, Laps %d/%d  - %%p%%"%( createTimeSeconds( curtime ), self.remain_lap, self._laps )
+				)
+		elif self._status == self.cmdFinish:
+			Globals.MainWindow.PB_TimeRace.setFormat(
+				"Finish Flag: %s - %%p%%"%( createTimeSeconds( curtime ) )
+				)
+
 		Globals.MainWindow.PB_TimeRace.setProperty("value",  curtime )
 		for task in receiver:
 				r = receiver[task]
@@ -104,6 +115,7 @@ class manageRace():
 					except  Exception as e:
 						print("in manageRace.update")
 						print( e )
+
 		Globals.MainWindow.R_RaceLive.setRowCount( self.maxrows )
 		l = self._duration*4000
 		for tp in dictRace:
@@ -114,17 +126,16 @@ class manageRace():
 				setLine( colors["White"], row, 1, tt["ridername"])
 				setLine( colors["White"], row, 2, "%3.3d"%tt["lapcount"])
 				setLine( colors["White"], row, 3, createTime(tt["remticks"]))
-				setLine( colors["White"], row, 4, createTime(tt["lastlap"]))
-				setLine( colors["White"], row, 5, createTime(tt["bestlap"]))
+				setLine( tt["textcolor"], row, 4, createTime(tt["lastlap"]))
+				setLine( tt["textcolor"], row, 5, createTime(tt["bestlap"]))
 				tick 	= tt["lasttick"]
-				for i in range( 0,  self.partials-1  ):
+				for i in range( 0,  self.partials  ):
 					val = tt["partial"][i] - tick
 					if val < 0 :
 						val = 0
 					setLine( colors["White"], row,  self._basecol  + i, createTime( val ) )
 					tick = tt["partial"][i]
 		Globals.MainWindow.R_RaceLive.sortItems(0, Qt.DescendingOrder)
-
 
 	def doRace( self, tp,  millis, type ):
 		lap	= 0
@@ -141,14 +152,18 @@ class manageRace():
 						tt["remticks"] 	= time()*1000 - self.start_time * 1000
 						tt["time"]		= raceTime
 						if lap < tt["bestlap"]:
-							tt["bestlap"] 	= lap
+							tt["textcolor"]	= colors["Green"]
+							tt["bestlap"] 		= lap
+						else:
+							tt["textcolor"]	= colors["White"]
 						tt["lapcount"]		+=1
 						tt["updated"]		= True
 						if self.max_time < raceTime:		# we have finished the time .....
 							cl = sorted(dictRace.items(), reverse=True,  key=lambda t:t[1])
 							if cl[0][0] == tp:							# ok leader passed the line
-								if self.remain_lap == -2:			# start for the last laps...
-									self.remain_lap = self._laps
+								if self.remain_lap == -2:				# start for the last laps...
+									self._status		= self.cmdEndTime
+									self.remain_lap 	= self._laps
 								else:
 									self.remain_lap -= 1
 									if self.remain_lap == 0:
@@ -176,7 +191,7 @@ class manageRace():
 					tt["ridernum"] 	= 0
 					tt["lasttick"] 	= millis								# R_lasttick
 					tt["updated"] 		= True 								# R_updated
-					tt["textcolor"]	= Globals.text_inverted + Globals.text_blue 	# R_textcolor
+					tt["textcolor"]	= colors["Cyan"]					 	# R_textcolor
 					tt["ended"]		= False 								# R_ended
 					tt["partial"]		= []
 					for i in range( 0,  self.partials ):

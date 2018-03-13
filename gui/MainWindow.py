@@ -57,7 +57,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 	def startRace(self):
 		if self.__ActualRace == None:
 			print("Starting Race")
-			self.__ActualRace = manageRace(10*60, 2 )
+			self.__ActualRace = manageRace(5*60, 2 )
 			self.__ActualRace.start()
 		else:
 			print("Race allready running")
