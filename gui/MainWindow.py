@@ -322,6 +322,13 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 	def main(self):
 		self.connectActions()
 		self.initGui()
+		self.R_RaceLive.setColumnHidden(0, True)
+		self.R_RaceLive.setColumnHidden(1, True)
+		self.R_RaceLive.setColumnHidden(2, True)
+		self.R_RaceLive.setColumnHidden(3, True)
+		self.R_RaceLive.setColumnHidden(4, True)
+		self.R_RaceLive.setColumnHidden(5, True)
+
 		self.timer = QTimer()
 		self.timer.timeout.connect(self.updateMonitor)
 		self.timer.start(1000)

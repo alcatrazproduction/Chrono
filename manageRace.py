@@ -4,12 +4,18 @@
 ######################################################################################
 from time 			import time
 from PyQt5.QtCore		import QTimer, Qt
-from PyQt5.QtGui		import QBrush
+from PyQt5.QtGui		import QBrush, QIcon
 from PyQt5.QtWidgets 	import QTableWidgetItem
 from Globals			import receiver, colors, decoder, createTimeSeconds
 from Globals			import dictRace, createTime, icons
 from queue			import Queue
 import Globals
+
+# Column width
+char_width	= 7
+name_width 	= 26	* char_width
+laps_width	= 8	* char_width
+time_width	= 12	* char_width
 
 class manageRace():
 	cmdStart		= "Start"
@@ -26,6 +32,7 @@ class manageRace():
 	_status		= ""
 
 	start_time	= 0
+	start_time_ms	= 0
 	remain_lap	= 0
 	partials		= 0
 	maxrows		= 0
@@ -42,13 +49,24 @@ class manageRace():
 			return
 		self._status		= self.cmdStart
 		print( self._status )
-		self.start_time	= int( time() )
+		self.start_time_ms	= int( time() * 1000 )
+		self.start_time	= int( self.start_time_ms / 1000 )
 		self.max_time		= self.start_time + self._duration
 		self.remain_lap	= -2
 		Globals.MainWindow.B_Stop.setEnabled(True)
 		Globals.MainWindow.B_Start.setEnabled(False)
 		Globals.MainWindow.R_RaceLive.setColumnCount( self._basecol )
 		Globals.MainWindow.R_RaceLive.setColumnHidden(0, True)
+		Globals.MainWindow.R_RaceLive.setColumnWidth( 1, name_width)
+		Globals.MainWindow.R_RaceLive.setColumnWidth( 2, laps_width)
+		Globals.MainWindow.R_RaceLive.setColumnWidth( 3, time_width)
+		Globals.MainWindow.R_RaceLive.setColumnWidth( 4, time_width)
+		Globals.MainWindow.R_RaceLive.setColumnWidth( 5, time_width)
+		Globals.MainWindow.R_RaceLive.setColumnHidden(1, False)
+		Globals.MainWindow.R_RaceLive.setColumnHidden(2, False)
+		Globals.MainWindow.R_RaceLive.setColumnHidden(3, False)
+		Globals.MainWindow.R_RaceLive.setColumnHidden(4, False)
+		Globals.MainWindow.R_RaceLive.setColumnHidden(5, False)
 
 		self.maxrows 		= 0
 		col 				=  self._basecol
@@ -62,6 +80,7 @@ class manageRace():
 					Globals.MainWindow.R_RaceLive.setColumnCount( col )
 				item = QTableWidgetItem(task)
 				Globals.MainWindow.R_RaceLive.setHorizontalHeaderItem(t + self._basecol-1, item)
+				Globals.MainWindow.R_RaceLive.setColumnWidth( t + self._basecol-1, time_width)
 		self.partials		= col -  self._basecol
 		Globals.MainWindow.PB_TimeRace.setMaximum( self._duration )
 		Globals.MainWindow.PB_TimeRace.setProperty("value", 0)
@@ -86,6 +105,8 @@ class manageRace():
 				i.setBackground( brush )
 				if icon is not None:
 					i.setIcon( icon )
+				else:
+					i.setIcon( QIcon() )
 			except  Exception as e:
 				print("in update, setLine( color,%d,%d,%s)"%(row, column, text))
 				print( color )
@@ -127,14 +148,16 @@ class manageRace():
 			if tt["updated"]:
 				row 	= tt["row"]
 				setLine( colors["White"], row, 0, "%3.3d%-10.10x"%(tt["lapcount"],int(l - tt["remticks"])))
-				setLine( colors["White"], row, 1, tt["ridername"])
+				setLine( colors["White"], row, 1, "%-3d, %s"%(tt["ridernum"], tt["ridername"]) )
 				if tt["ended"]:
 					setLine( colors["White"], row, 2, "%3.3d"%tt["lapcount"], icons["finish flag"])
 				else:
-					setLine( colors["White"], row, 2, "%3.3d"%tt["lapcount"])
+					setLine( colors["White"], row, 2, "%3.3d"%tt["lapcount"],  None)
 				setLine( colors["White"], row, 3, createTime(tt["remticks"]))
-				setLine( tt["textcolor"], row, 4, createTime(tt["lastlap"]))
-				setLine( tt["textcolor"], row, 5, createTime(tt["bestlap"]))
+				if tt["lapcount"] > 0:
+					setLine( tt["textcolor"], row, 4, createTime(tt["lastlap"]))
+				if tt["lapcount"] > 1:
+					setLine( tt["textcolor"], row, 5, createTime(tt["bestlap"]))
 				tick 	= tt["lasttick"]
 				dur		= self._duration * 1000
 				for i in range( 0,  self.partials  ):
@@ -153,23 +176,24 @@ class manageRace():
 		raceTime = int(time())
 
 		try:
-			if tp in dictRace:
+			if tp in dictRace:														# test if transponder it registred
 				tt 	= dictRace[tp]
 				ptt	= self.private[tp]
-				if not tt["ended"]:
-					if type == 0:
+				if not tt["ended"]:													# has the rider passed the finish flag
+					if type == 0:													# finish line crossing
 						lap				= millis - tt["lasttick"]
 						tt["lasttick"] 	= millis
 						tt["lastlap"]		= lap
-						tt["remticks"] 	= time()*1000 - self.start_time * 1000
+						tt["remticks"] 	= time()*1000 - self.start_time_ms
 						tt["time"]		= raceTime
-						if lap < tt["bestlap"]:
-							tt["textcolor"]	= colors["Green"]
-							tt["bestlap"] 		= lap
-						else:
-							tt["textcolor"]	= colors["White"]
-						tt["lapcount"]		+=1
-						tt["updated"]		= True
+						if tt["lapcount"] > 0:										# the first crossing, it not a full lap
+							if lap < tt["bestlap"]:
+								tt["textcolor"]	= colors["Green"]
+								tt["bestlap"] 		= lap
+							else:
+								tt["textcolor"]	= colors["White"]
+						tt["lapcount"]		+=1										# add a lap
+						tt["updated"]		= True									# all updated
 						ptt[0]	= tt["lapcount"]
 						ptt[1]	= -tt["remticks"]
 						if self.max_time < raceTime:		# we have finished the time .....
@@ -183,40 +207,48 @@ class manageRace():
 									if self.remain_lap == 0:
 										self._status = self.cmdFinish
 										tt["ended"] = True
+						if self._status == self.cmdFinish:
+							tt["ended"] = True
 					else:
 						tt["partial"][type-1] 	= millis
 						tt["updated"]			= True
-				if self._status == self.cmdFinish and type == 0:
-					tt["ended"] = True
-
 			else:
+				tt = {}
 				if type == 0:
-					tt = {}
-					tt["lapcount"] = 1 										# R_lapcount
-					tt["remticks"] = time()*1000 - self.start_time * 1000			# R_remticks
-					tt["bestlap"] =self._duration*1000 						# R_bestlap
-					tt["lastlap"] = 0 										# R_lastlap
-					tt["totticks"] = self._duration*1000 						# R_totticks
-#					if tp in rider_name :
-#						tt["ridername"] =rider_name[tp][0]						# R_ridername
-#						tt["ridernum"] =rider_name[tp][1]						# R_ridernum
-#					else:
+					tt["lapcount"] = 1 									# R_lapcount
+				else:
+					tt["lapcount"] = 0 									# R_lapcount
+				tt["remticks"] = time()*1000 - self.start_time_ms				# R_remticks
+				tt["bestlap"] 	= self._duration*1000 						# R_bestlap
+				tt["lastlap"] 	= 0 										# R_lastlap
+				tt["totticks"] = self._duration*1000 						# R_totticks
+				if Globals.C_concurrents_TP_fmt%tp in Globals.tpRacerList :
+					c	= Globals.racerList[ Globals.tpRacerList[ Globals.C_concurrents_TP_fmt%tp ] ]
+					tt['ridername']			= "%s,%s"%(c['nom'],c['prenom'])		# I_ridername
+					tt['ridernum']				= c['numero']						# I_ridernum
+				else:
 					tt["ridername"]	="Unknow TP_%d"%tp
 					tt["ridernum"] 	= 0
-					tt["lasttick"] 	= millis								# R_lasttick
-					tt["updated"] 		= True 								# R_updated
-					tt["textcolor"]	= colors["Cyan"]					 	# R_textcolor
-					tt["ended"]		= False 								# R_ended
-					tt["partial"]		= []
-					for i in range( 0,  self.partials ):
+				if type == 0:
+					tt["lasttick"] 	= millis							# R_lasttick
+				else:
+					tt["lasttick"] 	= self.start_time*1000				# R_lasttick
+				tt["updated"] 		= True 								# R_updated
+				tt["textcolor"]	= colors["Cyan"]					 	# R_textcolor
+				tt["ended"]		= False 								# R_ended
+				tt["partial"]		= []
+				for i in range( 0,  self.partials ):
+					if i == ( type - 1 ):
+						tt["partial"].append( millis )
+					else:
 						tt["partial"].append(0)
-					tt["row"]			= self.maxrows
-					dictRace[tp] = tt
-					self.maxrows		+= 1
-					ptt = []
-					ptt.append( tt["lapcount"] )
-					ptt.append( -tt["remticks"] )
-					self.private[tp] = ptt
+				tt["row"]			= self.maxrows
+				dictRace[tp] = tt
+				self.maxrows		+= 1
+				ptt = []
+				ptt.append( tt["lapcount"] )
+				ptt.append( -tt["remticks"] )
+				self.private[tp] = ptt
 
 
 		except  ValueError:

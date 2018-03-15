@@ -31,8 +31,9 @@ class decoder_task():
 			p = d['class'].createThread( d,  decoder, name )
 			d['pid']				= p
 			Globals.decoder[name]	= d
-			p.setDaemon( True )
-			p.start()
+			if p is not None:
+				p.setDaemon( True )
+				p.start()
 
 
 	def x_decoder(self, device, baud,  ip, port):
