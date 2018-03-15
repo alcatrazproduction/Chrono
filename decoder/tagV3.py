@@ -168,22 +168,22 @@
 #
 #	CONFIG (27 bytes):
 #	offset	option			values
-#	0	Time of day 		0x00=>runtime, 0x01=>timeofday
-#	1	GPS Sync		0x00=>off, 0x01=>on
-#	2	Time Zone Hour		0x10=>10h, 0x09=>9h
-#	3	Time Zone Min		0x00=>:00, 0x30=>:30
+#	0	Time of day 			0x00=>runtime, 0x01=>timeofday
+#	1	GPS Sync				0x00=>off, 0x01=>on
+#	2	Time Zone Hour			0x10=>10h, 0x09=>9h
+#	3	Time Zone Min			0x00=>:00, 0x30=>:30
 #	4	Distant 232/485 select	0x00=>232, 0x01=>485	(check)
-#	5	Distant Fibre Optic	0x00=>no, 0x01=>yes
+#	5	Distant Fibre Optic		0x00=>no, 0x01=>yes
 #	6	Print pass on serial	0x00=>no, 0x01=>yes
-#	7	Detect maximum		0x00=>no, 0x01=>yes
-#	8	Protocol		0x00=>Cv3,0x01=>AMB,0x02=>Cv2
-#	9	Generate sync		0x00=>no, 0x01=>yes
-#	10	Sync interval min	0x01=>1min, ... , 0x99=>99min
-#	11	Sync ToD on CELL	0x00=>off, 0x01=>on
+#	7	Detect maximum			0x00=>no, 0x01=>yes
+#	8	Protocol				0x00=>Cv3,0x01=>AMB,0x02=>Cv2
+#	9	Generate sync			0x00=>no, 0x01=>yes
+#	10	Sync interval min		0x01=>1min, ... , 0x99=>99min
+#	11	Sync ToD on CELL		0x00=>off, 0x01=>on
 #	12	Sync Time hours		0x00=>0h, ... , 0x23=>23h (Question Function?)
-#	13	Sync Time min		0x00=>:00, ... , 0x59=>:59
-#	14      Active Loop             0x00=>passive, 0x01=>powered (active)
-#	15,16	STA Tone		0x12,0x34=>1234Hz 0x00,0x00=>no tone
+#	13	Sync Time min			0x00=>:00, ... , 0x59=>:59
+#	14      Active Loop         	0x00=>passive, 0x01=>powered (active)
+#	15,16	STA Tone			0x12,0x34=>1234Hz 0x00,0x00=>no tone
 #	17,18	BOX Tone		"
 #	19,20	MAN Tone		"
 #	21,22	CEL Tone		"
@@ -192,10 +192,10 @@
 #
 #	IPCONFIG (16 bytes):
 #
-#	0-3	IP Address, net order eg: 192.168.95.252 => 0xc0 + 0xa8 + 0x5f + 0xfc
-#	4-7	Netmask, "
-#	8-11	Gateway, "
-#	12-15	Remote host, "
+#	0-3		IP Address, 		net order eg: 192.168.95.252 => 0xc0 + 0xa8 + 0x5f + 0xfc
+#	4-7		Netmask, 			"
+#	8-11		Gateway, 			"
+#	12-15	Remote host, 		"
 #
 #	NOTES:
 #
@@ -215,10 +215,10 @@
 #			Side effects of this have not been tested.
 #
 from threading 		import Thread
-from crccheck.crc import Crcc16Mcrf4xx as crc16 # use crc16.calc( bytearray( [data].encode() ) )
-#import socket
-#import struct
-#import serial
+from crccheck.crc 		import Crcc16Mcrf4xx as crc16 			# use crc16.calc( bytearray( [data].encode() ) )
+import socket
+import struct
+import serial
 
 # Command Definition
 ESC				= chr( 27 )						# escape character
@@ -313,3 +313,128 @@ class decoder():
 	def createThread(self,d,  decoder, name):
 			p = Thread( target=self.decoder, args=(decoder['device'], decoder['baud'],  d['multi_ip'], d['port']))
 			return p
+
+	def decoder(self, device, baud,  ip, port):
+		theSer = serial.Serial( device, baud)
+		if not theSer.is_open:
+			print( "ERROR Opening: ")
+			print( device)
+			print("\n")
+			exit( -2)
+
+		multicast_group = (ip,port)
+
+		sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+		sock.settimeout(0.1)
+
+		ttl = struct.pack('b', 10)
+		sock.setsockopt(socket.IPPROTO_IP, socket.IP_MULTICAST_TTL, ttl)
+		theSer.write('VERSION\r\n'.encode())
+		theSer.write('CANO MODE\r\n'.encode())
+
+		while(1):
+			line = theSer.readline()
+			if len(line)==(16):
+				tp		= int( line[0:5]	, 16 )
+				millis	= int( line[6:]	, 16 )
+				try:
+					message = str(tp) +" " + str( millis )
+					sock.sendto(message.encode(), multicast_group)
+				except socket.timeout:
+					print("exception on send multicast")
+				finally:
+					message=""
+			else:
+				print( line )
+				print( len( line ))
+				print( "\n")
+		exit(0)
+
+# Command Definition
+	def getStatus( self ):
+		self.sendCmd( self.cmd['Status'] )
+#		response:	[STATUS]
+	def start( self ):
+		self.sendCmd( self.cmd['Start'] )
+#		response:	[DEPART] or none if decoder already started
+	def setConfig( self ,  cfg ):
+#		Update decoder configuration
+#		command:	ESC + 0x08 + 0x08 + [CONFIG] + [CRC] + '>'
+#		response:	none
+		crc = crc16( bytearray( cfg.encode() ) )
+		self.sendCmd( self.cmd['Set Config']%(cfg, crc) )
+	def setIPConfig( self,  cfg ):
+#		Update decoder IP configuration. Note: Decoder must be stopped
+#		before issuing this command (why?)
+#		command:	ESC + 0x09 + 0x09 + [IPCONFIG] + [CRC] + '>'
+		crc = crc16( bytearray( cfg.encode() ) )
+		self.sendCmd( self.cmd['Set IP Config']%(cfg, crc) )
+#		response:	XPORT specific (TBC)
+	def getConfig( self ):
+#		Fetch current decoder configuration & identification
+#		command:	ESC + 0x10
+		self.sendCmd( self.cmd['Get Config'] )
+#		response:	[DECODERCONF]
+#
+	def acknowledge( self ):
+#		Acknowledge last passing sent by decoder/flag ready for next passing
+#		command:	ESC + 0x11
+		self.sendCmd( self.cmd['Acknowledge'] )
+#		response:	none or [PASSING]
+#
+	def repeat( self ):
+#		Repeat first unacknowledged passing, else last acknowledged passing
+#		command:	ESC + 0x12
+		self.sendCmd( self.cmd['Repeat'] )
+#		response:	[PASSING]
+#
+	def stop( self ):
+#		Stop decoder
+#		command:	ESC + 0x13 + '\'
+		self.sendCmd( self.cmd['Stop'] )
+#		response:	[STOP] (even if already stopped)
+#
+	def setTime( self ,  cfg ):
+#		Update decoder time of day - also sets running time if decoder
+#		started and config option "Running time to time of decoder" set
+#		command:	ESC + 0x48 + [SETTIME] + 't'
+		self.sendCmd( self.cmd['Start']%( cfg ) )
+#		response:	none
+#
+	def setDate( self,  cfg ):
+#		Update decoder date
+#		command:	ESC + 0x0a + 0x0a + [SETDATE] + [CRC] + '>'
+		crc = crc16( bytearray( cfg.encode() ) )
+		self.sendCmd( self.cmd['Set Date']%( cfg, crc ) )
+#		response:	none
+#
+	def setSTALevel( self,  cfg ):
+#		Set detection level on STA channel
+#		command:	ESC + 0x1e + [SETLEVEL]
+		self.sendCmd( self.cmd['Set STA Level']%(cfg) )
+#		response:	none
+#
+	def setBOXLevel( self,  cfg ):
+#		Set Detection level on BOX channel
+#		command:	ESC + 0x1f + [SETLEVEL]
+		self.sendCmd( self.cmd['Set BOX Level']% ( cfg ) )
+#		response:	none
+#
+	def statBXX( self,  cfg ):
+#		Request status on remote decoder with id specified in B
+#		command:	ESC + 0x49 + [B]
+		self.sendCmd( self.cmd['Stat BXX']%( cfg ))
+#		response:	(TBC)
+#
+	def bXXLevel( self ):
+#		Increment all detection levels by 0x10 (Note 2)
+#		command:	ESC + 0x4e + 0x2b
+		self.sendCmd( self.cmd['BXX  Level'] )
+#		response:	none
+
+	def	sendCmd( self,  command):
+		print( command )
+
+	def	receiveResponse( self,  timeout = 0 ):
+		print( timeout )
+		return ''
