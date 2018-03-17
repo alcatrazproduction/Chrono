@@ -5,7 +5,7 @@
 from time 			import time
 from PyQt5.QtCore		import QTimer, Qt,  QTime
 from PyQt5.QtGui		import QBrush, QIcon
-from PyQt5.QtWidgets 	import QTableWidgetItem, QDialog
+from PyQt5.QtWidgets 	import QTableWidgetItem, QDialog, QMessageBox, QCheckBox
 from Globals			import receiver, colors, decoder, createTimeSeconds
 from Globals			import dictRace, createTime, icons
 from queue			import Queue
@@ -56,6 +56,52 @@ class manageRace():
 			Globals.raceLaps 		= gui.nbTourIntNumInput.value()
 			t 					= gui.durETimeEdit.time()
 			Globals.raceDuration	= t.hour()*3600 + t.minute()*60
+
+	def stop(self):
+		theRace = Globals.MainWindow.getActualRace()
+		if theRace._status == manageRace.cmdStart or theRace._status == manageRace.cmdEndTime:
+			msg = QMessageBox()
+			msg.setIcon(			QMessageBox.Critical)
+			msg.setText(			"Arreter la course en cours")
+			msg.setInformativeText(	"Tout le classement sera perdu en cas d'arret")
+			msg.setWindowTitle(		"Stop de course, Drapeau ROUGE")
+			msg.setStandardButtons(	QMessageBox.Ok | QMessageBox.Cancel)
+			msg.setDefaultButton( 	QMessageBox.Cancel )
+			chk1 = QCheckBox("Finir le tour")
+			msg.setCheckBox( chk1 )
+			btn = msg.addButton("Suspendre la course",  QMessageBox.ActionRole)
+			if  msg.exec() == QMessageBox.Cancel:
+				return
+			if msg.clickedButton() == btn:
+				theRace._status	= manageRace.cmdSuspended
+				print( "Suspending Race" )
+			else:
+				if chk1.isChecked():
+					print( "Stopping Race, and finishing lap ")
+					theRace._status	= manageRace.cmdFinish
+				else:
+					print( "Stopping Race ")
+					theRace._status	= manageRace.cmdStop
+					theRace.timer.stop()
+					Globals.MainWindow.B_Stop.setEnabled(False)
+					Globals.MainWindow.B_Start.setEnabled(True)
+					Globals.MainWindow.B_Define.setEnabled(True)
+
+		elif theRace._status == manageRace.cmdFinish:
+			msg = QMessageBox()
+			msg.setIcon(			QMessageBox.Warning)
+			msg.setText(			"Tout les concurrents sont hors du parcours")
+			msg.setWindowTitle(		"Course terminée, Drapeau Damier")
+			msg.setStandardButtons(	QMessageBox.Ok | QMessageBox.Cancel)
+			msg.setDefaultButton( 	QMessageBox.Cancel )
+			if  msg.exec() == QMessageBox.Cancel:
+				return
+			print( "Race ended, all racer out ")
+			theRace._status	= manageRace.cmdStop
+			theRace.timer.stop()
+			Globals.MainWindow.B_Stop.setEnabled(False)
+			Globals.MainWindow.B_Start.setEnabled(True)
+			Globals.MainWindow.B_Define.setEnabled(True)
 
 
 
@@ -164,7 +210,7 @@ class manageRace():
 		l = self._duration*4000
 		for tp in dictRace:
 			tt = dictRace[tp]
-			if tt["updated"]:
+			if True:				#if tt["updated"]:
 				row 	= tt["row"]
 				setLine( colors["White"], row, 0, "%3.3d%-10.10x"%(tt["lapcount"],int(l - tt["remticks"])))
 				setLine( colors["White"], row, 1, "%-3d, %s"%(tt["ridernum"], tt["ridername"]) )
@@ -174,7 +220,11 @@ class manageRace():
 					setLine( colors["White"], row, 2, "%3.3d"%tt["lapcount"],  None)
 				setLine( colors["White"], row, 3, createTime(tt["remticks"]))
 				if tt["lapcount"] > 0:
-					setLine( tt["textcolor"], row, 4, createTime(tt["lastlap"]))
+					if tt["lapcount"] >1 and tt["lastlap"] <= self.bestLap:
+						setLine( colors["Violet"], row, 4, createTime(tt["lastlap"]))
+						self.bestLap = tt["lastlap"]
+					else:
+						setLine( tt["textcolor"], row, 4, createTime(tt["lastlap"]))
 				if tt["lapcount"] > 1:
 					setLine( tt["textcolor"], row, 5, createTime(tt["bestlap"]))
 				tick 	= tt["lasttick"]

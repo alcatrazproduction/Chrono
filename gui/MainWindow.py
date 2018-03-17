@@ -33,6 +33,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 	__RacerEdited 	= None
 	__ActualRace	= None
 
+	def getActualRace(self):
+		return self.__ActualRace
+
 	def getRacer(self):
 		return self.__RacerEdited
 
@@ -53,6 +56,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.TM_T_passage.itemDoubleClicked.connect(			self.setRacerTb)
 # Race action:
 		self.B_Start.clicked.connect( 					self.startRace )
+		self.B_Stop.clicked.connect(	 					manageRace.stop )
 		self.B_Define.clicked.connect( 					manageRace.requestDefine )
 
 	def startRace(self):

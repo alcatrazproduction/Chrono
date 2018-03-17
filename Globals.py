@@ -73,6 +73,7 @@ colors["Green"]					= QColor( 0x00ff00 )
 colors["Blue"]						= QColor( 0x0000ff )
 colors["Cyan"]						= QColor( 0x00ffff )
 colors["White"]					= QColor( 0xffffff )
-
+colors["Violet"]					= QColor( 0xff00ff )
+colors["Yellow"]					= QColor( 0xffff00 )
 icons							= {}
 icons["finish flag"]				= QIcon()
