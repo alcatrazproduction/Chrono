@@ -305,6 +305,38 @@ cmd['Stat BXX']		= ESC + '\x49%s>'
 #		command:	ESC + 0x4e + 0x2b
 cmd['BXX  Level']	= ESC + '\x4e\x2b>'
 #		response:	none
+test_passing	= "<STA 006141 00:02'57\"541 38 07 0 1569>"
+class passing():
+	def __init__(self, data = ""):
+		self.telegram		= data
+		try:
+			if data[0:1] == '<':
+				self.loop_ID		= data[1:4]
+				self.tp			= int( data[5:11]  )
+				self.hours		= int( data[12:14] )
+				self.minutes		= int( data[15:17] )
+				self.seconds		= int( data[18:20] )
+				self.millis		= int( data[21:24] )
+				self.power		= int( data[25:27] )
+				self.loopcout		= int( data[28:30] )
+				self.btpower		= int( data[31:32] )
+				self.checksum		= int( data[33:37] )
+				byte				= bytearray( data[1:33].encode() )
+				compute			= 0
+				for i in range(0,32):
+					compute		+= byte[i]
+				if compute == self.checksum:
+					self.valid	= True
+				else:
+					self.valid	= False
+			else:
+				self.valid		= False
+		except Exception as e:
+			print( e )
+			self.valid			= False
+
+
+
 
 class decoder():
 

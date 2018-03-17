@@ -149,34 +149,34 @@ VERSION (4 bytes): (TBC)
 
 CONFIG (27 bytes):
 offset	option			values
-0	Time of day 		0x00=>runtime, 0x01=>timeofday
-1	GPS Sync		0x00=>off, 0x01=>on
-2	Time Zone Hour		0x10=>10h, 0x09=>9h
-3	Time Zone Min		0x00=>:00, 0x30=>:30
+0	Time of day 			0x00=>runtime, 0x01=>timeofday
+1	GPS Sync				0x00=>off, 0x01=>on
+2	Time Zone Hour			0x10=>10h, 0x09=>9h
+3	Time Zone Min			0x00=>:00, 0x30=>:30
 4	Distant 232/485 select	0x00=>232, 0x01=>485	(check)
-5	Distant Fibre Optic	0x00=>no, 0x01=>yes
+5	Distant Fibre Optic		0x00=>no, 0x01=>yes
 6	Print pass on serial	0x00=>no, 0x01=>yes
-7	Detect maximum		0x00=>no, 0x01=>yes
-8	Protocol		0x00=>Cv3,0x01=>AMB,0x02=>Cv2
-9	Generate sync		0x00=>no, 0x01=>yes
-10	Sync interval min	0x01=>1min, ... , 0x99=>99min
-11	Sync ToD on CELL	0x00=>off, 0x01=>on
+7	Detect maximum			0x00=>no, 0x01=>yes
+8	Protocol				0x00=>Cv3,0x01=>AMB,0x02=>Cv2
+9	Generate sync			0x00=>no, 0x01=>yes
+10	Sync interval min		0x01=>1min, ... , 0x99=>99min
+11	Sync ToD on CELL		0x00=>off, 0x01=>on
 12	Sync Time hours		0x00=>0h, ... , 0x23=>23h (Question Function?)
-13	Sync Time min		0x00=>:00, ... , 0x59=>:59
-14      Active Loop             0x00=>passive, 0x01=>powered (active)
-15,16	STA Tone		0x12,0x34=>1234Hz 0x00,0x00=>no tone
-17,18	BOX Tone		"
-19,20	MAN Tone		"
-21,22	CEL Tone		"
-23,24	BXX Tone		"
+13	Sync Time min			0x00=>:00, ... , 0x59=>:59
+14      Active Loop          	0x00=>passive, 0x01=>powered (active)
+15,16	STA Tone			0x12,0x34=>1234Hz 0x00,0x00=>no tone
+17,18	BOX Tone			"
+19,20	MAN Tone			"
+21,22	CEL Tone			"
+23,24	BXX Tone			"
 25,26	STA+BOX Levels		eg 0x45,0x92 => 45,92 (note 2)
 
 IPCONFIG (16 bytes):
 
-0-3	IP Address, net order eg: 192.168.95.252 => 0xc0 + 0xa8 + 0x5f + 0xfc
-4-7	Netmask, "
-8-11	Gateway, "
-12-15	Remote host, "
+0-3		IP Address, net order eg: 	192.168.95.252 => 0xc0 + 0xa8 + 0x5f + 0xfc
+4-7		Netmask, 								"
+8-11		Gateway, 								"
+12-15	Remote host, 							"
 
 NOTES:
 
