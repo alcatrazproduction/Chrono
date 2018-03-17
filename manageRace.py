@@ -47,6 +47,8 @@ class manageRace():
 	def start(self):
 		if self._status != self.cmdWaiting:
 			return
+		self.bestLap		= self.duration * 1000										# init best with max time
+		self.bestPartial	= {}
 		self._status		= self.cmdStart
 		print( self._status )
 		self.start_time_ms	= int( time() * 1000 )
@@ -81,6 +83,7 @@ class manageRace():
 				item = QTableWidgetItem(task)
 				Globals.MainWindow.R_RaceLive.setHorizontalHeaderItem(t + self._basecol-1, item)
 				Globals.MainWindow.R_RaceLive.setColumnWidth( t + self._basecol-1, time_width)
+				self.bestPartial[ t ] = self.duration * 1000										# init best with max time
 		self.partials		= col -  self._basecol
 		Globals.MainWindow.PB_TimeRace.setMaximum( self._duration )
 		Globals.MainWindow.PB_TimeRace.setProperty("value", 0)

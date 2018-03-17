@@ -10,7 +10,7 @@ class Preferences:
 # 'class'		Type of decoder ( name of the interface class )
 # 'type'		The type of line, 0 = finish line, other are partial in sequence !
 
-	decoderList['simulator_FL']	= {
+	decoderList['sim_Finish']	= {
 								'active': 	True,
 								'port': 		10000,
 								'class': 		'simulator',
@@ -20,7 +20,7 @@ class Preferences:
 								'delay':		0,
 								'auto_assign':	True
 							}
-	decoderList['simulator_LP1']	= {
+	decoderList['simPartial 1']	= {
 								'active': 	True,
 								'port': 		10001,
 								'class': 		'simulator',
@@ -29,7 +29,7 @@ class Preferences:
 								'laptime':	30,
 								'delay':		10
 							}
-	decoderList['simulator_LP2']	= {
+	decoderList['simPartial 2']	= {
 								'active': 	True,
 								'port': 		10002,
 								'class': 		'simulator',
