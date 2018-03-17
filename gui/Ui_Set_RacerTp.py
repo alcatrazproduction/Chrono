@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'Set_RacerTp.ui'
+# Form implementation generated from reading ui file 'defGui/Set_RacerTp.ui'
 #
 # Created by: PyQt5 UI code generator 5.7
 #

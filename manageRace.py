@@ -3,12 +3,13 @@
 # (c) Yves Huguenin, yves.huguenin@free.fr, mars 2018							#
 ######################################################################################
 from time 			import time
-from PyQt5.QtCore		import QTimer, Qt
+from PyQt5.QtCore		import QTimer, Qt,  QTime
 from PyQt5.QtGui		import QBrush, QIcon
-from PyQt5.QtWidgets 	import QTableWidgetItem
+from PyQt5.QtWidgets 	import QTableWidgetItem, QDialog
 from Globals			import receiver, colors, decoder, createTimeSeconds
 from Globals			import dictRace, createTime, icons
 from queue			import Queue
+from Ui_set_RaceLen		import Ui_set_RaceLen
 import Globals
 
 # Column width
@@ -43,11 +44,25 @@ class manageRace():
 		self._status		= status
 		print("manageRace.__init__(%d, %d, %s)"%(duration, laps,  status))
 
+	def requestDefine(self):
+		print("def requestDefine(self):")
+		dlg	= QDialog()
+		gui 	= Ui_set_RaceLen()
+		gui.setupUi( dlg )
+		gui.durETimeEdit.setTime( QTime( int( Globals.raceDuration / 3600 ),int( Globals.raceDuration / 60 )%60  ) )
+		gui.nbTourIntNumInput.setValue( Globals.raceLaps )
+		dlg.show()
+		if dlg.exec():
+			Globals.raceLaps 		= gui.nbTourIntNumInput.value()
+			t 					= gui.durETimeEdit.time()
+			Globals.raceDuration	= t.hour()*3600 + t.minute()*60
+
+
 
 	def start(self):
 		if self._status != self.cmdWaiting:
 			return
-		self.bestLap		= self.duration * 1000										# init best with max time
+		self.bestLap		= self._duration * 1000										# init best with max time
 		self.bestPartial	= {}
 		self._status		= self.cmdStart
 		print( self._status )
@@ -57,6 +72,7 @@ class manageRace():
 		self.remain_lap	= -2
 		Globals.MainWindow.B_Stop.setEnabled(True)
 		Globals.MainWindow.B_Start.setEnabled(False)
+		Globals.MainWindow.B_Define.setEnabled(False)
 		Globals.MainWindow.R_RaceLive.setColumnCount( self._basecol )
 		Globals.MainWindow.R_RaceLive.setColumnHidden(0, True)
 		Globals.MainWindow.R_RaceLive.setColumnWidth( 1, name_width)
@@ -83,7 +99,7 @@ class manageRace():
 				item = QTableWidgetItem(task)
 				Globals.MainWindow.R_RaceLive.setHorizontalHeaderItem(t + self._basecol-1, item)
 				Globals.MainWindow.R_RaceLive.setColumnWidth( t + self._basecol-1, time_width)
-				self.bestPartial[ t ] = self.duration * 1000										# init best with max time
+				self.bestPartial[ t ] = self._duration * 1000										# init best with max time
 		self.partials		= col -  self._basecol
 		Globals.MainWindow.PB_TimeRace.setMaximum( self._duration )
 		Globals.MainWindow.PB_TimeRace.setProperty("value", 0)

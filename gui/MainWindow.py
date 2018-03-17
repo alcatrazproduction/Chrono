@@ -53,11 +53,12 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 		self.TM_T_passage.itemDoubleClicked.connect(			self.setRacerTb)
 # Race action:
 		self.B_Start.clicked.connect( 					self.startRace )
+		self.B_Define.clicked.connect( 					manageRace.requestDefine )
 
 	def startRace(self):
 		if self.__ActualRace == None:
 			print("Starting Race")
-			self.__ActualRace = manageRace(1*60, 2 )
+			self.__ActualRace = manageRace( Globals.raceDuration, Globals.raceLaps )
 			self.__ActualRace.start()
 		else:
 			print("Race allready running")

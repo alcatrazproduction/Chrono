@@ -63,6 +63,8 @@ MainWindow						= None
 UserRole	 						= 0x0100
 racerList 						= {}
 tpRacerList						= {}
+raceDuration						= 2*60
+raceLaps							= 2
 # QColor used in software
 # Changed to dict (13.03.2018)
 colors							= {}

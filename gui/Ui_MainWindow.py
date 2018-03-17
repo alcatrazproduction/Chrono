@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'MainWindow.ui'
+# Form implementation generated from reading ui file 'defGui/MainWindow.ui'
 #
 # Created by: PyQt5 UI code generator 5.7
 #
@@ -645,6 +645,7 @@ class Ui_MainWindow(object):
         self.toolBox.setAccessibleDescription("")
         self.toolBox.setObjectName("toolBox")
         self.P_Race = QtWidgets.QWidget()
+        self.P_Race.setGeometry(QtCore.QRect(0, 0, 821, 487))
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Minimum)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -680,6 +681,14 @@ class Ui_MainWindow(object):
         self.PB_TimeRace.setFormat("Waiting for start")
         self.PB_TimeRace.setObjectName("PB_TimeRace")
         self.horizontalLayout_4.addWidget(self.PB_TimeRace)
+        self.B_Define = QtWidgets.QPushButton(self.verticalLayoutWidget_2)
+        self.B_Define.setToolTip("")
+        self.B_Define.setStatusTip("")
+        self.B_Define.setAccessibleName("")
+        self.B_Define.setAccessibleDescription("")
+        self.B_Define.setShortcut("")
+        self.B_Define.setObjectName("B_Define")
+        self.horizontalLayout_4.addWidget(self.B_Define)
         self.B_Start = QtWidgets.QPushButton(self.verticalLayoutWidget_2)
         self.B_Start.setToolTip("")
         self.B_Start.setStatusTip("")
@@ -733,7 +742,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_2.addWidget(self.R_RaceLive)
         self.toolBox.addItem(self.P_Race, "")
         self.P_Laptime = QtWidgets.QWidget()
-        self.P_Laptime.setGeometry(QtCore.QRect(0, 0, 821, 487))
+        self.P_Laptime.setGeometry(QtCore.QRect(0, 0, 98, 28))
         self.P_Laptime.setObjectName("P_Laptime")
         self.toolBox.addItem(self.P_Laptime, "")
         self.Tab_Container.addTab(self.T_Race, "")
@@ -937,6 +946,7 @@ class Ui_MainWindow(object):
         self.RR_Categorie.setSortingEnabled(__sortingEnabled)
         self.Tab_Container.setTabText(self.Tab_Container.indexOf(self.T_Racer_Race), _translate("MainWindow", "Participants"))
         self.Tab_Container.setTabText(self.Tab_Container.indexOf(self.T_RaceModel), _translate("MainWindow", "Modeles Courses"))
+        self.B_Define.setText(_translate("MainWindow", "Durée"))
         self.B_Start.setText(_translate("MainWindow", "Départ"))
         self.B_Stop.setText(_translate("MainWindow", "STOP"))
         self.R_RaceLive.setSortingEnabled(False)
