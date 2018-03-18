@@ -57,7 +57,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 # Race action:
 		self.B_Start.clicked.connect( 					self.startRace )
 		self.B_Stop.clicked.connect(	 					manageRace.stop )
-		self.B_Define.clicked.connect( 					manageRace.requestDefine )
+		self.B_Define.currentIndexChanged.connect( 			manageRace.requestDefine )
 
 	def startRace(self):
 		if self.__ActualRace == None:

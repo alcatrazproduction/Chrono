@@ -1767,7 +1767,13 @@ p, li { white-space: pre-wrap; }
             </widget>
            </item>
            <item>
-            <widget class="QPushButton" name="B_Define">
+            <widget class="QComboBox" name="B_Define">
+             <property name="maximumSize">
+              <size>
+               <width>20</width>
+               <height>16777215</height>
+              </size>
+             </property>
              <property name="toolTip">
               <string notr="true"/>
              </property>
@@ -1780,12 +1786,24 @@ p, li { white-space: pre-wrap; }
              <property name="accessibleDescription">
               <string notr="true"/>
              </property>
-             <property name="text">
-              <string>Durée</string>
+             <property name="frame">
+              <bool>true</bool>
              </property>
-             <property name="shortcut">
-              <string notr="true"/>
-             </property>
+             <item>
+              <property name="text">
+               <string>Menu Options</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Durée</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>Sauvegade des Résultats</string>
+              </property>
+             </item>
             </widget>
            </item>
            <item>

@@ -56,18 +56,22 @@ class manageRace():
 		self._status		= status
 		print("manageRace.__init__(%d, %d, %s)"%(duration, laps,  status))
 
-	def requestDefine(self):
+	def requestDefine( index ):
 		print("def requestDefine(self):")
-		dlg	= QDialog()
-		gui 	= Ui_set_RaceLen()
-		gui.setupUi( dlg )
-		gui.durETimeEdit.setTime( QTime( int( Globals.raceDuration / 3600 ),int( Globals.raceDuration / 60 )%60  ) )
-		gui.nbTourIntNumInput.setValue( Globals.raceLaps )
-		dlg.show()
-		if dlg.exec():
-			Globals.raceLaps 		= gui.nbTourIntNumInput.value()
-			t 					= gui.durETimeEdit.time()
-			Globals.raceDuration	= t.hour()*3600 + t.minute()*60
+		if index == 0:										# nothing to do....
+			return
+		elif index == 1:									# Edit the race info
+			dlg	= QDialog()
+			gui 	= Ui_set_RaceLen()
+			gui.setupUi( dlg )
+			gui.durETimeEdit.setTime( QTime( int( Globals.raceDuration / 3600 ),int( Globals.raceDuration / 60 )%60  ) )
+			gui.nbTourIntNumInput.setValue( Globals.raceLaps )
+			dlg.show()
+			if dlg.exec():
+				Globals.raceLaps 		= gui.nbTourIntNumInput.value()
+				t 					= gui.durETimeEdit.time()
+				Globals.raceDuration	= t.hour()*3600 + t.minute()*60
+		Globals.MainWindow.B_Define.setCurrentIndex( 0 )
 
 	def stop(self):
 		theRace = Globals.MainWindow.getActualRace()
