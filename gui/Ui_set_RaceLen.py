@@ -12,7 +12,7 @@ class Ui_set_RaceLen(object):
     def setupUi(self, set_RaceLen):
         set_RaceLen.setObjectName("set_RaceLen")
         set_RaceLen.setWindowModality(QtCore.Qt.ApplicationModal)
-        set_RaceLen.resize(275, 82)
+        set_RaceLen.resize(276, 71)
         set_RaceLen.setWindowTitle("")
         set_RaceLen.setLocale(QtCore.QLocale(QtCore.QLocale.French, QtCore.QLocale.Switzerland))
         set_RaceLen.setModal(True)
@@ -65,6 +65,7 @@ class Ui_set_RaceLen(object):
         self.nbTourIntNumInput.setButtonSymbols(QtWidgets.QAbstractSpinBox.PlusMinus)
         self.nbTourIntNumInput.setSpecialValueText("")
         self.nbTourIntNumInput.setSuffix(" Tour(s)")
+        self.nbTourIntNumInput.setMaximum(999)
         self.nbTourIntNumInput.setObjectName("nbTourIntNumInput")
         self.formLayout.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.nbTourIntNumInput)
 

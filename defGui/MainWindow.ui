@@ -1845,6 +1845,9 @@ p, li { white-space: pre-wrap; }
            <property name="accessibleDescription">
             <string notr="true"/>
            </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
            <property name="sizeAdjustPolicy">
             <enum>QAbstractScrollArea::AdjustToContents</enum>
            </property>
@@ -1864,10 +1867,10 @@ p, li { white-space: pre-wrap; }
             <bool>true</bool>
            </property>
            <property name="selectionMode">
-            <enum>QAbstractItemView::NoSelection</enum>
+            <enum>QAbstractItemView::MultiSelection</enum>
            </property>
            <property name="selectionBehavior">
-            <enum>QAbstractItemView::SelectColumns</enum>
+            <enum>QAbstractItemView::SelectItems</enum>
            </property>
            <property name="sortingEnabled">
             <bool>false</bool>
@@ -1876,7 +1879,7 @@ p, li { white-space: pre-wrap; }
             <number>0</number>
            </property>
            <property name="columnCount">
-            <number>6</number>
+            <number>7</number>
            </property>
            <attribute name="horizontalHeaderDefaultSectionSize">
             <number>100</number>
@@ -1902,6 +1905,20 @@ p, li { white-space: pre-wrap; }
             </property>
             <property name="whatsThis">
              <string notr="true"/>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string notr="true">   </string>
+            </property>
+            <property name="toolTip">
+             <string notr="true"/>
+            </property>
+            <property name="whatsThis">
+             <string notr="true"/>
+            </property>
+            <property name="textAlignment">
+             <set>AlignTrailing|AlignVCenter</set>
             </property>
            </column>
            <column>
@@ -1966,8 +1983,8 @@ p, li { white-space: pre-wrap; }
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>98</width>
-         <height>28</height>
+         <width>100</width>
+         <height>30</height>
         </rect>
        </property>
        <attribute name="label">

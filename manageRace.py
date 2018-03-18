@@ -2,21 +2,33 @@
 ######################################################################################
 # (c) Yves Huguenin, yves.huguenin@free.fr, mars 2018							#
 ######################################################################################
-from time 			import time
-from PyQt5.QtCore		import QTimer, Qt,  QTime
-from PyQt5.QtGui		import QBrush, QIcon
-from PyQt5.QtWidgets 	import QTableWidgetItem, QDialog, QMessageBox, QCheckBox
-from Globals			import receiver, colors, decoder, createTimeSeconds
-from Globals			import dictRace, createTime, icons
-from queue			import Queue
-from Ui_set_RaceLen		import Ui_set_RaceLen
+from time 					import time
+from PyQt5.QtCore				import QTimer, Qt,  QTime
+from PyQt5.QtCore				import QCoreApplication
+from PyQt5.QtGui				import QBrush, QIcon
+from PyQt5.QtWidgets 			import QTableWidgetItem, QDialog, QMessageBox, QCheckBox
+from Globals					import receiver, colors, decoder, createTimeSeconds
+from Globals					import dictRace, createTime, icons
+from queue					import Queue
+from Ui_set_RaceLen				import Ui_set_RaceLen
 import Globals
 
 # Column width
-char_width	= 7
-name_width 	= 26	* char_width
-laps_width	= 8	* char_width
-time_width	= 12	* char_width
+char_width		= 7
+num_width			= 4	* char_width
+name_width 		= 26	* char_width
+laps_width		= 8	* char_width
+time_width		= 12	* char_width
+
+cols				= {}
+cols["short"]		= [0, 	0, 			True]
+cols["num"]		= [1, 	num_width,	False]
+cols["name"]		= [2, 	name_width,	False]
+cols["laps"]		= [3, 	laps_width,	False]
+cols["time"]		= [4, 	time_width,	False]
+cols["last"]		= [5, 	time_width,	False]
+cols["best"]		= [6, 	time_width,	False]
+cols["partial"]	= [None, 	time_width,	False]
 
 class manageRace():
 	cmdStart		= "Start"
@@ -26,7 +38,7 @@ class manageRace():
 	cmdFinish		= "Finish"
 	cmdEndTime	= "EndTime"
 
-	_basecol		= 6
+	_basecol		= 7
 
 	_duration 	= 0
 	_laps		= 0
@@ -109,6 +121,7 @@ class manageRace():
 		if self._status != self.cmdWaiting:
 			return
 		self.bestLap		= self._duration * 1000										# init best with max time
+		self.bestLapTb		= None													# init the transponder info
 		self.bestPartial	= {}
 		self._status		= self.cmdStart
 		print( self._status )
@@ -120,17 +133,10 @@ class manageRace():
 		Globals.MainWindow.B_Start.setEnabled(False)
 		Globals.MainWindow.B_Define.setEnabled(False)
 		Globals.MainWindow.R_RaceLive.setColumnCount( self._basecol )
-		Globals.MainWindow.R_RaceLive.setColumnHidden(0, True)
-		Globals.MainWindow.R_RaceLive.setColumnWidth( 1, name_width)
-		Globals.MainWindow.R_RaceLive.setColumnWidth( 2, laps_width)
-		Globals.MainWindow.R_RaceLive.setColumnWidth( 3, time_width)
-		Globals.MainWindow.R_RaceLive.setColumnWidth( 4, time_width)
-		Globals.MainWindow.R_RaceLive.setColumnWidth( 5, time_width)
-		Globals.MainWindow.R_RaceLive.setColumnHidden(1, False)
-		Globals.MainWindow.R_RaceLive.setColumnHidden(2, False)
-		Globals.MainWindow.R_RaceLive.setColumnHidden(3, False)
-		Globals.MainWindow.R_RaceLive.setColumnHidden(4, False)
-		Globals.MainWindow.R_RaceLive.setColumnHidden(5, False)
+		for i in cols:
+			if cols[i][0] is not None:
+				Globals.MainWindow.R_RaceLive.setColumnHidden(cols[i][0], cols[i][2])
+				Globals.MainWindow.R_RaceLive.setColumnWidth( cols[i][0], cols[i][1])
 
 		self.maxrows 		= 0
 		col 				=  self._basecol
@@ -144,7 +150,7 @@ class manageRace():
 					Globals.MainWindow.R_RaceLive.setColumnCount( col )
 				item = QTableWidgetItem(task)
 				Globals.MainWindow.R_RaceLive.setHorizontalHeaderItem(t + self._basecol-1, item)
-				Globals.MainWindow.R_RaceLive.setColumnWidth( t + self._basecol-1, time_width)
+				Globals.MainWindow.R_RaceLive.setColumnWidth( t + self._basecol-1, cols["partial"][1])
 				self.bestPartial[ t ] = self._duration * 1000										# init best with max time
 		self.partials		= col -  self._basecol
 		Globals.MainWindow.PB_TimeRace.setMaximum( self._duration )
@@ -212,21 +218,32 @@ class manageRace():
 			tt = dictRace[tp]
 			if True:				#if tt["updated"]:
 				row 	= tt["row"]
-				setLine( colors["White"], row, 0, "%3.3d%-10.10x"%(tt["lapcount"],int(l - tt["remticks"])))
-				setLine( colors["White"], row, 1, "%-3d, %s"%(tt["ridernum"], tt["ridername"]) )
+				setLine( colors["White"], row, cols["short"][0],	"%3.3d%-10.10x"%(tt["lapcount"],int(l - tt["remticks"])))
+				setLine( colors["White"], row, cols["num"][0], 	"%-3d"%( tt["ridernum"] ) )
+				setLine( colors["White"], row, cols["name"][0], 	"%s"%( tt["ridername"] ) )
 				if tt["ended"]:
-					setLine( colors["White"], row, 2, "%3.3d"%tt["lapcount"], icons["finish flag"])
+					setLine( colors["White"], row, cols["laps"][0], "%3.3d"%tt["lapcount"], icons["finish flag"])
 				else:
-					setLine( colors["White"], row, 2, "%3.3d"%tt["lapcount"],  None)
-				setLine( colors["White"], row, 3, createTime(tt["remticks"]))
-				if tt["lapcount"] > 0:
-					if tt["lapcount"] >1 and tt["lastlap"] <= self.bestLap:
-						setLine( colors["Violet"], row, 4, createTime(tt["lastlap"]))
-						self.bestLap = tt["lastlap"]
+					setLine( colors["White"], row, cols["laps"][0], "%3.3d"%tt["lapcount"],  None)
+				setLine( colors["White"], row, cols["time"][0], createTime(tt["remticks"]))
+				if tt["lapcount"] >= 0:
+					if tt["lapcount"] >0 and tt["lastlap"] <= self.bestLap:
+						setLine( colors["Violet"], row, cols["last"][0], createTime(tt["lastlap"]))
+						if tt["lastlap"] < self.bestLap:
+							self.bestLap 	= tt["lastlap"]
+							self.bestLapTb	= tt
+							Globals.MainWindow.toolBox.setItemText(
+								Globals.MainWindow.toolBox.indexOf(
+									Globals.MainWindow.P_Race),
+									QCoreApplication.translate("MainWindow", "Course, Meilleur tour: %s => %d, %s dans le tour: %d")%
+									( createTime(self.bestLap),
+									tt["ridernum"], tt["ridername"],
+									tt["lapcount"] )
+									)
 					else:
-						setLine( tt["textcolor"], row, 4, createTime(tt["lastlap"]))
+						setLine( tt["textcolor"], row, cols["last"][0], createTime(tt["lastlap"]))
 				if tt["lapcount"] > 1:
-					setLine( tt["textcolor"], row, 5, createTime(tt["bestlap"]))
+					setLine( tt["textcolor"], row, cols["best"][0], createTime(tt["bestlap"]))
 				tick 	= tt["lasttick"]
 				dur		= self._duration * 1000
 				for i in range( 0,  self.partials  ):
@@ -250,21 +267,21 @@ class manageRace():
 				ptt	= self.private[tp]
 				if not tt["ended"]:													# has the rider passed the finish flag
 					if type == 0:													# finish line crossing
-						lap				= millis - tt["lasttick"]
-						tt["lasttick"] 	= millis
-						tt["lastlap"]		= lap
-						tt["remticks"] 	= time()*1000 - self.start_time_ms
-						tt["time"]		= raceTime
-						if tt["lapcount"] > 0:										# the first crossing, it not a full lap
+						lap						= millis - tt["lasttick"]
+						tt["lasttick"] 			= millis
+						tt["lastlap"]				= lap
+						tt["remticks"] 			= time()*1000 - self.start_time_ms
+						tt["time"]				= raceTime
+						if tt["lapcount"] >= 0:										# the first crossing, it not a full lap
 							if lap < tt["bestlap"]:
 								tt["textcolor"]	= colors["Green"]
 								tt["bestlap"] 		= lap
 							else:
 								tt["textcolor"]	= colors["White"]
-						tt["lapcount"]		+=1										# add a lap
-						tt["updated"]		= True									# all updated
-						ptt[0]	= tt["lapcount"]
-						ptt[1]	= -tt["remticks"]
+						tt["lapcount"]				+=1								# add a lap
+						tt["updated"]				= True							# all updated
+						ptt[0]					= tt["lapcount"]
+						ptt[1]					= -tt["remticks"]
 						if self.max_time < raceTime:		# we have finished the time .....
 							cl = sorted(self.private.items(), reverse=True,  key=lambda t:t[1])
 							if cl[0][0] == tp:							# ok leader passed the line
@@ -284,9 +301,9 @@ class manageRace():
 			else:
 				tt = {}
 				if type == 0:
-					tt["lapcount"] = 1 									# R_lapcount
+					tt["lapcount"] = 0									# R_lapcount
 				else:
-					tt["lapcount"] = 0 									# R_lapcount
+					tt["lapcount"] = -1									# R_lapcount
 				tt["remticks"] = time()*1000 - self.start_time_ms				# R_remticks
 				tt["bestlap"] 	= self._duration*1000 						# R_bestlap
 				tt["lastlap"] 	= 0 										# R_lastlap

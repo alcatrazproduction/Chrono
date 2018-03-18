@@ -152,5 +152,5 @@ class decoder():
 				finally:
 					message=""
 
-			sleep( randrange(50, 1000) / factor)
+			sleep( randrange(50, 500) / factor)
 		exit(0)
