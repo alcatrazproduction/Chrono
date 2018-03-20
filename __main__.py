@@ -17,9 +17,7 @@ from decoder_task				import decoder_task
 from receive					import receive
 from Preferences				import Preferences as pref
 
-
-if __name__=='__main__':
-
+def main():
 	app = QApplication(sys.argv)
 	Globals.icons["finish flag"].addPixmap( QPixmap("Ressources/icons/finish_flag.png"), QIcon.Disabled, QIcon.On)
 	Globals.MainWindow = MainWindow()
@@ -32,3 +30,6 @@ if __name__=='__main__':
 	for task in Globals.decoder:
 		receive( task )
 	app.exec_()
+
+if __name__=='__main__':
+	main()
