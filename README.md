@@ -49,6 +49,8 @@ CodepostaleSuisse.sql 	fill the zip/city table ( actually only CH )
 all this file are mandarory !
 <BR>
 the test_data.sql are some data to test.....
+Actually it as been tested to run on Debian Linux, Windows 10 and MacOS.
+on the command line, you may specify the style: Python3 . -style Fusion
 <BR>
 Thor
 <BR>
