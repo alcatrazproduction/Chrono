@@ -62,7 +62,7 @@ class Preferences:
 							}
 	defaultSerialDevice			= "/dev/ttyUSB0"
 	dataBase					= {}
-	dataBase['host'] 			= "localhost"
+	dataBase['host'] 			= "10.128.255.192"
 	dataBase['user']			= "Chrono"
 	dataBase['pass']			= "Chrono"
 	dataBase['db']				= "Chrono"
