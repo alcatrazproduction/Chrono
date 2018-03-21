@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project Chrono -->
-<!-- Saved: 2018-03-12, 21:14:32 -->
+<!-- Saved: 2018-03-20, 21:03:00 -->
 <!-- Copyright (C) 2018 Yves Huguenin, yves.huguenin@dreampitbikes.ch -->
 <Project version="5.1">
   <Language></Language>
@@ -21,11 +21,13 @@
     <Source>db.py</Source>
     <Source>decoder/cano.py</Source>
     <Source>decoder/simulator.py</Source>
+    <Source>decoder/tagV3.py</Source>
     <Source>decoder_task.py</Source>
     <Source>gui/MainWindow.py</Source>
     <Source>gui/Set_RacerTp.py</Source>
     <Source>gui/Ui_MainWindow.py</Source>
     <Source>gui/Ui_Set_RacerTp.py</Source>
+    <Source>manageRace.py</Source>
     <Source>raceTask.py</Source>
     <Source>receive.py</Source>
     <Source>sql/CodepostalSuisse.sql</Source>
@@ -46,6 +48,7 @@
   <Interfaces/>
   <Others>
     <Other>.gitignore</Other>
+    <Other>Documentation/Protocol_TagHeurer_V3.txt</Other>
     <Other>README.md</Other>
     <Other>build_ui.sh</Other>
     <Other>list_coureurs.txt</Other>
