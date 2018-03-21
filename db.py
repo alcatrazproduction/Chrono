@@ -18,13 +18,31 @@ class db(  ):
 
 	def __init__(self):													# TODO: abstrac the database driver, to be independent
 		if self._link == None:											# if no link to database
-			self._link = MySQLdb.connect(									# try to open a connection to the database
+			try:
+				self._link = MySQLdb.connect(							# try to open a connection to the database
 							pref.dataBase['host'],						# hostname from preference
 							pref.dataBase['user'],						# database username
 							pref.dataBase['pass'],						# database password
 							pref.dataBase['db'],						# database to use
 							charset='utf8'								# charset must be utf8
 							)
+			except  Exception as e1:
+				try:													# if error opening, try localhost as host
+					self._link = MySQLdb.connect(						# try to open a connection to the database
+							pref.dataBase["localhost"],					# hostname from preference
+							pref.dataBase['user'],						# database username
+							pref.dataBase['pass'],						# database password
+							pref.dataBase['db'],						# database to use
+							charset='utf8'								# charset must be utf8
+							)
+				except  Exception as e2:
+					print("ERROR Opening database connextion, Please set the host in Preferences File")
+					print( e1 )
+					print( e2 )
+					exit( -1 )
+		if self._link == None:
+				print("ERROR Opening database connextion, Please set the host in Preferences File")
+				exit( -1 )
 		if self._desc == None:	# init table description, one for all instance
 			self._desc = []
 		if self._link != None:
