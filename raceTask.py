@@ -4,11 +4,11 @@
 ######################################################################################
 from Globals	import dictBestLap
 from Globals 	import dictRace
-
+from Globals	import createTime
 import Globals
-import socket
-import struct
-import thread
+#import socket
+#import struct
+#import thread
 import time
 
 # ***********************************************************************************************************************

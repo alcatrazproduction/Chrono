@@ -1,24 +1,24 @@
 #!/usr/bin/python
 ######################################################################################
-# (c) Yves Huguenin, yves.huguenin@free.fr, mars 2018							#
+# (c) Yves Huguenin, yves.huguenin@free.fr, mars 2018								#
 ######################################################################################
 
 
 
-from PyQt5 			import   	QtWidgets, QtCore
-from PyQt5.QtCore		import 	QTimer
-from PyQt5.QtGui		import	QBrush
-from Ui_MainWindow		import 	Ui_MainWindow
+from PyQt5 					import  QtWidgets, QtCore
+from PyQt5.QtCore			import 	QTimer
+from PyQt5.QtGui			import	QBrush
+from gui.Ui_MainWindow		import 	Ui_MainWindow
 # Tables definition imports
-from T_Marques			import 	T_Marques
-from T_Concurrents		import 	T_Concurrents
-from T_Pays			import 	T_Pays
-from T_Ville			import 	T_Ville
+from tables.T_Marques		import 	T_Marques
+from tables.T_Concurrents	import 	T_Concurrents
+from tables.T_Pays			import 	T_Pays
+from tables.T_Ville			import 	T_Ville
 import	Globals
-from Globals			import	colors
-from Globals			import	tpRacerList
-from Set_RacerTp		import 	Set_RacerTp
-from manageRace		import	manageRace
+from Globals				import	colors
+from Globals				import	tpRacerList
+from gui.Set_RacerTp		import 	Set_RacerTp
+from manageRace				import	manageRace
 
 _categorie = [
 	["MX1", ["Top", "Pro", "Carton"]],

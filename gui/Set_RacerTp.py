@@ -3,8 +3,8 @@
 # (c) Yves Huguenin, yves.huguenin@free.fr, mars 2018							#
 ######################################################################################
 
-from PyQt5 				import QtWidgets, QtCore
-from Ui_Set_RacerTp			import Ui_Set_RacerTp
+from PyQt5		 				import QtWidgets, QtCore
+from gui.Ui_Set_RacerTp			import Ui_Set_RacerTp
 # Tables definition imports
 #from T_Marques		import 	T_Marques
 #from T_Concurrents	import 	T_Concurrents

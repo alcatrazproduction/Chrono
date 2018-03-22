@@ -2,15 +2,15 @@
 ######################################################################################
 # (c) Yves Huguenin, yves.huguenin@free.fr, mars 2018							#
 ######################################################################################
-from time 					import time
+from time 						import time
 from PyQt5.QtCore				import QTimer, Qt,  QTime
 from PyQt5.QtCore				import QCoreApplication
 from PyQt5.QtGui				import QBrush, QIcon
 from PyQt5.QtWidgets 			import QTableWidgetItem, QDialog, QMessageBox, QCheckBox
 from Globals					import receiver, colors, decoder, createTimeSeconds
 from Globals					import dictRace, createTime, icons
-from queue					import Queue
-from Ui_set_RaceLen				import Ui_set_RaceLen
+from queue						import Queue
+from gui.Ui_set_RaceLen			import Ui_set_RaceLen
 import Globals
 
 # Column width

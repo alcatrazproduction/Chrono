@@ -22,7 +22,7 @@ class decoder_task():
 		except:
 
 			d					= dict()
-			m					= importlib.import_module( decoder['class'] )
+			m					= importlib.import_module( "decoder." + decoder['class'] )
 			d['class']			= m.decoder()
 			d['multi_ip']			= self.soc_ip
 			d['port']				= decoder['port']

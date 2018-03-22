@@ -115,7 +115,7 @@ class Ui_MainWindow(object):
         self.gridLayout.addWidget(self.RB_Del, 0, 1, 1, 1)
         self.scrollArea.setWidget(self.scrollAreaWidgetContents)
         self.formLayoutWidget = QtWidgets.QWidget(self.T_Racer)
-        self.formLayoutWidget.setGeometry(QtCore.QRect(260, 0, 1131, 521))
+        self.formLayoutWidget.setGeometry(QtCore.QRect(260, 0, 800, 521))
         self.formLayoutWidget.setObjectName("formLayoutWidget")
         self.formLayout = QtWidgets.QFormLayout(self.formLayoutWidget)
         self.formLayout.setFieldGrowthPolicy(QtWidgets.QFormLayout.FieldsStayAtSizeHint)

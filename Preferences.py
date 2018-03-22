@@ -11,12 +11,12 @@ class Preferences:
 # 'type'		The type of line, 0 = finish line, other are partial in sequence !
 
 	decoderList['sim_Finish']	= {
-								'active': 	True,
+								'active': 		True,
 								'port': 		10000,
 								'class': 		'simulator',
-								'type':		0,
-								'howmany':	24,
-								'laptime':	30,
+								'type':			0,
+								'howmany':		24,
+								'laptime':		30,
 								'delay':		0,
 								'auto_assign':	True
 							}
