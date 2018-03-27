@@ -15,7 +15,7 @@
 # the class must be decoder, and not the filename !							#
 #																	#
 ######################################################################################
-# Tag Heuer Protime Elite Decoder / Tag Heuer by Chronelec - V3 Protocol			#
+# Chronelec Protime Elite Decoder /  Chronelec - V3 Protocol				#
 #	on the preference must provide:										#
 #		device	= serial device name ( Unix = /dev/tty....; Win = COMx )		#
 #		baud		= baud rate ( default: 115200 )							#
