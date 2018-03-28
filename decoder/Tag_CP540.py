@@ -110,7 +110,82 @@ class decoder():
 				print( "\n")
 		exit(0)
 
-# Command Definition
+# Command Definition (Send CP540 to PC )
+	def sendAcknowledge( self, status ):
+		if status:
+			self.sendCmd( "AK C" )
+		else:
+			self.sendCmd( "AK F" )
+
+	def sendIdent( self, ident ):
+		self.sendCmd( "ID %5.5d"%ident )
+
+	def sendOpenRun( self, run, added,  timming ):
+		self.sendCmd( "OP %2.2d T%2.2d %19.19s"%(run, added, timming) )
+
+	def sendCloseRun( self, run ):
+		self.sendCmd( "CL %2.2d"%(run) )
+
+	def sendRunStart( self, run, added,  timming ):
+		self.sendCmd( "DS %2.2d T%2.2d %19.19s"%(run, added, timming) )
+
+	def sendRunEnd( self, run ):
+		self.sendCmd( "DE %2.2d"%(run) )
+
+	def sendNewTime( self, cid, seq, channel,  hrs, mins, secs, fracs, days  ):
+		if channel not in ('M1', 'M2', 'M3', 'M4'):
+			try:
+				channel = "%2.2d"%channel
+			except:
+				channel = 'M1'
+		self.sendCmd( "TN %4.4d %4.4d %2.2s %2.2d:%2.2d:%2.2d.%5.5d %5.5d"%
+			(cid, seq, channel, hrs, mins, secs, fracs, days) )
+
+	def sendUnassingedTime( self, cid, seq, channel,  hrs, mins, secs, fracs, days  ):
+		if channel not in ('M1', 'M2', 'M3', 'M4'):
+			try:
+				channel = "%2.2d"%channel
+			except:
+				channel = 'M1'
+		self.sendCmd( "T- %4.4d %4.4d %2.2s %2.2d:%2.2d:%2.2d.%5.5d %5.5d"%
+			(cid, seq, channel, hrs, mins, secs, fracs, days) )
+
+	def sendReindentTime( self, cid, seq, channel,  hrs, mins, secs, fracs, days  ):
+		if channel not in ('M1', 'M2', 'M3', 'M4'):
+			try:
+				channel = "%2.2d"%channel
+			except:
+				channel = 'M1'
+		self.sendCmd( "T* %4.4d %4.4d %2.2s %2.2d:%2.2d:%2.2d.%5.5d %5.5d"%
+			(cid, seq, channel, hrs, mins, secs, fracs, days) )
+
+	def sendManualTime( self, cid, seq, channel,  hrs, mins, secs, fracs, days  ):
+		if channel not in ('M1', 'M2', 'M3', 'M4'):
+			try:
+				channel = "%2.2d"%channel
+			except:
+				channel = 'M1'
+		self.sendCmd( "T+ %4.4d %4.4d %2.2s %2.2d:%2.2d:%2.2d.%5.5d %5.5d"%
+			(cid, seq, channel, hrs, mins, secs, fracs, days) )
+
+	def sendDuplicateTime( self, cid, seq, channel,  hrs, mins, secs, fracs, days  ):
+		if channel not in ('M1', 'M2', 'M3', 'M4'):
+			try:
+				channel = "%2.2d"%channel
+			except:
+				channel = 'M1'
+		self.sendCmd( "T= %4.4d %4.4d %2.2s %2.2d:%2.2d:%2.2d.%5.5d %5.5d"%
+			(cid, seq, channel, hrs, mins, secs, fracs, days) )
+
+	def sendCancelTime( self, cid, seq, channel,  hrs, mins, secs, fracs, days  ):
+		if channel not in ('M1', 'M2', 'M3', 'M4'):
+			try:
+				channel = "%2.2d"%channel
+			except:
+				channel = 'M1'
+		self.sendCmd( "TC %4.4d %4.4d %2.2s %2.2d:%2.2d:%2.2d.%5.5d %5.5d"%
+			(cid, seq, channel, hrs, mins, secs, fracs, days) )
+
 	def getStatus( self ): 																		#TODO:
 		self.sendCmd( self.cmd['Status'] )
 #		response:	[STATUS]
@@ -121,14 +196,12 @@ class decoder():
 #		Update decoder configuration
 #		command:	ESC + 0x08 + 0x08 + [CONFIG] + [CRC] + '>'
 #		response:	none
-		crc = crc16( bytearray( cfg.encode() ) )
-		self.sendCmd( self.cmd['Set Config']%(cfg, crc) )
+		self.sendCmd( self.cmd['Set Config']%(cfg) )
 	def setIPConfig( self,  cfg ): 																		#TODO:
 #		Update decoder IP configuration. Note: Decoder must be stopped
 #		before issuing this command (why?)
 #		command:	ESC + 0x09 + 0x09 + [IPCONFIG] + [CRC] + '>'
-		crc = crc16( bytearray( cfg.encode() ) )
-		self.sendCmd( self.cmd['Set IP Config']%(cfg, crc) )
+		self.sendCmd( self.cmd['Set IP Config']%(cfg) )
 #		response:	XPORT specific (TBC)
 	def getConfig( self ): 																		#TODO:
 #		Fetch current decoder configuration & identification
@@ -136,13 +209,7 @@ class decoder():
 		self.sendCmd( self.cmd['Get Config'] )
 #		response:	[DECODERCONF]
 #
-	def acknowledge( self, status ): 																		#TODO:
-		if status:
-			self.sendCmd( "AK C" )
-		else:
-			self.sendCmd( "AK F" )
-#		response:	none or [PASSING]
-#
+
 	def repeat( self ): 																		#TODO:
 #		Repeat first unacknowledged passing, else last acknowledged passing
 #		command:	ESC + 0x12
@@ -165,8 +232,7 @@ class decoder():
 	def setDate( self,  cfg ): 																		#TODO:
 #		Update decoder date
 #		command:	ESC + 0x0a + 0x0a + [SETDATE] + [CRC] + '>'
-		crc = crc16( bytearray( cfg.encode() ) )
-		self.sendCmd( self.cmd['Set Date']%( cfg, crc ) )
+		self.sendCmd( self.cmd['Set Date']%( cfg) )
 #		response:	none
 #
 	def setSTALevel( self,  cfg ): 																		#TODO:
@@ -193,8 +259,12 @@ class decoder():
 		self.sendCmd( self.cmd['BXX  Level'] )
 #		response:	none
 
-	def	sendCmd( self,  command): 																		#TODO:
-		print( command )
+	def	sendCmd( self,  command):
+		sum	= 0
+		for i in bytearray( command.encode()):
+			sum += i
+		sum = sum % 65536
+		print( "%s%s%d%s"%(command, TAB, sum, CRLF ) )
 
 	def	receiveResponse( self,  timeout = 0 ): 																		#TODO:
 		print( timeout )
