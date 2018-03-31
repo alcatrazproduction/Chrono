@@ -186,78 +186,105 @@ class decoder():
 		self.sendCmd( "TC %4.4d %4.4d %2.2s %2.2d:%2.2d:%2.2d.%5.5d %5.5d"%
 			(cid, seq, channel, hrs, mins, secs, fracs, days) )
 
-	def getStatus( self ): 																		#TODO:
-		self.sendCmd( self.cmd['Status'] )
-#		response:	[STATUS]
-	def start( self ): 																		#TODO:
-		self.sendCmd( self.cmd['Start'] )
-#		response:	[DEPART] or none if decoder already started
-	def setConfig( self ,  cfg ): 																		#TODO:
-#		Update decoder configuration
-#		command:	ESC + 0x08 + 0x08 + [CONFIG] + [CRC] + '>'
-#		response:	none
-		self.sendCmd( self.cmd['Set Config']%(cfg) )
-	def setIPConfig( self,  cfg ): 																		#TODO:
-#		Update decoder IP configuration. Note: Decoder must be stopped
-#		before issuing this command (why?)
-#		command:	ESC + 0x09 + 0x09 + [IPCONFIG] + [CRC] + '>'
-		self.sendCmd( self.cmd['Set IP Config']%(cfg) )
-#		response:	XPORT specific (TBC)
-	def getConfig( self ): 																		#TODO:
-#		Fetch current decoder configuration & identification
-#		command:	ESC + 0x10
-		self.sendCmd( self.cmd['Get Config'] )
-#		response:	[DECODERCONF]
-#
+	def sendItermediateResult( self, iid,  cid, hrs, mins, secs, fracs  ):
+		self.sendCmd( "IR %1.1d    %4.4d    %2.2d:%2.2d:%2.2d.%5.5d"%
+			(iid, cid, hrs, mins, secs, fracs) )
 
-	def repeat( self ): 																		#TODO:
-#		Repeat first unacknowledged passing, else last acknowledged passing
-#		command:	ESC + 0x12
-		self.sendCmd( self.cmd['Repeat'] )
-#		response:	[PASSING]
-#
-	def stop( self ): 																		#TODO:
-#		Stop decoder
-#		command:	ESC + 0x13 + '\'
-		self.sendCmd( self.cmd['Stop'] )
-#		response:	[STOP] (even if already stopped)
-#
-	def setTime( self ,  cfg ): 																		#TODO:
-#		Update decoder time of day - also sets running time if decoder
-#		started and config option "Running time to time of decoder" set
-#		command:	ESC + 0x48 + [SETTIME] + 't'
-		self.sendCmd( self.cmd['Start']%( cfg ) )
-#		response:	none
-#
-	def setDate( self,  cfg ): 																		#TODO:
-#		Update decoder date
-#		command:	ESC + 0x0a + 0x0a + [SETDATE] + [CRC] + '>'
-		self.sendCmd( self.cmd['Set Date']%( cfg) )
-#		response:	none
-#
-	def setSTALevel( self,  cfg ): 																		#TODO:
-#		Set detection level on STA channel
-#		command:	ESC + 0x1e + [SETLEVEL]
-		self.sendCmd( self.cmd['Set STA Level']%(cfg) )
-#		response:	none
-#
-	def setBOXLevel( self,  cfg ): 																		#TODO:
-#		Set Detection level on BOX channel
-#		command:	ESC + 0x1f + [SETLEVEL]
-		self.sendCmd( self.cmd['Set BOX Level']% ( cfg ) )
-#		response:	none
-#
-	def statBXX( self,  cfg ): 																		#TODO:
-#		Request status on remote decoder with id specified in B
-#		command:	ESC + 0x49 + [B]
-		self.sendCmd( self.cmd['Stat BXX']%( cfg ))
-#		response:	(TBC)
-#
-	def bXXLevel( self ): 																		#TODO:
-#		Increment all detection levels by 0x10 (Note 2)
-#		command:	ESC + 0x4e + 0x2b
-		self.sendCmd( self.cmd['BXX  Level'] )
-#		response:	none
+	def sendDifferentialResult( self, winner,  looser, hrs, mins, secs, fracs  ):
+		self.sendCmd( "DR %4.4d %4.4d    %2.2d:%2.2d:%2.2d.%5.5d"%
+			(winner, looser, hrs, mins, secs, fracs) )
+
+	def sendRunResult( self, ranq,  cid, hrs, mins, secs, fracs  ):
+		self.sendCmd( "RR %4.4d %4.4d    %2.2d:%2.2d:%2.2d.%5.5d"%
+			(ranq, cid, hrs, mins, secs, fracs) )
+
+	def sendAddResult( self, ranq,  cid, hrs, mins, secs, fracs  ):
+		self.sendCmd( "GR %4.4d %4.4d    %2.2d:%2.2d:%2.2d.%5.5d"%
+			(ranq, cid, hrs, mins, secs, fracs) )
+
+	def sendSpeed( self, snum,  cid, speed, unit ):
+		self.sendCmd( "VE %1.1d %4.4d %3.3f %7.7s"%
+			(snum, cid, speed, unit ) )
+
+	def sendRecallOriginal( self, cid, seq, channel,  hrs, mins, secs, fracs, days  ):
+		if channel not in ('M1', 'M2', 'M3', 'M4'):
+			try:
+				channel = "%2.2d"%channel
+			except:
+				channel = 'M1'
+		self.sendCmd( "AN %4.4d %4.4d %2.2s %2.2d:%2.2d:%2.2d.%5.5d %5.5d"%
+			(cid, seq, channel, hrs, mins, secs, fracs, days) )
+
+	def sendRecallDeidentified( self, cid, seq, channel,  hrs, mins, secs, fracs, days  ):
+		if channel not in ('M1', 'M2', 'M3', 'M4'):
+			try:
+				channel = "%2.2d"%channel
+			except:
+				channel = 'M1'
+		self.sendCmd( "A- %4.4d %4.4d %2.2s %2.2d:%2.2d:%2.2d.%5.5d %5.5d"%
+			(cid, seq, channel, hrs, mins, secs, fracs, days) )
+
+	def sendRecallReindentified( self, cid, seq, channel,  hrs, mins, secs, fracs, days  ):
+		if channel not in ('M1', 'M2', 'M3', 'M4'):
+			try:
+				channel = "%2.2d"%channel
+			except:
+				channel = 'M1'
+		self.sendCmd( "A* %4.4d %4.4d %2.2s %2.2d:%2.2d:%2.2d.%5.5d %5.5d"%
+			(cid, seq, channel, hrs, mins, secs, fracs, days) )
+
+	def sendRecallManual( self, cid, seq, channel,  hrs, mins, secs, fracs, days  ):
+		if channel not in ('M1', 'M2', 'M3', 'M4'):
+			try:
+				channel = "%2.2d"%channel
+			except:
+				channel = 'M1'
+		self.sendCmd( "A+ %4.4d %4.4d %2.2s %2.2d:%2.2d:%2.2d.%5.5d %5.5d"%
+			(cid, seq, channel, hrs, mins, secs, fracs, days) )
+
+	def sendRecallDuplicate( self, cid, seq, channel,  hrs, mins, secs, fracs, days  ):
+		if channel not in ('M1', 'M2', 'M3', 'M4'):
+			try:
+				channel = "%2.2d"%channel
+			except:
+				channel = 'M1'
+		self.sendCmd( "A= %4.4d %4.4d %2.2s %2.2d:%2.2d:%2.2d.%5.5d %5.5d"%
+			(cid, seq, channel, hrs, mins, secs, fracs, days) )
+
+	def sendRecallCancel( self, cid, seq, channel,  hrs, mins, secs, fracs, days  ):
+		if channel not in ('M1', 'M2', 'M3', 'M4'):
+			try:
+				channel = "%2.2d"%channel
+			except:
+				channel = 'M1'
+		self.sendCmd( "AC %4.4d %4.4d %2.2s %2.2d:%2.2d:%2.2d.%5.5d %5.5d"%
+			(cid, seq, channel, hrs, mins, secs, fracs, days) )
+
+	def sendRequestID( self ):
+		self.sendCmd( "#ID" )
+			
+	def sendPrintLine( self, text  ):
+		self.sendCmd( "#PL %24.24s"%
+			(text) )
+
+	def sendDownload( self, run):
+		self.sendCmd( "#DL %2.2d"%
+			(run) )
+
+	def sendRecallTime( self, seq,  channel):
+		self.sendCmd( "#RT %4.4d %2.2d"%
+			(seq, channel) )
+
+	def sendDeleteStartList( self):
+		self.sendCmd( "#SLR" )
+
+	def sendAdd2StartList( self, cid):
+		self.sendCmd( "#SLA %4.4d"%
+			( cid ) )
+
+	def sendCloseStartList( self ):
+		self.sendCmd( "#SLC" )
+
 
 	def	sendCmd( self,  command):
 		sum	= 0

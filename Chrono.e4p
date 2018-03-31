@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project Chrono -->
-<!-- Saved: 2018-03-20, 21:03:00 -->
+<!-- Saved: 2018-03-28, 10:38:08 -->
 <!-- Copyright (C) 2018 Yves Huguenin, yves.huguenin@dreampitbikes.ch -->
 <Project version="5.1">
   <Language></Language>
@@ -18,7 +18,9 @@
     <Source>README.md</Source>
     <Source>__init__.py</Source>
     <Source>__main__.py</Source>
+    <Source>cython/Makefile</Source>
     <Source>db.py</Source>
+    <Source>decoder/Tag_CP540.py</Source>
     <Source>decoder/cano.py</Source>
     <Source>decoder/simulator.py</Source>
     <Source>decoder/tagV3.py</Source>
@@ -42,10 +44,6 @@
     <Source>tables/T_Pays.py</Source>
     <Source>tables/T_Ville.py</Source>
   </Sources>
-  <Forms/>
-  <Translations/>
-  <Resources/>
-  <Interfaces/>
   <Others>
     <Other>.gitignore</Other>
     <Other>Documentation/Protocol_TagHeurer_V3.txt</Other>
