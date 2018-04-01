@@ -1,9 +1,12 @@
-CP=cython3
+CP=cython																			# OSX
 CPFLAGS=-I../gui -I../decoder -I../tables -3 --cplus
 CC=g++
-CFLAGS=   -I/usr/include/python3.5m -I/usr/include/x86_64-linux-gnu/python3.5m
+#CFLAGS=   -I/usr/include/python3.5m -I/usr/include/x86_64-linux-gnu/python3.5m # Linux
+CFLAGS=   -I/Library/Frameworks/Python.framework/Versions/3.6/include/python3.6m/  # Osx
+
 GETFLAGS=$(pkg-config --libs --cflags python3)
-LDFLAGS= -lpython3.5m
+#LDFLAGS= -lpython3.5m															# Linux
+LDFLAGS= -l/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6m															# OSX
 
 EXEC=Chrono
 
